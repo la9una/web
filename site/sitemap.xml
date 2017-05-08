@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>http://www.linux.rauljesus.com/</loc>
-     <lastmod>2017-05-03</lastmod>
+     <loc>http://www.web.rauljesus.com/</loc>
+     <lastmod>2017-05-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,38 +12,52 @@
     
         
     <url>
-     <loc>http://www.linux.rauljesus.com/operador/por_que_gnu_linux/</loc>
-     <lastmod>2017-05-03</lastmod>
+     <loc>http://www.web.rauljesus.com/introduccion/por_que_gnu_linux/</loc>
+     <lastmod>2017-05-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.linux.rauljesus.com/operador/archivosCarpetas/</loc>
-     <lastmod>2017-05-03</lastmod>
+     <loc>http://www.web.rauljesus.com/introduccion/por_que_gnu_linux/</loc>
+     <lastmod>2017-05-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/html/archivosCarpetas/</loc>
+     <lastmod>2017-05-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.linux.rauljesus.com/operador/compresion/</loc>
-     <lastmod>2017-05-03</lastmod>
+     <loc>http://www.web.rauljesus.com/html/compresion/</loc>
+     <lastmod>2017-05-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.linux.rauljesus.com/operador/nano/</loc>
-     <lastmod>2017-05-03</lastmod>
+     <loc>http://www.web.rauljesus.com/html/nano/</loc>
+     <lastmod>2017-05-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFundamentos/busquedas/</loc>
+     <lastmod>2017-05-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.linux.rauljesus.com/operador/vim/</loc>
-     <lastmod>2017-05-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://www.linux.rauljesus.com/operador/busquedas/</loc>
-     <lastmod>2017-05-03</lastmod>
+     <loc>http://www.web.rauljesus.com/cssFundamentos/busquedas/</loc>
+     <lastmod>2017-05-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
