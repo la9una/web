@@ -1,0 +1,1635 @@
+
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Apuntes sobre admnistración de GNU/Linux">
+      
+      
+        <link rel="canonical" href="http://www.linux.rauljesus.com/operador/vim/">
+      
+      
+        <meta name="author" content="Raul Jesus Lopez">
+      
+      
+        <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      
+      <meta name="generator" content="mkdocs-0.16.1, mkdocs-material-1.6.0">
+    
+    
+      
+        <title>El editor vim - Introducción a GNU/Linux</title>
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr-56ade86843.js"></script>
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application-72266791c5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-f78e5cb881.palette.css">
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+  
+  
+  
+    <body data-md-color-primary="orange" data-md-color-accent="yellow">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <a href="http://www.linux.rauljesus.com" title="Introducción a GNU/Linux" class="md-icon md-icon--home md-header-nav__button">
+          </a>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
+          
+            
+              
+                <span class="md-header-nav__parent">
+                  Operador GNU/Linux
+                </span>
+              
+            
+            El editor vim
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" required placeholder="Buscar" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta" data-md-lang-result-none="No se encontraron coincidencias para su búsqueda" data-md-lang-result-one="1 coincidencia encontrada" data-md-lang-result-other="# coincidencias encontradas">
+            Comience a escribir para iniciar su búsqueda
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <div class="md-header-nav__source">
+          
+            
+
+
+  
+
+
+  <a href="https://github.com/la9una/linux" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      Ver en GitHub
+    </div>
+  </a>
+
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    
+      <i class="md-icon md-icon--home md-nav__button"></i>
+    
+    Introducción a GNU/Linux
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/la9una/linux" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      Ver en GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Inicio" class="md-nav__link">
+      Inicio
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Operador GNU/Linux
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Operador GNU/Linux
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../por_que_gnu_linux/" title="¿Por qué GNU/Linux?" class="md-nav__link">
+      ¿Por qué GNU/Linux?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../archivosCarpetas/" title="Archivos y carpetas" class="md-nav__link">
+      Archivos y carpetas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../compresion/" title="Compresión y descompresión" class="md-nav__link">
+      Compresión y descompresión
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nano/" title="El editor nano" class="md-nav__link">
+      El editor nano
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        El editor vim
+      </label>
+    
+    <a href="./" title="El editor vim" class="md-nav__link md-nav__link--active">
+      El editor vim
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion" title="Instalación" class="md-nav__link">
+    Instalación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modos-de-operacion" title="Modos de operación" class="md-nav__link">
+    Modos de operación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abrir-un-archivo" title="Abrir un archivo" class="md-nav__link">
+    Abrir un archivo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abriendo-multiples-archivos" title="Abriendo múltiples archivos" class="md-nav__link">
+    Abriendo múltiples archivos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desplazamiento-entre-archivos-o-buffers" title="Desplazamiento entre archivos o buffers" class="md-nav__link">
+    Desplazamiento entre archivos o buffers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-los-buffers" title="Desplazamiento entre los buffers" class="md-nav__link">
+    Desplazamiento entre los buffers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-general" title="Desplazamiento general" class="md-nav__link">
+    Desplazamiento general
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-pantallas" title="Desplazamiento entre pantallas" class="md-nav__link">
+    Desplazamiento entre pantallas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-pestanas" title="Desplazamiento entre pestañas" class="md-nav__link">
+    Desplazamiento entre pestañas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-marcas" title="Desplazamiento entre marcas" class="md-nav__link">
+    Desplazamiento entre marcas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#insertar-texto" title="Insertar texto" class="md-nav__link">
+    Insertar texto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copiar-cortar-y-pegar-texto" title="Copiar, cortar y pegar texto" class="md-nav__link">
+    Copiar, cortar y pegar texto
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copiar-cortar-y-pegar-texto-avanzado" title="Copiar, cortar y pegar texto (avanzado)" class="md-nav__link">
+    Copiar, cortar y pegar texto (avanzado)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eliminar-texto" title="Eliminar texto" class="md-nav__link">
+    Eliminar texto
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-texto-avanzado" title="Eliminar texto (Avanzado)" class="md-nav__link">
+    Eliminar texto (Avanzado)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buscar" title="Buscar" class="md-nav__link">
+    Buscar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reemplazar" title="Reemplazar" class="md-nav__link">
+    Reemplazar
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reemplazar-avanzado" title="Reemplazar (avanzado)" class="md-nav__link">
+    Reemplazar (avanzado)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guardar-descartar-cambios-y-salir" title="Guardar, descartar cambios y salir" class="md-nav__link">
+    Guardar, descartar cambios y salir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algunos-tips" title="Algunos tips" class="md-nav__link">
+    Algunos tips
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saber-mas-sobre-vim" title="Saber más sobre VIM" class="md-nav__link">
+    Saber más sobre VIM
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos" title="Videos" class="md-nav__link">
+    Videos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manuales-tutoriales" title="Manuales / Tutoriales" class="md-nav__link">
+    Manuales / Tutoriales
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#libros-y-apuntes" title="Libros y apuntes" class="md-nav__link">
+    Libros y apuntes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guias-interactivas" title="Guías interactivas" class="md-nav__link">
+    Guías interactivas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
+            Comentarios
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../busquedas/" title="Búsquedas" class="md-nav__link">
+      Búsquedas
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion" title="Instalación" class="md-nav__link">
+    Instalación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modos-de-operacion" title="Modos de operación" class="md-nav__link">
+    Modos de operación
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abrir-un-archivo" title="Abrir un archivo" class="md-nav__link">
+    Abrir un archivo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#abriendo-multiples-archivos" title="Abriendo múltiples archivos" class="md-nav__link">
+    Abriendo múltiples archivos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desplazamiento-entre-archivos-o-buffers" title="Desplazamiento entre archivos o buffers" class="md-nav__link">
+    Desplazamiento entre archivos o buffers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-los-buffers" title="Desplazamiento entre los buffers" class="md-nav__link">
+    Desplazamiento entre los buffers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-general" title="Desplazamiento general" class="md-nav__link">
+    Desplazamiento general
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-pantallas" title="Desplazamiento entre pantallas" class="md-nav__link">
+    Desplazamiento entre pantallas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-pestanas" title="Desplazamiento entre pestañas" class="md-nav__link">
+    Desplazamiento entre pestañas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desplazamiento-entre-marcas" title="Desplazamiento entre marcas" class="md-nav__link">
+    Desplazamiento entre marcas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#insertar-texto" title="Insertar texto" class="md-nav__link">
+    Insertar texto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#copiar-cortar-y-pegar-texto" title="Copiar, cortar y pegar texto" class="md-nav__link">
+    Copiar, cortar y pegar texto
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copiar-cortar-y-pegar-texto-avanzado" title="Copiar, cortar y pegar texto (avanzado)" class="md-nav__link">
+    Copiar, cortar y pegar texto (avanzado)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#eliminar-texto" title="Eliminar texto" class="md-nav__link">
+    Eliminar texto
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eliminar-texto-avanzado" title="Eliminar texto (Avanzado)" class="md-nav__link">
+    Eliminar texto (Avanzado)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buscar" title="Buscar" class="md-nav__link">
+    Buscar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reemplazar" title="Reemplazar" class="md-nav__link">
+    Reemplazar
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reemplazar-avanzado" title="Reemplazar (avanzado)" class="md-nav__link">
+    Reemplazar (avanzado)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guardar-descartar-cambios-y-salir" title="Guardar, descartar cambios y salir" class="md-nav__link">
+    Guardar, descartar cambios y salir
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algunos-tips" title="Algunos tips" class="md-nav__link">
+    Algunos tips
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saber-mas-sobre-vim" title="Saber más sobre VIM" class="md-nav__link">
+    Saber más sobre VIM
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#videos" title="Videos" class="md-nav__link">
+    Videos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manuales-tutoriales" title="Manuales / Tutoriales" class="md-nav__link">
+    Manuales / Tutoriales
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#libros-y-apuntes" title="Libros y apuntes" class="md-nav__link">
+    Libros y apuntes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guias-interactivas" title="Guías interactivas" class="md-nav__link">
+    Guías interactivas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
+            Comentarios
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="el-editor-de-textos-vim">El editor de textos vim<a class="headerlink" href="#el-editor-de-textos-vim" title="Permanent link">&para;</a></h1>
+<p><a href="http://www.vim.org/">VIM</a> (del inglés <em>Vi IMproved</em> ó <em>Vi mejorado</em>, en español) es un editor de texto basado en terminal creado a partir del editor <a href="https://es.wikipedia.org/wiki/Vi">vi</a>, presente en todos los sistemas UNIX. Dada su naturaleza, al igual que otros editores similares como <a href="../nano/">nano</a> se gestiona a través del teclado.</p>
+<p>El desarrollo de este poderoso editor se remonta al año 1991 y desde aquel entonces no ha cesado de incorporar características. Amado u odiado, este editor <a href="https://es.wikipedia.org/wiki/Vim#Principales_funcionalidades">ofrece múltiples opciones</a> en una sola herramienta, siendo altamente configurable para adaptarse a distintas necesidades de programadores y profesionales de la informática. </p>
+<h2 id="instalacion">Instalación<a class="headerlink" href="#instalacion" title="Permanent link">&para;</a></h2>
+<p>Para instalar el editor en nuestro sistema, ejecutamos en una terminal: </p>
+<div class="codehilite"><pre><span></span>$ sudo apt-get install vim
+</pre></div>
+
+
+<h2 id="modos-de-operacion">Modos de operación<a class="headerlink" href="#modos-de-operacion" title="Permanent link">&para;</a></h2>
+<p>A modo de introducción al uso del editor de texto vim, se ofrece esta guía de uso. Para saber más, podés visitar <a href="http://vimdoc.sourceforge.net/htmldoc/help.html">la documentación oficial</a> del programa. </p>
+<p>Vim es un editor de tipo <em>modal</em>. Es decir, soporta varios <strong>modos de operación</strong>:</p>
+<ul>
+<li>normal (o comando)</li>
+<li>inserción</li>
+<li>línea de órdenes (o línea de comandos o Cmdline)</li>
+<li>selección</li>
+<li>visual</li>
+<li>Ex</li>
+</ul>
+<p>Los modos <strong>normal</strong>, <strong>inserción</strong> y <strong>línea de órdenes</strong> suelen ser los más utilizados y, por lo mismo, serán los que estudiaremos en esta guía. </p>
+<ul>
+<li>
+<p><strong>Normal (o Comando)</strong>: es el modo principal y siempre se puede acceder a él presionando la tecla <code>Esc</code>. Cuando <strong>Vim inicia lo hace en este modo</strong>. En este modo <strong>no podemos editar directamente el texto</strong> sino que lo haremos a través de <strong>comandos</strong> basados en teclas o combinaciones de éstas. </p>
+</li>
+<li>
+<p><strong>Modo inserción</strong>: para acceder a este modo debemos presionar la tecla <code>i</code>. En este modo podremos insertar texto, es decir, <strong>escribir dentro de un archivo</strong> como lo solemos hacer normalmente. </p>
+</li>
+<li>
+<p><strong>CMD (o CMD)</strong>: para acceder a este modo debemos presionar la tecla <code>:</code> y seguidamente, introducir el comando que deseamos ejecutar finalizando con la tecla <code>Enter</code>. Es decir, <code>:comando Enter</code>. Este modo se utiliza generalmente para guardar y salir del documento, así como para realizar búsquedas complejas y otras operaciones relacionadas con la configuración del programa.</p>
+</li>
+</ul>
+<h2 id="abrir-un-archivo">Abrir un archivo<a class="headerlink" href="#abrir-un-archivo" title="Permanent link">&para;</a></h2>
+<p>Luego de haber instalado VIM podremos abrir una terminal y comenzar a utilizar el editor ejecutando: </p>
+<div class="codehilite"><pre><span></span>$ vim
+</pre></div>
+
+
+<p>Veremos la ventana principal del editor con un archivo vacío listo para usar. </p>
+<p>Si en cambio, quisiéramos abrir un archivo existente, simplemente deberíamos pasarle la ruta hacia el mismo como parámetro: </p>
+<div class="codehilite"><pre><span></span>$ vim archivo.txt
+</pre></div>
+
+
+<p><strong>No es necesario colocar la extensión del archivo. En el ejemplo se coloca sólo con fines explicativos.</strong></p>
+<p>Antes de seguir, conviene distringuir desde la óptima de Vim a qué llamamos <strong>archivo</strong> y <em>buffer</em>: un <strong>archivo</strong> está guardado en el disco rígido mientras que un <em>buffer</em> se guarda en la memoria. </p>
+<p><strong>Cada vez que Vim abre un archivo en realidad lo que abre es una copia de éste y la guarda momentáneamente en memoria. A ésto es lo que llamamos <em>buffer</em>. Sólo cuando guardemos los cambios, la información contenida en el <em>buffer</em> se guardará en el archivo.</strong></p>
+<h3 id="abriendo-multiples-archivos">Abriendo múltiples archivos<a class="headerlink" href="#abriendo-multiples-archivos" title="Permanent link">&para;</a></h3>
+<p>De esta forma podríamos abrir varios archivos de la siguiente manera: </p>
+<div class="codehilite"><pre><span></span>$ vim uno.txt dos.txt tres.txt
+</pre></div>
+
+
+<p>Luego, sólo veremos un archivo abierto en pantalla. El resto de los archivos también fueron abiertos, solo que se encuentran guardados en el <em>buffer</em>. </p>
+<h2 id="desplazamiento-entre-archivos-o-buffers">Desplazamiento entre archivos o <em>buffers</em><a class="headerlink" href="#desplazamiento-entre-archivos-o-buffers" title="Permanent link">&para;</a></h2>
+<p>Una vez que abrimos un archivo o <em>buffer</em> podemos desplazarnos dentro de éste de múltiples maneras. A continuación se listan algunas de las acciones posibles junto con sus atajos de teclado. </p>
+<h3 id="desplazamiento-entre-los-buffers">Desplazamiento entre los buffers<a class="headerlink" href="#desplazamiento-entre-los-buffers" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:bn</code></td>
+<td>Abrir el siguiente buffer disponible.</td>
+</tr>
+<tr>
+<td><code>:bp</code></td>
+<td>Abrir el buffer anterior disponible.</td>
+</tr>
+<tr>
+<td><code>:bf</code></td>
+<td>Abrir el primer buffer disponible.</td>
+</tr>
+<tr>
+<td><code>:bl</code></td>
+<td>Abrir el último buffer de la lista.</td>
+</tr>
+<tr>
+<td><code>:bd</code></td>
+<td>Eliminar buffer  actual de la lista. No elimina el archivo del disco.</td>
+</tr>
+<tr>
+<td><code>:bd buffer</code></td>
+<td>Eliminar un <em>buffer</em> determinado de la lista. No elimina el archivo del disco.</td>
+</tr>
+<tr>
+<td><code>:ls</code></td>
+<td>Lista los buffers abiertos.</td>
+</tr>
+<tr>
+<td><code>:args</code></td>
+<td>Lista los buffers abiertos.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="desplazamiento-general">Desplazamiento general<a class="headerlink" href="#desplazamiento-general" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>k (ó ↑)</td>
+<td>-</td>
+<td>Desplazar el cursor hacia arriba</td>
+</tr>
+<tr>
+<td>l (ó &rarr;)</td>
+<td>-</td>
+<td>Desplazar el cursor hacia la derecha</td>
+</tr>
+<tr>
+<td>j (ó &darr;)</td>
+<td>-</td>
+<td>Desplazar el cursor hacia abajo</td>
+</tr>
+<tr>
+<td>h (ó &larr;)</td>
+<td>-</td>
+<td>Desplazar el cursor hacia la izquierda</td>
+</tr>
+<tr>
+<td>gg</td>
+<td><code>:0</code></td>
+<td>Ir al comienzo del archivo</td>
+</tr>
+<tr>
+<td>G</td>
+<td><code>:$</code></td>
+<td>Ir al final del archivo</td>
+</tr>
+<tr>
+<td><em>n</em> G</td>
+<td><code>:n</code></td>
+<td>Ir a la línea <em>n</em> del archivo</td>
+</tr>
+<tr>
+<td>Ctrl + f</td>
+<td>-</td>
+<td>Ir a la siguiente página</td>
+</tr>
+<tr>
+<td>Ctrl + b</td>
+<td>-</td>
+<td>Ir a la anterior página</td>
+</tr>
+<tr>
+<td>{</td>
+<td>-</td>
+<td>Ir al párrafo siguiente</td>
+</tr>
+<tr>
+<td>}</td>
+<td>-</td>
+<td>Ir al párrafo anterior</td>
+</tr>
+</tbody>
+</table>
+<h3 id="desplazamiento-entre-pantallas">Desplazamiento entre pantallas<a class="headerlink" href="#desplazamiento-entre-pantallas" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-</td>
+<td><code>:split</code></td>
+<td>Dividir la pantalla horizonalmente</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>:vsplit</code></td>
+<td>Dividir la pantalla verticalemnte</td>
+</tr>
+<tr>
+<td>Ctrl + w</td>
+<td>-</td>
+<td>Navegar entre pantallas divididas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="desplazamiento-entre-pestanas">Desplazamiento entre pestañas<a class="headerlink" href="#desplazamiento-entre-pestanas" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-</td>
+<td><code>:tabe</code></td>
+<td>Crear una nueva pestaña vacía</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>:tabs</code></td>
+<td>Listar pestañas abiertas</td>
+</tr>
+<tr>
+<td>gt</td>
+<td>-</td>
+<td>Ir hacia la siguiente pestaña</td>
+</tr>
+<tr>
+<td>gT</td>
+<td>-</td>
+<td>Ir hacia la anterior pestaña</td>
+</tr>
+<tr>
+<td>-</td>
+<td><code>:tabm n</code></td>
+<td>Ubicar la pestaña actual en la posición <em>n</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="desplazamiento-entre-marcas">Desplazamiento entre marcas<a class="headerlink" href="#desplazamiento-entre-marcas" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>m + (a-z)</td>
+<td>Crear una marca y asignarle una letra (entre la a y z)</td>
+</tr>
+<tr>
+<td>' + (a-z)</td>
+<td>Ir al principio de una línea marcada con la letra (entre a y z)</td>
+</tr>
+<tr>
+<td>' + .</td>
+<td>Ir hacia el último cambio realizado en el documento</td>
+</tr>
+</tbody>
+</table>
+<h2 id="insertar-texto">Insertar texto<a class="headerlink" href="#insertar-texto" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>i</td>
+<td>Insertar texto delante de la posición actual del cursor.</td>
+</tr>
+<tr>
+<td>a</td>
+<td>Insertar texto detrás de la posición actual del cursor.</td>
+</tr>
+<tr>
+<td>I</td>
+<td>Insertar texto al comienzo de la línea donde se encuentra el cursor.</td>
+</tr>
+<tr>
+<td>A</td>
+<td>Insertar texto al final de la línea donde se encuentra el cursor.</td>
+</tr>
+<tr>
+<td>o</td>
+<td>Crear una nueva línea abajo de la posición actual del cursor.</td>
+</tr>
+<tr>
+<td>O</td>
+<td>Crear una nueva línea arriba de la posición actual del cursor.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="copiar-cortar-y-pegar-texto">Copiar, cortar y pegar texto<a class="headerlink" href="#copiar-cortar-y-pegar-texto" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shift + v</td>
+<td>Seleccionar la línea en la que se encuentra el cursor.</td>
+</tr>
+<tr>
+<td>Ctrl + v</td>
+<td>Iniciar selección desde la posición actual del cursor. Deben utilizarse las teclas de dirección.</td>
+</tr>
+<tr>
+<td>y</td>
+<td>Copiar selección.</td>
+</tr>
+<tr>
+<td>yy</td>
+<td>Copiar la línea en la que se encuentra el cursor.</td>
+</tr>
+<tr>
+<td><em>n</em> yy</td>
+<td>Copiar <em>n</em> líneas desde la ubicación actual del cursor.</td>
+</tr>
+<tr>
+<td>d</td>
+<td>Cortar selección.</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>Cortar la línea en la que se encuentra el cursor.</td>
+</tr>
+<tr>
+<td>p</td>
+<td>Pegar el contenido del <em>buffer</em> después de la posición actual del cursor.</td>
+</tr>
+<tr>
+<td>P</td>
+<td>Pegar el contenido del <em>buffer</em> antes de la posición actual del cursor.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="copiar-cortar-y-pegar-texto-avanzado">Copiar, cortar y pegar texto (avanzado)<a class="headerlink" href="#copiar-cortar-y-pegar-texto-avanzado" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:g/algo/t$</code></td>
+<td>Copiar todas las líneas que contengan la palabra <em>algo</em> al final del archivo.</td>
+</tr>
+<tr>
+<td><code>:g/algo/m$</code></td>
+<td>Mover todas las líneas que contengan la palabra <em>algo</em> al final del archivo.</td>
+</tr>
+<tr>
+<td><code>:m[+/-]n</code></td>
+<td>Mover la línea actual <em>n</em> veces hacia abajo (-) o hacia arriba (+)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="eliminar-texto">Eliminar texto<a class="headerlink" href="#eliminar-texto" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Normal</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x</td>
+<td>Eliminar el carácter ubicado en la posición actual del cursor</td>
+</tr>
+<tr>
+<td>X</td>
+<td>Eliminar el carácter anterior a la posición actual del cursor</td>
+</tr>
+<tr>
+<td>dd</td>
+<td>Eliminar la línea correspondiente a la posición actual del cursor</td>
+</tr>
+<tr>
+<td><em>n</em> dd</td>
+<td>Eliminar <em>n</em> líneas después de la posición actual del cursor</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Eliminar texto desde la ubicación actual del cursor hasta el final de la línea.</td>
+</tr>
+<tr>
+<td>d$</td>
+<td>Eliminar texto desde la ubicación actual del cursor hasta el final de la línea.</td>
+</tr>
+<tr>
+<td>dw</td>
+<td>Eliminar la siguiente palabra a partir de la posición actual del cursor.</td>
+</tr>
+<tr>
+<td>dG</td>
+<td>Eliminar texto desde la posición actual del cursor hasta el final del archivo.</td>
+</tr>
+<tr>
+<td>dgg</td>
+<td>Eliminar texto desde la posición actual del cursor hasta el principio del archivo.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="eliminar-texto-avanzado">Eliminar texto (Avanzado)<a class="headerlink" href="#eliminar-texto-avanzado" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:g/borrar/d</code></td>
+<td>Eliminar todas las líneas que contengan la palabra <em>borrar</em></td>
+</tr>
+<tr>
+<td><code>:g/^\s*$/d</code></td>
+<td>Eliminar todas las líneas vacías o en blanco.</td>
+</tr>
+<tr>
+<td><code>:g/^#/d</code></td>
+<td>Eliminar todas las líneas que estén comentadas.</td>
+</tr>
+<tr>
+<td><code>:g!/^#/d</code></td>
+<td>Eliminar todas las líneas que no estén comentadas.</td>
+</tr>
+<tr>
+<td><code>:g/^\(#\|$\)/d</code></td>
+<td>Eliminar todas las líneas que estén comentadas y en blanco.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="buscar">Buscar<a class="headerlink" href="#buscar" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/algo</td>
+<td>Buscar la palabra <em>algo</em> hacia adelante</td>
+</tr>
+<tr>
+<td>?algo</td>
+<td>Buscar la palabra <em>algo</em> hacia atrás</td>
+</tr>
+<tr>
+<td>n</td>
+<td>Ir hacia la próxima coincidencia de búsqueda</td>
+</tr>
+<tr>
+<td>N</td>
+<td>Ir hacia la anterior coincidencia de búsqueda</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Ir hacia el complementario del paréntesis, llave o corchete actual</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reemplazar">Reemplazar<a class="headerlink" href="#reemplazar" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Comando</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cw</td>
+<td>Reemplazar la palabra en la que se encuentra ubicado el cursor.</td>
+</tr>
+<tr>
+<td>cc</td>
+<td>Reemplazar el texto completo de la línea en la que se encuentra ubicado el cursor.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="reemplazar-avanzado">Reemplazar (avanzado)<a class="headerlink" href="#reemplazar-avanzado" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:%s/old/new/g</code></td>
+<td>Reemplazar <em>old</em> por <em>new</em> en todo el archivo</td>
+</tr>
+<tr>
+<td><code>:s/old/new/g</code></td>
+<td>Reemplazar <em>old</em> por <em>new</em> en la línea actual.</td>
+</tr>
+<tr>
+<td><code>:n,m s/old/new/g</code></td>
+<td>Reemplazar <em>old</em> por <em>new</em> entre las líneas <em>n</em> a <em>m</em>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="guardar-descartar-cambios-y-salir">Guardar, descartar cambios y salir<a class="headerlink" href="#guardar-descartar-cambios-y-salir" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Comandos</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>u</td>
+<td>Deshacer el último cambio realizado</td>
+</tr>
+<tr>
+<td>Ctrl + r</td>
+<td>Rehacer el último cambio realizado</td>
+</tr>
+<tr>
+<td>ZZ</td>
+<td>Guardar los cambios y salir.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:w</code></td>
+<td>Guardar los cambios.</td>
+</tr>
+<tr>
+<td><code>:w!</code></td>
+<td>Forzar guardar los cambios.</td>
+</tr>
+<tr>
+<td><code>:w nuevo.txt</code></td>
+<td>Guardar el contenido del archivo actual en <em>nuevo.txt</em>.</td>
+</tr>
+<tr>
+<td><code>:w! nuevo.txt</code></td>
+<td>Forzar guardar el contenido del archivo actual en <em>nuevo.txt</em> sobrescribiéndolo si existe.</td>
+</tr>
+<tr>
+<td><code>:n,m w nuevo.txt</code></td>
+<td>Guardar el texto comprendido entre las líneas <em>n</em> y <em>m</em> en <em>nuevo.txt</em>.</td>
+</tr>
+<tr>
+<td><code>:q</code></td>
+<td>Salir.</td>
+</tr>
+<tr>
+<td><code>:q!</code></td>
+<td>Forzar salir sin guardar los cambios.</td>
+</tr>
+<tr>
+<td><code>:wq</code></td>
+<td>Guardar los cambios y salir.</td>
+</tr>
+<tr>
+<td><code>:wq!</code></td>
+<td>Forzar guardar los cambios y salir.</td>
+</tr>
+<tr>
+<td><code>:e nuevo.txt</code></td>
+<td>Abrir <em>nuevo.txt</em> sin guardar los cambios en el archivo actual.</td>
+</tr>
+<tr>
+<td><code>:e! nuevo.txt</code></td>
+<td>Forzar abrir <em>nuevo.txt</em> sin guardar los cambios en el archivo actual.</td>
+</tr>
+<tr>
+<td><code>:x</code></td>
+<td>Guardar los cambios y salir.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="algunos-tips">Algunos tips<a class="headerlink" href="#algunos-tips" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Comandos</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>&lt;</em></td>
+<td>Disminuir tabulación</td>
+</tr>
+<tr>
+<td><em>&gt;</em></td>
+<td>Aumentar tabulación</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>CMD</th>
+<th>Acción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>:set autoindent</code></td>
+<td>Sangría automática</td>
+</tr>
+<tr>
+<td><code>:set shiftwidth=4</code></td>
+<td>Definir cuatro espacios para la sangría</td>
+</tr>
+<tr>
+<td><code>:syntax on</code></td>
+<td>Habilitar resaltado de sintáxis</td>
+</tr>
+<tr>
+<td><code>set encoding=utf-8</code></td>
+<td>Encoding UTF8</td>
+</tr>
+<tr>
+<td><code>:set number</code></td>
+<td>Habilitar numeración de líneas</td>
+</tr>
+<tr>
+<td><code>:set number!</code></td>
+<td>Deshabilitar numeración de líneas</td>
+</tr>
+<tr>
+<td><code>:set wrap</code></td>
+<td>Habiliar el ajuste de líneas.</td>
+</tr>
+<tr>
+<td><code>:set nowrap</code></td>
+<td>Deshabilitar el ajuste de líneas.</td>
+</tr>
+<tr>
+<td><code>:set hlsearch</code></td>
+<td>Habilitar resaltado de coincidencias de búsqueda.</td>
+</tr>
+<tr>
+<td><code>:set nohlsearch</code></td>
+<td>Deshabilitar resaltado de coincidencias de búsqueda.</td>
+</tr>
+<tr>
+<td><code>:! comando</code></td>
+<td>Ejecutar un <em>comando</em> de Linux sin salir del editor</td>
+</tr>
+</tbody>
+</table>
+<p>_Estas funcionalidades se aplicarán en tiempo real al archivo que tengamos abierto en ese momento, pero se perderán una vez que cerremos el editor. A continuación se explica como guardar permanente nuestras preferencias _</p>
+<p>Para establecer la configuración que deseemos de manera permanente tendremos que abrir (o crear, en caso de no existir) el archivo <code>.vimrc</code> en la carpeta <code>home</code> de nuestro usuario:</p>
+<div class="codehilite"><pre><span></span>bash$ cd /home/tuUsuario &amp;&amp; vim .vimrc
+</pre></div>
+
+
+<p>Dentro del archivo en cuestión podremos <em>setear</em> la configuración deseada: </p>
+<div class="codehilite"><pre><span></span><span class="c">&quot; Esquema de colores</span>
+<span class="k">colorscheme</span> molokai
+
+<span class="c">&quot; Habilitar el resaltado de sintaxis</span>
+<span class="nb">syntax</span> <span class="k">on</span>
+
+<span class="c">&quot; Mostrar número de líneas</span>
+<span class="k">set</span> <span class="k">number</span>
+
+<span class="c">&quot; Ancho de la sangría (en espacios) al presionar la tecla TAB (por defecto)</span>
+<span class="k">set</span> <span class="nb">tabstop</span><span class="p">=</span><span class="m">4</span> 
+
+<span class="c">&quot; Ancho de la sangría (en espacios) al presionar la tecla TAB</span>
+<span class="k">set</span> <span class="nb">softtabstop</span><span class="p">=</span><span class="m">4</span>
+
+<span class="c">&quot; Ancho de la sangría al presionar las teclas &lt; y &gt; (en Comando)</span>
+<span class="k">set</span> <span class="nb">shiftwidth</span><span class="p">=</span><span class="m">4</span>
+
+<span class="c">&quot; Numero de espacios insertados al presionar la tecla TAB. Depende del valor de shiftwidth</span>
+<span class="k">set</span> <span class="nb">smarttab</span>
+
+<span class="c">&quot; Inserar espacios en lugar de tabulaciones al presionar la tecla TAB (en modo inserción)</span>
+<span class="k">set</span> <span class="nb">expandtab</span>
+
+<span class="c">&quot; Sangría automática al comenzar una nueva línea</span>
+<span class="k">set</span> <span class="nb">autoindent</span>
+
+<span class="c">&quot; Ajustar texto de líneas largas</span>
+<span class="k">set</span> <span class="nb">linebreak</span>          
+</pre></div>
+
+
+<h2 id="saber-mas-sobre-vim">Saber más sobre VIM<a class="headerlink" href="#saber-mas-sobre-vim" title="Permanent link">&para;</a></h2>
+<p>Como habrás notado, aventurarse a navegar el universo Vim, supone una <strong>inversión inicial de tiempo y esfuerzo</strong>, puesto que su manejo no se parece en nada a lo que conocemos cuando hablamos de editores de texto. </p>
+<p><em>Una vez que hayamos conseguido dominar medianamente la herramienta nos veremos compensados por la <strong>eficiencia y rapidez</strong> con la que realizaremos ciertas tareas en comparación a los editores de texto tradicionales.</em></p>
+<p>La guía ofrecida en este curso intenta ser sólo una pequeña introducción al manejo del editor Vim. No obstante, si deseamos aprender a manejar la herramienta con mayor profundidad podemos consultar el abundante material disponible sobre este programa. He aquí algunos ejemplos: </p>
+<h3 id="videos">Videos<a class="headerlink" href="#videos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=kDkKI2iyPQI&amp;list=PL49B8EC5EEF15885A">Curso Vim - Lucas Ontivero</a></li>
+<li>Curso Vim - Martín Algañaraz: <a href="https://www.youtube.com/watch?v=-9xmHw-T_ik">1</a>, <a href="https://www.youtube.com/watch?v=LPcwn09xOFA">2</a> y <a href="https://www.youtube.com/watch?v=_feT1Zr97EA">3</a></li>
+<li><a href="http://vimcasts.org/">VimCasts</a> (en inglés)</li>
+</ul>
+<h3 id="manuales-tutoriales">Manuales / Tutoriales<a class="headerlink" href="#manuales-tutoriales" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://://hipertextual.com/archivo/tag/curso-de-vim/">Curso de VIM</a></li>
+<li><a href="http://://www.emezeta.com/articulos/manual-para-aprender-a-utilizar-vim">Manual para empezar a usar Vim</a></li>
+<li><a href="http://://agcapa.es/manual-de-vim/">Manual de Vim</a></li>
+<li><a href="http://s://wiki.archlinux.org/index.php/Vim_%28Espa%C3%B1ol%29">Vim en español - ArchWiki</a></li>
+<li><a href="http://://www.sromero.org/wiki/linux/aplicaciones/manual_vim">Manual/Tutorial de Vim por Santiago Romero</a></li>
+<li><a href="http://s://github.com/AnderRasoVazquez/curso-de-vim">Vim AdventuresCurso de Vim por Andre Raso Vázquez</a></li>
+<li><a href="http://://www.linuxhispano.net/2011/03/16/tutorial-de-vivim/">Tutorial de Vi/Vim</a></li>
+</ul>
+<h3 id="libros-y-apuntes">Libros y apuntes<a class="headerlink" href="#libros-y-apuntes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://://es.tldp.org/Tutoriales/doc-tutorial-vim/Guia-Vim.pdf">Vim - Referencia rápida</a></li>
+<li><a href="http://://pntpm4.ulb.ac.be/pntpm/Files/OReilly.Learning.the.vi.and.Vim.Editors.7th.Edition.Jul.2008.pdf">Learning Vi and Vim editors (O'Reilly)</a></li>
+<li><a href="http://://www.doc-developpement-durable.org/file/Projets-informatiques/cours-&amp;-manuels-informatiques/Shell/vi%20and%20Vim%20Editors%20Pocket%20Reference,%202nd%20Edition.pdf">Vi and Vim editors. Pocket Reference (O'Reilly)</a></li>
+</ul>
+<h3 id="guias-interactivas">Guías interactivas<a class="headerlink" href="#guias-interactivas" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://://www.openvim.com/">Open Vim</a> (en inglés)</li>
+<li><a href="http://://vim-adventures.com/">Vim Adventures</a> (en inglés)</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+                  <h2 id="__comments">Comentarios</h2>
+                  <div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = "http://www.linux.rauljesus.com/operador/vim/";
+    this.page.identifier =
+      "/operador/vim/";
+  };
+  (function() {
+    var d = document, s = d.createElement("script");
+    s.src = "//rauljesuscom.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../nano/" title="El editor nano" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                El editor nano
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../busquedas/" title="Búsquedas" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Siguiente
+                </span>
+                Búsquedas
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Hecho con &#9829; usando
+        <a href="http://www.mkdocs.org" target="_blank" title="MkDocs">MkDocs</a>
+        y
+        <a href="https://github.com/squidfunk/mkdocs-material" target="_blank" title="Material for MkDocs">Material</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <a href="https://twitter.com/la9una" class="md-footer-social__link fa fa-twitter" target="_blank"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application-7018102a8b.js"></script>
+      <script>app.initialize({url:{base:"../.."}})</script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+    
+      
+      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-98408177-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+      
+    
+  </body>
+</html>

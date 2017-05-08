@@ -1,0 +1,68 @@
+# Información general
+site_name: 'Introducción a GNU/Linux'
+site_description: 'Apuntes sobre admnistración de GNU/Linux'
+site_author: 'Raul Jesus Lopez'
+site_url: http://www.linux.rauljesus.com
+
+# Repositorio
+repo_name: 'Ver en GitHub'
+repo_url: 'https://github.com/la9una/linux'
+
+# Copyright
+#copyright: '2017 - Raul Jesus Lopez'
+
+# Tema
+theme: null
+theme_dir: 'themes/material'
+
+# Opciones
+extra:
+  palette:
+    primary: 'orange'
+    accent: 'yellow'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  social:
+#    - type: 'github'
+#      link: 'https://github.com/la9una'
+    - type: 'twitter'
+      link: 'https://twitter.com/la9una'
+#    - type: 'linkedin'
+#      link: 'https://de.linkedin.com/in/john-doe'
+#    - type: 'facebook'
+#      link: 'https://www.facebook.com/rauljesuslopez'
+  disqus: 'rauljesuscom'
+
+# Google Analytics
+google_analytics:
+  - 'UA-98408177-1'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - pymdownx.arithmatex
+  - admonition
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+# Extras
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+# Páginas
+pages: 
+- Inicio: index.md
+- Operador GNU/Linux:
+    - ¿Por qué GNU/Linux?: 'operador/por_que_gnu_linux.md'
+#    - La terminal de comandos: 'terminal.md'
+#    - Sistema de archivos: 'sistemaArchivos.md'
+    - Archivos y carpetas: 'operador/archivosCarpetas.md'
+    - Compresión y descompresión: 'operador/compresion.md'
+    - El editor nano: 'operador/nano.md'
+    - El editor vim: 'operador/vim.md'
+    - Búsquedas: 'operador/busquedas.md'

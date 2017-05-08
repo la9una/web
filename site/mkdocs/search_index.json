@@ -1,0 +1,484 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "\u00a1Bienvenid@s!\n\n\nEl presente espacio pretende ser una gu\u00eda introductoria para quienes est\u00e1n comenzando a dar los primeros pasos en el sistema operativo GNU/Linux. La totalidad de los contenidos est\u00e1n desarrollados sobre la distribuci\u00f3n Ubuntu 16.04 LTS.", 
+            "title": "Inicio"
+        }, 
+        {
+            "location": "/#bienvenids", 
+            "text": "El presente espacio pretende ser una gu\u00eda introductoria para quienes est\u00e1n comenzando a dar los primeros pasos en el sistema operativo GNU/Linux. La totalidad de los contenidos est\u00e1n desarrollados sobre la distribuci\u00f3n Ubuntu 16.04 LTS.", 
+            "title": "\u00a1Bienvenid@s!"
+        }, 
+        {
+            "location": "/operador/por_que_gnu_linux/", 
+            "text": "\u00bfPor qu\u00e9 usar GNU/Linux?\n\n\nProbablemente te hayas preguntado por qu\u00e9 utilizamos GNU/Linux y software libre durante el desarrollo de la materia. Lo cierto es que no existe una \u00fanica raz\u00f3n. A continuaci\u00f3n, encontrar\u00e1s algunas de ellas: \n\n\nPorque existen razones \u00e9ticas y pedag\u00f3gicas para usarlo\n\n\nExisten razones de peso para utilizar software libre en la educaci\u00f3n:\n\n\n\n\nPor qu\u00e9 las instituciones educativas deben utilizar y ense\u00f1ar software libre\n\n\nPor qu\u00e9 las escuelas deben usar exclusivamente software libre\n\n\nSoftware libre y educaci\u00f3n\n\n\nEl software libre en la educaci\u00f3n\n\n\n\n\n\n\nSoftware Libre: t\u00e9cnicamente viable, econ\u00f3micamente sostenible y socialmente justo\n \nJordi Mas i Hern\u00e0ndez\n\n\n\n\nPorque constituye el presente y el futuro de la tecnolog\u00eda\n\n\nEn la actualidad, es el sistema operativo m\u00e1s utilizado a escala mundial por:\n\n\n\n\nServidores \nweb\n, de \nresoluci\u00f3n de nombres\n, de \ncorreo electr\u00f3nico\n, etc., que mantienen viva a la red de redes: internet.\n\n\nEmpresas como \nGoogle\n, \nFacebook\n y \nTwitter\n. \n\n\nM\u00e1s del 98% de las \nsupercomputadoras\n.\n\n\nSmartphones con el  sistema Android](https://www.idc.com/prodserv/smartphone-os-market-share.jsp).\n\n\nLa \nISS o Estaci\u00f3n Espacial Internacional\n la cual \nutiliza GNU/Linux\n.\n\n\nEl \nCERN, el mayor laboratorio de investigaci\u00f3n en f\u00edsica de part\u00edculas del mundo\n cre\u00f3 la m\u00e1quina m\u00e1s grande y costosa jam\u00e1s construida por el hombre, el \nLarge Hadron Collider\n que \nusa GNU/Linux\n.\n\n\nEmpresas como Intel, al proponerlo como \nest\u00e1ndar de desarrollo para IoT \nInternet of Things\n o \nInternet de las cosas\n.\n\n\nLa mayor\u00eda de los Smart TVs, dispositivos de red (routers, switches, repetidores, etc), as\u00ed como diversos electrodom\u00e9sticos y todo tipo de \ndispositivos embebidos\n.\n\n\nComputaci\u00f3n en la nube: \nAmazon Web Services\n, \nMicrosoft Azure\n (s\u00ed, le\u00edste bien: Microsoft usa GNU/Linux), \nVMware ESXi\n, \nXen\n, \nOpenVZ\n, \nOpenStack\n, etc.\n\n\nContenedores: \nDocker\n, \nLXC\n, etc.\n\n\nAutom\u00f3viles de \u00faltima generaci\u00f3n \n1\n \n2\n \n3\n, como el \nModelo S de Tesla Motors\n.\n\n\nHackers \n1\n \n2\n \n3\n.\n\n\n\n\nGNU/Linux es el \nproyecto de software m\u00e1s grande de la historia inform\u00e1tica\n, gracias al aporte de \nnumerosas empresas\n y \nvoluntarios\n repartidos por todo el planeta. Las tendencias de crecimiento actuales no paran de aumentar y nada parece decir ocurrir\u00e1 de otra manera.", 
+            "title": "\u00bfPor qu\u00e9 GNU/Linux?"
+        }, 
+        {
+            "location": "/operador/por_que_gnu_linux/#por-que-usar-gnulinux", 
+            "text": "Probablemente te hayas preguntado por qu\u00e9 utilizamos GNU/Linux y software libre durante el desarrollo de la materia. Lo cierto es que no existe una \u00fanica raz\u00f3n. A continuaci\u00f3n, encontrar\u00e1s algunas de ellas:", 
+            "title": "\u00bfPor qu\u00e9 usar GNU/Linux?"
+        }, 
+        {
+            "location": "/operador/por_que_gnu_linux/#porque-existen-razones-eticas-y-pedagogicas-para-usarlo", 
+            "text": "Existen razones de peso para utilizar software libre en la educaci\u00f3n:   Por qu\u00e9 las instituciones educativas deben utilizar y ense\u00f1ar software libre  Por qu\u00e9 las escuelas deben usar exclusivamente software libre  Software libre y educaci\u00f3n  El software libre en la educaci\u00f3n    Software Libre: t\u00e9cnicamente viable, econ\u00f3micamente sostenible y socialmente justo   Jordi Mas i Hern\u00e0ndez", 
+            "title": "Porque existen razones \u00e9ticas y pedag\u00f3gicas para usarlo"
+        }, 
+        {
+            "location": "/operador/por_que_gnu_linux/#porque-constituye-el-presente-y-el-futuro-de-la-tecnologia", 
+            "text": "En la actualidad, es el sistema operativo m\u00e1s utilizado a escala mundial por:   Servidores  web , de  resoluci\u00f3n de nombres , de  correo electr\u00f3nico , etc., que mantienen viva a la red de redes: internet.  Empresas como  Google ,  Facebook  y  Twitter .   M\u00e1s del 98% de las  supercomputadoras .  Smartphones con el  sistema Android](https://www.idc.com/prodserv/smartphone-os-market-share.jsp).  La  ISS o Estaci\u00f3n Espacial Internacional  la cual  utiliza GNU/Linux .  El  CERN, el mayor laboratorio de investigaci\u00f3n en f\u00edsica de part\u00edculas del mundo  cre\u00f3 la m\u00e1quina m\u00e1s grande y costosa jam\u00e1s construida por el hombre, el  Large Hadron Collider  que  usa GNU/Linux .  Empresas como Intel, al proponerlo como  est\u00e1ndar de desarrollo para IoT  Internet of Things  o  Internet de las cosas .  La mayor\u00eda de los Smart TVs, dispositivos de red (routers, switches, repetidores, etc), as\u00ed como diversos electrodom\u00e9sticos y todo tipo de  dispositivos embebidos .  Computaci\u00f3n en la nube:  Amazon Web Services ,  Microsoft Azure  (s\u00ed, le\u00edste bien: Microsoft usa GNU/Linux),  VMware ESXi ,  Xen ,  OpenVZ ,  OpenStack , etc.  Contenedores:  Docker ,  LXC , etc.  Autom\u00f3viles de \u00faltima generaci\u00f3n  1   2   3 , como el  Modelo S de Tesla Motors .  Hackers  1   2   3 .   GNU/Linux es el  proyecto de software m\u00e1s grande de la historia inform\u00e1tica , gracias al aporte de  numerosas empresas  y  voluntarios  repartidos por todo el planeta. Las tendencias de crecimiento actuales no paran de aumentar y nada parece decir ocurrir\u00e1 de otra manera.", 
+            "title": "Porque constituye el presente y el futuro de la tecnolog\u00eda"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/", 
+            "text": "Manejo b\u00e1sico de archivos y carpetas\n\n\nSe listan a continuaci\u00f3n algunos comandos -los m\u00e1s importantes- para gestionar archivos y carpetas empleando la terminal. Estos comandos aplican a cualquier distribuci\u00f3n GNU/Linux\n\n\nls\n\n\nEl comando ls (list) nos permite ver el contenido de los directorios\n\n\nSintaxis\n\n\nls [Opciones] [Directorio/s]\n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-l\n\n\nMuestra los archivos en forma de columna\n\n\n\n\n\n\n-a\n\n\nMuestra los archivos ocultos que empiezan con . (punto)\n\n\n\n\n\n\n-R\n\n\nLista recursivamente todos los subdirectorios y archivos\n\n\n\n\n\n\n-r\n\n\nLista los archivos en orden invertido\n\n\n\n\n\n\n-i\n\n\nMuestra el n\u00famero de inodo\n\n\n\n\n\n\n-h\n\n\nMuestra el espacio ocupado del archivo en Mb, Kb, etc\n\n\n\n\n\n\n-t\n\n\nOrdena por la fecha y hora de modificaci\u00f3n\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ ls -la\n \n\n\nLista todos los archivos en forma de columna.\n\n\n$ ls -R /home/\n\n\nLista de forma recursiva los directorios, subdirectorios y archivos alojados en /home\n\n\ncd\n\n\nEl comando cd (change directory) nos permite navegar entre los directorios del sistema\n\n\nSintaxis\n\n\ncd [Opciones] [Ruta destino]\n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-\n\n\nNos conduce al \u00faltimo directorio visitado\n\n\n\n\n\n\n..\n\n\nSube un nivel en el \u00e1rbol de directorios\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ cd -\n\n\nConduce al \u00faltimo directorio visitado.\n\n\n$ cd /tmp/\n\n\nConduce al directorio /tmp\n\n\ncp\n\n\nEl comando cp (copy) se utiliza para realizar una copia de seguridad de un archivo o bien, para copiar archivos a un directorio determinado\n\n\nSintaxis\n\n\ncp [opciones] origen_de_la_copia    destino_de_la_copia\n \n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-f\n\n\nSobrescribe archivos sin pedir confirmaci\u00f3n\n\n\n\n\n\n\n-i\n\n\nModo interactivo, solicita autorizaci\u00f3n antes de sobrescribir archivos\n\n\n\n\n\n\n-p\n\n\nPreserva informaci\u00f3n como propietario, permisos, grupo y fecha al realizar lacopia\n\n\n\n\n\n\n-r\n\n\nCopia recursivamente un directorio con su contenido (tambi\u00e9n funciona escribiendo -R)\n\n\n\n\n\n\n-v\n\n\nMuestra en pantalla el progreso de la copia\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ cp /var/log/messages .\n\n\nCopia el archivo messages a la ubicaci\u00f3n actual\n\n\n$ cp -rp dir1/ dir2/\n \n\n\nCopia el directorio dir1 y su contenido (preservando adem\u00e1s, sus atributos) en un nuevo directorio llamado dir2\n\n\n$ cp archivo1 archivo2\n\n\nCopia el contenido del archivo1 en el archivo2\n\n\n$ cp -v archivo1 archivo2 ~\n\n\nCopia el archivo1 y el archivo2 (mostrando el progreso de la copia) en el directorio \u201chome\u201d del usuario\n\n\nmv\n\n\nEl comando mv (move) se utiliza para mover o renombrar archivos o directorios\n\n\nSintaxis\n\n\nmv [opciones] origen   destino\n \n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-f\n\n\nSobrescribe archivos sin pedir confirmaci\u00f3n\n\n\n\n\n\n\n-i\n\n\nSolicita autorizaci\u00f3n antes de sobrescribir archivos\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ mv dir1/ dir2/\n\n\nMueve el directorio dir1 dentro del directorio dir2\n\n\n$ mv archivo1 archivo2\n\n\nMueve el contenido del archivo1 al archivo2, sobrescribiendo \u00e9ste \u00faltimo y eliminando el primero\n\n\nmkdir\n\n\nEl comando mkdir (make directory) se utiliza para crear uno o m\u00e1s directorios\n\n\nSintaxis\n\n\nmkdir [Opciones] Directorio/s\n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-p\n\n\nCrea un directorio dentro de otro\n\n\n\n\n\n\n-m\n\n\nPermite asignar permisos al directorio creado\n\n\n\n\n\n\n-v\n\n\nMuestra en pantalla las acciones realizadas\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ mkdir dir1 dir2\n\n\nCrea los directorios dir1 y dir2 a la vez\n\n\n$ mkdir -p dir1/dir2\n\n\nCrea el directorio dir2 dentro del directorio dir1\n\n\nrmdir\n\n\nEl comando rmdir (remove directory) elimina directorios vac\u00edos.\n\n\nSintaxis\n\n\nrmdir [Opciones] Directorio/s\n \n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-p\n\n\nElimina un directorio y sus subdirectorios s\u00f3lo si est\u00e1n vac\u00edos\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ rmdir directorio1\n\n\nElimina la carpeta vac\u00eda llamada directorio1\n\n\n$ rmdir \u00ad-p dir1/dir2\n\n\nElimina tanto el directorio dir1 como el directorio dir2, ambos vac\u00edos\n\n\nrm\n\n\nEl comando rm (remove) elimina archivos y directorios\n\n\nSintaxis\n\n\nrm [Opciones] directorio/s o archivo/s\n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-i\n\n\nSolicita autorizaci\u00f3n antes de eliminar archivos o directorios\n\n\n\n\n\n\n-r\n\n\nElimina recursivamente un directorio con su contenido (tambi\u00e9n funciona escribiendo -R)\n\n\n\n\n\n\n-f\n\n\nFuerza la iliminaci\u00f3n sin solicitar confirmaci\u00f3n\n\n\n\n\n\n\n\n\nEjemplos\n\n\n$ rm -rf directorio1\n\n\nElimina el directorio llamado directorio1 sin solicitar confirmaci\u00f3n\n\n\n$ rm -ri archivo1\n\n\nElimina el archivo llamado archivo1 solicitado confirmaci\u00f3n para realizar la acci\u00f3n", 
+            "title": "Archivos y carpetas"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#manejo-basico-de-archivos-y-carpetas", 
+            "text": "Se listan a continuaci\u00f3n algunos comandos -los m\u00e1s importantes- para gestionar archivos y carpetas empleando la terminal. Estos comandos aplican a cualquier distribuci\u00f3n GNU/Linux", 
+            "title": "Manejo b\u00e1sico de archivos y carpetas"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ls", 
+            "text": "El comando ls (list) nos permite ver el contenido de los directorios", 
+            "title": "ls"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis", 
+            "text": "ls [Opciones] [Directorio/s]", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente", 
+            "text": "Opciones  Descripci\u00f3n      -l  Muestra los archivos en forma de columna    -a  Muestra los archivos ocultos que empiezan con . (punto)    -R  Lista recursivamente todos los subdirectorios y archivos    -r  Lista los archivos en orden invertido    -i  Muestra el n\u00famero de inodo    -h  Muestra el espacio ocupado del archivo en Mb, Kb, etc    -t  Ordena por la fecha y hora de modificaci\u00f3n", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos", 
+            "text": "$ ls -la    Lista todos los archivos en forma de columna.  $ ls -R /home/  Lista de forma recursiva los directorios, subdirectorios y archivos alojados en /home", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#cd", 
+            "text": "El comando cd (change directory) nos permite navegar entre los directorios del sistema", 
+            "title": "cd"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis_1", 
+            "text": "cd [Opciones] [Ruta destino]", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente_1", 
+            "text": "Opciones  Descripci\u00f3n      -  Nos conduce al \u00faltimo directorio visitado    ..  Sube un nivel en el \u00e1rbol de directorios", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos_1", 
+            "text": "$ cd -  Conduce al \u00faltimo directorio visitado.  $ cd /tmp/  Conduce al directorio /tmp", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#cp", 
+            "text": "El comando cp (copy) se utiliza para realizar una copia de seguridad de un archivo o bien, para copiar archivos a un directorio determinado", 
+            "title": "cp"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis_2", 
+            "text": "cp [opciones] origen_de_la_copia    destino_de_la_copia", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente_2", 
+            "text": "Opciones  Descripci\u00f3n      -f  Sobrescribe archivos sin pedir confirmaci\u00f3n    -i  Modo interactivo, solicita autorizaci\u00f3n antes de sobrescribir archivos    -p  Preserva informaci\u00f3n como propietario, permisos, grupo y fecha al realizar lacopia    -r  Copia recursivamente un directorio con su contenido (tambi\u00e9n funciona escribiendo -R)    -v  Muestra en pantalla el progreso de la copia", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos_2", 
+            "text": "$ cp /var/log/messages .  Copia el archivo messages a la ubicaci\u00f3n actual  $ cp -rp dir1/ dir2/    Copia el directorio dir1 y su contenido (preservando adem\u00e1s, sus atributos) en un nuevo directorio llamado dir2  $ cp archivo1 archivo2  Copia el contenido del archivo1 en el archivo2  $ cp -v archivo1 archivo2 ~  Copia el archivo1 y el archivo2 (mostrando el progreso de la copia) en el directorio \u201chome\u201d del usuario", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#mv", 
+            "text": "El comando mv (move) se utiliza para mover o renombrar archivos o directorios", 
+            "title": "mv"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis_3", 
+            "text": "mv [opciones] origen   destino", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente_3", 
+            "text": "Opciones  Descripci\u00f3n      -f  Sobrescribe archivos sin pedir confirmaci\u00f3n    -i  Solicita autorizaci\u00f3n antes de sobrescribir archivos", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos_3", 
+            "text": "$ mv dir1/ dir2/  Mueve el directorio dir1 dentro del directorio dir2  $ mv archivo1 archivo2  Mueve el contenido del archivo1 al archivo2, sobrescribiendo \u00e9ste \u00faltimo y eliminando el primero", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#mkdir", 
+            "text": "El comando mkdir (make directory) se utiliza para crear uno o m\u00e1s directorios", 
+            "title": "mkdir"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis_4", 
+            "text": "mkdir [Opciones] Directorio/s", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente_4", 
+            "text": "Opciones  Descripci\u00f3n      -p  Crea un directorio dentro de otro    -m  Permite asignar permisos al directorio creado    -v  Muestra en pantalla las acciones realizadas", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos_4", 
+            "text": "$ mkdir dir1 dir2  Crea los directorios dir1 y dir2 a la vez  $ mkdir -p dir1/dir2  Crea el directorio dir2 dentro del directorio dir1", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#rmdir", 
+            "text": "El comando rmdir (remove directory) elimina directorios vac\u00edos.", 
+            "title": "rmdir"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis_5", 
+            "text": "rmdir [Opciones] Directorio/s", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente_5", 
+            "text": "Opciones  Descripci\u00f3n      -p  Elimina un directorio y sus subdirectorios s\u00f3lo si est\u00e1n vac\u00edos", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos_5", 
+            "text": "$ rmdir directorio1  Elimina la carpeta vac\u00eda llamada directorio1  $ rmdir \u00ad-p dir1/dir2  Elimina tanto el directorio dir1 como el directorio dir2, ambos vac\u00edos", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#rm", 
+            "text": "El comando rm (remove) elimina archivos y directorios", 
+            "title": "rm"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#sintaxis_6", 
+            "text": "rm [Opciones] directorio/s o archivo/s", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#opciones-de-uso-frecuente_6", 
+            "text": "Opciones  Descripci\u00f3n      -i  Solicita autorizaci\u00f3n antes de eliminar archivos o directorios    -r  Elimina recursivamente un directorio con su contenido (tambi\u00e9n funciona escribiendo -R)    -f  Fuerza la iliminaci\u00f3n sin solicitar confirmaci\u00f3n", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/archivosCarpetas/#ejemplos_6", 
+            "text": "$ rm -rf directorio1  Elimina el directorio llamado directorio1 sin solicitar confirmaci\u00f3n  $ rm -ri archivo1  Elimina el archivo llamado archivo1 solicitado confirmaci\u00f3n para realizar la acci\u00f3n", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/compresion/", 
+            "text": "M\u00e9todos de compresi\u00f3n y descompresi\u00f3n en Linux\n\n\nA continuaci\u00f3n se listan las herramientas de compresi\u00f3n de l\u00ednea de comandos m\u00e1s utilizadas en el universo GNU/Linux y el Open Source en general. \n\n\nArchivos .tar\n\n\nPara poder \nempaquetar archivos .tar\n, utilizamos el siguiente comando:\n\n\ntar -cvf archivo.tar /directorio/a/comprimir/\n\n\n\n\n\nDonde:\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-c\n\n\nIndica a tar que cree un archivo\n\n\n\n\n\n\n-v\n\n\nIndica a tar exhiba en pantalla las acciones realizadas\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nPara poder \ndesempaquetar  archivos .tar\n, utilizamos el siguiente comando:\n\n\ntar -xvf archivo.tar\n\n\n\n\n\nDonde:\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-x\n\n\nIndica a tar que descomprima el archivo.tar\n\n\n\n\n\n\n-v\n\n\nIndica a tar exhiba en pantalla las acciones realizadas\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nSi se quiere \nver el contenido de un archivo .tar\n (sin abrirlo), se utiliza el siguiente comando:\n\n\ntar -tf archivo.tar\n\n\n\n\n\nDonde:\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-t\n\n\nLista el contenido del archivo.tar\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nArchivos .gz\n\n\nPara \ncomprimir archivos en formato .gz\n, se utiliza el siguiente comando:\n\n\ngzip -9 archivo\n\n\n\n\n\nDonde:\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-9\n\n\nLe indica a gz que utilice el mayor factor de compresi\u00f3n posible\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nPara \ndescomprimir archivos .gz\n, se utilizara el siguiente comando:\n\n\ngzip -d archivo.gz\n\n\n\n\n\nDonde:\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-d\n\n\nIndica descompresi\u00f3n\n\n\n\n\n\n\n\n\nArchivos .bz2\n\n\nPara \ncomprimir archivos en formato .bz2\n, se utiliza el siguiente comando:\n\n\nbzip2 archivo\n\n\n\n\n\nPara \ndescomprimir archivos .bz2\n, se usa el comando siguiente:\n\n\nbzip2 -d archivo.bz2\n\n\n\n\n\nDonde:\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-d\n\n\nIndica descompresi\u00f3n\n\n\n\n\n\n\n\n\n\n\nNota: Tanto el compresor gzip como bzip2, solo comprimen archivos, no directorios, para comprimir directorios (carpetas), se debe de usar en combinaci\u00f3n con tar.\n\n\n\n\nArchivos .tar.gz\n\n\nPara \ncomprimir archivos en formato tar.gz\n, se utiliza el siguiente comando:\n\n\ntar -czvf archivo.tar.gz archivos\n\n\n\n\n\nDonde: \n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-c\n\n\nIndica a tar que cree un archivo\n\n\n\n\n\n\n-z\n\n\nIndica que se use el algoritmo de compresi\u00f3n gzip\n\n\n\n\n\n\n-v\n\n\nIndica a tar exhiba en pantalla las acciones realizadas\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nPara \ndescomprimir archivos con extensi\u00f3n tar.gz\n, se usa el siguiente comando:\n\n\ntar -xzvf archivo.tar.gz\n\n\n\n\n\nDonde: \n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-x\n\n\nIndica a tar que extraiga el contenido del archivo .tar.gz\n\n\n\n\n\n\n-z\n\n\nIndica a tar que el archivo est\u00e1 comprimido con el algoritmo de compresi\u00f3n gzip\n\n\n\n\n\n\n-v\n\n\nIndica a tar exhiba en pantalla las acciones realizadas\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nPara poder \nver el contenido de un archivo comprimido en .tar.gz\n (sin abrirlo), se usa el siguiente comando:\n\n\ntar -tzf archivo.tar.gz\n\n\n\n\n\nArchivos tar.bz2\n\n\nPara \ncomprimir archivos tar.bz2\n, se utiliza el siguiente comando:\n\n\ntar cjvf nombreComprimido.tar.bz2 carpetaAcomprimir\n\n\n\n\n\nDonde: \n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-c\n\n\nIndica a tar que cree un archivo\n\n\n\n\n\n\n-j\n\n\nIndica que se use el algoritmo de compresi\u00f3n bzip2\n\n\n\n\n\n\n-v\n\n\nIndica a tar exhiba en pantalla las acciones realizadas\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nPara \ndescomprimir archivos tar.bz2\n, se utiliza el siguiente comando:\n\n\ntar xjvf nombreComprimido.tar.bz2\n\n\n\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-x\n\n\nIndica a tar que extraiga el contenido del archivo .tar.bz2\n\n\n\n\n\n\n-j\n\n\nIndica a tar que el archivo est\u00e1 comprimido con el algoritmo de compresi\u00f3n bzip2\n\n\n\n\n\n\n-v\n\n\nIndica a tar exhiba en pantalla las acciones realizadas\n\n\n\n\n\n\n-f\n\n\nIndica a tar que el siguiente argumento es el nombre del archivo.tar\n\n\n\n\n\n\n\n\nY para \nver el contenido de un archivo tar.bz2\n (sin abrirlo), se usa el siguiente comando:\n\n\nbzip2 -dc archivo.tar.bz2 \n|\n tar -t\n\n\n\n\n\nArchivos .zip\n\n\nPara poder \ncomprimir en formato zip\n, se usara el comando siguiente:\n\n\nzip archivo.zip archivoAcomprimir\n\n\n\n\n\nPara poder \ndescomprimir los archivos zip\n, se usa el siguiente comando:\n\n\nunzip archivo.zip\n\n\n\n\n\nPara\n ver el contenido de un archivo zip\n (sin abrirlo), se pone el siguiente comando:\n\n\nunzip -v archivo.zip\n\n\n\n\n\nArchivos .rar\n\n\nPara \ncomprimir en formato rar\n, se usara el siguiente comando:\n\n\nrar -a archivo.rar archivos\n\n\n\n\n\nPara \ndescomprimir archivos en formato rar\n, se utiliza el siguiente comando:\n\n\nunrar -x archivo.rar\n\n\n\n\n\nPara \nver el contenido de un archivo rar\n (sin abrirlo), se usa el siguiente comando:\n\n\nunrar -v archivo.rar\n\n\n\n\n\nO bien, \n\n\nunrar -l archivo.rar", 
+            "title": "Compresi\u00f3n y descompresi\u00f3n"
+        }, 
+        {
+            "location": "/operador/compresion/#metodos-de-compresion-y-descompresion-en-linux", 
+            "text": "A continuaci\u00f3n se listan las herramientas de compresi\u00f3n de l\u00ednea de comandos m\u00e1s utilizadas en el universo GNU/Linux y el Open Source en general.", 
+            "title": "M\u00e9todos de compresi\u00f3n y descompresi\u00f3n en Linux"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-tar", 
+            "text": "Para poder  empaquetar archivos .tar , utilizamos el siguiente comando:  tar -cvf archivo.tar /directorio/a/comprimir/  Donde:     Opciones  Descripci\u00f3n      -c  Indica a tar que cree un archivo    -v  Indica a tar exhiba en pantalla las acciones realizadas    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Para poder  desempaquetar  archivos .tar , utilizamos el siguiente comando:  tar -xvf archivo.tar  Donde:     Opciones  Descripci\u00f3n      -x  Indica a tar que descomprima el archivo.tar    -v  Indica a tar exhiba en pantalla las acciones realizadas    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Si se quiere  ver el contenido de un archivo .tar  (sin abrirlo), se utiliza el siguiente comando:  tar -tf archivo.tar  Donde:     Opciones  Descripci\u00f3n      -t  Lista el contenido del archivo.tar    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar", 
+            "title": "Archivos .tar"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-gz", 
+            "text": "Para  comprimir archivos en formato .gz , se utiliza el siguiente comando:  gzip -9 archivo  Donde:     Opciones  Descripci\u00f3n      -9  Le indica a gz que utilice el mayor factor de compresi\u00f3n posible    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Para  descomprimir archivos .gz , se utilizara el siguiente comando:  gzip -d archivo.gz  Donde:     Opciones  Descripci\u00f3n      -d  Indica descompresi\u00f3n", 
+            "title": "Archivos .gz"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-bz2", 
+            "text": "Para  comprimir archivos en formato .bz2 , se utiliza el siguiente comando:  bzip2 archivo  Para  descomprimir archivos .bz2 , se usa el comando siguiente:  bzip2 -d archivo.bz2  Donde:     Opciones  Descripci\u00f3n      -d  Indica descompresi\u00f3n      Nota: Tanto el compresor gzip como bzip2, solo comprimen archivos, no directorios, para comprimir directorios (carpetas), se debe de usar en combinaci\u00f3n con tar.", 
+            "title": "Archivos .bz2"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-targz", 
+            "text": "Para  comprimir archivos en formato tar.gz , se utiliza el siguiente comando:  tar -czvf archivo.tar.gz archivos  Donde:      Opciones  Descripci\u00f3n      -c  Indica a tar que cree un archivo    -z  Indica que se use el algoritmo de compresi\u00f3n gzip    -v  Indica a tar exhiba en pantalla las acciones realizadas    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Para  descomprimir archivos con extensi\u00f3n tar.gz , se usa el siguiente comando:  tar -xzvf archivo.tar.gz  Donde:      Opciones  Descripci\u00f3n      -x  Indica a tar que extraiga el contenido del archivo .tar.gz    -z  Indica a tar que el archivo est\u00e1 comprimido con el algoritmo de compresi\u00f3n gzip    -v  Indica a tar exhiba en pantalla las acciones realizadas    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Para poder  ver el contenido de un archivo comprimido en .tar.gz  (sin abrirlo), se usa el siguiente comando:  tar -tzf archivo.tar.gz", 
+            "title": "Archivos .tar.gz"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-tarbz2", 
+            "text": "Para  comprimir archivos tar.bz2 , se utiliza el siguiente comando:  tar cjvf nombreComprimido.tar.bz2 carpetaAcomprimir  Donde:      Opciones  Descripci\u00f3n      -c  Indica a tar que cree un archivo    -j  Indica que se use el algoritmo de compresi\u00f3n bzip2    -v  Indica a tar exhiba en pantalla las acciones realizadas    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Para  descomprimir archivos tar.bz2 , se utiliza el siguiente comando:  tar xjvf nombreComprimido.tar.bz2     Opciones  Descripci\u00f3n      -x  Indica a tar que extraiga el contenido del archivo .tar.bz2    -j  Indica a tar que el archivo est\u00e1 comprimido con el algoritmo de compresi\u00f3n bzip2    -v  Indica a tar exhiba en pantalla las acciones realizadas    -f  Indica a tar que el siguiente argumento es el nombre del archivo.tar     Y para  ver el contenido de un archivo tar.bz2  (sin abrirlo), se usa el siguiente comando:  bzip2 -dc archivo.tar.bz2  |  tar -t", 
+            "title": "Archivos tar.bz2"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-zip", 
+            "text": "Para poder  comprimir en formato zip , se usara el comando siguiente:  zip archivo.zip archivoAcomprimir  Para poder  descomprimir los archivos zip , se usa el siguiente comando:  unzip archivo.zip  Para  ver el contenido de un archivo zip  (sin abrirlo), se pone el siguiente comando:  unzip -v archivo.zip", 
+            "title": "Archivos .zip"
+        }, 
+        {
+            "location": "/operador/compresion/#archivos-rar", 
+            "text": "Para  comprimir en formato rar , se usara el siguiente comando:  rar -a archivo.rar archivos  Para  descomprimir archivos en formato rar , se utiliza el siguiente comando:  unrar -x archivo.rar  Para  ver el contenido de un archivo rar  (sin abrirlo), se usa el siguiente comando:  unrar -v archivo.rar  O bien,   unrar -l archivo.rar", 
+            "title": "Archivos .rar"
+        }, 
+        {
+            "location": "/operador/nano/", 
+            "text": "El editor de texto nano\n\n\nEn inform\u00e1tica, \nnano\n (oficialmente GNU nano) es un editor de texto para terminal utilizado en sistemas Unix.\n\n\nNo es tan potente como \nvim\n o \nemacs\n pero es mucho m\u00e1s f\u00e1cil de manejar que estos. As\u00ed cualquier usuario por poco experimentado que sea es capaz de empezar a usar Nano desde el primer momento gracias a las dos l\u00edneas de ayuda que mantiene en su parte inferior.\n\n\nInstalaci\u00f3n de Nano\n\n\nEl editor viene preinstalado en la mayor\u00eda de las distribuciones basadas en Unix. Sin embargo, puede ocurrir que esto no sea as\u00ed. En ese caso, simplemente debemos abrir una terminal y ejecutar: \n\n\n$ sudo apt-get install nano\n\n\n\n\n\nModo de uso\n\n\nPara abrir el editor, tendremos que abrir una terminal y escribir el nombre del editor: \nnano\n\n\nUna vez abierto el editor veremos en la parte inferior algunos atajos de teclado \u00fatiles para trabajar: por ejemplo \n^X Salir\n, donde el s\u00edmbolo \n^\n hace referencia la tecla \nControl\n y \nX\n a la tecla \nx\n. De esta manera, si deseamos salir del editor deberemos presionar conjuntamente las teclas \nControl\n+\n`x\n.\n\n\nAbriendo archivos\n\n\nPara abrir una archivo determinado, tendremos que invocar el editor seguido de la ruta hacia el archivo en cuesti\u00f3n:\n\n\n$ nano archivo.txt\n\n\n\n\n\nPara desactivar el ajuste de l\u00ednea realizado por el editor. \n\n\n$ nano -w archivo.txt\n\n\n\n\n\nAbrimos el archivo a la vez que realizamos una copia de seguridad del mismo:\n\n\n$ nano -B archivo.txt\n\n\n\n\n\nSeleccionar, copiar, cortar y pegar\n\n\nPara \nseleccionar texto\n presionamos \nEsc\n+\na\n, y con las \nteclas del cursor\n abarcamos hasta donde queremos seleccionar. A continuaci\u00f3n, dependiendo de lo que queramos hacer:\n\n\n\n\nPara \ncopiar\n lo seleccionado al \nbuffer\n  \nEsc\n+\n6\n\n\nPara \ncortar\n lo seleccionado al \nbuffer\n  \nCtrl\n+\nk\n\n\nPara \npegar\n el contenido del \nbuffer\n  \nCtrl\n+\nu\n \n\n\n\n\nAtajos de teclado\n\n\nA continuaci\u00f3n se listan algunas combinaciones te tecla \u00fatiles: \n\n\n\n\n\n\n\n\nCombinaciones de tecla\n\n\nTeclas de funci\u00f3n\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\nControl\n+\ng\n\n\nF1\n\n\nMostrar la ayuda\n\n\n\n\n\n\nControl\n+\nx\n\n\nF2\n\n\nSalir del editor\n\n\n\n\n\n\nControl\n+\no\n\n\nF3\n\n\nGuardar el archivo actual\n\n\n\n\n\n\nControl\n+\nj\n\n\nF4\n\n\nJustificar el p\u00e1rrafo actual\n\n\n\n\n\n\nControl\n+\nr\n\n\nF5\n\n\nInsertar otro archivo dentro del actual\n\n\n\n\n\n\nControl\n+\nw\n\n\nF6\n\n\nBuscar una cadena o expresi\u00f3n regular\n\n\n\n\n\n\nControl\n+\ny\n\n\nF7\n\n\nIr a la p\u00e1gina anterior\n\n\n\n\n\n\nControl\n+\nv\n\n\nF8\n\n\nIr a la p\u00e1gina siguiente\n\n\n\n\n\n\nControl\n+\nk\n\n\nF9\n\n\nCorta la l\u00ednea actual\n\n\n\n\n\n\nControl\n+\nu\n\n\nF10\n\n\nPega la l\u00ednea cortada\n\n\n\n\n\n\nControl\n+\nc\n\n\nF11\n\n\nMostrar la posici\u00f3n del cursor\n\n\n\n\n\n\nControl\n+\nt\n\n\nF12\n\n\nAbrir el corrector ortogr\u00e1fico (si existe)\n\n\n\n\n\n\nControl\n+\np\n\n\n-\n\n\nIr una l\u00ednea hacia arriba\n\n\n\n\n\n\nControl\n+\nn\n\n\n-\n\n\nIr una l\u00ednea hacia abajo\n\n\n\n\n\n\nControl\n+\nF\n\n\n-\n\n\nIr hacia adelante un caracter\n\n\n\n\n\n\nControl\n+\nb\n\n\n-\n\n\nIr hacia atr\u00e1s un caracter\n\n\n\n\n\n\nControl\n+\na\n\n\n-\n\n\nIr al principio de la l\u00ednea actual\n\n\n\n\n\n\nControl\n+\ne\n\n\n-\n\n\nIr al final de la l\u00ednea actual\n\n\n\n\n\n\nControl\n+\ni\n\n\n-\n\n\nInsertar tabulaci\u00f3n\n\n\n\n\n\n\nAlt\n+\nm\n\n\n-\n\n\nActivar o desactivar soporte para rat\u00f3n\n\n\n\n\n\n\nAlt\n+\nr\n\n\n-\n\n\nBuscar y reemplazar una cadena por otra\n\n\n\n\n\n\nAlt\n+\ns\n\n\n-\n\n\nActivar o desactivar desplazamiento suave\n\n\n\n\n\n\n\n\nActivando el resaltado de sintaxis\n\n\nPodemos colorear el texto para que nos sea m\u00e1s facil visualizar el c\u00f3digo en un lenguaje determinado. Nano dispone de coloreado de sintaxis para varios lenguajes. Podemos ver los disponibles ejecutando el siguiente comando: \n\n\n$ ls /usr/share/nano\n\n\n\n\n\nPara habilitar el resaldado de sintaxis, tendermos que abrir el archivo: \n\n\n$ sudo nano /etc/nanorc\n\n\n\n\n\nY a continuaci\u00f3n incluir las l\u00edneas de c\u00f3digo que necesitemos: \n\n\n## Nanorc files\n\ninclude \n/usr/share/nano/nanorc.nanorc\n\n\n\n## Bourne shell scripts\n\ninclude \n/usr/share/nano/sh.nanorc\n\n\n\n## C/C++\n\ninclude \n/usr/share/nano/c.nanorc\n\n\n\n## Cascading Style Sheets\n\ninclude \n/usr/share/nano/css.nanorc\n\n\n\n## Debian files\n\ninclude \n/usr/share/nano/debian.nanorc\n\n\n\n## Gentoo files\n\ninclude \n/usr/share/nano/gentoo.nanorc\n\n\n\n## HTML\n\ninclude \n/usr/share/nano/html.nanorc\n\n\n\n## PHP\n\ninclude \n/usr/share/nano/php.nanorc\n\n\n\n## TCL\n\ninclude \n/usr/share/nano/tcl.nanorc\n\n\n\n## TeX\n\ninclude \n/usr/share/nano/tex.nanorc\n\n\n\n## Quoted emails (under e.g. mutt)\n\ninclude \n/usr/share/nano/mutt.nanorc\n\n\n\n## Patch files\n\ninclude \n/usr/share/nano/patch.nanorc\n\n\n\n## Manpages\n\ninclude \n/usr/share/nano/man.nanorc\n\n\n\n## Groff\n\ninclude \n/usr/share/nano/groff.nanorc\n\n\n\n## Perl\n\ninclude \n/usr/share/nano/perl.nanorc\n\n\n\n## Python\n\ninclude \n/usr/share/nano/python.nanorc\n\n\n\n## Ruby\n\ninclude \n/usr/share/nano/ruby.nanorc\n\n\n\n## Java\n\ninclude \n/usr/share/nano/java.nanorc\n\n\n\n## Assembler\n\ninclude \n/usr/share/nano/asm.nanorc\n\n\n\n## POV-Ray\n\ninclude \n/usr/share/nano/pov.nanorc", 
+            "title": "El editor nano"
+        }, 
+        {
+            "location": "/operador/nano/#el-editor-de-texto-nano", 
+            "text": "En inform\u00e1tica,  nano  (oficialmente GNU nano) es un editor de texto para terminal utilizado en sistemas Unix.  No es tan potente como  vim  o  emacs  pero es mucho m\u00e1s f\u00e1cil de manejar que estos. As\u00ed cualquier usuario por poco experimentado que sea es capaz de empezar a usar Nano desde el primer momento gracias a las dos l\u00edneas de ayuda que mantiene en su parte inferior.", 
+            "title": "El editor de texto nano"
+        }, 
+        {
+            "location": "/operador/nano/#instalacion-de-nano", 
+            "text": "El editor viene preinstalado en la mayor\u00eda de las distribuciones basadas en Unix. Sin embargo, puede ocurrir que esto no sea as\u00ed. En ese caso, simplemente debemos abrir una terminal y ejecutar:   $ sudo apt-get install nano", 
+            "title": "Instalaci\u00f3n de Nano"
+        }, 
+        {
+            "location": "/operador/nano/#modo-de-uso", 
+            "text": "Para abrir el editor, tendremos que abrir una terminal y escribir el nombre del editor:  nano  Una vez abierto el editor veremos en la parte inferior algunos atajos de teclado \u00fatiles para trabajar: por ejemplo  ^X Salir , donde el s\u00edmbolo  ^  hace referencia la tecla  Control  y  X  a la tecla  x . De esta manera, si deseamos salir del editor deberemos presionar conjuntamente las teclas  Control + `x .", 
+            "title": "Modo de uso"
+        }, 
+        {
+            "location": "/operador/nano/#abriendo-archivos", 
+            "text": "Para abrir una archivo determinado, tendremos que invocar el editor seguido de la ruta hacia el archivo en cuesti\u00f3n:  $ nano archivo.txt  Para desactivar el ajuste de l\u00ednea realizado por el editor.   $ nano -w archivo.txt  Abrimos el archivo a la vez que realizamos una copia de seguridad del mismo:  $ nano -B archivo.txt", 
+            "title": "Abriendo archivos"
+        }, 
+        {
+            "location": "/operador/nano/#seleccionar-copiar-cortar-y-pegar", 
+            "text": "Para  seleccionar texto  presionamos  Esc + a , y con las  teclas del cursor  abarcamos hasta donde queremos seleccionar. A continuaci\u00f3n, dependiendo de lo que queramos hacer:   Para  copiar  lo seleccionado al  buffer    Esc + 6  Para  cortar  lo seleccionado al  buffer    Ctrl + k  Para  pegar  el contenido del  buffer    Ctrl + u", 
+            "title": "Seleccionar, copiar, cortar y pegar"
+        }, 
+        {
+            "location": "/operador/nano/#atajos-de-teclado", 
+            "text": "A continuaci\u00f3n se listan algunas combinaciones te tecla \u00fatiles:      Combinaciones de tecla  Teclas de funci\u00f3n  Acci\u00f3n      Control + g  F1  Mostrar la ayuda    Control + x  F2  Salir del editor    Control + o  F3  Guardar el archivo actual    Control + j  F4  Justificar el p\u00e1rrafo actual    Control + r  F5  Insertar otro archivo dentro del actual    Control + w  F6  Buscar una cadena o expresi\u00f3n regular    Control + y  F7  Ir a la p\u00e1gina anterior    Control + v  F8  Ir a la p\u00e1gina siguiente    Control + k  F9  Corta la l\u00ednea actual    Control + u  F10  Pega la l\u00ednea cortada    Control + c  F11  Mostrar la posici\u00f3n del cursor    Control + t  F12  Abrir el corrector ortogr\u00e1fico (si existe)    Control + p  -  Ir una l\u00ednea hacia arriba    Control + n  -  Ir una l\u00ednea hacia abajo    Control + F  -  Ir hacia adelante un caracter    Control + b  -  Ir hacia atr\u00e1s un caracter    Control + a  -  Ir al principio de la l\u00ednea actual    Control + e  -  Ir al final de la l\u00ednea actual    Control + i  -  Insertar tabulaci\u00f3n    Alt + m  -  Activar o desactivar soporte para rat\u00f3n    Alt + r  -  Buscar y reemplazar una cadena por otra    Alt + s  -  Activar o desactivar desplazamiento suave", 
+            "title": "Atajos de teclado"
+        }, 
+        {
+            "location": "/operador/nano/#activando-el-resaltado-de-sintaxis", 
+            "text": "Podemos colorear el texto para que nos sea m\u00e1s facil visualizar el c\u00f3digo en un lenguaje determinado. Nano dispone de coloreado de sintaxis para varios lenguajes. Podemos ver los disponibles ejecutando el siguiente comando:   $ ls /usr/share/nano  Para habilitar el resaldado de sintaxis, tendermos que abrir el archivo:   $ sudo nano /etc/nanorc  Y a continuaci\u00f3n incluir las l\u00edneas de c\u00f3digo que necesitemos:   ## Nanorc files \ninclude  /usr/share/nano/nanorc.nanorc  ## Bourne shell scripts \ninclude  /usr/share/nano/sh.nanorc  ## C/C++ \ninclude  /usr/share/nano/c.nanorc  ## Cascading Style Sheets \ninclude  /usr/share/nano/css.nanorc  ## Debian files \ninclude  /usr/share/nano/debian.nanorc  ## Gentoo files \ninclude  /usr/share/nano/gentoo.nanorc  ## HTML \ninclude  /usr/share/nano/html.nanorc  ## PHP \ninclude  /usr/share/nano/php.nanorc  ## TCL \ninclude  /usr/share/nano/tcl.nanorc  ## TeX \ninclude  /usr/share/nano/tex.nanorc  ## Quoted emails (under e.g. mutt) \ninclude  /usr/share/nano/mutt.nanorc  ## Patch files \ninclude  /usr/share/nano/patch.nanorc  ## Manpages \ninclude  /usr/share/nano/man.nanorc  ## Groff \ninclude  /usr/share/nano/groff.nanorc  ## Perl \ninclude  /usr/share/nano/perl.nanorc  ## Python \ninclude  /usr/share/nano/python.nanorc  ## Ruby \ninclude  /usr/share/nano/ruby.nanorc  ## Java \ninclude  /usr/share/nano/java.nanorc  ## Assembler \ninclude  /usr/share/nano/asm.nanorc  ## POV-Ray \ninclude  /usr/share/nano/pov.nanorc", 
+            "title": "Activando el resaltado de sintaxis"
+        }, 
+        {
+            "location": "/operador/vim/", 
+            "text": "El editor de textos vim\n\n\nVIM\n (del ingl\u00e9s \nVi IMproved\n \u00f3 \nVi mejorado\n, en espa\u00f1ol) es un editor de texto basado en terminal creado a partir del editor \nvi\n, presente en todos los sistemas UNIX. Dada su naturaleza, al igual que otros editores similares como \nnano\n se gestiona a trav\u00e9s del teclado.\n\n\nEl desarrollo de este poderoso editor se remonta al a\u00f1o 1991 y desde aquel entonces no ha cesado de incorporar caracter\u00edsticas. Amado u odiado, este editor \nofrece m\u00faltiples opciones\n en una sola herramienta, siendo altamente configurable para adaptarse a distintas necesidades de programadores y profesionales de la inform\u00e1tica. \n\n\nInstalaci\u00f3n\n\n\nPara instalar el editor en nuestro sistema, ejecutamos en una terminal: \n\n\n$ sudo apt-get install vim\n\n\n\n\n\nModos de operaci\u00f3n\n\n\nA modo de introducci\u00f3n al uso del editor de texto vim, se ofrece esta gu\u00eda de uso. Para saber m\u00e1s, pod\u00e9s visitar \nla documentaci\u00f3n oficial\n del programa. \n\n\nVim es un editor de tipo \nmodal\n. Es decir, soporta varios \nmodos de operaci\u00f3n\n:\n\n\n\n\nnormal (o comando)\n\n\ninserci\u00f3n\n\n\nl\u00ednea de \u00f3rdenes (o l\u00ednea de comandos o Cmdline)\n\n\nselecci\u00f3n\n\n\nvisual\n\n\nEx\n\n\n\n\nLos modos \nnormal\n, \ninserci\u00f3n\n y \nl\u00ednea de \u00f3rdenes\n suelen ser los m\u00e1s utilizados y, por lo mismo, ser\u00e1n los que estudiaremos en esta gu\u00eda. \n\n\n\n\n\n\nNormal (o Comando)\n: es el modo principal y siempre se puede acceder a \u00e9l presionando la tecla \nEsc\n. Cuando \nVim inicia lo hace en este modo\n. En este modo \nno podemos editar directamente el texto\n sino que lo haremos a trav\u00e9s de \ncomandos\n basados en teclas o combinaciones de \u00e9stas. \n\n\n\n\n\n\nModo inserci\u00f3n\n: para acceder a este modo debemos presionar la tecla \ni\n. En este modo podremos insertar texto, es decir, \nescribir dentro de un archivo\n como lo solemos hacer normalmente. \n\n\n\n\n\n\nCMD (o CMD)\n: para acceder a este modo debemos presionar la tecla \n:\n y seguidamente, introducir el comando que deseamos ejecutar finalizando con la tecla \nEnter\n. Es decir, \n:comando Enter\n. Este modo se utiliza generalmente para guardar y salir del documento, as\u00ed como para realizar b\u00fasquedas complejas y otras operaciones relacionadas con la configuraci\u00f3n del programa.\n\n\n\n\n\n\nAbrir un archivo\n\n\nLuego de haber instalado VIM podremos abrir una terminal y comenzar a utilizar el editor ejecutando: \n\n\n$ vim\n\n\n\n\n\nVeremos la ventana principal del editor con un archivo vac\u00edo listo para usar. \n\n\nSi en cambio, quisi\u00e9ramos abrir un archivo existente, simplemente deber\u00edamos pasarle la ruta hacia el mismo como par\u00e1metro: \n\n\n$ vim archivo.txt\n\n\n\n\n\nNo es necesario colocar la extensi\u00f3n del archivo. En el ejemplo se coloca s\u00f3lo con fines explicativos.\n\n\nAntes de seguir, conviene distringuir desde la \u00f3ptima de Vim a qu\u00e9 llamamos \narchivo\n y \nbuffer\n: un \narchivo\n est\u00e1 guardado en el disco r\u00edgido mientras que un \nbuffer\n se guarda en la memoria. \n\n\nCada vez que Vim abre un archivo en realidad lo que abre es una copia de \u00e9ste y la guarda moment\u00e1neamente en memoria. A \u00e9sto es lo que llamamos \nbuffer\n. S\u00f3lo cuando guardemos los cambios, la informaci\u00f3n contenida en el \nbuffer\n se guardar\u00e1 en el archivo.\n\n\nAbriendo m\u00faltiples archivos\n\n\nDe esta forma podr\u00edamos abrir varios archivos de la siguiente manera: \n\n\n$ vim uno.txt dos.txt tres.txt\n\n\n\n\n\nLuego, s\u00f3lo veremos un archivo abierto en pantalla. El resto de los archivos tambi\u00e9n fueron abiertos, solo que se encuentran guardados en el \nbuffer\n. \n\n\nDesplazamiento entre archivos o \nbuffers\n\n\nUna vez que abrimos un archivo o \nbuffer\n podemos desplazarnos dentro de \u00e9ste de m\u00faltiples maneras. A continuaci\u00f3n se listan algunas de las acciones posibles junto con sus atajos de teclado. \n\n\nDesplazamiento entre los buffers\n\n\n\n\n\n\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n:bn\n\n\nAbrir el siguiente buffer disponible.\n\n\n\n\n\n\n:bp\n\n\nAbrir el buffer anterior disponible.\n\n\n\n\n\n\n:bf\n\n\nAbrir el primer buffer disponible.\n\n\n\n\n\n\n:bl\n\n\nAbrir el \u00faltimo buffer de la lista.\n\n\n\n\n\n\n:bd\n\n\nEliminar buffer  actual de la lista. No elimina el archivo del disco.\n\n\n\n\n\n\n:bd buffer\n\n\nEliminar un \nbuffer\n determinado de la lista. No elimina el archivo del disco.\n\n\n\n\n\n\n:ls\n\n\nLista los buffers abiertos.\n\n\n\n\n\n\n:args\n\n\nLista los buffers abiertos.\n\n\n\n\n\n\n\n\nDesplazamiento general\n\n\n\n\n\n\n\n\nNormal\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\nk (\u00f3 \u2191)\n\n\n-\n\n\nDesplazar el cursor hacia arriba\n\n\n\n\n\n\nl (\u00f3 \n)\n\n\n-\n\n\nDesplazar el cursor hacia la derecha\n\n\n\n\n\n\nj (\u00f3 \n)\n\n\n-\n\n\nDesplazar el cursor hacia abajo\n\n\n\n\n\n\nh (\u00f3 \n)\n\n\n-\n\n\nDesplazar el cursor hacia la izquierda\n\n\n\n\n\n\ngg\n\n\n:0\n\n\nIr al comienzo del archivo\n\n\n\n\n\n\nG\n\n\n:$\n\n\nIr al final del archivo\n\n\n\n\n\n\nn\n G\n\n\n:n\n\n\nIr a la l\u00ednea \nn\n del archivo\n\n\n\n\n\n\nCtrl + f\n\n\n-\n\n\nIr a la siguiente p\u00e1gina\n\n\n\n\n\n\nCtrl + b\n\n\n-\n\n\nIr a la anterior p\u00e1gina\n\n\n\n\n\n\n{\n\n\n-\n\n\nIr al p\u00e1rrafo siguiente\n\n\n\n\n\n\n}\n\n\n-\n\n\nIr al p\u00e1rrafo anterior\n\n\n\n\n\n\n\n\nDesplazamiento entre pantallas\n\n\n\n\n\n\n\n\nNormal\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-\n\n\n:split\n\n\nDividir la pantalla horizonalmente\n\n\n\n\n\n\n-\n\n\n:vsplit\n\n\nDividir la pantalla verticalemnte\n\n\n\n\n\n\nCtrl + w\n\n\n-\n\n\nNavegar entre pantallas divididas\n\n\n\n\n\n\n\n\nDesplazamiento entre pesta\u00f1as\n\n\n\n\n\n\n\n\nNormal\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-\n\n\n:tabe\n\n\nCrear una nueva pesta\u00f1a vac\u00eda\n\n\n\n\n\n\n-\n\n\n:tabs\n\n\nListar pesta\u00f1as abiertas\n\n\n\n\n\n\ngt\n\n\n-\n\n\nIr hacia la siguiente pesta\u00f1a\n\n\n\n\n\n\ngT\n\n\n-\n\n\nIr hacia la anterior pesta\u00f1a\n\n\n\n\n\n\n-\n\n\n:tabm n\n\n\nUbicar la pesta\u00f1a actual en la posici\u00f3n \nn\n\n\n\n\n\n\n\n\nDesplazamiento entre marcas\n\n\n\n\n\n\n\n\nNormal\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\nm + (a-z)\n\n\nCrear una marca y asignarle una letra (entre la a y z)\n\n\n\n\n\n\n' + (a-z)\n\n\nIr al principio de una l\u00ednea marcada con la letra (entre a y z)\n\n\n\n\n\n\n' + .\n\n\nIr hacia el \u00faltimo cambio realizado en el documento\n\n\n\n\n\n\n\n\nInsertar texto\n\n\n\n\n\n\n\n\nNormal\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\ni\n\n\nInsertar texto delante de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\na\n\n\nInsertar texto detr\u00e1s de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\nI\n\n\nInsertar texto al comienzo de la l\u00ednea donde se encuentra el cursor.\n\n\n\n\n\n\nA\n\n\nInsertar texto al final de la l\u00ednea donde se encuentra el cursor.\n\n\n\n\n\n\no\n\n\nCrear una nueva l\u00ednea abajo de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\nO\n\n\nCrear una nueva l\u00ednea arriba de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\n\n\nCopiar, cortar y pegar texto\n\n\n\n\n\n\n\n\nNormal\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\nShift + v\n\n\nSeleccionar la l\u00ednea en la que se encuentra el cursor.\n\n\n\n\n\n\nCtrl + v\n\n\nIniciar selecci\u00f3n desde la posici\u00f3n actual del cursor. Deben utilizarse las teclas de direcci\u00f3n.\n\n\n\n\n\n\ny\n\n\nCopiar selecci\u00f3n.\n\n\n\n\n\n\nyy\n\n\nCopiar la l\u00ednea en la que se encuentra el cursor.\n\n\n\n\n\n\nn\n yy\n\n\nCopiar \nn\n l\u00edneas desde la ubicaci\u00f3n actual del cursor.\n\n\n\n\n\n\nd\n\n\nCortar selecci\u00f3n.\n\n\n\n\n\n\ndd\n\n\nCortar la l\u00ednea en la que se encuentra el cursor.\n\n\n\n\n\n\np\n\n\nPegar el contenido del \nbuffer\n despu\u00e9s de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\nP\n\n\nPegar el contenido del \nbuffer\n antes de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\n\n\nCopiar, cortar y pegar texto (avanzado)\n\n\n\n\n\n\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n:g/algo/t$\n\n\nCopiar todas las l\u00edneas que contengan la palabra \nalgo\n al final del archivo.\n\n\n\n\n\n\n:g/algo/m$\n\n\nMover todas las l\u00edneas que contengan la palabra \nalgo\n al final del archivo.\n\n\n\n\n\n\n:m[+/-]n\n\n\nMover la l\u00ednea actual \nn\n veces hacia abajo (-) o hacia arriba (+)\n\n\n\n\n\n\n\n\nEliminar texto\n\n\n\n\n\n\n\n\nNormal\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\nx\n\n\nEliminar el car\u00e1cter ubicado en la posici\u00f3n actual del cursor\n\n\n\n\n\n\nX\n\n\nEliminar el car\u00e1cter anterior a la posici\u00f3n actual del cursor\n\n\n\n\n\n\ndd\n\n\nEliminar la l\u00ednea correspondiente a la posici\u00f3n actual del cursor\n\n\n\n\n\n\nn\n dd\n\n\nEliminar \nn\n l\u00edneas despu\u00e9s de la posici\u00f3n actual del cursor\n\n\n\n\n\n\nD\n\n\nEliminar texto desde la ubicaci\u00f3n actual del cursor hasta el final de la l\u00ednea.\n\n\n\n\n\n\nd$\n\n\nEliminar texto desde la ubicaci\u00f3n actual del cursor hasta el final de la l\u00ednea.\n\n\n\n\n\n\ndw\n\n\nEliminar la siguiente palabra a partir de la posici\u00f3n actual del cursor.\n\n\n\n\n\n\ndG\n\n\nEliminar texto desde la posici\u00f3n actual del cursor hasta el final del archivo.\n\n\n\n\n\n\ndgg\n\n\nEliminar texto desde la posici\u00f3n actual del cursor hasta el principio del archivo.\n\n\n\n\n\n\n\n\nEliminar texto (Avanzado)\n\n\n\n\n\n\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n:g/borrar/d\n\n\nEliminar todas las l\u00edneas que contengan la palabra \nborrar\n\n\n\n\n\n\n:g/^\\s*$/d\n\n\nEliminar todas las l\u00edneas vac\u00edas o en blanco.\n\n\n\n\n\n\n:g/^#/d\n\n\nEliminar todas las l\u00edneas que est\u00e9n comentadas.\n\n\n\n\n\n\n:g!/^#/d\n\n\nEliminar todas las l\u00edneas que no est\u00e9n comentadas.\n\n\n\n\n\n\n:g/^\\(#\\|$\\)/d\n\n\nEliminar todas las l\u00edneas que est\u00e9n comentadas y en blanco.\n\n\n\n\n\n\n\n\nBuscar\n\n\n\n\n\n\n\n\nComando\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n/algo\n\n\nBuscar la palabra \nalgo\n hacia adelante\n\n\n\n\n\n\n?algo\n\n\nBuscar la palabra \nalgo\n hacia atr\u00e1s\n\n\n\n\n\n\nn\n\n\nIr hacia la pr\u00f3xima coincidencia de b\u00fasqueda\n\n\n\n\n\n\nN\n\n\nIr hacia la anterior coincidencia de b\u00fasqueda\n\n\n\n\n\n\n%\n\n\nIr hacia el complementario del par\u00e9ntesis, llave o corchete actual\n\n\n\n\n\n\n\n\nReemplazar\n\n\n\n\n\n\n\n\nComando\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\ncw\n\n\nReemplazar la palabra en la que se encuentra ubicado el cursor.\n\n\n\n\n\n\ncc\n\n\nReemplazar el texto completo de la l\u00ednea en la que se encuentra ubicado el cursor.\n\n\n\n\n\n\n\n\nReemplazar (avanzado)\n\n\n\n\n\n\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n:%s/old/new/g\n\n\nReemplazar \nold\n por \nnew\n en todo el archivo\n\n\n\n\n\n\n:s/old/new/g\n\n\nReemplazar \nold\n por \nnew\n en la l\u00ednea actual.\n\n\n\n\n\n\n:n,m s/old/new/g\n\n\nReemplazar \nold\n por \nnew\n entre las l\u00edneas \nn\n a \nm\n.\n\n\n\n\n\n\n\n\nGuardar, descartar cambios y salir\n\n\n\n\n\n\n\n\nComandos\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\nu\n\n\nDeshacer el \u00faltimo cambio realizado\n\n\n\n\n\n\nCtrl + r\n\n\nRehacer el \u00faltimo cambio realizado\n\n\n\n\n\n\nZZ\n\n\nGuardar los cambios y salir.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n:w\n\n\nGuardar los cambios.\n\n\n\n\n\n\n:w!\n\n\nForzar guardar los cambios.\n\n\n\n\n\n\n:w nuevo.txt\n\n\nGuardar el contenido del archivo actual en \nnuevo.txt\n.\n\n\n\n\n\n\n:w! nuevo.txt\n\n\nForzar guardar el contenido del archivo actual en \nnuevo.txt\n sobrescribi\u00e9ndolo si existe.\n\n\n\n\n\n\n:n,m w nuevo.txt\n\n\nGuardar el texto comprendido entre las l\u00edneas \nn\n y \nm\n en \nnuevo.txt\n.\n\n\n\n\n\n\n:q\n\n\nSalir.\n\n\n\n\n\n\n:q!\n\n\nForzar salir sin guardar los cambios.\n\n\n\n\n\n\n:wq\n\n\nGuardar los cambios y salir.\n\n\n\n\n\n\n:wq!\n\n\nForzar guardar los cambios y salir.\n\n\n\n\n\n\n:e nuevo.txt\n\n\nAbrir \nnuevo.txt\n sin guardar los cambios en el archivo actual.\n\n\n\n\n\n\n:e! nuevo.txt\n\n\nForzar abrir \nnuevo.txt\n sin guardar los cambios en el archivo actual.\n\n\n\n\n\n\n:x\n\n\nGuardar los cambios y salir.\n\n\n\n\n\n\n\n\nAlgunos tips\n\n\n\n\n\n\n\n\nComandos\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n\n\nDisminuir tabulaci\u00f3n\n\n\n\n\n\n\n\n\nAumentar tabulaci\u00f3n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCMD\n\n\nAcci\u00f3n\n\n\n\n\n\n\n\n\n\n\n:set autoindent\n\n\nSangr\u00eda autom\u00e1tica\n\n\n\n\n\n\n:set shiftwidth=4\n\n\nDefinir cuatro espacios para la sangr\u00eda\n\n\n\n\n\n\n:syntax on\n\n\nHabilitar resaltado de sint\u00e1xis\n\n\n\n\n\n\nset encoding=utf-8\n\n\nEncoding UTF8\n\n\n\n\n\n\n:set number\n\n\nHabilitar numeraci\u00f3n de l\u00edneas\n\n\n\n\n\n\n:set number!\n\n\nDeshabilitar numeraci\u00f3n de l\u00edneas\n\n\n\n\n\n\n:set wrap\n\n\nHabiliar el ajuste de l\u00edneas.\n\n\n\n\n\n\n:set nowrap\n\n\nDeshabilitar el ajuste de l\u00edneas.\n\n\n\n\n\n\n:set hlsearch\n\n\nHabilitar resaltado de coincidencias de b\u00fasqueda.\n\n\n\n\n\n\n:set nohlsearch\n\n\nDeshabilitar resaltado de coincidencias de b\u00fasqueda.\n\n\n\n\n\n\n:! comando\n\n\nEjecutar un \ncomando\n de Linux sin salir del editor\n\n\n\n\n\n\n\n\n_Estas funcionalidades se aplicar\u00e1n en tiempo real al archivo que tengamos abierto en ese momento, pero se perder\u00e1n una vez que cerremos el editor. A continuaci\u00f3n se explica como guardar permanente nuestras preferencias _\n\n\nPara establecer la configuraci\u00f3n que deseemos de manera permanente tendremos que abrir (o crear, en caso de no existir) el archivo \n.vimrc\n en la carpeta \nhome\n de nuestro usuario:\n\n\nbash$ cd /home/tuUsuario \n vim .vimrc\n\n\n\n\n\nDentro del archivo en cuesti\u00f3n podremos \nsetear\n la configuraci\u00f3n deseada: \n\n\n Esquema de colores\n\n\ncolorscheme\n molokai\n\n\n Habilitar el resaltado de sintaxis\n\n\nsyntax\n \non\n\n\n\n Mostrar n\u00famero de l\u00edneas\n\n\nset\n \nnumber\n\n\n\n Ancho de la sangr\u00eda (en espacios) al presionar la tecla TAB (por defecto)\n\n\nset\n \ntabstop\n=\n4\n \n\n\n Ancho de la sangr\u00eda (en espacios) al presionar la tecla TAB\n\n\nset\n \nsofttabstop\n=\n4\n\n\n\n Ancho de la sangr\u00eda al presionar las teclas \n y \n (en Comando)\n\n\nset\n \nshiftwidth\n=\n4\n\n\n\n Numero de espacios insertados al presionar la tecla TAB. Depende del valor de shiftwidth\n\n\nset\n \nsmarttab\n\n\n\n Inserar espacios en lugar de tabulaciones al presionar la tecla TAB (en modo inserci\u00f3n)\n\n\nset\n \nexpandtab\n\n\n\n Sangr\u00eda autom\u00e1tica al comenzar una nueva l\u00ednea\n\n\nset\n \nautoindent\n\n\n\n Ajustar texto de l\u00edneas largas\n\n\nset\n \nlinebreak\n          \n\n\n\n\n\nSaber m\u00e1s sobre VIM\n\n\nComo habr\u00e1s notado, aventurarse a navegar el universo Vim, supone una \ninversi\u00f3n inicial de tiempo y esfuerzo\n, puesto que su manejo no se parece en nada a lo que conocemos cuando hablamos de editores de texto. \n\n\nUna vez que hayamos conseguido dominar medianamente la herramienta nos veremos compensados por la \neficiencia y rapidez\n con la que realizaremos ciertas tareas en comparaci\u00f3n a los editores de texto tradicionales.\n\n\nLa gu\u00eda ofrecida en este curso intenta ser s\u00f3lo una peque\u00f1a introducci\u00f3n al manejo del editor Vim. No obstante, si deseamos aprender a manejar la herramienta con mayor profundidad podemos consultar el abundante material disponible sobre este programa. He aqu\u00ed algunos ejemplos: \n\n\nVideos\n\n\n\n\nCurso Vim - Lucas Ontivero\n\n\nCurso Vim - Mart\u00edn Alga\u00f1araz: \n1\n, \n2\n y \n3\n\n\nVimCasts\n (en ingl\u00e9s)\n\n\n\n\nManuales / Tutoriales\n\n\n\n\nCurso de VIM\n\n\nManual para empezar a usar Vim\n\n\nManual de Vim\n\n\nVim en espa\u00f1ol - ArchWiki\n\n\nManual/Tutorial de Vim por Santiago Romero\n\n\nVim AdventuresCurso de Vim por Andre Raso V\u00e1zquez\n\n\nTutorial de Vi/Vim\n\n\n\n\nLibros y apuntes\n\n\n\n\nVim - Referencia r\u00e1pida\n\n\nLearning Vi and Vim editors (O'Reilly)\n\n\nVi and Vim editors. Pocket Reference (O'Reilly)\n\n\n\n\nGu\u00edas interactivas\n\n\n\n\nOpen Vim\n (en ingl\u00e9s)\n\n\nVim Adventures\n (en ingl\u00e9s)", 
+            "title": "El editor vim"
+        }, 
+        {
+            "location": "/operador/vim/#el-editor-de-textos-vim", 
+            "text": "VIM  (del ingl\u00e9s  Vi IMproved  \u00f3  Vi mejorado , en espa\u00f1ol) es un editor de texto basado en terminal creado a partir del editor  vi , presente en todos los sistemas UNIX. Dada su naturaleza, al igual que otros editores similares como  nano  se gestiona a trav\u00e9s del teclado.  El desarrollo de este poderoso editor se remonta al a\u00f1o 1991 y desde aquel entonces no ha cesado de incorporar caracter\u00edsticas. Amado u odiado, este editor  ofrece m\u00faltiples opciones  en una sola herramienta, siendo altamente configurable para adaptarse a distintas necesidades de programadores y profesionales de la inform\u00e1tica.", 
+            "title": "El editor de textos vim"
+        }, 
+        {
+            "location": "/operador/vim/#instalacion", 
+            "text": "Para instalar el editor en nuestro sistema, ejecutamos en una terminal:   $ sudo apt-get install vim", 
+            "title": "Instalaci\u00f3n"
+        }, 
+        {
+            "location": "/operador/vim/#modos-de-operacion", 
+            "text": "A modo de introducci\u00f3n al uso del editor de texto vim, se ofrece esta gu\u00eda de uso. Para saber m\u00e1s, pod\u00e9s visitar  la documentaci\u00f3n oficial  del programa.   Vim es un editor de tipo  modal . Es decir, soporta varios  modos de operaci\u00f3n :   normal (o comando)  inserci\u00f3n  l\u00ednea de \u00f3rdenes (o l\u00ednea de comandos o Cmdline)  selecci\u00f3n  visual  Ex   Los modos  normal ,  inserci\u00f3n  y  l\u00ednea de \u00f3rdenes  suelen ser los m\u00e1s utilizados y, por lo mismo, ser\u00e1n los que estudiaremos en esta gu\u00eda.     Normal (o Comando) : es el modo principal y siempre se puede acceder a \u00e9l presionando la tecla  Esc . Cuando  Vim inicia lo hace en este modo . En este modo  no podemos editar directamente el texto  sino que lo haremos a trav\u00e9s de  comandos  basados en teclas o combinaciones de \u00e9stas.     Modo inserci\u00f3n : para acceder a este modo debemos presionar la tecla  i . En este modo podremos insertar texto, es decir,  escribir dentro de un archivo  como lo solemos hacer normalmente.     CMD (o CMD) : para acceder a este modo debemos presionar la tecla  :  y seguidamente, introducir el comando que deseamos ejecutar finalizando con la tecla  Enter . Es decir,  :comando Enter . Este modo se utiliza generalmente para guardar y salir del documento, as\u00ed como para realizar b\u00fasquedas complejas y otras operaciones relacionadas con la configuraci\u00f3n del programa.", 
+            "title": "Modos de operaci\u00f3n"
+        }, 
+        {
+            "location": "/operador/vim/#abrir-un-archivo", 
+            "text": "Luego de haber instalado VIM podremos abrir una terminal y comenzar a utilizar el editor ejecutando:   $ vim  Veremos la ventana principal del editor con un archivo vac\u00edo listo para usar.   Si en cambio, quisi\u00e9ramos abrir un archivo existente, simplemente deber\u00edamos pasarle la ruta hacia el mismo como par\u00e1metro:   $ vim archivo.txt  No es necesario colocar la extensi\u00f3n del archivo. En el ejemplo se coloca s\u00f3lo con fines explicativos.  Antes de seguir, conviene distringuir desde la \u00f3ptima de Vim a qu\u00e9 llamamos  archivo  y  buffer : un  archivo  est\u00e1 guardado en el disco r\u00edgido mientras que un  buffer  se guarda en la memoria.   Cada vez que Vim abre un archivo en realidad lo que abre es una copia de \u00e9ste y la guarda moment\u00e1neamente en memoria. A \u00e9sto es lo que llamamos  buffer . S\u00f3lo cuando guardemos los cambios, la informaci\u00f3n contenida en el  buffer  se guardar\u00e1 en el archivo.", 
+            "title": "Abrir un archivo"
+        }, 
+        {
+            "location": "/operador/vim/#abriendo-multiples-archivos", 
+            "text": "De esta forma podr\u00edamos abrir varios archivos de la siguiente manera:   $ vim uno.txt dos.txt tres.txt  Luego, s\u00f3lo veremos un archivo abierto en pantalla. El resto de los archivos tambi\u00e9n fueron abiertos, solo que se encuentran guardados en el  buffer .", 
+            "title": "Abriendo m\u00faltiples archivos"
+        }, 
+        {
+            "location": "/operador/vim/#desplazamiento-entre-archivos-o-buffers", 
+            "text": "Una vez que abrimos un archivo o  buffer  podemos desplazarnos dentro de \u00e9ste de m\u00faltiples maneras. A continuaci\u00f3n se listan algunas de las acciones posibles junto con sus atajos de teclado.", 
+            "title": "Desplazamiento entre archivos o buffers"
+        }, 
+        {
+            "location": "/operador/vim/#desplazamiento-entre-los-buffers", 
+            "text": "CMD  Acci\u00f3n      :bn  Abrir el siguiente buffer disponible.    :bp  Abrir el buffer anterior disponible.    :bf  Abrir el primer buffer disponible.    :bl  Abrir el \u00faltimo buffer de la lista.    :bd  Eliminar buffer  actual de la lista. No elimina el archivo del disco.    :bd buffer  Eliminar un  buffer  determinado de la lista. No elimina el archivo del disco.    :ls  Lista los buffers abiertos.    :args  Lista los buffers abiertos.", 
+            "title": "Desplazamiento entre los buffers"
+        }, 
+        {
+            "location": "/operador/vim/#desplazamiento-general", 
+            "text": "Normal  CMD  Acci\u00f3n      k (\u00f3 \u2191)  -  Desplazar el cursor hacia arriba    l (\u00f3  )  -  Desplazar el cursor hacia la derecha    j (\u00f3  )  -  Desplazar el cursor hacia abajo    h (\u00f3  )  -  Desplazar el cursor hacia la izquierda    gg  :0  Ir al comienzo del archivo    G  :$  Ir al final del archivo    n  G  :n  Ir a la l\u00ednea  n  del archivo    Ctrl + f  -  Ir a la siguiente p\u00e1gina    Ctrl + b  -  Ir a la anterior p\u00e1gina    {  -  Ir al p\u00e1rrafo siguiente    }  -  Ir al p\u00e1rrafo anterior", 
+            "title": "Desplazamiento general"
+        }, 
+        {
+            "location": "/operador/vim/#desplazamiento-entre-pantallas", 
+            "text": "Normal  CMD  Acci\u00f3n      -  :split  Dividir la pantalla horizonalmente    -  :vsplit  Dividir la pantalla verticalemnte    Ctrl + w  -  Navegar entre pantallas divididas", 
+            "title": "Desplazamiento entre pantallas"
+        }, 
+        {
+            "location": "/operador/vim/#desplazamiento-entre-pestanas", 
+            "text": "Normal  CMD  Acci\u00f3n      -  :tabe  Crear una nueva pesta\u00f1a vac\u00eda    -  :tabs  Listar pesta\u00f1as abiertas    gt  -  Ir hacia la siguiente pesta\u00f1a    gT  -  Ir hacia la anterior pesta\u00f1a    -  :tabm n  Ubicar la pesta\u00f1a actual en la posici\u00f3n  n", 
+            "title": "Desplazamiento entre pesta\u00f1as"
+        }, 
+        {
+            "location": "/operador/vim/#desplazamiento-entre-marcas", 
+            "text": "Normal  Acci\u00f3n      m + (a-z)  Crear una marca y asignarle una letra (entre la a y z)    ' + (a-z)  Ir al principio de una l\u00ednea marcada con la letra (entre a y z)    ' + .  Ir hacia el \u00faltimo cambio realizado en el documento", 
+            "title": "Desplazamiento entre marcas"
+        }, 
+        {
+            "location": "/operador/vim/#insertar-texto", 
+            "text": "Normal  Acci\u00f3n      i  Insertar texto delante de la posici\u00f3n actual del cursor.    a  Insertar texto detr\u00e1s de la posici\u00f3n actual del cursor.    I  Insertar texto al comienzo de la l\u00ednea donde se encuentra el cursor.    A  Insertar texto al final de la l\u00ednea donde se encuentra el cursor.    o  Crear una nueva l\u00ednea abajo de la posici\u00f3n actual del cursor.    O  Crear una nueva l\u00ednea arriba de la posici\u00f3n actual del cursor.", 
+            "title": "Insertar texto"
+        }, 
+        {
+            "location": "/operador/vim/#copiar-cortar-y-pegar-texto", 
+            "text": "Normal  Acci\u00f3n      Shift + v  Seleccionar la l\u00ednea en la que se encuentra el cursor.    Ctrl + v  Iniciar selecci\u00f3n desde la posici\u00f3n actual del cursor. Deben utilizarse las teclas de direcci\u00f3n.    y  Copiar selecci\u00f3n.    yy  Copiar la l\u00ednea en la que se encuentra el cursor.    n  yy  Copiar  n  l\u00edneas desde la ubicaci\u00f3n actual del cursor.    d  Cortar selecci\u00f3n.    dd  Cortar la l\u00ednea en la que se encuentra el cursor.    p  Pegar el contenido del  buffer  despu\u00e9s de la posici\u00f3n actual del cursor.    P  Pegar el contenido del  buffer  antes de la posici\u00f3n actual del cursor.", 
+            "title": "Copiar, cortar y pegar texto"
+        }, 
+        {
+            "location": "/operador/vim/#copiar-cortar-y-pegar-texto-avanzado", 
+            "text": "CMD  Acci\u00f3n      :g/algo/t$  Copiar todas las l\u00edneas que contengan la palabra  algo  al final del archivo.    :g/algo/m$  Mover todas las l\u00edneas que contengan la palabra  algo  al final del archivo.    :m[+/-]n  Mover la l\u00ednea actual  n  veces hacia abajo (-) o hacia arriba (+)", 
+            "title": "Copiar, cortar y pegar texto (avanzado)"
+        }, 
+        {
+            "location": "/operador/vim/#eliminar-texto", 
+            "text": "Normal  Acci\u00f3n      x  Eliminar el car\u00e1cter ubicado en la posici\u00f3n actual del cursor    X  Eliminar el car\u00e1cter anterior a la posici\u00f3n actual del cursor    dd  Eliminar la l\u00ednea correspondiente a la posici\u00f3n actual del cursor    n  dd  Eliminar  n  l\u00edneas despu\u00e9s de la posici\u00f3n actual del cursor    D  Eliminar texto desde la ubicaci\u00f3n actual del cursor hasta el final de la l\u00ednea.    d$  Eliminar texto desde la ubicaci\u00f3n actual del cursor hasta el final de la l\u00ednea.    dw  Eliminar la siguiente palabra a partir de la posici\u00f3n actual del cursor.    dG  Eliminar texto desde la posici\u00f3n actual del cursor hasta el final del archivo.    dgg  Eliminar texto desde la posici\u00f3n actual del cursor hasta el principio del archivo.", 
+            "title": "Eliminar texto"
+        }, 
+        {
+            "location": "/operador/vim/#eliminar-texto-avanzado", 
+            "text": "CMD  Acci\u00f3n      :g/borrar/d  Eliminar todas las l\u00edneas que contengan la palabra  borrar    :g/^\\s*$/d  Eliminar todas las l\u00edneas vac\u00edas o en blanco.    :g/^#/d  Eliminar todas las l\u00edneas que est\u00e9n comentadas.    :g!/^#/d  Eliminar todas las l\u00edneas que no est\u00e9n comentadas.    :g/^\\(#\\|$\\)/d  Eliminar todas las l\u00edneas que est\u00e9n comentadas y en blanco.", 
+            "title": "Eliminar texto (Avanzado)"
+        }, 
+        {
+            "location": "/operador/vim/#buscar", 
+            "text": "Comando  Acci\u00f3n      /algo  Buscar la palabra  algo  hacia adelante    ?algo  Buscar la palabra  algo  hacia atr\u00e1s    n  Ir hacia la pr\u00f3xima coincidencia de b\u00fasqueda    N  Ir hacia la anterior coincidencia de b\u00fasqueda    %  Ir hacia el complementario del par\u00e9ntesis, llave o corchete actual", 
+            "title": "Buscar"
+        }, 
+        {
+            "location": "/operador/vim/#reemplazar", 
+            "text": "Comando  Acci\u00f3n      cw  Reemplazar la palabra en la que se encuentra ubicado el cursor.    cc  Reemplazar el texto completo de la l\u00ednea en la que se encuentra ubicado el cursor.", 
+            "title": "Reemplazar"
+        }, 
+        {
+            "location": "/operador/vim/#reemplazar-avanzado", 
+            "text": "CMD  Acci\u00f3n      :%s/old/new/g  Reemplazar  old  por  new  en todo el archivo    :s/old/new/g  Reemplazar  old  por  new  en la l\u00ednea actual.    :n,m s/old/new/g  Reemplazar  old  por  new  entre las l\u00edneas  n  a  m .", 
+            "title": "Reemplazar (avanzado)"
+        }, 
+        {
+            "location": "/operador/vim/#guardar-descartar-cambios-y-salir", 
+            "text": "Comandos  Acci\u00f3n      u  Deshacer el \u00faltimo cambio realizado    Ctrl + r  Rehacer el \u00faltimo cambio realizado    ZZ  Guardar los cambios y salir.        CMD  Acci\u00f3n      :w  Guardar los cambios.    :w!  Forzar guardar los cambios.    :w nuevo.txt  Guardar el contenido del archivo actual en  nuevo.txt .    :w! nuevo.txt  Forzar guardar el contenido del archivo actual en  nuevo.txt  sobrescribi\u00e9ndolo si existe.    :n,m w nuevo.txt  Guardar el texto comprendido entre las l\u00edneas  n  y  m  en  nuevo.txt .    :q  Salir.    :q!  Forzar salir sin guardar los cambios.    :wq  Guardar los cambios y salir.    :wq!  Forzar guardar los cambios y salir.    :e nuevo.txt  Abrir  nuevo.txt  sin guardar los cambios en el archivo actual.    :e! nuevo.txt  Forzar abrir  nuevo.txt  sin guardar los cambios en el archivo actual.    :x  Guardar los cambios y salir.", 
+            "title": "Guardar, descartar cambios y salir"
+        }, 
+        {
+            "location": "/operador/vim/#algunos-tips", 
+            "text": "Comandos  Acci\u00f3n       Disminuir tabulaci\u00f3n     Aumentar tabulaci\u00f3n        CMD  Acci\u00f3n      :set autoindent  Sangr\u00eda autom\u00e1tica    :set shiftwidth=4  Definir cuatro espacios para la sangr\u00eda    :syntax on  Habilitar resaltado de sint\u00e1xis    set encoding=utf-8  Encoding UTF8    :set number  Habilitar numeraci\u00f3n de l\u00edneas    :set number!  Deshabilitar numeraci\u00f3n de l\u00edneas    :set wrap  Habiliar el ajuste de l\u00edneas.    :set nowrap  Deshabilitar el ajuste de l\u00edneas.    :set hlsearch  Habilitar resaltado de coincidencias de b\u00fasqueda.    :set nohlsearch  Deshabilitar resaltado de coincidencias de b\u00fasqueda.    :! comando  Ejecutar un  comando  de Linux sin salir del editor     _Estas funcionalidades se aplicar\u00e1n en tiempo real al archivo que tengamos abierto en ese momento, pero se perder\u00e1n una vez que cerremos el editor. A continuaci\u00f3n se explica como guardar permanente nuestras preferencias _  Para establecer la configuraci\u00f3n que deseemos de manera permanente tendremos que abrir (o crear, en caso de no existir) el archivo  .vimrc  en la carpeta  home  de nuestro usuario:  bash$ cd /home/tuUsuario   vim .vimrc  Dentro del archivo en cuesti\u00f3n podremos  setear  la configuraci\u00f3n deseada:    Esquema de colores  colorscheme  molokai  Habilitar el resaltado de sintaxis  syntax   on   Mostrar n\u00famero de l\u00edneas  set   number   Ancho de la sangr\u00eda (en espacios) al presionar la tecla TAB (por defecto)  set   tabstop = 4    Ancho de la sangr\u00eda (en espacios) al presionar la tecla TAB  set   softtabstop = 4   Ancho de la sangr\u00eda al presionar las teclas   y   (en Comando)  set   shiftwidth = 4   Numero de espacios insertados al presionar la tecla TAB. Depende del valor de shiftwidth  set   smarttab   Inserar espacios en lugar de tabulaciones al presionar la tecla TAB (en modo inserci\u00f3n)  set   expandtab   Sangr\u00eda autom\u00e1tica al comenzar una nueva l\u00ednea  set   autoindent   Ajustar texto de l\u00edneas largas  set   linebreak", 
+            "title": "Algunos tips"
+        }, 
+        {
+            "location": "/operador/vim/#saber-mas-sobre-vim", 
+            "text": "Como habr\u00e1s notado, aventurarse a navegar el universo Vim, supone una  inversi\u00f3n inicial de tiempo y esfuerzo , puesto que su manejo no se parece en nada a lo que conocemos cuando hablamos de editores de texto.   Una vez que hayamos conseguido dominar medianamente la herramienta nos veremos compensados por la  eficiencia y rapidez  con la que realizaremos ciertas tareas en comparaci\u00f3n a los editores de texto tradicionales.  La gu\u00eda ofrecida en este curso intenta ser s\u00f3lo una peque\u00f1a introducci\u00f3n al manejo del editor Vim. No obstante, si deseamos aprender a manejar la herramienta con mayor profundidad podemos consultar el abundante material disponible sobre este programa. He aqu\u00ed algunos ejemplos:", 
+            "title": "Saber m\u00e1s sobre VIM"
+        }, 
+        {
+            "location": "/operador/vim/#videos", 
+            "text": "Curso Vim - Lucas Ontivero  Curso Vim - Mart\u00edn Alga\u00f1araz:  1 ,  2  y  3  VimCasts  (en ingl\u00e9s)", 
+            "title": "Videos"
+        }, 
+        {
+            "location": "/operador/vim/#manuales-tutoriales", 
+            "text": "Curso de VIM  Manual para empezar a usar Vim  Manual de Vim  Vim en espa\u00f1ol - ArchWiki  Manual/Tutorial de Vim por Santiago Romero  Vim AdventuresCurso de Vim por Andre Raso V\u00e1zquez  Tutorial de Vi/Vim", 
+            "title": "Manuales / Tutoriales"
+        }, 
+        {
+            "location": "/operador/vim/#libros-y-apuntes", 
+            "text": "Vim - Referencia r\u00e1pida  Learning Vi and Vim editors (O'Reilly)  Vi and Vim editors. Pocket Reference (O'Reilly)", 
+            "title": "Libros y apuntes"
+        }, 
+        {
+            "location": "/operador/vim/#guias-interactivas", 
+            "text": "Open Vim  (en ingl\u00e9s)  Vim Adventures  (en ingl\u00e9s)", 
+            "title": "Gu\u00edas interactivas"
+        }, 
+        {
+            "location": "/operador/busquedas/", 
+            "text": "B\u00fasquedas\n\n\nLas herramientas de b\u00fasqueda basadas en la terminal son extremadamente potentes, ya que poseen una multitud de filtros y opciones que las adaptan a casi cualquier necesidad. \n\n\nfind\n\n\nEl comando find es una de las herramientas m\u00e1s utilizadas en este segmento por su gran flexibilidad y potencia. \n\n\nSintaxis\n\n\nfind \n[\nruta\n]\n \n(\nopciones\n)\n\n\n\n\n\n\nOpciones de uso frecuente\n\n\nEl comando tiene muchas opciones, aunque en esta gu\u00eda s\u00f3lo se listan algunas: aquellas que permiten discriminar \nb\u00fasquedas\n por \nnombre\n \n(-name)\n, por \ntipo\n \n(-type)\n,  \ntama\u00f1o\n \n(-size)\n, \nusuario\n \n(-user)\n y por \ntiempo\n\n\nNombre\n\n\nExplicita los t\u00e9rminos de b\u00fasqueda, los cuales deben encerrarse entre comillas simples (' ') o dobles (\" \")\n\n\nUsuario\n\n\nBusca los recursos de un usuario determinado. \n\n\nTipo\n\n\nIndica el tipo de recurso a buscar\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\nb\n\n\nBloque (asociado a dispositivos de almacenamiento)\n\n\n\n\n\n\nc\n\n\nCar\u00e1cter\n\n\n\n\n\n\nd\n\n\nDirectorio\n\n\n\n\n\n\nf\n\n\nArchivo\n\n\n\n\n\n\nl\n\n\nEnlace simb\u00f3lico\n\n\n\n\n\n\n\n\nTama\u00f1o\n\n\nBusca archivos seg\u00fan su tama\u00f1o, el cual puede expresarse en kilobytes (k), megabytes (M) \u00f3 gigabytes (G)\n\n\nTiempo\n\n\nLocaliza un recurso dependiendo de su hora de acceso o modificaci\u00f3n.\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-atime\n\n\nIndica la \u00faltima lectura a un archivo (horas)\n\n\n\n\n\n\n-mtime\n\n\nIndica la \u00faltima modificaci\u00f3n a un archivo (horas)\n\n\n\n\n\n\n-amin\n\n\nIndica la \u00faltima lectura a un archivo (minutos)\n\n\n\n\n\n\n-mmin\n\n\nIndica la \u00faltima modificaci\u00f3n a un archivo (minutos)\n\n\n\n\n\n\n\n\nEjemplos\n\n\nsudo find /etc -name \n*.conf\n\n\n\n\n\n\nBusca en el directorio \n/etc\n todos los archivos que finalicen con la extensi\u00f3n \n.conf\n\n\nsudo find / -type d -name \nsamba\n\n\n\n\n\n\nBusca en el directorio ra\u00edz todos las carpetas que contengan el nombre \"samba\"\n\n\nfind . -size +100k\n\n\n\n\n\nBusca en el directorio actual, todos los archivos con un tama\u00f1o mayor a 100 kilobytes\n\n\nfind -mtime +2\n\n\n\n\n\nBusca los archivos modificados hace m\u00e1s de dos d\u00edas\n\n\nfind -amin +2 -amin -5\n\n\n\n\n\nBusca los archivos le\u00eddos hace m\u00e1s de dos minutos y menos de cinco minutos\n\n\nfind dir1/ -user pepe\n\n\n\n\n\nBusca dentro del directorio dir1, los recursos que tengan como propietario al usuario \"pepe\"\n\n\ngrep\n\n\nEl comando grep es una herramienta que permite filtrar el contenido de la salida de un programa, a la vez que permite realizar b\u00fasquedas en archivos utilizando expresiones regulares\n\n\nSintaxis\n\n\ngrep \n(\ncadena de caracteres\n)\n \n(\narchivo\n)\n\n\n\n\n\n\no bien:\n\n\n(\ncomando\n)\n \n|\n grep \n(\ncadena de caracteres\n)\n\n\n\n\n\n\nOpciones de uso frecuente\n\n\n\n\n\n\n\n\nOpciones\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n-i\n\n\nNo distingue entre may\u00fasculas y min\u00fasculas\n\n\n\n\n\n\n-l\n\n\nSe detiene en la primer coincidencia encontrada\n\n\n\n\n\n\n-w\n\n\nMuestra s\u00f3o coincidencias exactas\n\n\n\n\n\n\n-v\n\n\nExcluye de la b\u00fasqueda un patr\u00f3n determinado\n\n\n\n\n\n\n-n\n\n\nMuestra el n\u00famero de l\u00ednea en la que se encuentran las coincidencias\n\n\n\n\n\n\n-e\n\n\nPermite b\u00fasquedas con expresiones regulares complejas\n\n\n\n\n\n\n\n\nEjemplos\n\n\ngrep -i \nalgo\n textoImportante.txt\n\n\n\n\n\nBusca la palabra algo, sin discriminar entre may\u00fasculas y min\u00fasculas dentro del archivo textoImportante.txt\n\n\nls -l \n|\n grep \nserver\n\n\n\n\n\n\nToma la salida del comando \nls -l\n y buscar archivos que contengan la palabra \"server\"\n\n\nExpresiones regulares\n\n\nTambien conocidas como \nregex\n, es un conjunto de caracteres que forman un patr\u00f3n de b\u00fasqueda. A continuaci\u00f3n se listan algunas de ellas junto con ejemplos relacionados con comandos. \n\n\n\n\n\n\n\n\nExpresi\u00f3n regular\n\n\nDescripci\u00f3n\n\n\n\n\n\n\n\n\n\n\n.\n\n\nCualquier caracter\n\n\n\n\n\n\n?\n\n\nIndica un caracter\n\n\n\n\n\n\n*\n\n\nCualquier grupo de caracteres\n\n\n\n\n\n\n~\n\n\nRepresenta el directorio \nhome\n del usuario actual\n\n\n\n\n\n\n^\n\n\nIndica el comienzo de una l\u00ednea\n\n\n\n\n\n\n$\n\n\nExpresa el final de una l\u00ednea\n\n\n\n\n\n\n[^  ]\n\n\nCorresponde a todos los caracteres exceptuando a los que se encuentran entre corchetes\n\n\n\n\n\n\n\\\n\n\nOmite el significado de una expresi\u00f3n\n\n\n\n\n\n\n{ }\n\n\nIndican agrupaci\u00f3n de funciones\n\n\n\n\n\n\n[ ]\n\n\nDeterminan un rango de valores\n\n\n\n\n\n\n( )\n\n\nIndican opciones\n\n\n\n\n\n\n!\n\n\nExpresa negaci\u00f3n", 
+            "title": "B\u00fasquedas"
+        }, 
+        {
+            "location": "/operador/busquedas/#busquedas", 
+            "text": "Las herramientas de b\u00fasqueda basadas en la terminal son extremadamente potentes, ya que poseen una multitud de filtros y opciones que las adaptan a casi cualquier necesidad.", 
+            "title": "B\u00fasquedas"
+        }, 
+        {
+            "location": "/operador/busquedas/#find", 
+            "text": "El comando find es una de las herramientas m\u00e1s utilizadas en este segmento por su gran flexibilidad y potencia.", 
+            "title": "find"
+        }, 
+        {
+            "location": "/operador/busquedas/#sintaxis", 
+            "text": "find  [ ruta ]   ( opciones )", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/busquedas/#opciones-de-uso-frecuente", 
+            "text": "El comando tiene muchas opciones, aunque en esta gu\u00eda s\u00f3lo se listan algunas: aquellas que permiten discriminar  b\u00fasquedas  por  nombre   (-name) , por  tipo   (-type) ,   tama\u00f1o   (-size) ,  usuario   (-user)  y por  tiempo", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/busquedas/#nombre", 
+            "text": "Explicita los t\u00e9rminos de b\u00fasqueda, los cuales deben encerrarse entre comillas simples (' ') o dobles (\" \")", 
+            "title": "Nombre"
+        }, 
+        {
+            "location": "/operador/busquedas/#usuario", 
+            "text": "Busca los recursos de un usuario determinado.", 
+            "title": "Usuario"
+        }, 
+        {
+            "location": "/operador/busquedas/#tipo", 
+            "text": "Indica el tipo de recurso a buscar     Opciones  Descripci\u00f3n      b  Bloque (asociado a dispositivos de almacenamiento)    c  Car\u00e1cter    d  Directorio    f  Archivo    l  Enlace simb\u00f3lico", 
+            "title": "Tipo"
+        }, 
+        {
+            "location": "/operador/busquedas/#tamano", 
+            "text": "Busca archivos seg\u00fan su tama\u00f1o, el cual puede expresarse en kilobytes (k), megabytes (M) \u00f3 gigabytes (G)", 
+            "title": "Tama\u00f1o"
+        }, 
+        {
+            "location": "/operador/busquedas/#tiempo", 
+            "text": "Localiza un recurso dependiendo de su hora de acceso o modificaci\u00f3n.     Opciones  Descripci\u00f3n      -atime  Indica la \u00faltima lectura a un archivo (horas)    -mtime  Indica la \u00faltima modificaci\u00f3n a un archivo (horas)    -amin  Indica la \u00faltima lectura a un archivo (minutos)    -mmin  Indica la \u00faltima modificaci\u00f3n a un archivo (minutos)", 
+            "title": "Tiempo"
+        }, 
+        {
+            "location": "/operador/busquedas/#ejemplos", 
+            "text": "sudo find /etc -name  *.conf   Busca en el directorio  /etc  todos los archivos que finalicen con la extensi\u00f3n  .conf  sudo find / -type d -name  samba   Busca en el directorio ra\u00edz todos las carpetas que contengan el nombre \"samba\"  find . -size +100k  Busca en el directorio actual, todos los archivos con un tama\u00f1o mayor a 100 kilobytes  find -mtime +2  Busca los archivos modificados hace m\u00e1s de dos d\u00edas  find -amin +2 -amin -5  Busca los archivos le\u00eddos hace m\u00e1s de dos minutos y menos de cinco minutos  find dir1/ -user pepe  Busca dentro del directorio dir1, los recursos que tengan como propietario al usuario \"pepe\"", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/busquedas/#grep", 
+            "text": "El comando grep es una herramienta que permite filtrar el contenido de la salida de un programa, a la vez que permite realizar b\u00fasquedas en archivos utilizando expresiones regulares", 
+            "title": "grep"
+        }, 
+        {
+            "location": "/operador/busquedas/#sintaxis_1", 
+            "text": "grep  ( cadena de caracteres )   ( archivo )   o bien:  ( comando )   |  grep  ( cadena de caracteres )", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/operador/busquedas/#opciones-de-uso-frecuente_1", 
+            "text": "Opciones  Descripci\u00f3n      -i  No distingue entre may\u00fasculas y min\u00fasculas    -l  Se detiene en la primer coincidencia encontrada    -w  Muestra s\u00f3o coincidencias exactas    -v  Excluye de la b\u00fasqueda un patr\u00f3n determinado    -n  Muestra el n\u00famero de l\u00ednea en la que se encuentran las coincidencias    -e  Permite b\u00fasquedas con expresiones regulares complejas", 
+            "title": "Opciones de uso frecuente"
+        }, 
+        {
+            "location": "/operador/busquedas/#ejemplos_1", 
+            "text": "grep -i  algo  textoImportante.txt  Busca la palabra algo, sin discriminar entre may\u00fasculas y min\u00fasculas dentro del archivo textoImportante.txt  ls -l  |  grep  server   Toma la salida del comando  ls -l  y buscar archivos que contengan la palabra \"server\"", 
+            "title": "Ejemplos"
+        }, 
+        {
+            "location": "/operador/busquedas/#expresiones-regulares", 
+            "text": "Tambien conocidas como  regex , es un conjunto de caracteres que forman un patr\u00f3n de b\u00fasqueda. A continuaci\u00f3n se listan algunas de ellas junto con ejemplos relacionados con comandos.      Expresi\u00f3n regular  Descripci\u00f3n      .  Cualquier caracter    ?  Indica un caracter    *  Cualquier grupo de caracteres    ~  Representa el directorio  home  del usuario actual    ^  Indica el comienzo de una l\u00ednea    $  Expresa el final de una l\u00ednea    [^  ]  Corresponde a todos los caracteres exceptuando a los que se encuentran entre corchetes    \\  Omite el significado de una expresi\u00f3n    { }  Indican agrupaci\u00f3n de funciones    [ ]  Determinan un rango de valores    ( )  Indican opciones    !  Expresa negaci\u00f3n", 
+            "title": "Expresiones regulares"
+        }
+    ]
+}
