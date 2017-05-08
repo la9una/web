@@ -1,12 +1,12 @@
 # Información general
-site_name: 'Introducción a GNU/Linux'
-site_description: 'Apuntes sobre admnistración de GNU/Linux'
+site_name: 'Diseño web'
+site_description: 'Apuntes sobre diseño web'
 site_author: 'Raul Jesus Lopez'
-site_url: http://www.linux.rauljesus.com
+site_url: http://www.web.rauljesus.com
 
 # Repositorio
 repo_name: 'Ver en GitHub'
-repo_url: 'https://github.com/la9una/linux'
+repo_url: 'https://github.com/la9una/web'
 
 # Copyright
 #copyright: '2017 - Raul Jesus Lopez'
@@ -18,8 +18,8 @@ theme_dir: 'themes/material'
 # Opciones
 extra:
   palette:
-    primary: 'orange'
-    accent: 'yellow'
+    primary: 'blue grey'
+    accent: 'blue grey'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
@@ -57,12 +57,13 @@ extra_javascript:
 # Páginas
 pages: 
 - Inicio: index.md
-- Operador GNU/Linux:
-    - ¿Por qué GNU/Linux?: 'operador/por_que_gnu_linux.md'
-#    - La terminal de comandos: 'terminal.md'
-#    - Sistema de archivos: 'sistemaArchivos.md'
-    - Archivos y carpetas: 'operador/archivosCarpetas.md'
-    - Compresión y descompresión: 'operador/compresion.md'
-    - El editor nano: 'operador/nano.md'
-    - El editor vim: 'operador/vim.md'
-    - Búsquedas: 'operador/busquedas.md'
+- ¿Qué es?:
+    - El diseño web: 'introduccion/por_que_gnu_linux.md'
+    - Frontend vs Backend: 'introduccion/por_que_gnu_linux.md'
+- Fundamentos de HTML:
+    - Estructura del documento: 'html/archivosCarpetas.md'
+    - Compresión y descompresión: 'html/compresion.md'
+    - El editor nano: 'html/nano.md'
+- Fundamentos de CSS: 
+    - Búsquedas: 'cssFundamentos/busquedas.md'
+    - Búsquedas: 'cssFundamentos/busquedas.md'
