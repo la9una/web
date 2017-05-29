@@ -4,7 +4,7 @@
     
     <url>
      <loc>http://www.web.rauljesus.com/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,36 +12,32 @@
     
         
     <url>
-     <loc>http://www.web.rauljesus.com/introduccion/por_que_gnu_linux/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <loc>http://www.web.rauljesus.com/disenoWeb/</loc>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/introduccion/por_que_gnu_linux/</loc>
-     <lastmod>2017-05-07</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>http://www.web.rauljesus.com/html/archivosCarpetas/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <loc>http://www.web.rauljesus.com/disenoWeb/work/</loc>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/html/compresion/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <loc>http://www.web.rauljesus.com/disenoWeb/work/</loc>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/html/nano/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <loc>http://www.web.rauljesus.com/disenoWeb/work/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/disenoWeb/work/</loc>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -50,14 +46,54 @@
     
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFundamentos/busquedas/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <loc>http://www.web.rauljesus.com/htmlFundamentos/</loc>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFundamentos/busquedas/</loc>
-     <lastmod>2017-05-07</lastmod>
+     <loc>http://www.web.rauljesus.com/htmlFundamentos/descubriendoHTML/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFuentes/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFuentes/propiedadFont/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFuentes/formatoTexto/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFuentes/webfonts/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFuentes/elegirTipografia/</loc>
+     <lastmod>2017-05-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://www.web.rauljesus.com/cssFuentes/ejercicios/</loc>
+     <lastmod>2017-05-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

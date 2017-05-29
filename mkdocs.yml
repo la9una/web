@@ -57,13 +57,50 @@ extra_javascript:
 # Páginas
 pages: 
 - Inicio: index.md
-- ¿Qué es?:
-    - El diseño web: 'introduccion/por_que_gnu_linux.md'
-    - Frontend vs Backend: 'introduccion/por_que_gnu_linux.md'
-- Fundamentos de HTML:
-    - Estructura del documento: 'html/archivosCarpetas.md'
-    - Compresión y descompresión: 'html/compresion.md'
-    - El editor nano: 'html/nano.md'
-- Fundamentos de CSS: 
-    - Búsquedas: 'cssFundamentos/busquedas.md'
-    - Búsquedas: 'cssFundamentos/busquedas.md'
+#- ¿Qué es?:
+#    - El diseño web: 'disenoIntroduccion/index.md'
+#    - Frontend vs Backend: 'introduccion/index.md'
+#- Fundamentos de HTML:
+#    - Estructura del documento: 'html/archivosCarpetas.md'
+#    - Compresión y descompresión: 'html/compresion.md'
+#    - El editor nano: 'html/nano.md'
+#- Fundamentos de CSS: 
+#    - Búsquedas: 'cssFundamentos/busquedas.md'
+#    - Búsquedas: 'cssFundamentos/busquedas.md'
+- Diseño web: 
+    - Introducción: 'disenoWeb/index.md'
+    - Mobile first: 'disenoWeb/work.md'
+    - Responsive design: 'disenoWeb/work.md'
+    - Usabilidad: 'disenoWeb/work.md'
+    - Accesibilidad: 'disenoWeb/work.md'
+- Fundamentos de HTML: 
+    - Introducción: 'htmlFundamentos/index.md'
+    - Descubriendo HTML: 'htmlFundamentos/descubriendoHTML.md'
+#- CSS básico:
+#    - Colores: 'cssColores/index.md'
+#    - Texto: 'cssTexto/index.md'
+- Tipografía: 
+    - Reseña histórica: 'cssFuentes/index.md'
+    - La propiedad font: 'cssFuentes/propiedadFont.md'
+    - Formato de texto: 'cssFuentes/formatoTexto.md'
+    - Usando webfonts: 'cssFuentes/webfonts.md'
+    - Elegir tipografía: 'cssFuentes/elegirTipografia.md'
+    - Ejercicios: 'cssFuentes/ejercicios.md'
+#    - Fondos: 'cssFondos/index.md'
+#    - Listas: 'cssListas/index.md'
+#    - Tablas: 'cssColores/index.md'
+#    - Formularios: 'cssFormularios/index.md'
+#    - Imágenes: 'cssImagenes/index.md'
+#    - Videos: 'cssVideos/index.md'
+#- Maquetado CSS: 
+#    - Prototipado: 'disenoPrototipado/index.md'
+#    - Modelo de caja: 'cssBoxmodel/index.md'
+#    - Posicionamiento: 'cssColores/index.md'
+#    - Media Queries: 'cssColores/index.md'
+#    - Viewport: 'cssColores/index.md'
+#    - Flexbox: 'cssFlexbox/index.md'
+#- Efectos CSSS: 
+#    - Transciciones: 'cssEfectos/index.md'
+#- Frameworks CSS: 
+#    - Función: 'cssFrameworks/index.md'
+
