@@ -1,6 +1,6 @@
 # Nombres de colores HTML
 
-Los siguientes 140 nombres de colores son soportados por todos los navegadores actuales. Los mismos están expresados, además, con su valor hexadecimal.
+Los siguientes 140 colores son soportados por todos los navegadores actuales. Los mismos están expresados por **su nombre en inglés** así como por su **valor en formato hexadecimal**.
 
 <table>
 <tr>
