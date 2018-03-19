@@ -19,7 +19,7 @@ Abrí el editor de texto y transcribí el siguiente código:
 
 Guardalo con el nombre de `ejercicio_01.html`. Luego, abrí el archivo con tu navegador.
 
-####¡Felicitaciones!
+#### ¡Felicitaciones!
 En este ejercicio escribimos la estructura básica de un documento HTML.
 
 Ahora respondé las siguientes preguntas: 
