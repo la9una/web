@@ -73,9 +73,9 @@ pages:
 #    - Responsive design: 'disenoWeb/work.md'
 #    - Usabilidad: 'disenoWeb/work.md'
 #    - Accesibilidad: 'disenoWeb/work.md'
-- Fundamentos de HTML: 
-    - Introducción: 'htmlFundamentos/index.md'
-    - Descubriendo HTML: 'htmlFundamentos/descubriendoHTML.md'
+#- Fundamentos de HTML: 
+#    - Introducción: 'htmlFundamentos/index.md'
+#    - Descubriendo HTML: 'htmlFundamentos/descubriendoHTML.md'
 #- CSS básico:
 #    - Colores: 'cssColores/index.md'
 #    - Texto: 'cssTexto/index.md'
