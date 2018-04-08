@@ -17,7 +17,7 @@
       
         <link rel="shortcut icon" href="../assets/images/favicon.png">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.6.0">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-1.6.0">
     
     
       
@@ -125,7 +125,7 @@
   
 
 
-  <a href="https://github.com/la9una/web" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
+  <a href="https://github.com/la9una/web/" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -170,7 +170,7 @@
   
 
 
-  <a href="https://github.com/la9una/web" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
+  <a href="https://github.com/la9una/web/" target="_blank" title="Ir al repositorio en GitHub" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -245,58 +245,10 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
-      Fundamentos de HTML
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-3">
-        Fundamentos de HTML
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../htmlFundamentos/" title="Introducción" class="md-nav__link">
-      Introducción
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../htmlFundamentos/descubriendoHTML/" title="Descubriendo HTML" class="md-nav__link">
-      Descubriendo HTML
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
-    
-    <label class="md-nav__link" for="nav-4">
       Color
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
+      <label class="md-nav__title" for="nav-3">
         Color
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -328,13 +280,13 @@
 
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
-    <label class="md-nav__link" for="nav-5">
+    <label class="md-nav__link" for="nav-4">
       Tipografía
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-5">
+      <label class="md-nav__title" for="nav-4">
         Tipografía
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -546,6 +498,8 @@
             <article class="md-content__inner md-typeset">
               
                 
+                  <a href="https://github.com/la9una/web/edit/master/docs/cssFuentes/index.md" title="Editar esta página" class="md-icon md-content__icon">edit</a>
+                
                 
                 <h1 id="las-tipografias-en-el-diseno-web">Las tipografías en el diseño web<a class="headerlink" href="#las-tipografias-en-el-diseno-web" title="Permanent link">&para;</a></h1>
 <p>En casi todas las páginas webs se incluye texto, en mayor o menor medida. Y es tarea del diseñador web estilizar las tipografías con que se mostrará dicho texto. </p>
@@ -569,9 +523,9 @@
 </ul>
 <p>Aunque el proyecto terminó hace unos años, el catálogo de fuentes seguras quedó establecido, con <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp">algunas fuentes más</a> que se sumaron luego. Y al día de hoy, muchos diseñadores las siguen usando. </p>
 <p>Para definir el uso de una fuente segura es necesario el siguiente fragmento de código CSS: </p>
-<div class="codehilite"><pre><span class="c">/* Utilizamos la fuente */</span>
+<div class="codehilite"><pre><span></span><span class="c">/* Utilizamos la fuente */</span>
 <span class="nt">body</span> <span class="p">{</span>
-    <span class="nb">font-family</span><span class="o">:</span> <span class="n">SafeWebFont</span><span class="p">;</span>
+    <span class="k">font-family</span><span class="p">:</span> <span class="n">SafeWebFont</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 
@@ -583,15 +537,15 @@
 <h2 id="las-fuentes-para-la-web-o-webfonts">Las fuentes para la web o webfonts<a class="headerlink" href="#las-fuentes-para-la-web-o-webfonts" title="Permanent link">&para;</a></h2>
 <p>Las aparición de las <em>hojas de estilo en cascada o CSS</em> permitieron el uso de cualquier tipo de fuente tipográfica para el diseño web, gracias a la regla CSS <code>@font-face</code>. Dicha regla constituyó desde su lanzamiento, una propuesta superadora a las <em>safe web fonts</em>. </p>
 <p>La sintaxis de la misma es la siguiente: </p>
-<div class="codehilite"><pre><span class="c">/* Definimos la fuente */</span>
-<span class="k">@font-face</span> <span class="p">{</span>
+<div class="codehilite"><pre><span></span><span class="c">/* Definimos la fuente */</span>
+<span class="p">@</span><span class="k">font-face</span> <span class="p">{</span>
     <span class="nt">font-family</span><span class="o">:</span> <span class="nt">nombreDeMiFuente</span><span class="o">;</span>
-    <span class="nt">src</span><span class="o">:</span> <span class="nt">url</span><span class="o">(</span><span class="nt">fuente</span><span class="nc">.woff</span><span class="o">);</span>
+    <span class="nt">src</span><span class="o">:</span> <span class="nt">url</span><span class="o">(</span><span class="nt">fuente</span><span class="p">.</span><span class="nc">woff</span><span class="o">);</span>
 <span class="p">}</span>
 
 <span class="c">/* Utilizamos la fuente */</span>
 <span class="nt">body</span> <span class="p">{</span>
-    <span class="nb">font-family</span><span class="o">:</span> <span class="n">nombreDeMiFuente</span><span class="p">;</span>
+    <span class="k">font-family</span><span class="p">:</span> <span class="n">nombreDeMiFuente</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
 
@@ -708,6 +662,10 @@
       <script>app.initialize({url:{base:".."}})</script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+        <script src="../search/require.js"></script>
+      
+        <script src="../search/search.js"></script>
       
     
     
