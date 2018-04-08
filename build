@@ -1,0 +1,38 @@
+#!/bin/bash
+# Script para guardar el sitio estático generado en la rama gh-pages
+
+echo "*****************************"
+echo "Generando el sitio estático"
+echo "*****************************"
+mkdocs build
+sleep 1
+echo "[OK]"
+echo "*************************************"
+echo "Guardando cambios en la rama master"
+echo "*************************************"
+sleep 1
+echo "[OK]"
+git checkout master
+git add .
+git commit -m "`date`"
+git push origin master
+
+echo "*************************************"
+echo "Guardando cambios en la rama gh-pages"
+echo "*************************************"
+sleep 1
+git checkout gh-pages
+git checkout master -- site
+git add site
+cp -a site/* .
+git add .
+git commit -m "`date`"
+git push origin gh-pages
+git checkout master
+echo "[OK]"
+echo "*************************************"
+echo "Tareas realizadas exitosamente!"
+echo "*************************************"
+
+sleep 1 
+
