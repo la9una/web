@@ -2,7 +2,7 @@
 site_name: 'Diseño web'
 site_description: 'Apuntes sobre diseño web'
 site_author: 'Raul Jesus Lopez'
-site_url: http://www.rauljesus.xyz/web
+site_url: http://rauljesus.xyz/web
 
 # Repositorio
 repo_name: 'Ver en GitHub'
@@ -79,15 +79,26 @@ pages:
 #- CSS básico:
 #    - Colores: 'cssColores/index.md'
 #    - Texto: 'cssTexto/index.md'
-- Color: 
-    - Colores web: 'cssColores/coloresHTML.md'
-- Tipografía: 
-    - Reseña histórica: 'cssFuentes/index.md'
-    - Propiedades de fuente: 'cssFuentes/propiedadesFuente.md'
-    - Formato de texto: 'cssFuentes/formatoTexto.md'
-    - Usando webfonts: 'cssFuentes/webfonts.md'
-    - Elegir tipografía: 'cssFuentes/elegirTipografia.md'
-    - Ejercicios: 'cssFuentes/ejercicios.md'
+- Fundamentos HTML:
+    - Primeros pasos: 'htmlFundamentos/00_PrimerosPasosHTML.md'
+    - Estructura HTML: 'htmlFundamentos/01_EstructuraDocumento.md'
+    - Títulos y párrafos: 'htmlFundamentos/02_TitularesParrafos.md'
+    - Listas y tablas: 'htmlFundamentos/03_ListasTablas.md'
+    - Enlaces: 'htmlFundamentos/04_Enlaces.md'
+    - Imágenes: 'htmlFundamentos/05_Imagenes.md'
+    - Formularios: 'htmlFundamentos/06_Formularios.md'
+    - Tipos de elementos: 'htmlFundamentos/07_ElementosBloqueLinea.md'
+    - Web semántica: 'htmlFundamentos/08_WebSemantica.md'
+- Fundamentos de CSS:
+    - Color: 
+      - Colores web: 'cssColores/coloresHTML.md'
+    - Tipografía: 
+      - Reseña histórica: 'cssFuentes/index.md'
+      - Propiedades de fuente: 'cssFuentes/propiedadesFuente.md'
+      - Formato de texto: 'cssFuentes/formatoTexto.md'
+      - Usando webfonts: 'cssFuentes/webfonts.md'
+      - Elegir tipografía: 'cssFuentes/elegirTipografia.md'
+      - Ejercicios: 'cssFuentes/ejercicios.md'
 #    - Fondos: 'cssFondos/index.md'
 #    - Listas: 'cssListas/index.md'
 #    - Tablas: 'cssColores/index.md'
@@ -105,4 +116,17 @@ pages:
 #    - Transciciones: 'cssEfectos/index.md'
 #- Frameworks CSS: 
 #    - Función: 'cssFrameworks/index.md'
+- Control de versiones: 
+    - ¿Qué es Git?: 'git/index.md'
+    - Entornos distribuidos: 'git/flujoEntornosDistribuidos.md'
+    - Instalación de Git: 'git/instalacion.md'
+    - Configuración inicial: 'git/configuracionInicial.md'
+    - Los tres estados: 'git/losTresEstados.md'
+    - Inicializando repositorio local: 'git/repositorioLocal.md'
+    - Git en el servidor: 'git/servidorGit.md'
+    - Trabajando con remotos: 'git/trabajandoConRemotos.md'
+    - Ramas: 'git/ramas.md'
+    - Deshaciendo cambios: 'git/deshaciendoCambios.md'
+    - Otros comandos: 'git/otrosComandosGit.md'
+    - Ejemplo de uso de git: 'git/ejemploGit.md'
 
