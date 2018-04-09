@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>http://www.web.rauljesus.com/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,18 +12,8 @@
     
         
     <url>
-     <loc>http://www.web.rauljesus.com/disenoWeb/</loc>
-     <lastmod>2018-04-08</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>http://www.web.rauljesus.com/cssColores/coloresHTML/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/disenoWeb/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -32,38 +22,148 @@
     
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFuentes/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/00_PrimerosPasosHTML/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFuentes/propiedadesFuente/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/01_EstructuraDocumento/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFuentes/formatoTexto/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/02_TitularesParrafos/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFuentes/webfonts/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/03_ListasTablas/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFuentes/elegirTipografia/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/04_Enlaces/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.web.rauljesus.com/cssFuentes/ejercicios/</loc>
-     <lastmod>2018-04-08</lastmod>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/05_Imagenes/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/06_Formularios/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/07_ElementosBloqueLinea/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/htmlFundamentos/08_WebSemantica/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://rauljesus.xyz/web</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web</loc>
+     <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/flujoEntornosDistribuidos/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/instalacion/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/configuracionInicial/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/losTresEstados/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/repositorioLocal/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/servidorGit/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/trabajandoConRemotos/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/ramas/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/deshaciendoCambios/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/otrosComandosGit/</loc>
+     <lastmod>2018-04-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://rauljesus.xyz/web/git/ejemploGit/</loc>
+     <lastmod>2018-04-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
