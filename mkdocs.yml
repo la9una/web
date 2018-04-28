@@ -69,6 +69,7 @@ pages:
 #    - Búsquedas: 'cssFundamentos/busquedas.md'
 - Diseño web: 
     - Introducción: 'disenoWeb/index.md'
+    - Herramientas web: 'disenoWeb/herramientasWeb.md'
 #    - Mobile first: 'disenoWeb/work.md'
 #    - Responsive design: 'disenoWeb/work.md'
 #    - Usabilidad: 'disenoWeb/work.md'

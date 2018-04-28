@@ -1,8 +1,5 @@
 # Introducción a HTML 
 
-Los documentos HTML están escritos en **texto plano**, pudiéndose crear un editor de texto como _notepad_ (en Windows). Sin embargo es recomendable emplear algún editor de texto específico para este propósito, ya que nos facilitará en gran medida la escritura de código. Por ejemplo, [Sublime Text](https://www.sublimetext.com/), [Notepad++](https://notepad-plus-plus.org/), [Visual Studio Code](https://code.visualstudio.com/) o [Brackets](http://brackets.io/), entre otros. 
-
-
 **HTML es un lenguaje de marcado**. Es decir, a través de ciertas marcas o **etiquetas**, es posible indicar al navegador (Chrome, Firefox, Internet Explorer -Edge-, Opera, Safari, etc.) cómo está estructurada un documento HTML o página web. 
 
 ### Recomendación
