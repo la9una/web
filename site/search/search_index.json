@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/disenoWeb/herramientasWeb/", 
-            "text": "Como ya se ha mencionado, en el dise\u00f1o web confluyen m\u00faltiples disciplinas y cada una de ellas hace uso de software espec\u00edfico para desarrollar sus tareas. \n\n\nEditores de c\u00f3digo\n\n\nYa sea que estemos hablando de HTML, CSS o Javascript, necesitaremos un editor de c\u00f3digo que venga en nuestro auxilio. En ciertos casos, existen editores para un lenguaje espec\u00edfico, ofreciendo resaltado de sintaxis, correcci\u00f3n de errores integrada, organizaci\u00f3n del c\u00f3gido, etc. A los programas que ofrecen estas posibilidades se los conoce como \nEntornos de desarrollo integrado o IDE\n. \n\n\nEn orden alfab\u00e9tico, los editores de texto recomendados para la web son: \n\n\nAtom\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: BSD, GNU/Linux, Mac, Windows\n\n\nWeb oficial: \natom.io\n\n\n\n\nBrackets\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: GNU/Linux, Mac, Windows\n\n\nWeb oficial: \nbrackets.io\n\n\n\n\nNotepad++\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: Windows\n\n\nWeb oficial: \nnotepad-plus-plus.org\n\n\n\n\nVisual Studio Code\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: GNU/Linux, Mac, Windows\n\n\nWeb oficial: \ncode.visualstudio.com\n\n\n\n\nSublime Text\n\n\n\n\nLicencia: Privativa. Versi\u00f3n gratuita con opci\u00f3n de compra\n\n\nPlataformas soportadas: GNU/Linux, Mac, Windows\n\n\nWeb oficial: \nsublimetext.com", 
+            "text": "Como ya se ha mencionado, en el dise\u00f1o web confluyen m\u00faltiples disciplinas y cada una de ellas hace uso de software espec\u00edfico para desarrollar sus tareas. \n\n\nEditores de c\u00f3digo\n\n\nYa sea que estemos hablando de HTML, CSS o Javascript, necesitaremos un editor de c\u00f3digo que venga en nuestro auxilio. En ciertos casos, existen editores para un lenguaje espec\u00edfico, ofreciendo resaltado de sintaxis, correcci\u00f3n de errores integrada, organizaci\u00f3n del c\u00f3gido, etc. A los programas que ofrecen estas posibilidades se los conoce como \nEntornos de desarrollo integrado o IDE\n. \n\n\nEn orden alfab\u00e9tico, los editores de texto recomendados para la web son: \n\n\nAtom\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: BSD, GNU/Linux, Mac, Windows\n\n\nWeb oficial: \natom.io\n\n\n\n\nBrackets\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: GNU/Linux, Mac, Windows\n\n\nWeb oficial: \nbrackets.io\n\n\n\n\nNotepad++\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: Windows\n\n\nWeb oficial: \nnotepad-plus-plus.org\n\n\n\n\nVisual Studio Code\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: GNU/Linux, Mac, Windows\n\n\nWeb oficial: \ncode.visualstudio.com\n\n\n\n\nSublime Text\n\n\n\n\nLicencia: Privativa. Versi\u00f3n gratuita con opci\u00f3n de compra\n\n\nPlataformas soportadas: GNU/Linux, Mac, Windows\n\n\nWeb oficial: \nsublimetext.com\n\n\n\n\nTratamiento del color\n\n\nExisten varias herramientas para gestionar la paleta de colores de un sitio web. En orden alfab\u00e9tico, las opciones recomendadas son: \n\n\nColorzilla\n\n\n\n\nLicencia: Privativa. Versi\u00f3n gratuita.\n\n\nPlataformas soportadas: Chrome, Firefox, Web\n\n\nWeb oficial: \ncolorzilla.com\n\n\n\n\ngpick\n\n\n\n\nLicencia: Open Source\n\n\nPlataformas soportadas: GNU/Linux, Windows\n\n\nWeb oficial: \ngpick.org\n\n\n\n\nJust Color Picker\n\n\n\n\nLicencia: Privativa. Versi\u00f3n gratuita.\n\n\nPlataformas soportadas: Mac, Windows\n\n\nWeb oficial: \nannystudio.com/software/colorpicker/\n\n\n\n\nPaletton\n\n\n\n\nLicencia: Privativa. Versi\u00f3n gratuita.\n\n\nPlataformas soportadas: Web\n\n\nWeb oficial: \npaletton.com", 
             "title": "Herramientas web"
         }, 
         {
@@ -59,6 +59,31 @@
             "location": "/disenoWeb/herramientasWeb/#sublime-text", 
             "text": "Licencia: Privativa. Versi\u00f3n gratuita con opci\u00f3n de compra  Plataformas soportadas: GNU/Linux, Mac, Windows  Web oficial:  sublimetext.com", 
             "title": "Sublime Text"
+        }, 
+        {
+            "location": "/disenoWeb/herramientasWeb/#tratamiento-del-color", 
+            "text": "Existen varias herramientas para gestionar la paleta de colores de un sitio web. En orden alfab\u00e9tico, las opciones recomendadas son:", 
+            "title": "Tratamiento del color"
+        }, 
+        {
+            "location": "/disenoWeb/herramientasWeb/#colorzilla", 
+            "text": "Licencia: Privativa. Versi\u00f3n gratuita.  Plataformas soportadas: Chrome, Firefox, Web  Web oficial:  colorzilla.com", 
+            "title": "Colorzilla"
+        }, 
+        {
+            "location": "/disenoWeb/herramientasWeb/#gpick", 
+            "text": "Licencia: Open Source  Plataformas soportadas: GNU/Linux, Windows  Web oficial:  gpick.org", 
+            "title": "gpick"
+        }, 
+        {
+            "location": "/disenoWeb/herramientasWeb/#just-color-picker", 
+            "text": "Licencia: Privativa. Versi\u00f3n gratuita.  Plataformas soportadas: Mac, Windows  Web oficial:  annystudio.com/software/colorpicker/", 
+            "title": "Just Color Picker"
+        }, 
+        {
+            "location": "/disenoWeb/herramientasWeb/#paletton", 
+            "text": "Licencia: Privativa. Versi\u00f3n gratuita.  Plataformas soportadas: Web  Web oficial:  paletton.com", 
+            "title": "Paletton"
         }, 
         {
             "location": "/htmlFundamentos/PrimerosPasosHTML/", 
