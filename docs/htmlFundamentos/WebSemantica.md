@@ -1,9 +1,9 @@
 ## Web semántica
-Existen algunas **etiquetas HTML que no poseen relación directa con la apariencia de una página** sino que **indican el tipo de contenido de una página, su significado. Se trata de las _etiquetas semánticas_**, incluidas en la [última definición de HTML (HTML 5)](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Contenido_incrustado). 
+Existen algunas **etiquetas HTML que no poseen relación directa con la apariencia de una página** sino que **indican el tipo de contenido de una página, su significado. Se trata de las _etiquetas semánticas_**, incluidas en la [última definición de HTML (HTML 5)](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Secciones). 
 
 A grandes rasgos podríamos destacar las principales etiquetas semánticas: 
 
-![](imgHTMLFundamentos/html5semantico.png)
+![HTML Semantico](imgHTMLFundamentos/html5semantico.png)
 
 ### Ejercicio 12
 
