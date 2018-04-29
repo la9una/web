@@ -13,7 +13,7 @@ Comenzar a trabajar con Bootstrap es muy sencillo, simplemente debemos descargar
 Descargaremos los archivos necesarios y los dispondremos en nuestra carpeta de proyecto. Finalmente, crearemos una página de inicio dejando todo listo para comenzar a trabajar con Bootstrap. 
 
 !!!done "Descarga de la plantilla Bootstrap"
-        Si deseás saltearte esta sección, podés descargar directamente la [carpeta de proyecto Bootstrap (plantilla)](ejemplos/bootstrap_4.1.0_plantilla.zip)
+        Si deseás saltearte esta sección, podés descargar directamente la [carpeta de proyecto Bootstrap (plantilla)](descargas/bootstrap_4.1.0_plantilla.zip)
 
 ## Descargando Bootstrap
 Para descargar el _framework_ sencillamente nos dirigimos a su página principal **[getbootstrap.com](https://getbootstrap.com/)** y hacemos clic sobre el botón **_Donwload_**:
