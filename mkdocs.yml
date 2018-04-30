@@ -121,8 +121,8 @@ pages:
     - Introducción: 'bootstrap/index.md'
     - Primeros pasos: 'bootstrap/primerosPasos.md'
     - Sistema de rejilla: 
-        - ¿Para qué?: 'bootstrap/responsive.md'
-        - ¿Qué es?: 'bootstrap/grid.md'   
+        - Introducción: 'bootstrap/gridIntroduccion.md'
+        - Fundamentos: 'bootstrap/gridFundamentos.md'   
 
 
 

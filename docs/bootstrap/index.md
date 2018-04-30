@@ -4,7 +4,6 @@ Existen múltiples herramientas "prefabricadas" que nos echan una mano a la hora
 
 ![Bootstrap 4 Logo](imgBootstrap/bootstrapLogo.png)
 
-
 Originalmente desarrollado por empleados de [Twitter](https://twitter.com), Bootstrap combina CSS y Javascript para ofrecer una serie de plantillas o estilos predefinidos para diversos elementos del diseño web como tipografía, formularios, botones, cuadros, menús de navegación, etc. 
 
 Bootstrap fue creado según los preceptos de la corriente _Mobile First_ es decir, con el desarrollo para móviles como punto de partida. Por esta razón, desde sus inicios ha estado orientado al diseño web adaptable (o [_responsivo_](https://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptable)) brindando un sistema de rejilla (o grid) que facilita en gran medida la labor de maquetación para múltiples pantallas y dispositivos. 
