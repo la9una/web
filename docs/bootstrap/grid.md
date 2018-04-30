@@ -49,11 +49,13 @@ Para poder adaptarse a las pantallas de los distintos dispositivos, Bootstrap em
 ## Contenedor
 El contenedor (o del inglés, _container_) se trata de una clase que debe añadirse a un elemento en bloque, generalmente un  `div` y que contiene -valga la redundancia- el contenido de la página web. Existen dos tipos de clases para un contenedor: 
 
-* `container` ocupa el centro del ancho de la pantalla con espacios en los bordes laterales y 
+`container`: ocupa el centro del ancho de la pantalla con espacios iguales a cada lado
 
-* `.container-fluid` que ocupa el 100% del ancho de la pantalla del dispositivo.  
+![Bootstrap Grid System](imgBootstrap/bGridContainer1.png)
 
-![Bootstrap Grid System](imgBootstrap/bGridContainer.png)
+`.container-fluid` ocupa el 100% del ancho de la pantalla del dispositivo  
+
+![Bootstrap Grid System](imgBootstrap/bGridContainer2.png)
 
 
 ## Filas
@@ -65,14 +67,15 @@ Sin embargo no debe agregarse contenido directamente dentro de una fila.
 
 
 ## Columnas
-Las columnas (del inglés _column) se trata de una clase ............
-
-![Bootstrap Grid System](imgBootstrap/bGridColumns.png)
-
-
-
-
+Las columnas (del inglés _column_) se trata de una clase ...
 
 ![Bootstrap Grid System](imgBootstrap/bGridContainerRules.png)
 
+
+## Combinando 
+
+![Bootstrap Grid System](imgBootstrap/bGridColumns.png)
+
 ![Bootstrap Grid System](imgBootstrap/bGridMultipleRows.png)
+
+![Bootstrap Grid System](imgBootstrap/bGridMultipleContainer.png)
