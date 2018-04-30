@@ -17,6 +17,8 @@ En síntesis, se trata de un conjunto de herramientas aplicables al diseño web 
 		**CSS**
 
 		* [Animate.css](https://daneden.github.io/animate.css/)
+
+		* [HTML Boilerplate](https://html5boilerplate.com/)
 		
 		* [Bulma](https://bulma.io/)
 		
@@ -69,6 +71,8 @@ En síntesis, se trata de un conjunto de herramientas aplicables al diseño web 
 		* [Umbrella JS](https://umbrellajs.com/)
 		
 		* [Zepto.js](http://zeptojs.com/)
+
+		Inclusive, existen _frameworks_ como [Modernizr](https://modernizr.com/) que permiten aseguar la compatibilidad de los estándares web con los navegadores antiguos que por defecto no los soportan. 
 
 
 
