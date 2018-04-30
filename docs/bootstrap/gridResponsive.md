@@ -98,12 +98,11 @@ Veamos un ejemplo donde tenemos 4 columnas de contenido que se adaptarán al tam
 Donde podemos observar lo siguiente: 
 
 * El **número clave es 12**: si la suma de los anchos de las columnas no supera este número, las mismas se ubicarán en una misma línea; en caso contrario, se dispondrán un una nueva línea. 
-* Tamaño extra pequeño (`.col`): las cuatro columnas de contenido abarcan un total de 12 columnas de la grid (`col-12`)
-* Tamaño pequeño (`.col-sm`): las dos primeras columnas de contenido abarcan 6 columnas de la _grid_ (`col-sm-6`) y las dos restantes, 12 columnas de la _grid_ (`col-sm-12`)
-* Tamaño mediano (`.col-md`): las cuatro columnas de contenido abarcan 6 columnas de la _grid_ (`col-md-6`)
-* Tamaño grande (`.col-lg`): la primera y tercer columna de contenido abarcan 8 columnas de la _grid_ (`col-lg-8`) y las columnas segunda y cuarta abarcan cuatro columnas de la _grid_ (`col-lg-4`)
-
-
+* **Tamaño extra pequeño** (`.col`): las cuatro columnas de contenido abarcan un total de 12 columnas de la grid (`col-12`)
+* **Tamaño pequeño** (`.col-sm`): las dos primeras columnas de contenido abarcan 6 columnas de la _grid_ (`col-sm-6`) y las dos restantes, 12 columnas de la _grid_ (`col-sm-12`)
+* **Tamaño mediano** (`.col-md`): las cuatro columnas de contenido abarcan 6 columnas de la _grid_ (`col-md-6`)
+* **Tamaño grande** (`.col-lg`): la primera y tercer columna de contenido abarcan 8 columnas de la _grid_ (`col-lg-8`) y las columnas segunda y cuarta abarcan cuatro columnas de la _grid_ (`col-lg-4`)
+* **Tamaño extragrande** (`.col-xl`): las cuatro columnas de contenido abarcan 3 columnas de la _grid_ (`col-xl-3`)
 
 Podemos, incluso, agregar algunos contenedores más y aplicar las clases _responsivas_ en el contenido de cada uno de ellos: 
 
