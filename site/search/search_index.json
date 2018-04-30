@@ -647,22 +647,27 @@
         }, 
         {
             "location": "/bootstrap/ejercicios/", 
-            "text": "Ejercicos\n\n\nSe listan a continuaci\u00f3n una serie de ejercios que abarcan los fundamentos te\u00f3ricos expuestos en presente documentaci\u00f3n. \n\n\nGrid de Bootstrap\n\n\nDise\u00f1o adaptable", 
+            "text": "Ejercicios de Boostrap 4\n\n\nSe listan a continuaci\u00f3n una serie de ejercios que abarcan los fundamentos te\u00f3ricos expuestos en presente documentaci\u00f3n. \n\n\nLa mayor\u00eda de los ejercicios comienza con un c\u00f3digo disponible para la descarga el cu\u00e1l deber\u00e1s modificar para obtener lo pedido en cada consigna. \n\n\nElementos\n\n\n{En construcci\u00f3n}\n\n\nGrid\n\n\n{En construcci\u00f3n}\n\n\nDise\u00f1o adaptable\n\n\n[1]\n Dadas tres columnas de contenido, modific\u00e1 el c\u00f3digo HTML incluyendo las clases CSS necesarias para llegar a: \n\n\n\n\n\n\n\n\n\n\nExtra peque\u00f1o\n\n\nMediano\n\n\nLargo\n\n\n\n\n\n\n\n\n\n\nColumna 1\n\n\n12\n\n\n12\n\n\n12\n\n\n\n\n\n\nColumna 2\n\n\n12\n\n\n6\n\n\n4\n\n\n\n\n\n\nColumna 3\n\n\n12\n\n\n6\n\n\n4\n\n\n\n\n\n\n\n\n[ Descarg\u00e1 el ejercicio ]\n \n[ Soluci\u00f3n ]\n\n\n[2]\n Dadas cuatro columnas de contenido, modific\u00e1 el c\u00f3digo HTML incluyendo las clases CSS necesarias para llegar a: \n\n\n\n\n\n\n\n\n\n\nExtra peque\u00f1o\n\n\nPeque\u00f1o\n\n\nMediano\n\n\nLargo\n\n\nExtra largo\n\n\n\n\n\n\n\n\n\n\nColumna 1\n\n\n12\n\n\n12\n\n\n12\n\n\n12\n\n\n3\n\n\n\n\n\n\nColumna 2\n\n\n12\n\n\n12\n\n\n6\n\n\n4\n\n\n3\n\n\n\n\n\n\nColumna 3\n\n\n12\n\n\n6\n\n\n6\n\n\n4\n\n\n3\n\n\n\n\n\n\nColumna 4\n\n\n12\n\n\n6\n\n\n12\n\n\n4\n\n\n3\n\n\n\n\n\n\n\n\n[ Descarg\u00e1 el ejercicio ]\n \n[ Soluci\u00f3n ]", 
             "title": "Ejercicios"
         }, 
         {
-            "location": "/bootstrap/ejercicios/#ejercicos", 
-            "text": "Se listan a continuaci\u00f3n una serie de ejercios que abarcan los fundamentos te\u00f3ricos expuestos en presente documentaci\u00f3n.", 
-            "title": "Ejercicos"
+            "location": "/bootstrap/ejercicios/#ejercicios-de-boostrap-4", 
+            "text": "Se listan a continuaci\u00f3n una serie de ejercios que abarcan los fundamentos te\u00f3ricos expuestos en presente documentaci\u00f3n.   La mayor\u00eda de los ejercicios comienza con un c\u00f3digo disponible para la descarga el cu\u00e1l deber\u00e1s modificar para obtener lo pedido en cada consigna.", 
+            "title": "Ejercicios de Boostrap 4"
         }, 
         {
-            "location": "/bootstrap/ejercicios/#grid-de-bootstrap", 
-            "text": "", 
-            "title": "Grid de Bootstrap"
+            "location": "/bootstrap/ejercicios/#elementos", 
+            "text": "{En construcci\u00f3n}", 
+            "title": "Elementos"
+        }, 
+        {
+            "location": "/bootstrap/ejercicios/#grid", 
+            "text": "{En construcci\u00f3n}", 
+            "title": "Grid"
         }, 
         {
             "location": "/bootstrap/ejercicios/#diseno-adaptable", 
-            "text": "", 
+            "text": "[1]  Dadas tres columnas de contenido, modific\u00e1 el c\u00f3digo HTML incluyendo las clases CSS necesarias para llegar a:       Extra peque\u00f1o  Mediano  Largo      Columna 1  12  12  12    Columna 2  12  6  4    Columna 3  12  6  4     [ Descarg\u00e1 el ejercicio ]   [ Soluci\u00f3n ]  [2]  Dadas cuatro columnas de contenido, modific\u00e1 el c\u00f3digo HTML incluyendo las clases CSS necesarias para llegar a:       Extra peque\u00f1o  Peque\u00f1o  Mediano  Largo  Extra largo      Columna 1  12  12  12  12  3    Columna 2  12  12  6  4  3    Columna 3  12  6  6  4  3    Columna 4  12  6  12  4  3     [ Descarg\u00e1 el ejercicio ]   [ Soluci\u00f3n ]", 
             "title": "Dise\u00f1o adaptable"
         }, 
         {
