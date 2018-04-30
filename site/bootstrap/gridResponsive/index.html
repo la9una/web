@@ -957,13 +957,6 @@
 <p>Imaginemos por un momento un sitio web cualquiera y como diseñadores necesitamos que el contenido del mismo se visualice bien en cualquier dispositivo. Utilizando la <em>grid</em> de Bootstrap podremos lograrlo. Prestemos atención al siguiente ejemplo visual y particularmente a las cajas de colores que representan las distintas secciones de contenido del sitio web: </p>
 <p><img alt="Diseño responsivo" src="../imgBootstrap/disenoResponsivoAllMini.svg" /></p>
 <p>Si observamos con atención atención a la imagen anterior habremos apreciado como el contenido del sitio web (representado por las cajas de colores) se "reorganizó" para conseguir una mejor visualización dependiendo de la pantalla de cada dispositivo: <em>Desktop</em> (Pc de escritorio), Tablet y <em>Mobile</em> (Celular). Para cualquier caso, la <em>grid</em> ofrece 12 columnas para organizar el contenidos. </p>
-<p>Miremos ahora cada caso en particular para comprender mejor el concepto:</p>
-<p><img alt="Diseño responsivo" src="../imgBootstrap/disenoResponsivoAllLabeled.svg" /></p>
-<p>En todo los ejemplos se han utilizado etiqueteas semánticas HTML como <code>header</code>, <code>main</code>, <code>aside</code>, <code>article</code> y <code>footer</code> para organizar el contenido del hipotético sitio web. </p>
-<div class="admonition warning">
-<p class="admonition-title">Diseño adaptable y Grid<p>Utilizar la <em>grid</em> de Bootstrap, <a href="../gridReglas/">como se mostró en una sección anterior</a>, no es sinónimo de crear un sitio web adaptable. Para crear un sitio <em>responsivo</em> es necesario incluir las clases que Bootstrap dispone para tal fin.  </p>
-</p>
-</div>
 <h2 id="puntos-de-corte">Puntos de corte<a class="headerlink" href="#puntos-de-corte" title="Permanent link">&para;</a></h2>
 <p>Para que el contenido de un sitio web sea adaptable, es decir, capaz de "reorganizarse" para mostrarse de la mejor manera en cada dispositivo, Bootstrap establece ciertos "puntos de corte" mediante el uso de clases CSS que establecen los límites entre un tipo de pantalla y otra. </p>
 <table>
@@ -1012,8 +1005,15 @@
 <p class="admonition-title">Columnas y espaciado<p>La <em>grid</em> de Bootstrap ofrece 12 columnas como máximo (no es necesario usar todas) para cada tamaño de pantalla. Cada columna posee un espaciado (espacio en "blanco") de 15px a cada lado, es decir, 30px en total. </p>
 </p>
 </div>
+<p>Retomemos el ejemplo gráfico del inicio -ahora para cada tipo de pantala- para comprender mejor el funcionamiento de las <em>media queries</em>:</p>
+<p><img alt="Diseño responsivo" src="../imgBootstrap/disenoResponsivoAllLabeled.svg" /></p>
+<p>En todo los ejemplos se han utilizado etiqueteas semánticas HTML como <code>header</code>, <code>main</code>, <code>aside</code>, <code>article</code> y <code>footer</code> para organizar el contenido del hipotético sitio web. </p>
+<div class="admonition warning">
+<p class="admonition-title">Diseño adaptable y Grid<p>Utilizar la <em>grid</em> de Bootstrap, <a href="../gridReglas/">como se mostró en una sección anterior</a>, no es sinónimo de crear un sitio web adaptable. Para crear un sitio <em>responsivo</em> es necesario incluir las clases que Bootstrap dispone para tal fin.  </p>
+</p>
+</div>
 <h2 id="manos-a-la-obra">¡Manos a la obra!<a class="headerlink" href="#manos-a-la-obra" title="Permanent link">&para;</a></h2>
-<p>Para comprender mejor el concepto de diseño adaptable, estudiaremos algunos ejemplos de uso de las clases proporcionadas por Bootstrap. </p>
+<p>Seguimos profundiazando en el concepto de diseño adaptable, ahora, mediante el estudio de algunos ejemplos donde se emplean las clases <em>responsivas</em> proporcionadas por Bootstrap. </p>
 <p><strong>NOTA: En los ejemplos se han agregado estilos para visualizar mejor los elementos de la página</strong></p>
 <p>Veamos un ejemplo donde tenemos 4 columnas de contenido que se adaptarán al tamaño de la pantalla: </p>
 <div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>

@@ -9,15 +9,6 @@ Imaginemos por un momento un sitio web cualquiera y como diseñadores necesitamo
 
 Si observamos con atención atención a la imagen anterior habremos apreciado como el contenido del sitio web (representado por las cajas de colores) se "reorganizó" para conseguir una mejor visualización dependiendo de la pantalla de cada dispositivo: _Desktop_ (Pc de escritorio), Tablet y _Mobile_ (Celular). Para cualquier caso, la _grid_ ofrece 12 columnas para organizar el contenidos. 
 
-Miremos ahora cada caso en particular para comprender mejor el concepto:
-
-![Diseño responsivo](imgBootstrap/disenoResponsivoAllLabeled.svg)
-
-En todo los ejemplos se han utilizado etiqueteas semánticas HTML como `header`, `main`, `aside`, `article` y `footer` para organizar el contenido del hipotético sitio web. 
-
-!!!warning "Diseño adaptable y Grid"
-		Utilizar la _grid_ de Bootstrap, [como se mostró en una sección anterior](gridReglas.md), no es sinónimo de crear un sitio web adaptable. Para crear un sitio _responsivo_ es necesario incluir las clases que Bootstrap dispone para tal fin.  
-
 ## Puntos de corte
 Para que el contenido de un sitio web sea adaptable, es decir, capaz de "reorganizarse" para mostrarse de la mejor manera en cada dispositivo, Bootstrap establece ciertos "puntos de corte" mediante el uso de clases CSS que establecen los límites entre un tipo de pantalla y otra. 
 
@@ -32,8 +23,17 @@ Para que el contenido de un sitio web sea adaptable, es decir, capaz de "reorgan
 !!! info "Columnas y espaciado"
 		La _grid_ de Bootstrap ofrece 12 columnas como máximo (no es necesario usar todas) para cada tamaño de pantalla. Cada columna posee un espaciado (espacio en "blanco") de 15px a cada lado, es decir, 30px en total. 
 
+Retomemos el ejemplo gráfico del inicio -ahora para cada tipo de pantala- para comprender mejor el funcionamiento de las _media queries_:
+
+![Diseño responsivo](imgBootstrap/disenoResponsivoAllLabeled.svg)
+
+En todo los ejemplos se han utilizado etiqueteas semánticas HTML como `header`, `main`, `aside`, `article` y `footer` para organizar el contenido del hipotético sitio web. 
+
+!!!warning "Diseño adaptable y Grid"
+		Utilizar la _grid_ de Bootstrap, [como se mostró en una sección anterior](gridReglas.md), no es sinónimo de crear un sitio web adaptable. Para crear un sitio _responsivo_ es necesario incluir las clases que Bootstrap dispone para tal fin.  
+
 ## ¡Manos a la obra!
-Para comprender mejor el concepto de diseño adaptable, estudiaremos algunos ejemplos de uso de las clases proporcionadas por Bootstrap. 
+Seguimos profundiazando en el concepto de diseño adaptable, ahora, mediante el estudio de algunos ejemplos donde se emplean las clases _responsivas_ proporcionadas por Bootstrap. 
 
 **NOTA: En los ejemplos se han agregado estilos para visualizar mejor los elementos de la página**
 
