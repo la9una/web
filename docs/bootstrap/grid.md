@@ -46,6 +46,16 @@ Para poder adaptarse a las pantallas de los distintos dispositivos, Bootstrap em
 | Permite ordenar columnas | Si | Si | Si | Si | Si |
 
 
+
+| Nombre      | Límites                  | Dispositivo de ejemplo    | Nombre de la clase |
+| ----------- | ------------------------ | ------------------------- | ------------------ |
+| Extra small | Menor que 576px          | Celular (vertical)        | `.col`             |
+| Small       | Igual o mayor que 576px  | Celular (horizontal)      | `.col-sm`          |
+| Medium      | Igual o mayor que 768px  | Tablet                    | `.col-md`          |
+| Large       | Igual o mayor que 992px  | Notebook                  | `.col-lg`          |
+| Extra large | Igual o mayor que 1200px | Computadora de escritorio | `.col-xl`          |
+
+
 ## Contenedor
 El contenedor (o del inglés, _container_) se trata de una clase que debe añadirse a un elemento en bloque, generalmente un  `div` y que contiene -valga la redundancia- el contenido de la página web. Existen dos tipos de clases para un contenedor: 
 
