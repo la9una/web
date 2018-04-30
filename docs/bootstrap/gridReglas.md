@@ -67,6 +67,8 @@ En el ejemplo anterior, el ancho de cada columna se establece de manera automát
 </html>
 ```
 
+[[ Descargá el ejemplo ]](descargas/bootstrap_grid_1.zip)
+
 
 !!!done "Columas y contenido web"
 		Las columnas son los únicos elementos que pueden alojar directamente contenido web. 
@@ -101,6 +103,8 @@ Y el código del ejemplo:
 </body>
 </html>
 ```
+
+[[ Descargá el ejemplo ]](descargas/bootstrap_grid_2.zip)
 
 
 ## Más ejemplos del uso de la _grid_
@@ -140,6 +144,7 @@ A continuación se presentan algunos ejemplos de combinación de contenedores, f
 </html>
 ```
 
+[[ Descargá el ejemplo ]](descargas/bootstrap_grid_3.zip)
 
 ### Rejilla con varios contenedores
 ![Bootstrap Grid System](imgBootstrap/bGridMultipleContainer.png)
@@ -180,3 +185,4 @@ A continuación se presentan algunos ejemplos de combinación de contenedores, f
 </html>
 ```
 
+[[ Descargá el ejemplo ]](descargas/bootstrap_grid_4.zip)

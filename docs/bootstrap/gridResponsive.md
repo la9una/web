@@ -174,5 +174,5 @@ Podemos, incluso, agregar algunos contenedores más y aplicar las clases _respon
 
 Finalmente, dejamos a disposición ejemplos reales de sitios webs _responsivos_ listos para descargar y "jugar": 
 
-* [Descarga de sitio web adaptable 1](descargas/theme_app_starter.zip)
-* [Descarga de sitio web adaptable 2](descargas/theme_landing.zip)
+* [[ Descarga de sitio web adaptable 1 ]](descargas/theme_app_starter.zip)
+* [[ Descarga de sitio web adaptable 2 ]](descargas/theme_landing.zip)
