@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="164.61438mm"
-   height="113.8411mm"
-   viewBox="0 0 583.2793 403.37399"
+   width="154.61438mm"
+   height="103.8411mm"
+   viewBox="0 0 547.84623 367.94092"
    id="svg7682"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="bGridColumns.svg"
-   inkscape:export-filename="/home/raul/Escritorio/websites/rauljesus.xyz/web/docs/bootstrap/imgBootstrap/bGridColumns.svg.png"
+   inkscape:export-filename="/home/raul/Escritorio/websites/rauljesus.xyz/web/docs/bootstrap/imgBootstrap/bGridColumns.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -54,8 +54,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.78802287"
-     inkscape:cx="125.34516"
-     inkscape:cy="155.78398"
+     inkscape:cx="259.29086"
+     inkscape:cy="202.93387"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -64,10 +64,10 @@
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     fit-margin-top="10"
-     fit-margin-right="10"
-     fit-margin-bottom="10"
-     fit-margin-left="10" />
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     fit-margin-left="5" />
   <metadata
      id="metadata7687">
     <rdf:RDF>
@@ -84,7 +84,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-179.74664,-292.97185)">
+     transform="translate(-197.46317,-310.68838)">
     <g
        transform="matrix(0.81455345,0,0,0.81455345,166.51058,137.82216)"
        id="g8648">
@@ -302,7 +302,7 @@
        height="229.75217"
        width="476.48666"
        id="rect8738"
-       style="opacity:1;fill:#ffff99;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:0.4;fill:#dbffdb;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8, 8;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        sodipodi:linespacing="125%"
        id="text8740"
@@ -316,7 +316,7 @@
          id="tspan8742"
          sodipodi:role="line">.container</tspan></text>
     <rect
-       style="opacity:0.8;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.11020899;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:12.66125415, 12.66125415;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:0.4;fill:#b380ff;fill-opacity:1;stroke:#000000;stroke-width:2.11020899;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:8.44083595, 8.44083595000000031;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4303"
        width="441.50134"
        height="155.97664"
@@ -335,41 +335,41 @@
          y="470.80585"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'">.row</tspan></text>
     <rect
-       style="opacity:0.8;fill:#99ff99;fill-opacity:1;stroke:none;stroke-width:1.49140716;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdbdb;fill-opacity:1;stroke:none;stroke-width:1.87576568;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4305"
-       width="122.31385"
-       height="95.664902"
-       x="265.39926"
-       y="483.93903" />
+       width="113.04651"
+       height="95.28054"
+       x="267.59143"
+       y="486.66919" />
     <text
        sodipodi:linespacing="125%"
        id="text4311"
-       y="539.17383"
-       x="291.2135"
+       y="541.71179"
+       x="286.18988"
        style="font-style:normal;font-weight:normal;font-size:28.87467003px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
-         y="539.17383"
-         x="291.2135"
+         y="541.71179"
+         x="286.18988"
          id="tspan4313"
          sodipodi:role="line">.col-4</tspan></text>
     <rect
-       y="484.30994"
-       x="402.82202"
-       height="94.923103"
-       width="276.38989"
+       y="486.66919"
+       x="392.1463"
+       height="95.28054"
+       width="283.09235"
        id="rect4351"
-       style="opacity:0.8;fill:#99ff99;fill-opacity:1;stroke:none;stroke-width:2.2332077;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdbdb;fill-opacity:1;stroke:none;stroke-width:1.87576568;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:28.87467003px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="503.20935"
+       x="495.88486"
        y="541.71179"
        id="text4353"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4355"
-         x="503.20935"
+         x="495.88486"
          y="541.71179"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'">.col-8</tspan></text>
   </g>
