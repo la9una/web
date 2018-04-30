@@ -143,6 +143,8 @@ Luego, abrimos el archivo `index.html` con nuestro editor favorito y escribimos:
 </html>
 ```
 
+[[ Descargá el ejemplo ]](descargas/bootstrap_4.1.0_plantilla.zip)
+
 Tendremos todo lo necesario para comenzar nuestro proyecto web basándonos en el _framework_ Bootrap. 
 
 
