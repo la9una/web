@@ -122,9 +122,9 @@ pages:
     - Primeros pasos: 'bootstrap/primerosPasos.md'
     - Sistema de rejilla: 
         - Introducción: 'bootstrap/gridIntroduccion.md'
-        - Fundamentos: 'bootstrap/gridFundamentos.md'   
-
-
+        - Reglas: 'bootstrap/gridReglas.md'   
+        - Diseño adaptable: 'bootstrap/gridResponsive.md'  
+    - Ejercicios: 'bootstrap/ejercicios.md'
 
 - Control de versiones: 
     - ¿Qué es Git?: 'git/index.md'

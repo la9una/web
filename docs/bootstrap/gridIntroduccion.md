@@ -6,18 +6,7 @@ Básicamente consiste en 12 columnas que se emplean a modo de guías "invisibles
 
 ![Bootstrap Grid System](imgBootstrap/bGrid12Columns.jpg)
 
-Imaginemos por un momento un sitio web cualquiera y como diseñadores necesitamos que el contenido del mismo se visualice bien en cualquier dispositivo. Utilizando la _grid_ de Bootstrap podremos lograrlo. Prestemos atención al siguiente ejemplo visual y particularmente a las cajas de colores que representan el contenido del sitio web: 
-
-![Diseño responsivo](imgBootstrap/disenoResponsivoAllMini.svg)
-
-Si observamos con atención atención a la imagen anterior habremos apreciado como el contenido del sitio web (representado por las cajas de colores) se "reorganizó" para conseguir una mejor visualización dependiendo de la pantalla de cada dispositivo: _Desktop_ (Pc de escritorio), Tablet y _Mobile_ (Celular). Para cualquier caso, la _grid_ ofrece 12 columnas para organizar el contenidos. Miremos ahora cada caso en particular para comprender mejor el concepto:
-
-![Diseño responsivo](imgBootstrap/disenoResponsivoAllLabeled.svg)
-
-En todo los ejemplos se han utilizado etiqueteas semánticas HTML como `header`, `main`, `aside`, `article` y `footer` para organizar el contenido del hipotético sitio web. 
-
-
-## ¿Cuáles son las ventajas de utilizar el sistema de rejilla a la hora de maquetar? 
+## Ventajas del sistema de rejilla a la hora de maquetar 
 El sistema de rejilla o _grid_ que proporciona el _framework_ Bootstrap permite:
 
 * distribuir los elementos del sitio web fácilmente (maquetación del sitio web)
