@@ -93,6 +93,8 @@ Veamos un ejemplo donde tenemos 4 columnas de contenido que se adaptarán al tam
 </html>
 ```
 
+[[ Descargá el ejemplo ]](descargas/bootstrap_web_adaptable_1.zip)
+
 Donde podemos observar lo siguiente: 
 
 * El **número clave es 12**: si la suma de los anchos de las columnas no supera este número, las mismas se ubicarán en una misma línea; en caso contrario, se dispondrán un una nueva línea. 
@@ -167,3 +169,10 @@ Podemos, incluso, agregar algunos contenedores más y aplicar las clases _respon
 </body>
 </html>
 ```
+
+[[ Descargá el ejemplo ]](descargas/bootstrap_web_adaptable_2.zip)
+
+Finalmente, dejamos a disposición ejemplos reales de sitios webs _responsivos_ listos para descargar y "jugar": 
+
+* [Descarga de sitio web adaptable 1](descargas/theme_app_starter.zip)
+* [Descarga de sitio web adaptable 2](descargas/theme_landing.zip)

@@ -15,5 +15,3 @@ El sistema de rejilla o _grid_ que proporciona el _framework_ Bootstrap permite:
 
 ![Diseño responsivo](imgBootstrap/responsive-web-design.png)
 _Imagen: credofy.com_
-
-**Descargá ejemplos de sitios responsivos**: [Ejemplo 1](descargas/theme_app_starter.zip) | [Ejemplo 2](descargas/theme_landing.zip)
