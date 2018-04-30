@@ -7,6 +7,7 @@ La mayoría de los ejercicios comienza con un código disponible para la descarg
 
 {En construcción}
 
+
 ## Grid
 
 {En construcción}
