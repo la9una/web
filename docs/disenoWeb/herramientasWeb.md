@@ -62,7 +62,7 @@ Existen varias herramientas para gestionar la paleta de colores de un sitio web.
 ## Navegadores
 Para acceder a un sitio web necesitamos sólamente un navegador web y conexión a internet. Sin embargo, no todos los navegadores implementan de manera adecuada las resoluciones de la [W3C](https://www.w3c.es/) que es la organización internacional que determina los estándares a emplear en el diseño de los sitios web. Como resultado final, los sitios webs no se visualizan de igual manera en los distintos navegadores. 
 
-!!! error "Uso de Internet Explorer"
+!!! warning "Uso de Internet Explorer"
 		Siempre que sea posible se desaconseja el uso del navegador de Microsoft Internet Explorer no sólo por cuestiones que dificultan el diseño web y la posterior visualización de las páginas sino, sobre todo, por cuestiones de seguridad. 
 
 El presente curso sugiere el empleo de los siguientes navegadores:
