@@ -9,52 +9,59 @@ repo_name: 'Ver en GitHub'
 repo_url: 'https://github.com/la9una/web'
 
 # Copyright
-#copyright: '2017 - Raul Jesus Lopez'
+copyright: '2018 &nbsp; Raul Jesus Lopez'
 
 # Tema
-theme: null
-theme_dir: 'themes/material'
-
-# Opciones
-extra:
+theme:
+  name: 'material'
+  custom_dir: 'material'
+  language: 'es'
   palette:
     primary: 'teal'
     accent: 'teal'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
+#  feature:
+#    tabs: true
+
+# Extra
+extra:
+  search:
+    language: 'es, en'
+  disqus: 'rauljesus-xyz'
   social:
-#    - type: 'github'
-#      link: 'https://github.com/la9una'
     - type: 'twitter'
       link: 'https://twitter.com/la9una'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/rauljesuslopez'
+    - type: 'github'
+      link: 'https://github.com/la9una'
 #    - type: 'linkedin'
 #      link: 'https://de.linkedin.com/in/john-doe'
-#    - type: 'facebook'
-#      link: 'https://www.facebook.com/rauljesuslopez'
-  disqus: 'rauljesus-xyz'
 
-# Google Analytics
-google_analytics:
-  - 'UA-98408177-1'
-  - 'auto'
+## CSS Adicional
+extra_css:
+  - 'stylesheets/extra.css'
 
-# Extensions
+# Extensiones
 markdown_extensions:
-  - pymdownx.arithmatex
   - admonition
+#  - codehilite(guess_lang=false,linenums=true)
   - codehilite(guess_lang=false)
-  - toc(permalink=true)
+  - toc:
+      permalink: true
   - footnotes
   - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
 
-# Extras
-extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-
-# Páginas
+######################################################################
+### DOCUMENTACIÓN ####################################################
+######################################################################
 pages: 
 - Inicio: index.md
 #- ¿Qué es?:

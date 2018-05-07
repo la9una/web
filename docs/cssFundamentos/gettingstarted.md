@@ -23,7 +23,7 @@ Se agrega un bloque de estilos CSS dentro la cabecera (`head`) del documento HTM
 
 Por ejemplo:
 
-```html
+```html linenums="1" hl_lines="5 6 7"
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -53,7 +53,7 @@ De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el
 
 Por ejemplo, el documento HTML: 
 
-```html
+```html linenums="1" hl_lines="5"
 <!DOCTYPE html>
 <html lang="es">
 <head>
