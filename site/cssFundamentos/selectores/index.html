@@ -436,9 +436,47 @@
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Selectores
+      </label>
+    
     <a href="./" title="Selectores" class="md-nav__link md-nav__link--active">
       Selectores
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#selectores-de-elementos" title="Selectores de elementos" class="md-nav__link">
+    Selectores de elementos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selectores-id-y-class" title="Selectores id y class" class="md-nav__link">
+    Selectores id y class
+  </a>
+  
+</li>
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
+            Comentarios
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -875,6 +913,46 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#selectores-de-elementos" title="Selectores de elementos" class="md-nav__link">
+    Selectores de elementos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selectores-id-y-class" title="Selectores id y class" class="md-nav__link">
+    Selectores id y class
+  </a>
+  
+</li>
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
+            Comentarios
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -885,7 +963,74 @@
                 
                   <h1>Selectores</h1>
                 
-                
+                <h2 id="selectores-de-elementos">Selectores de elementos<a class="headerlink" href="#selectores-de-elementos" title="Permanent link">&para;</a></h2>
+<p>Los selectores de elementos apuntan a etiquetas HTML. Para ello, en el documento CSS se escribe el nombre de la etiqueta. </p>
+<table>
+<thead>
+<tr>
+<th>Etiqueta HTML (ejemplo)</th>
+<th>Código CSS (ejemplo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;p&gt;Este es un párrafo&lt;/p&gt;</code></td>
+<td><code>p {font-size: 12px;}</code></td>
+</tr>
+<tr>
+<td><code>&lt;h1&gt;Título&lt;/h1&gt;</code></td>
+<td><code>h1 {color: teal;}</code></td>
+</tr>
+<tr>
+<td><code>&lt;div&gt;Un contenido por acá&lt;/div&gt;</code></td>
+<td><code>div {background-color: peach;}</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="selectores-id-y-class">Selectores <code>id</code> y <code>class</code><a class="headerlink" href="#selectores-id-y-class" title="Permanent link">&para;</a></h2>
+<p>Los selectores <code>id</code> y <code>class</code> apuntan a los valores de los atributos homónimos. </p>
+<p>Para apuntar a un <code>id</code> de HTML, en el documento CSS se escribe el signo de numeral (#), seguido de su valor.</p>
+<table>
+<thead>
+<tr>
+<th>Etiqueta HTML (ejemplo)</th>
+<th>Código CSS (ejemplo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;p id="miparrafo"&gt;Este es un párrafo&lt;/p&gt;</code></td>
+<td><code>#miparrafo {font-size: 12px;}</code></td>
+</tr>
+<tr>
+<td><code>&lt;h1 id="titulo"&gt;Título&lt;/h1&gt;</code></td>
+<td><code>#titulo {color: teal;}</code></td>
+</tr>
+</tbody>
+</table>
+<p>Para apuntar a una <code>class</code> de HTML, en el documento CSS se escribe el signo de punto (.), seguido de su valor</p>
+<table>
+<thead>
+<tr>
+<th>Etiqueta HTML (ejemplo)</th>
+<th>Código CSS (ejemplo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;p class="miparrafo"&gt;Este es un párrafo&lt;/p&gt;</code></td>
+<td><code>.miparrafo {font-size: 12px;}</code></td>
+</tr>
+<tr>
+<td><code>&lt;h1 class="titulo"&gt;Título&lt;/h1&gt;</code></td>
+<td><code>.titulo {color: teal;}</code></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition done">
+<p class="admonition-title">Sobre el uso de <code>id</code> y <code>class</code><p>Un mismo selector de tipo <code>id</code> puede usarse por única vez en el documento HTML. En cambio un selector de tipo <code>class</code> puede usarse sin límite en la misma página. </p>
+</p>
+</div>
                 
                   
                 

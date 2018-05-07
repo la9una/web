@@ -307,8 +307,18 @@
         }, 
         {
             "location": "/cssFundamentos/selectores/", 
-            "text": "", 
+            "text": "Selectores de elementos\n\n\nLos selectores de elementos apuntan a etiquetas HTML. Para ello, en el documento CSS se escribe el nombre de la etiqueta. \n\n\n\n\n\n\n\n\nEtiqueta HTML (ejemplo)\n\n\nC\u00f3digo CSS (ejemplo)\n\n\n\n\n\n\n\n\n\n\np\nEste es un p\u00e1rrafo\n/p\n\n\np {font-size: 12px;}\n\n\n\n\n\n\nh1\nT\u00edtulo\n/h1\n\n\nh1 {color: teal;}\n\n\n\n\n\n\ndiv\nUn contenido por ac\u00e1\n/div\n\n\ndiv {background-color: peach;}\n\n\n\n\n\n\n\n\nSelectores \nid\n y \nclass\n\n\nLos selectores \nid\n y \nclass\n apuntan a los valores de los atributos hom\u00f3nimos. \n\n\nPara apuntar a un \nid\n de HTML, en el documento CSS se escribe el signo de numeral (#), seguido de su valor.\n\n\n\n\n\n\n\n\nEtiqueta HTML (ejemplo)\n\n\nC\u00f3digo CSS (ejemplo)\n\n\n\n\n\n\n\n\n\n\np id=\"miparrafo\"\nEste es un p\u00e1rrafo\n/p\n\n\n#miparrafo {font-size: 12px;}\n\n\n\n\n\n\nh1 id=\"titulo\"\nT\u00edtulo\n/h1\n\n\n#titulo {color: teal;}\n\n\n\n\n\n\n\n\nPara apuntar a una \nclass\n de HTML, en el documento CSS se escribe el signo de punto (.), seguido de su valor\n\n\n\n\n\n\n\n\nEtiqueta HTML (ejemplo)\n\n\nC\u00f3digo CSS (ejemplo)\n\n\n\n\n\n\n\n\n\n\np class=\"miparrafo\"\nEste es un p\u00e1rrafo\n/p\n\n\n.miparrafo {font-size: 12px;}\n\n\n\n\n\n\nh1 class=\"titulo\"\nT\u00edtulo\n/h1\n\n\n.titulo {color: teal;}\n\n\n\n\n\n\n\n\n\n\nSobre el uso de \nid\n y \nclass\nUn mismo selector de tipo \nid\n puede usarse por \u00fanica vez en el documento HTML. En cambio un selector de tipo \nclass\n puede usarse sin l\u00edmite en la misma p\u00e1gina.", 
             "title": "Selectores"
+        }, 
+        {
+            "location": "/cssFundamentos/selectores/#selectores-de-elementos", 
+            "text": "Los selectores de elementos apuntan a etiquetas HTML. Para ello, en el documento CSS se escribe el nombre de la etiqueta.      Etiqueta HTML (ejemplo)  C\u00f3digo CSS (ejemplo)      p Este es un p\u00e1rrafo /p  p {font-size: 12px;}    h1 T\u00edtulo /h1  h1 {color: teal;}    div Un contenido por ac\u00e1 /div  div {background-color: peach;}", 
+            "title": "Selectores de elementos"
+        }, 
+        {
+            "location": "/cssFundamentos/selectores/#selectores-id-y-class", 
+            "text": "Los selectores  id  y  class  apuntan a los valores de los atributos hom\u00f3nimos.   Para apuntar a un  id  de HTML, en el documento CSS se escribe el signo de numeral (#), seguido de su valor.     Etiqueta HTML (ejemplo)  C\u00f3digo CSS (ejemplo)      p id=\"miparrafo\" Este es un p\u00e1rrafo /p  #miparrafo {font-size: 12px;}    h1 id=\"titulo\" T\u00edtulo /h1  #titulo {color: teal;}     Para apuntar a una  class  de HTML, en el documento CSS se escribe el signo de punto (.), seguido de su valor     Etiqueta HTML (ejemplo)  C\u00f3digo CSS (ejemplo)      p class=\"miparrafo\" Este es un p\u00e1rrafo /p  .miparrafo {font-size: 12px;}    h1 class=\"titulo\" T\u00edtulo /h1  .titulo {color: teal;}      Sobre el uso de  id  y  class Un mismo selector de tipo  id  puede usarse por \u00fanica vez en el documento HTML. En cambio un selector de tipo  class  puede usarse sin l\u00edmite en la misma p\u00e1gina.", 
+            "title": "Selectores id y class"
         }, 
         {
             "location": "/cssFuentes/colorHTML/", 
