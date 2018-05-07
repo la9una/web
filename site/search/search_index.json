@@ -266,242 +266,282 @@
             "title": "Ejercicio 12"
         }, 
         {
-            "location": "/cssFundamentos/colorHTML/", 
+            "location": "/cssFundamentos/", 
+            "text": "Cascading Style Sheets (CSS), traducido literalmente al espa\u00f1ol, como Hojas de estilo en cascada, es un lenguaje para la especificar c\u00f3mo los documentos se presentan a los usuarios.\n\n\n\n\n\u00bfQu\u00e9 es un documento?\nUn documento (document) es una colecci\u00f3n de informaci\u00f3n que est\u00e1 estructurado utilizando un lenguaje de formato (markup language).\n\n\n\n\n\n\nEs muy usado para establecer el dise\u00f1o visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etc\u00e9tera. Tambi\u00e9n permite aplicar estilos no visuales, como las hojas de estilo auditivas. \n\n\n\n\n\n\n\n\nTipo de documento\n\n\nUso\n\n\n\n\n\n\n\n\n\n\nHTML\n\n\npara p\u00e1ginas web\n\n\n\n\n\n\nXML\n\n\npara documentos estrucurados, en general\n\n\n\n\n\n\nSVG\n\n\npara gr\u00e1ficos\n\n\n\n\n\n\n\n\nCSS est\u00e1 dise\u00f1ado principalmente para marcar la \nseparaci\u00f3n del contenido del documento y la forma de presentaci\u00f3n de este\n. Separar la definici\u00f3n de los contenidos y la definici\u00f3n de su aspecto presenta numerosas ventajas:\n\n\n\n\nobliga a crear documentos bien definidos y con significado completo, tambi\u00e9n llamados \ndocumentos sem\u00e1nticos\n\n\nmejora la \naccesibilidad\n del documento\n\n\nreduce la complejidad del mantenimiento del documento\n\n\npermite visualizar el mismo documento en \ninfinidad de dispositivos diferentes", 
+            "title": "Introducci\u00f3n"
+        }, 
+        {
+            "location": "/cssFundamentos/gettingstarted/", 
+            "text": "Comenzar a trabajar con CSS es sencillo. S\u00f3lo tendremos que disponer de un \neditor de texto adecuado\n que facilite nuestra tarea y muchas ganas de aprender. \n\n\nAgregando CSS al documento\n\n\nExisten tres maneras de agregar estilos CSS a nuestro documento (que en esta gu\u00eda, siempre ser\u00e1 un documento de tipo HTML), las cu\u00e1les, se explican a continuaci\u00f3n. \n\n\nEn l\u00ednea\n\n\nSe agrega estilos CSS directamente dentro de una etiqueta HTML. \n\n\nDe forma general: \n\n\netiqueta\n \nstyle\n=\n[c\u00f3digo css];\n\n\n\n\n\n\nPor ejemplo: \n\n\np\n \nstyle\n=\ncolor: blue;\n\n\n\n\n\n\nHoja de estilos CSS interna\n\n\nSe agrega un bloque de estilos CSS dentro la cabecera (\nhead\n) del documento HTML. \n\n\nPor ejemplo:\n\n\n!DOCTYPE html\n\n\nhtml\n \nlang\n=\nes\n\n\nhead\n\n    \nmeta\n \ncharset\n=\nUTF-8\n\n    \nstyle\n\n        \n/* Coloque aqu\u00ed sus estilos CSS */\n\n    \n/\nstyle\n\n    \ntitle\nDocumento\n/\ntitle\n\n\n/\nhead\n\n\nbody\n\n\n\n/\nbody\n\n\n/\nhtml\n\n\n\n\n\n\n\n\nComentarios en CSS\nEn un documento CSS, el texto encerrado entre \n/*\n y \n*/\n se consideran comentarios y, por lo mismo, no son interpretados por el navegador. \n\n\n\n\n\n\nHoja de estilos CSS externa\n\n\nLos estilos CSS se definen en un documento aparte (que lleva la extensi\u00f3n \n.css\n) el cual debe ser especificado dentro del documento HTML mediante la etiqueta \nlink\n, que presenta la forma: \n\n\nlink\n \nrel\n=\nstylesheet\n \nhref\n=\n[ruta hacia el documento CSS]\n\n\n\n\n\n\nDe esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. \n\n\nPor ejemplo, el documento HTML: \n\n\n!DOCTYPE html\n\n\nhtml\n \nlang\n=\nes\n\n\nhead\n\n    \nmeta\n \ncharset\n=\nUTF-8\n\n    \nlink\n \nrel\n=\nstylesheet\n \nhref\n=\nestilos.css\n\n    \ntitle\nDocumento\n/\ntitle\n\n\n/\nhead\n\n\nbody\n\n\n\n/\nbody\n\n\n/\nhtml\n\n\n\n\n\n\nY el documento \nestilos.css\n:\n\n\n/* Coloque aqu\u00ed sus estilos CSS */\n\n\n\n\n\n\nSintaxis\n\n\nAl igual que cuando escribimos un documento HTML, existen una serie de reglas para escribir un documento HTML correctamente, que est\u00e1n definidas por la \nW3C\n (\nWorld Wide Web Consortium\n) que es una comunidad internacional en la cual los estados miembros trabajan definiendo recomendaciones y est\u00e1ndares para el desarrollo web, buscando asegurar de esta manera las condiciones para el crecimiento de la red inform\u00e1tica mundial (\nWorld Wide Web\n) o internet, a largo plazo.\n\n\nYendo ahora al punto que nos compete diremos que, en l\u00edneas generales, la sintaxis CSS es: \n\n\nselector\n \n{\npropiedad\n:\n \nvalor\n;}\n\n\n\n\n\n\nDonde: \n\n\n\n\nselector\n: es el objeto de la p\u00e1gina web a la cual se le aplicar\u00e1 un estilo determinado. Existen varios tipos, como veremos m\u00e1s adelante. \n[\u00cdndice de selectores]\n\n\npropiedad\n: es el tipo de estilo que se le aplicar\u00e1 a un objeto de la p\u00e1gina web. Puede tratarse de una o varias, como el ancho, el alto, color de fondo, bordes, etc. \n[\u00cdndice de propiedades]\n\n\nvalor\n: es la \"medida\" del estilo que se aplicar\u00e1 al objeto. \n\n\n\n\nPor ejemplo: \n\n\np\n \n{\nbackground-color\n:\n \nyellow\n;}\n\n\n\n\n\n\n\n\nValidador CSS\nLa W3C dispone de un servicio en l\u00ednea que posibilita verificar si un documento escrito en CSS se ajusta a los est\u00e1ndares internacionales: \n\n\nValidar CSS en l\u00ednea", 
+            "title": "Primeros pasos"
+        }, 
+        {
+            "location": "/cssFundamentos/gettingstarted/#agregando-css-al-documento", 
+            "text": "Existen tres maneras de agregar estilos CSS a nuestro documento (que en esta gu\u00eda, siempre ser\u00e1 un documento de tipo HTML), las cu\u00e1les, se explican a continuaci\u00f3n.", 
+            "title": "Agregando CSS al documento"
+        }, 
+        {
+            "location": "/cssFundamentos/gettingstarted/#en-linea", 
+            "text": "Se agrega estilos CSS directamente dentro de una etiqueta HTML.   De forma general:   etiqueta   style = [c\u00f3digo css];   Por ejemplo:   p   style = color: blue;", 
+            "title": "En l\u00ednea"
+        }, 
+        {
+            "location": "/cssFundamentos/gettingstarted/#hoja-de-estilos-css-interna", 
+            "text": "Se agrega un bloque de estilos CSS dentro la cabecera ( head ) del documento HTML.   Por ejemplo:  !DOCTYPE html  html   lang = es  head \n     meta   charset = UTF-8 \n     style \n         /* Coloque aqu\u00ed sus estilos CSS */ \n     / style \n     title Documento / title  / head  body  / body  / html    Comentarios en CSS En un documento CSS, el texto encerrado entre  /*  y  */  se consideran comentarios y, por lo mismo, no son interpretados por el navegador.", 
+            "title": "Hoja de estilos CSS interna"
+        }, 
+        {
+            "location": "/cssFundamentos/gettingstarted/#hoja-de-estilos-css-externa", 
+            "text": "Los estilos CSS se definen en un documento aparte (que lleva la extensi\u00f3n  .css ) el cual debe ser especificado dentro del documento HTML mediante la etiqueta  link , que presenta la forma:   link   rel = stylesheet   href = [ruta hacia el documento CSS]   De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro.   Por ejemplo, el documento HTML:   !DOCTYPE html  html   lang = es  head \n     meta   charset = UTF-8 \n     link   rel = stylesheet   href = estilos.css \n     title Documento / title  / head  body  / body  / html   Y el documento  estilos.css :  /* Coloque aqu\u00ed sus estilos CSS */", 
+            "title": "Hoja de estilos CSS externa"
+        }, 
+        {
+            "location": "/cssFundamentos/gettingstarted/#sintaxis", 
+            "text": "Al igual que cuando escribimos un documento HTML, existen una serie de reglas para escribir un documento HTML correctamente, que est\u00e1n definidas por la  W3C  ( World Wide Web Consortium ) que es una comunidad internacional en la cual los estados miembros trabajan definiendo recomendaciones y est\u00e1ndares para el desarrollo web, buscando asegurar de esta manera las condiciones para el crecimiento de la red inform\u00e1tica mundial ( World Wide Web ) o internet, a largo plazo.  Yendo ahora al punto que nos compete diremos que, en l\u00edneas generales, la sintaxis CSS es:   selector   { propiedad :   valor ;}   Donde:    selector : es el objeto de la p\u00e1gina web a la cual se le aplicar\u00e1 un estilo determinado. Existen varios tipos, como veremos m\u00e1s adelante.  [\u00cdndice de selectores]  propiedad : es el tipo de estilo que se le aplicar\u00e1 a un objeto de la p\u00e1gina web. Puede tratarse de una o varias, como el ancho, el alto, color de fondo, bordes, etc.  [\u00cdndice de propiedades]  valor : es la \"medida\" del estilo que se aplicar\u00e1 al objeto.    Por ejemplo:   p   { background-color :   yellow ;}    Validador CSS La W3C dispone de un servicio en l\u00ednea que posibilita verificar si un documento escrito en CSS se ajusta a los est\u00e1ndares internacionales:   Validar CSS en l\u00ednea", 
+            "title": "Sintaxis"
+        }, 
+        {
+            "location": "/cssFundamentos/selectores/", 
+            "text": "", 
+            "title": "Selectores"
+        }, 
+        {
+            "location": "/cssFuentes/colorHTML/", 
             "text": "Nombres de colores HTML\n\n\nLos siguientes 140 colores son soportados por todos los navegadores actuales. Los mismos est\u00e1n expresados por \nsu nombre en ingl\u00e9s\n as\u00ed como por su \nvalor en formato hexadecimal\n.\n\n\n\n\n\n\nNombre del color\n\n\nValor hexadecimal\n\n\nColor\n\n\n\n\n\n\n\nAliceBlue\n\n\n#F0F8FF\n\n\n\n\n\n\n\n\n\nAntiqueWhite\n\n\n#FAEBD7\n\n\n\n\n\n\n\n\n\nAqua\n\n\n#00FFFF\n\n\n\n\n\n\n\n\n\nAquamarine\n\n\n#7FFFD4\n\n\n\n\n\n\n\n\n\nAzure\n\n\n#F0FFFF\n\n\n\n\n\n\n\n\n\nBeige\n\n\n#F5F5DC\n\n\n\n\n\n\n\n\n\nBisque\n\n\n#FFE4C4\n\n\n\n\n\n\n\n\n\nBlack\n\n\n#000000\n\n\n\n\n\n\n\n\n\nBlanchedAlmond\n\n\n#FFEBCD\n\n\n\n\n\n\n\n\n\nBlue\n\n\n#0000FF\n\n\n\n\n\n\n\n\n\nBlueViolet\n\n\n#8A2BE2\n\n\n\n\n\n\n\n\n\nBrown\n\n\n#A52A2A\n\n\n\n\n\n\n\n\n\nBurlyWood\n\n\n#DEB887\n\n\n\n\n\n\n\n\n\nCadetBlue\n\n\n#5F9EA0\n\n\n\n\n\n\n\n\n\nChartreuse\n\n\n#7FFF00\n\n\n\n\n\n\n\n\n\nChocolate\n\n\n#D2691E\n\n\n\n\n\n\n\n\n\nCoral\n\n\n#FF7F50\n\n\n\n\n\n\n\n\n\nCornflowerBlue\n\n\n#6495ED\n\n\n\n\n\n\n\n\n\nCornsilk\n\n\n#FFF8DC\n\n\n\n\n\n\n\n\n\n\nCrimson\n\n\n#DC143C\n\n\n\n\n\n\n\n\n\n\nCyan\n\n\n#00FFFF\n\n\n\n\n\n\n\n\n\nDarkBlue\n\n\n#00008B\n\n\n\n\n\n\n\n\n\nDarkCyan\n\n\n#008B8B\n\n\n\n\n\n\n\n\n\nDarkGoldenRod\n\n\n#B8860B\n\n\n\n\n\n\n\n\n\nDarkGray\n\n\n#A9A9A9\n\n\n\n\n\n\n\n\n\nDarkGrey\n\n\n#A9A9A9\n\n\n\n\n\n\n\n\n\nDarkGreen\n\n\n#006400\n\n\n\n\n\n\n\n\n\nDarkKhaki\n\n\n#BDB76B\n\n\n\n\n\n\n\n\n\nDarkMagenta\n\n\n#8B008B\n\n\n\n\n\n\n\n\n\nDarkOliveGreen\n\n\n#556B2F\n\n\n\n\n\n\n\n\n\nDarkOrange\n\n\n#FF8C00\n\n\n\n\n\n\n\n\n\nDarkOrchid\n\n\n#9932CC\n\n\n\n\n\n\n\n\n\nDarkRed\n\n\n#8B0000\n\n\n\n\n\n\n\n\n\nDarkSalmon\n\n\n#E9967A\n\n\n\n\n\n\n\n\n\nDarkSeaGreen\n\n\n#8FBC8F\n\n\n\n\n\n\n\n\n\nDarkSlateBlue\n\n\n#483D8B\n\n\n\n\n\n\n\n\n\nDarkSlateGray\n\n\n#2F4F4F\n\n\n\n\n\n\n\n\n\nDarkSlateGrey\n\n\n#2F4F4F\n\n\n\n\n\n\n\n\n\nDarkTurquoise\n\n\n#00CED1\n\n\n\n\n\n\n\n\n\nDarkViolet\n\n\n#9400D3\n\n\n\n\n\n\n\n\n\nDeepPink\n\n\n#FF1493\n\n\n\n\n\n\n\n\n\nDeepSkyBlue\n\n\n#00BFFF\n\n\n\n\n\n\n\n\n\nDimGray\n\n\n#696969\n\n\n\n\n\n\n\n\n\nDimGrey\n\n\n#696969\n\n\n\n\n\n\n\n\n\nDodgerBlue\n\n\n#1E90FF\n\n\n\n\n\n\n\n\n\nFireBrick\n\n\n#B22222\n\n\n\n\n\n\n\n\n\nFloralWhite\n\n\n#FFFAF0\n\n\n\n\n\n\n\n\n\nForestGreen\n\n\n#228B22\n\n\n\n\n\n\n\n\n\nFuchsia\n\n\n#FF00FF\n\n\n\n\n\n\n\n\n\nGainsboro\n\n\n#DCDCDC\n\n\n\n\n\n\n\n\n\nGhostWhite\n\n\n#F8F8FF\n\n\n\n\n\n\n\n\n\nGold\n\n\n#FFD700\n\n\n\n\n\n\n\n\n\nGoldenRod\n\n\n#DAA520\n\n\n\n\n\n\n\n\n\nGray\n\n\n#808080\n\n\n\n\n\n\n\n\n\nGrey\n\n\n#808080\n\n\n\n\n\n\n\n\n\nGreen\n\n\n#008000\n\n\n\n\n\n\n\n\n\nGreenYellow\n\n\n#ADFF2F\n\n\n\n\n\n\n\n\n\nHoneyDew\n\n\n#F0FFF0\n\n\n\n\n\n\n\n\n\nHotPink\n\n\n#FF69B4\n\n\n\n\n\n\n\n\n\nIndianRed \n\n\n#CD5C5C\n\n\n\n\n\n\n\n\n\nIndigo  \n\n\n#4B0082\n\n\n\n\n\n\n\n\n\nIvory\n\n\n#FFFFF0\n\n\n\n\n\n\n\n\n\nKhaki\n\n\n#F0E68C\n\n\n\n\n\n\n\n\n\nLavender\n\n\n#E6E6FA\n\n\n\n\n\n\n\n\n\nLavenderBlush\n\n\n#FFF0F5\n\n\n\n\n\n\n\n\n\nLawnGreen\n\n\n#7CFC00\n\n\n\n\n\n\n\n\n\nLemonChiffon\n\n\n#FFFACD\n\n\n\n\n\n\n\n\n\nLightBlue\n\n\n#ADD8E6\n\n\n\n\n\n\n\n\n\nLightCoral\n\n\n#F08080\n\n\n\n\n\n\n\n\n\nLightCyan\n\n\n#E0FFFF\n\n\n\n\n\n\n\n\n\nLightGoldenRodYellow\n\n\n#FAFAD2\n\n\n\n\n\n\n\n\n\nLightGray\n\n\n#D3D3D3\n\n\n\n\n\n\n\n\n\nLightGrey\n\n\n#D3D3D3\n\n\n\n\n\n\n\n\n\nLightGreen\n\n\n#90EE90\n\n\n\n\n\n\n\n\n\nLightPink\n\n\n#FFB6C1\n\n\n\n\n\n\n\n\n\nLightSalmon\n\n\n#FFA07A\n\n\n\n\n\n\n\n\n\nLightSeaGreen\n\n\n#20B2AA\n\n\n\n\n\n\n\n\n\nLightSkyBlue\n\n\n#87CEFA\n\n\n\n\n\n\n\n\n\nLightSlateGray\n\n\n#778899\n\n\n\n\n\n\n\n\n\nLightSlateGrey\n\n\n#778899\n\n\n\n\n\n\n\n\n\nLightSteelBlue\n\n\n#B0C4DE\n\n\n\n\n\n\n\n\n\nLightYellow\n\n\n#FFFFE0\n\n\n\n\n\n\n\n\n\nLime\n\n\n#00FF00\n\n\n\n\n\n\n\n\n\nLimeGreen\n\n\n#32CD32\n\n\n\n\n\n\n\n\n\nLinen\n\n\n#FAF0E6\n\n\n\n\n\n\n\n\n\nMagenta\n\n\n#FF00FF\n\n\n\n\n\n\n\n\n\nMaroon\n\n\n#800000\n\n\n\n\n\n\n\n\n\nMediumAquaMarine\n\n\n#66CDAA\n\n\n\n\n\n\n\n\n\nMediumBlue\n\n\n#0000CD\n\n\n\n\n\n\n\n\n\nMediumOrchid\n\n\n#BA55D3\n\n\n\n\n\n\n\n\n\nMediumPurple\n\n\n#9370DB\n\n\n\n\n\n\n\n\n\nMediumSeaGreen\n\n\n#3CB371\n\n\n\n\n\n\n\n\n\nMediumSlateBlue\n\n\n#7B68EE\n\n\n\n\n\n\n\n\n\nMediumSpringGreen\n\n\n#00FA9A\n\n\n\n\n\n\n\n\n\nMediumTurquoise\n\n\n#48D1CC\n\n\n\n\n\n\n\n\n\nMediumVioletRed\n\n\n#C71585\n\n\n\n\n\n\n\n\n\nMidnightBlue\n\n\n#191970\n\n\n\n\n\n\n\n\n\nMintCream\n\n\n#F5FFFA\n\n\n\n\n\n\n\n\n\nMistyRose\n\n\n#FFE4E1\n\n\n\n\n\n\n\n\n\nMoccasin\n\n\n#FFE4B5\n\n\n\n\n\n\n\n\n\nNavajoWhite\n\n\n#FFDEAD\n\n\n\n\n\n\n\n\n\nNavy\n\n\n#000080\n\n\n\n\n\n\n\n\n\nOldLace\n\n\n#FDF5E6\n\n\n\n\n\n\n\n\n\nOlive\n\n\n#808000\n\n\n\n\n\n\n\n\n\nOliveDrab\n\n\n#6B8E23\n\n\n\n\n\n\n\n\n\nOrange\n\n\n#FFA500\n\n\n\n\n\n\n\n\n\nOrangeRed\n\n\n#FF4500\n\n\n\n\n\n\n\n\n\nOrchid\n\n\n#DA70D6\n\n\n\n\n\n\n\n\n\nPaleGoldenRod\n\n\n#EEE8AA\n\n\n\n\n\n\n\n\n\nPaleGreen\n\n\n#98FB98\n\n\n\n\n\n\n\n\n\nPaleTurquoise\n\n\n#AFEEEE\n\n\n\n\n\n\n\n\n\nPaleVioletRed\n\n\n#DB7093\n\n\n\n\n\n\n\n\n\nPapayaWhip\n\n\n#FFEFD5\n\n\n\n\n\n\n\n\n\nPeachPuff\n\n\n#FFDAB9\n\n\n\n\n\n\n\n\n\nPeru\n\n\n#CD853F\n\n\n\n\n\n\n\n\n\nPink\n\n\n#FFC0CB\n\n\n\n\n\n\n\n\n\nPlum\n\n\n#DDA0DD\n\n\n\n\n\n\n\n\n\nPowderBlue\n\n\n#B0E0E6\n\n\n\n\n\n\n\n\n\nPurple\n\n\n#800080\n\n\n\n\n\n\n\n\n\nRebeccaPurple\n\n\n#663399\n\n\n\n\n\n\n\n\n\nRed\n\n\n#FF0000\n\n\n\n\n\n\n\n\n\nRosyBrown\n\n\n#BC8F8F\n\n\n\n\n\n\n\n\n\nRoyalBlue\n\n\n#4169E1\n\n\n\n\n\n\n\n\n\nSaddleBrown\n\n\n#8B4513\n\n\n\n\n\n\n\n\n\nSalmon\n\n\n#FA8072\n\n\n\n\n\n\n\n\n\nSandyBrown\n\n\n#F4A460\n\n\n\n\n\n\n\n\n\nSeaGreen\n\n\n#2E8B57\n\n\n\n\n\n\n\n\n\nSeaShell\n\n\n#FFF5EE\n\n\n\n\n\n\n\n\n\nSienna\n\n\n#A0522D\n\n\n\n\n\n\n\n\n\nSilver\n\n\n#C0C0C0\n\n\n\n\n\n\n\n\n\nSkyBlue\n\n\n#87CEEB\n\n\n\n\n\n\n\n\n\nSlateBlue\n\n\n#6A5ACD\n\n\n\n\n\n\n\n\n\nSlateGray\n\n\n#708090\n\n\n\n\n\n\n\n\n\nSlateGrey\n\n\n#708090\n\n\n\n\n\n\n\n\n\nSnow\n\n\n#FFFAFA\n\n\n\n\n\n\n\n\n\nSpringGreen\n\n\n#00FF7F\n\n\n\n\n\n\n\n\n\nSteelBlue\n\n\n#4682B4\n\n\n\n\n\n\n\n\n\nTan\n\n\n#D2B48C\n\n\n\n\n\n\n\n\n\nTeal\n\n\n#008080\n\n\n\n\n\n\n\n\n\nThistle\n\n\n#D8BFD8\n\n\n\n\n\n\n\n\n\nTomato\n\n\n#FF6347\n\n\n\n\n\n\n\n\n\nTurquoise\n\n\n#40E0D0\n\n\n\n\n\n\n\n\n\nViolet\n\n\n#EE82EE\n\n\n\n\n\n\n\n\n\nWheat\n\n\n#F5DEB3\n\n\n\n\n\n\n\n\n\nWhite\n\n\n#FFFFFF\n\n\n\n\n\n\n\n\n\nWhiteSmoke\n\n\n#F5F5F5\n\n\n\n\n\n\n\n\n\nYellow\n\n\n#FFFF00\n\n\n\n\n\n\n\n\n\nYellowGreen\n\n\n#9ACD32", 
             "title": "Colores web"
         }, 
         {
-            "location": "/cssFundamentos/colorHTML/#nombres-de-colores-html", 
+            "location": "/cssFuentes/colorHTML/#nombres-de-colores-html", 
             "text": "Los siguientes 140 colores son soportados por todos los navegadores actuales. Los mismos est\u00e1n expresados por  su nombre en ingl\u00e9s  as\u00ed como por su  valor en formato hexadecimal .    Nombre del color  Valor hexadecimal  Color    AliceBlue  #F0F8FF     AntiqueWhite  #FAEBD7     Aqua  #00FFFF     Aquamarine  #7FFFD4     Azure  #F0FFFF     Beige  #F5F5DC     Bisque  #FFE4C4     Black  #000000     BlanchedAlmond  #FFEBCD     Blue  #0000FF     BlueViolet  #8A2BE2     Brown  #A52A2A     BurlyWood  #DEB887     CadetBlue  #5F9EA0     Chartreuse  #7FFF00     Chocolate  #D2691E     Coral  #FF7F50     CornflowerBlue  #6495ED     Cornsilk  #FFF8DC     Crimson  #DC143C     Cyan  #00FFFF     DarkBlue  #00008B     DarkCyan  #008B8B     DarkGoldenRod  #B8860B     DarkGray  #A9A9A9     DarkGrey  #A9A9A9     DarkGreen  #006400     DarkKhaki  #BDB76B     DarkMagenta  #8B008B     DarkOliveGreen  #556B2F     DarkOrange  #FF8C00     DarkOrchid  #9932CC     DarkRed  #8B0000     DarkSalmon  #E9967A     DarkSeaGreen  #8FBC8F     DarkSlateBlue  #483D8B     DarkSlateGray  #2F4F4F     DarkSlateGrey  #2F4F4F     DarkTurquoise  #00CED1     DarkViolet  #9400D3     DeepPink  #FF1493     DeepSkyBlue  #00BFFF     DimGray  #696969     DimGrey  #696969     DodgerBlue  #1E90FF     FireBrick  #B22222     FloralWhite  #FFFAF0     ForestGreen  #228B22     Fuchsia  #FF00FF     Gainsboro  #DCDCDC     GhostWhite  #F8F8FF     Gold  #FFD700     GoldenRod  #DAA520     Gray  #808080     Grey  #808080     Green  #008000     GreenYellow  #ADFF2F     HoneyDew  #F0FFF0     HotPink  #FF69B4     IndianRed   #CD5C5C     Indigo    #4B0082     Ivory  #FFFFF0     Khaki  #F0E68C     Lavender  #E6E6FA     LavenderBlush  #FFF0F5     LawnGreen  #7CFC00     LemonChiffon  #FFFACD     LightBlue  #ADD8E6     LightCoral  #F08080     LightCyan  #E0FFFF     LightGoldenRodYellow  #FAFAD2     LightGray  #D3D3D3     LightGrey  #D3D3D3     LightGreen  #90EE90     LightPink  #FFB6C1     LightSalmon  #FFA07A     LightSeaGreen  #20B2AA     LightSkyBlue  #87CEFA     LightSlateGray  #778899     LightSlateGrey  #778899     LightSteelBlue  #B0C4DE     LightYellow  #FFFFE0     Lime  #00FF00     LimeGreen  #32CD32     Linen  #FAF0E6     Magenta  #FF00FF     Maroon  #800000     MediumAquaMarine  #66CDAA     MediumBlue  #0000CD     MediumOrchid  #BA55D3     MediumPurple  #9370DB     MediumSeaGreen  #3CB371     MediumSlateBlue  #7B68EE     MediumSpringGreen  #00FA9A     MediumTurquoise  #48D1CC     MediumVioletRed  #C71585     MidnightBlue  #191970     MintCream  #F5FFFA     MistyRose  #FFE4E1     Moccasin  #FFE4B5     NavajoWhite  #FFDEAD     Navy  #000080     OldLace  #FDF5E6     Olive  #808000     OliveDrab  #6B8E23     Orange  #FFA500     OrangeRed  #FF4500     Orchid  #DA70D6     PaleGoldenRod  #EEE8AA     PaleGreen  #98FB98     PaleTurquoise  #AFEEEE     PaleVioletRed  #DB7093     PapayaWhip  #FFEFD5     PeachPuff  #FFDAB9     Peru  #CD853F     Pink  #FFC0CB     Plum  #DDA0DD     PowderBlue  #B0E0E6     Purple  #800080     RebeccaPurple  #663399     Red  #FF0000     RosyBrown  #BC8F8F     RoyalBlue  #4169E1     SaddleBrown  #8B4513     Salmon  #FA8072     SandyBrown  #F4A460     SeaGreen  #2E8B57     SeaShell  #FFF5EE     Sienna  #A0522D     Silver  #C0C0C0     SkyBlue  #87CEEB     SlateBlue  #6A5ACD     SlateGray  #708090     SlateGrey  #708090     Snow  #FFFAFA     SpringGreen  #00FF7F     SteelBlue  #4682B4     Tan  #D2B48C     Teal  #008080     Thistle  #D8BFD8     Tomato  #FF6347     Turquoise  #40E0D0     Violet  #EE82EE     Wheat  #F5DEB3     White  #FFFFFF     WhiteSmoke  #F5F5F5     Yellow  #FFFF00     YellowGreen  #9ACD32", 
             "title": "Nombres de colores HTML"
         }, 
         {
-            "location": "/cssFundamentos/fuentesIndex/", 
+            "location": "/cssFuentes/fuentesIndex/", 
             "text": "Las tipograf\u00edas en el dise\u00f1o web\n\n\nEn casi todas las p\u00e1ginas webs se incluye texto, en mayor o menor medida. Y es tarea del dise\u00f1ador web estilizar las tipograf\u00edas con que se mostrar\u00e1 dicho texto. \n\n\nEl uso de tipograf\u00edas en el dise\u00f1o web siempre fue un problema. En los comienzos de internet, los navegadores s\u00f3lo mostraban el texto de una p\u00e1gina web con las tipograf\u00edas que el usuario ten\u00eda instaladas en su sistema operativo (Windows, Mac, Linux, etc). Aunque esto sigue siendo as\u00ed, con el tiempo se fueron encontrando soluciones a este problema, que permitieron dar mayor versatilidad a los dise\u00f1os tipogr\u00e1ficos en la web. \n\n\nAs\u00ed, el uso de tipograf\u00edas en el dise\u00f1o web ha ido virando del caos inicial, pasando por las \nsafe web fonts\n hasta llegar a la actual definici\u00f3n \n@font-face\n de CSS. \n\n\nSafe web fonts\n\n\nSe trata de \ntipos de letra o \nfuentes\n que est\u00e1n presentes en la mayor\u00eda de los sistemas operativos\n. Incluyendo estas fuentes en el dise\u00f1o web se asegura la m\u00e1xima compatibilidad entre sistemas operativos y navegadores. \n\n\nEn el a\u00f1o 1996, Microsoft inici\u00f3 el proyecto \nTrueType core fonts for the Web \n(archivo)\n mediante el cual ofrec\u00eda la distribuci\u00f3n de un grupo de fuentes (con algunos derechos reservados) para internet. El proyecto finaliz\u00f3 en el a\u00f1o 2002. Dichas fuentes son:\n\n\n\n\nAndale Mono\n\n\nArial\n\n\nArial Black\n\n\nComic Sans MS\n\n\nCourier New\n\n\nGeorgia\n\n\nImpact\n\n\nTimes New Roman\n\n\nTrebuchet MS\n\n\nVerdana\n\n\nWebdings\n\n\n\n\nAunque el proyecto termin\u00f3 hace unos a\u00f1os, el cat\u00e1logo de fuentes seguras qued\u00f3 establecido, con \nalgunas fuentes m\u00e1s\n que se sumaron luego. Y al d\u00eda de hoy, muchos dise\u00f1adores las siguen usando. \n\n\nPara definir el uso de una fuente segura es necesario el siguiente fragmento de c\u00f3digo CSS: \n\n\n/* Utilizamos la fuente */\n\n\nbody\n \n{\n\n    \nfont-family\n:\n \nSafeWebFont\n;\n\n\n}\n\n\n\n\n\n\n\n\nLimitaciones de las fuentes seguras\nSin negar que las fuentes seguras constituyen un intento de soluci\u00f3n (en t\u00e9rminos de estandarizaci\u00f3n) al problema de la tipograf\u00eda en el dise\u00f1o web, se trata de una soluci\u00f3n limitada, puesto que obliga a todos los sitios webs a emplear las mismas fuentes. \n\n\n\n\n\n\nLas fuentes para la web o webfonts\n\n\nLas aparici\u00f3n de las \nhojas de estilo en cascada o CSS\n permitieron el uso de cualquier tipo de fuente tipogr\u00e1fica para el dise\u00f1o web, gracias a la regla CSS \n@font-face\n. Dicha regla constituy\u00f3 desde su lanzamiento, una propuesta superadora a las \nsafe web fonts\n. \n\n\nLa sintaxis de la misma es la siguiente: \n\n\n/* Definimos la fuente */\n\n\n@\nfont-face\n \n{\n\n    \nfont-family\n:\n \nnombreDeMiFuente\n;\n\n    \nsrc\n:\n \nurl\n(\nfuente\n.\nwoff\n);\n\n\n}\n\n\n\n/* Utilizamos la fuente */\n\n\nbody\n \n{\n\n    \nfont-family\n:\n \nnombreDeMiFuente\n;\n\n\n}\n\n\n\n\n\n\nSin embargo, la regla \n@font-face\n no es igualmente soportada por las distintas versiones de los navegadores.  A continuaci\u00f3n, una tabla comparativa de la compatibilidad de esta regla seg\u00fan los navegadores m\u00e1s populares: \n\n\n\n\nTomado de: \ncaniuse.com\n\n\nFormatos de archivos para webfonts\n\n\nSi bien la regla \n@font-face\n puede utilizarse con cualquier tipo de fuente, su uso se extendi\u00f3 al incluirse las llamadas \nwebfonts\n o fuentes dise\u00f1adas exclusivamente para la web. Existen diferentes tipos de \nwebfonts\n, cada una con soporte variable en cada tipo de navegador, siendo la de tipo \nWOFF\n, la que al momento de escribir este documento es considerada como el formato est\u00e1ndar de \nwebfont\n. Otros tipos de archivo para \nwebfonts\n son: \n\n\n\n\nTTF (True Type Format)\n\n\nOTF (Open Type Font)\n\n\nSVG Font\n\n\nEOT (Embedded Open Type)\n\n\nWOFF (Web Open Format)\n\n\nWOFF2 (Web Open Format, versi\u00f3n 2)\n\n\n\n\nEn el siguiente cuadro pueden verse los distintos formatos de archivo de \nwebfonts\n y la compatibilidad que presentan con los navegadores m\u00e1s populares. Los n\u00fameros indican a partir de cu\u00e1l versi\u00f3n del navegador el formato de fuente es soportado: \n\n\n\n\nTomado de: \nw3schools.com", 
             "title": "Rese\u00f1a hist\u00f3rica"
         }, 
         {
-            "location": "/cssFundamentos/fuentesIndex/#las-tipografias-en-el-diseno-web", 
+            "location": "/cssFuentes/fuentesIndex/#las-tipografias-en-el-diseno-web", 
             "text": "En casi todas las p\u00e1ginas webs se incluye texto, en mayor o menor medida. Y es tarea del dise\u00f1ador web estilizar las tipograf\u00edas con que se mostrar\u00e1 dicho texto.   El uso de tipograf\u00edas en el dise\u00f1o web siempre fue un problema. En los comienzos de internet, los navegadores s\u00f3lo mostraban el texto de una p\u00e1gina web con las tipograf\u00edas que el usuario ten\u00eda instaladas en su sistema operativo (Windows, Mac, Linux, etc). Aunque esto sigue siendo as\u00ed, con el tiempo se fueron encontrando soluciones a este problema, que permitieron dar mayor versatilidad a los dise\u00f1os tipogr\u00e1ficos en la web.   As\u00ed, el uso de tipograf\u00edas en el dise\u00f1o web ha ido virando del caos inicial, pasando por las  safe web fonts  hasta llegar a la actual definici\u00f3n  @font-face  de CSS.", 
             "title": "Las tipograf\u00edas en el dise\u00f1o web"
         }, 
         {
-            "location": "/cssFundamentos/fuentesIndex/#safe-web-fonts", 
+            "location": "/cssFuentes/fuentesIndex/#safe-web-fonts", 
             "text": "Se trata de  tipos de letra o  fuentes  que est\u00e1n presentes en la mayor\u00eda de los sistemas operativos . Incluyendo estas fuentes en el dise\u00f1o web se asegura la m\u00e1xima compatibilidad entre sistemas operativos y navegadores.   En el a\u00f1o 1996, Microsoft inici\u00f3 el proyecto  TrueType core fonts for the Web  (archivo)  mediante el cual ofrec\u00eda la distribuci\u00f3n de un grupo de fuentes (con algunos derechos reservados) para internet. El proyecto finaliz\u00f3 en el a\u00f1o 2002. Dichas fuentes son:   Andale Mono  Arial  Arial Black  Comic Sans MS  Courier New  Georgia  Impact  Times New Roman  Trebuchet MS  Verdana  Webdings   Aunque el proyecto termin\u00f3 hace unos a\u00f1os, el cat\u00e1logo de fuentes seguras qued\u00f3 establecido, con  algunas fuentes m\u00e1s  que se sumaron luego. Y al d\u00eda de hoy, muchos dise\u00f1adores las siguen usando.   Para definir el uso de una fuente segura es necesario el siguiente fragmento de c\u00f3digo CSS:   /* Utilizamos la fuente */  body   { \n     font-family :   SafeWebFont ;  }    Limitaciones de las fuentes seguras Sin negar que las fuentes seguras constituyen un intento de soluci\u00f3n (en t\u00e9rminos de estandarizaci\u00f3n) al problema de la tipograf\u00eda en el dise\u00f1o web, se trata de una soluci\u00f3n limitada, puesto que obliga a todos los sitios webs a emplear las mismas fuentes.", 
             "title": "Safe web fonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesIndex/#las-fuentes-para-la-web-o-webfonts", 
+            "location": "/cssFuentes/fuentesIndex/#las-fuentes-para-la-web-o-webfonts", 
             "text": "Las aparici\u00f3n de las  hojas de estilo en cascada o CSS  permitieron el uso de cualquier tipo de fuente tipogr\u00e1fica para el dise\u00f1o web, gracias a la regla CSS  @font-face . Dicha regla constituy\u00f3 desde su lanzamiento, una propuesta superadora a las  safe web fonts .   La sintaxis de la misma es la siguiente:   /* Definimos la fuente */  @ font-face   { \n     font-family :   nombreDeMiFuente ; \n     src :   url ( fuente . woff );  }  /* Utilizamos la fuente */  body   { \n     font-family :   nombreDeMiFuente ;  }   Sin embargo, la regla  @font-face  no es igualmente soportada por las distintas versiones de los navegadores.  A continuaci\u00f3n, una tabla comparativa de la compatibilidad de esta regla seg\u00fan los navegadores m\u00e1s populares:    Tomado de:  caniuse.com", 
             "title": "Las fuentes para la web o webfonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesIndex/#formatos-de-archivos-para-webfonts", 
+            "location": "/cssFuentes/fuentesIndex/#formatos-de-archivos-para-webfonts", 
             "text": "Si bien la regla  @font-face  puede utilizarse con cualquier tipo de fuente, su uso se extendi\u00f3 al incluirse las llamadas  webfonts  o fuentes dise\u00f1adas exclusivamente para la web. Existen diferentes tipos de  webfonts , cada una con soporte variable en cada tipo de navegador, siendo la de tipo  WOFF , la que al momento de escribir este documento es considerada como el formato est\u00e1ndar de  webfont . Otros tipos de archivo para  webfonts  son:    TTF (True Type Format)  OTF (Open Type Font)  SVG Font  EOT (Embedded Open Type)  WOFF (Web Open Format)  WOFF2 (Web Open Format, versi\u00f3n 2)   En el siguiente cuadro pueden verse los distintos formatos de archivo de  webfonts  y la compatibilidad que presentan con los navegadores m\u00e1s populares. Los n\u00fameros indican a partir de cu\u00e1l versi\u00f3n del navegador el formato de fuente es soportado:    Tomado de:  w3schools.com", 
             "title": "Formatos de archivos para webfonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/", 
+            "location": "/cssFuentes/fuentesPropiedades/", 
             "text": "Propiedades de fuente\n\n\nExiste un conjunto de propiedades que determinan ciertos aspectos estil\u00edsticos con el que se visualizar\u00e1n las fuentes. Estas propiedades son: \n\n\n\n\nfont-style\n\n\nfont-variant\n\n\nfont-weight\n\n\nfont-stretch\n\n\nfont-size\n\n\nline-height\n\n\nfont-family\n\n\nfont\n\n\n\n\nTomado de \ndeveloper.mozilla.org\n\n\nfont-style\n\n\nLa propiedad font-style permite definir el aspecto de una familia tipogr\u00e1fica entre los valores: normal, italic (cursiva) y oblique.\n\n\nSintaxis\n\n\nfont-style: [normal | italic | oblique];\n\n\n\n\n\nValores\n\n\nnormal\n\nEscoge un tipo de letra clasificado como normal dentro de una familia de fuente.\n\n\nitalic\n\nEscoge un tipo de letra etiquetado como italic, o, si una versi\u00f3n cursiva del tipo de letra no est\u00e9 disponible, escoge un tipo de letra etiquetado como oblique en lugar de eso.\n\n\noblique\n: \nEscoge un tipo de letra etiquetado como oblique, o, si una versi\u00f3n oblique del tipo de letra no est\u00e9 disponible, escoge un tipo de letra etiquetado como italic en lugar de eso. \n\n\nfont-variant\n\n\nLa propiedad font-variant selecciona entre los aspectos normal y small-caps para una familia de fuente determinada.\n\n\nSintaxis\n\n\nfont-variant: [normal | small-caps];\n\n\n\n\n\nValores\n\n\nfont-weight\n\n\nSintaxis\n\n\nValores\n\n\nfont-stretch\n\n\nSintaxis\n\n\nValores\n\n\nfont-size\n\n\nSintaxis\n\n\nValores\n\n\nline-height\n\n\nSintaxis\n\n\nValores\n\n\nfont-family\n\n\nSintaxis\n\n\nValores\n\n\nfont\n\n\nSintaxis\n\n\nValores", 
             "title": "Propiedades de fuente"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#propiedades-de-fuente", 
+            "location": "/cssFuentes/fuentesPropiedades/#propiedades-de-fuente", 
             "text": "Existe un conjunto de propiedades que determinan ciertos aspectos estil\u00edsticos con el que se visualizar\u00e1n las fuentes. Estas propiedades son:    font-style  font-variant  font-weight  font-stretch  font-size  line-height  font-family  font   Tomado de  developer.mozilla.org", 
             "title": "Propiedades de fuente"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font-style", 
+            "location": "/cssFuentes/fuentesPropiedades/#font-style", 
             "text": "La propiedad font-style permite definir el aspecto de una familia tipogr\u00e1fica entre los valores: normal, italic (cursiva) y oblique.", 
             "title": "font-style"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis", 
             "text": "font-style: [normal | italic | oblique];", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores", 
             "text": "normal \nEscoge un tipo de letra clasificado como normal dentro de una familia de fuente.  italic \nEscoge un tipo de letra etiquetado como italic, o, si una versi\u00f3n cursiva del tipo de letra no est\u00e9 disponible, escoge un tipo de letra etiquetado como oblique en lugar de eso.  oblique : \nEscoge un tipo de letra etiquetado como oblique, o, si una versi\u00f3n oblique del tipo de letra no est\u00e9 disponible, escoge un tipo de letra etiquetado como italic en lugar de eso.", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font-variant", 
+            "location": "/cssFuentes/fuentesPropiedades/#font-variant", 
             "text": "La propiedad font-variant selecciona entre los aspectos normal y small-caps para una familia de fuente determinada.", 
             "title": "font-variant"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_1", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_1", 
             "text": "font-variant: [normal | small-caps];", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_1", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_1", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font-weight", 
+            "location": "/cssFuentes/fuentesPropiedades/#font-weight", 
             "text": "", 
             "title": "font-weight"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_2", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_2", 
             "text": "", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_2", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_2", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font-stretch", 
+            "location": "/cssFuentes/fuentesPropiedades/#font-stretch", 
             "text": "", 
             "title": "font-stretch"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_3", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_3", 
             "text": "", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_3", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_3", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font-size", 
+            "location": "/cssFuentes/fuentesPropiedades/#font-size", 
             "text": "", 
             "title": "font-size"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_4", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_4", 
             "text": "", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_4", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_4", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#line-height", 
+            "location": "/cssFuentes/fuentesPropiedades/#line-height", 
             "text": "", 
             "title": "line-height"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_5", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_5", 
             "text": "", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_5", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_5", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font-family", 
+            "location": "/cssFuentes/fuentesPropiedades/#font-family", 
             "text": "", 
             "title": "font-family"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_6", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_6", 
             "text": "", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_6", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_6", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#font", 
+            "location": "/cssFuentes/fuentesPropiedades/#font", 
             "text": "", 
             "title": "font"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#sintaxis_7", 
+            "location": "/cssFuentes/fuentesPropiedades/#sintaxis_7", 
             "text": "", 
             "title": "Sintaxis"
         }, 
         {
-            "location": "/cssFundamentos/fuentesPropiedades/#valores_7", 
+            "location": "/cssFuentes/fuentesPropiedades/#valores_7", 
             "text": "", 
             "title": "Valores"
         }, 
         {
-            "location": "/cssFundamentos/fuentesFormato/", 
+            "location": "/cssFuentes/fuentesFormato/", 
             "text": "Formato de texto", 
             "title": "Formato de texto"
         }, 
         {
-            "location": "/cssFundamentos/fuentesFormato/#formato-de-texto", 
+            "location": "/cssFuentes/fuentesFormato/#formato-de-texto", 
             "text": "", 
             "title": "Formato de texto"
         }, 
         {
-            "location": "/cssFundamentos/fuentesWebFonts/", 
+            "location": "/cssFuentes/fuentesWebFonts/", 
             "text": "Usando webfonts\n\n\nA grandes rasgos podemos decir que existen dos maneras de emplear \nwebfonts\n en el dise\u00f1o tipogr\u00e1fico de una p\u00e1gina web: \n\n\n\n\nVincul\u00e1ndolas desde un sitio web que proporcione las fuentes de manera externa\n\n\nIncluy\u00e9ndolas en nuestro propio sitio web \n\n\n\n\nVinculando fuentes desde un sitio web externo\n\n\nUsando\n\n\nCon el fin de preservar nuestras opciones tipogr\u00e1ficas de manera que se vean siempre igual, sin importar el navegador del usuario, la regla \n@font-face\n debe escribirse de la siguiente manera: \n\n\n@\nfont-face\n \n{\n\n  \nfont-family\n:\n \nmiFuente\n;\n\n  \nfont-style\n:\n \nnormal\n;\n\n  \nfont-weight\n:\n \n400\n;\n\n  \nsrc\n:\n \nlocal\n(\nMi Fuente\n),\n\n       \nurl\n(\n/fonts/miFuente-l.woff2\n)\n \nformat\n(\nwoff2\n),\n \n       \nurl\n(\n/fonts/miFuente-l.woff\n)\n \nformat\n(\nwoff\n),\n\n       \nurl\n(\n/fonts/miFuente-l.ttf\n)\n \nformat\n(\ntruetype\n),\n\n       \nurl\n(\n/fonts/miFuente-l.eot\n)\n \nformat\n(\nembedded-opentype\n);\n\n  \nunicode-range\n:\n \nU\n+\n000-5FF\n;\n \n/* Glifos latinos */\n\n\n}\n\n\n\n@\nfont-face\n \n{\n\n  \nfont-family\n:\n \nmiFuente\n;\n\n  \nfont-style\n:\n \nitalic\n;\n\n  \nfont-weight\n:\n \n700\n;\n\n  \nsrc\n:\n \nlocal\n(\nMi Fuente\n),\n\n       \nurl\n(\n/fonts/miFuente-l-700.woff2\n)\n \nformat\n(\nwoff2\n),\n \n       \nurl\n(\n/fonts/miFuente-l-700.woff\n)\n \nformat\n(\nwoff\n),\n\n       \nurl\n(\n/fonts/miFuente-l-700.ttf\n)\n \nformat\n(\ntruetype\n),\n\n       \nurl\n(\n/fonts/miFuente-l-700.eot\n)\n \nformat\n(\nembedded-opentype\n);\n\n  \nunicode-range\n:\n \nU\n+\n3000-9FFF\n,\n \nU\n+\nff\n??;\n \n/* Glifos Japoneses */\n\n\n\n}\n\n\n\n\n\n\nTomado de: \ndevelopers.google.com\n\n\nLos ejemplos anteriores definen una familia llamada \nMi Fuente\n individual con dos estilos (normal e italic), y cada uno apunta a un conjunto diferente de recursos de fuente. Esto \u00faltimo se realiza para que la tipograf\u00eda se visualice de igual modo independientemente del navegador, ya que cada uno de ellos priorizar\u00e1 un tipo de fuente determinado. \n\n\nLa directiva \nlocal()\n permite hacer referencia a fuentes instaladas localmente (en el equipo del usuario), cargarlas y usarlas.\n\n\nLa directiva \nurl()\n permite cargar fuentes externas y pueden contener una sugerencia de \nformat()\n opcional que indique el formato de la fuente a la que se hace referencia en la URL proporcionada.\n\n\n\n\nNota\n\n\nEl orden en el que se especifican las variantes de las fuentes es importante. El navegador selecciona el primer formato compatible. Por lo tanto, si deseamos que los navegadores m\u00e1s nuevos usen WOFF2, tenemos que poner la declaraci\u00f3n de WOFF2 por encima de la de WOFF, etc.\n\n\n\n\nLa regla \n@font-face\n nos permite, adem\u00e1s, definir un \nintervalo de valores Unicode\n admitidos para cada definici\u00f3n de estilo. Esto nos permite dividir una fuente Unicode grande en subconjuntos m\u00e1s peque\u00f1os (por ejemplo, los subconjuntos latino, cir\u00edlico y griego) y solo descargar los glifos requeridos para representar el texto en una p\u00e1gina determinada.\n\n\n\n\nNota\n\n\nEl uso de subconjuntos del intervalo Unicode y archivos independientes para cada variante de tipograf\u00eda nos permite definir una familia de fuentes combinada cuya descarga es m\u00e1s r\u00e1pida y m\u00e1s eficiente. El visitante solo descargar\u00e1 las variantes y los subconjuntos que necesita, y no est\u00e1 obligado a descargar subconjuntos que quiz\u00e1 nunca vea ni use en la p\u00e1gina. \n\n\nPor ejemplo, la \nfamilia de fuentes Noto de Google\n apunta a admitir todos los idiomas del mundo. No obstante, el tama\u00f1o total del archivo ZIP de Noto, con todos los idiomas incluidos, supera los 130 MB.", 
             "title": "Usando webfonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesWebFonts/#usando-webfonts", 
+            "location": "/cssFuentes/fuentesWebFonts/#usando-webfonts", 
             "text": "A grandes rasgos podemos decir que existen dos maneras de emplear  webfonts  en el dise\u00f1o tipogr\u00e1fico de una p\u00e1gina web:    Vincul\u00e1ndolas desde un sitio web que proporcione las fuentes de manera externa  Incluy\u00e9ndolas en nuestro propio sitio web", 
             "title": "Usando webfonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesWebFonts/#vinculando-fuentes-desde-un-sitio-web-externo", 
+            "location": "/cssFuentes/fuentesWebFonts/#vinculando-fuentes-desde-un-sitio-web-externo", 
             "text": "", 
             "title": "Vinculando fuentes desde un sitio web externo"
         }, 
         {
-            "location": "/cssFundamentos/fuentesWebFonts/#usando", 
+            "location": "/cssFuentes/fuentesWebFonts/#usando", 
             "text": "Con el fin de preservar nuestras opciones tipogr\u00e1ficas de manera que se vean siempre igual, sin importar el navegador del usuario, la regla  @font-face  debe escribirse de la siguiente manera:   @ font-face   { \n   font-family :   miFuente ; \n   font-style :   normal ; \n   font-weight :   400 ; \n   src :   local ( Mi Fuente ), \n        url ( /fonts/miFuente-l.woff2 )   format ( woff2 ),  \n        url ( /fonts/miFuente-l.woff )   format ( woff ), \n        url ( /fonts/miFuente-l.ttf )   format ( truetype ), \n        url ( /fonts/miFuente-l.eot )   format ( embedded-opentype ); \n   unicode-range :   U + 000-5FF ;   /* Glifos latinos */  }  @ font-face   { \n   font-family :   miFuente ; \n   font-style :   italic ; \n   font-weight :   700 ; \n   src :   local ( Mi Fuente ), \n        url ( /fonts/miFuente-l-700.woff2 )   format ( woff2 ),  \n        url ( /fonts/miFuente-l-700.woff )   format ( woff ), \n        url ( /fonts/miFuente-l-700.ttf )   format ( truetype ), \n        url ( /fonts/miFuente-l-700.eot )   format ( embedded-opentype ); \n   unicode-range :   U + 3000-9FFF ,   U + ff ??;   /* Glifos Japoneses */  }   Tomado de:  developers.google.com  Los ejemplos anteriores definen una familia llamada  Mi Fuente  individual con dos estilos (normal e italic), y cada uno apunta a un conjunto diferente de recursos de fuente. Esto \u00faltimo se realiza para que la tipograf\u00eda se visualice de igual modo independientemente del navegador, ya que cada uno de ellos priorizar\u00e1 un tipo de fuente determinado.   La directiva  local()  permite hacer referencia a fuentes instaladas localmente (en el equipo del usuario), cargarlas y usarlas.  La directiva  url()  permite cargar fuentes externas y pueden contener una sugerencia de  format()  opcional que indique el formato de la fuente a la que se hace referencia en la URL proporcionada.   Nota  El orden en el que se especifican las variantes de las fuentes es importante. El navegador selecciona el primer formato compatible. Por lo tanto, si deseamos que los navegadores m\u00e1s nuevos usen WOFF2, tenemos que poner la declaraci\u00f3n de WOFF2 por encima de la de WOFF, etc.   La regla  @font-face  nos permite, adem\u00e1s, definir un  intervalo de valores Unicode  admitidos para cada definici\u00f3n de estilo. Esto nos permite dividir una fuente Unicode grande en subconjuntos m\u00e1s peque\u00f1os (por ejemplo, los subconjuntos latino, cir\u00edlico y griego) y solo descargar los glifos requeridos para representar el texto en una p\u00e1gina determinada.   Nota  El uso de subconjuntos del intervalo Unicode y archivos independientes para cada variante de tipograf\u00eda nos permite definir una familia de fuentes combinada cuya descarga es m\u00e1s r\u00e1pida y m\u00e1s eficiente. El visitante solo descargar\u00e1 las variantes y los subconjuntos que necesita, y no est\u00e1 obligado a descargar subconjuntos que quiz\u00e1 nunca vea ni use en la p\u00e1gina.   Por ejemplo, la  familia de fuentes Noto de Google  apunta a admitir todos los idiomas del mundo. No obstante, el tama\u00f1o total del archivo ZIP de Noto, con todos los idiomas incluidos, supera los 130 MB.", 
             "title": "Usando"
         }, 
         {
-            "location": "/cssFundamentos/fuentesTipografia/", 
+            "location": "/cssFuentes/fuentesTipografia/", 
             "text": "Elegir una tipograf\u00eda\n\n\nHay varias cuestiones a tener en cuenta a la hora de elegir un estilo tipogr\u00e1fico para nuestros dise\u00f1os. Entre los m\u00e1s importantes est\u00e1n: \n\n\n\n\nFuentes especialmente dise\u00f1adas para visualizaci\u00f3n en pantalla\n\n\nProporci\u00f3n entre la altura de los caracteres o \naltura de las x\n\n\nCaracteres \nabiertos\n antes que \ncerrados", 
             "title": "Elegir tipograf\u00eda"
         }, 
         {
-            "location": "/cssFundamentos/fuentesTipografia/#elegir-una-tipografia", 
+            "location": "/cssFuentes/fuentesTipografia/#elegir-una-tipografia", 
             "text": "Hay varias cuestiones a tener en cuenta a la hora de elegir un estilo tipogr\u00e1fico para nuestros dise\u00f1os. Entre los m\u00e1s importantes est\u00e1n:    Fuentes especialmente dise\u00f1adas para visualizaci\u00f3n en pantalla  Proporci\u00f3n entre la altura de los caracteres o  altura de las x  Caracteres  abiertos  antes que  cerrados", 
             "title": "Elegir una tipograf\u00eda"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/", 
+            "location": "/cssFuentes/fuentesEjercicios/", 
             "text": "El uso de tipograf\u00edas en el dise\u00f1o web\n\n\nEn casi todas las p\u00e1ginas webs se incluye texto, en mayor o menor medida. Y es tarea del dise\u00f1ador web estilizar las tipograf\u00edas con que se mostrar\u00e1 dicho texto. \n\n\nEl uso de tipograf\u00edas en el dise\u00f1o web siempre fue un problema. En los comienzos de internet, los navegadores s\u00f3lo mostraban el texto de una p\u00e1gina web con las tipograf\u00edas que el usuario ten\u00eda instaladas en su sistema operativo (Windows, Mac, Linux, etc). Aunque esto sigue siendo as\u00ed, con el tiempo se fueron encontrando soluciones a este problema, que permitieron dar mayor versatilidad a los dise\u00f1os tipogr\u00e1ficos en la web. \n\n\nAs\u00ed, el uso de tipograf\u00edas en el dise\u00f1o web ha ido virando del caos inicial, pasando por las \nsafe web fonts\n hasta llegar a la actual definici\u00f3n \n@font-face\n de CSS. \n\n\nSafe web fonts\n\n\nSe trata de \ntipos de letra o \nfuentes\n que est\u00e1n presentes en la mayor\u00eda de los sistemas operativos\n. Incluyendo estas fuentes en el dise\u00f1o web se asegura la m\u00e1xima compatibilidad entre sistemas operativos y navegadores. \n\n\nEn el a\u00f1o 1996, Microsoft inici\u00f3 el proyecto \nTrueType core fonts for the Web \n(archivo)\n mediante el cual ofrec\u00eda la distribuci\u00f3n de un grupo de fuentes (con algunos derechos reservados) para internet. El proyecto finaliz\u00f3 en el a\u00f1o 2002. Dichas fuentes son:\n\n\n\n\nAndale Mono\n\n\nArial\n\n\nArial Black\n\n\nComic Sans MS\n\n\nCourier New\n\n\nGeorgia\n\n\nImpact\n\n\nTimes New Roman\n\n\nTrebuchet MS\n\n\nVerdana\n\n\nWebdings\n\n\n\n\nAunque el proyecto termin\u00f3 hace unos a\u00f1os, el cat\u00e1logo de fuentes seguras qued\u00f3 establecido, con \nalgunas fuentes m\u00e1s\n que se sumaron luego. Y muchos dise\u00f1adores las siguen usando. \n\n\nSin negar que las fuentes seguras constituyen un intento de soluci\u00f3n (en t\u00e9rminos de estandarizaci\u00f3n) al problema de la tipograf\u00eda en el dise\u00f1o web, se trata de una soluci\u00f3n limitada, puesto que obliga a todos los sitios webs a emplear las mismas fuentes. \n\n\nEl procedimiento habitual para definir el uso de una fuente en CSS es: \n\n\n/* Utilizamos la fuente */\n\n\nbody\n \n{\n\n    \nfont-family\n:\n \nSafeWebFont\n;\n\n\n}\n\n\n\n\n\n\nLa regla @font-face\n\n\nLas aparici\u00f3n de las \nhojas de estilo en cascada o CSS\n permitieron el uso de cualquier tipo de fuente tipogr\u00e1fica para el dise\u00f1o web, gracias a la regla CSS \n@font-face\n. Dicha regla constituy\u00f3 desde su lanzamiento, una propuesta superadora a las \nsafe web fonts\n. \n\n\nLa sintaxis de la misma es la siguiente: \n\n\n/* Definimos la fuente */\n\n\n@\nfont-face\n \n{\n\n    \nfont-family\n:\n \nnombreDeMiFuente\n;\n\n    \nsrc\n:\n \nurl\n(\nfuente\n.\nwoff\n);\n\n\n}\n\n\n\n/* Utilizamos la fuente */\n\n\nbody\n \n{\n\n    \nfont-family\n:\n \nnombreDeMiFuente\n;\n\n\n}\n\n\n\n\n\n\nEsta regla CSS emplea tipograf\u00edas dise\u00f1adas para la web que se conocen como \nwebfonts\n. \n\n\n\n\nTomado de: \ncaniuse.com\n\n\nFormatos de archivos para webfonts\n\n\nExisten diferentes tipos de \nwebfonts\n. Cada una con soporte variable en cada tipo de navegador, siendo la de tipo WOFF, la que se perfila como \nwebfont\n est\u00e1ndar. Estos tipos de archivo son: \n\n\n\n\nTTF (True Type Format)\n\n\nOTF (Open Type Font)\n\n\nSVG Font\n\n\nEOT (Embedded Open Type)\n\n\nWOFF (Web Open Format)\n\n\nWOFF2 (Web Open Format, versi\u00f3n 2)\n\n\n\n\nEn el siguiente cuadro pueden verse los distintos formatos de archivo de \nwebfonts\n y la compatibilidad que presentan con los navegadores m\u00e1s populares. Los n\u00fameros indican a partir de cu\u00e1l versi\u00f3n del navegador el formato de fuente es soportado: \n\n\n\n\nTomado de: \nw3schools.com\n\n\nOptimizando la compatibilidad\n\n\nCon el fin de preservar nuestras opciones tipogr\u00e1ficas de manera que se vean siempre igual, sin importar el navegador del usuario, la regla \n@font-face\n debe escribirse de la siguiente manera: \n\n\n@\nfont-face\n \n{\n\n  \nfont-family\n:\n \nmiFuente\n;\n\n  \nfont-style\n:\n \nnormal\n;\n\n  \nfont-weight\n:\n \n400\n;\n\n  \nsrc\n:\n \nlocal\n(\nMi Fuente\n),\n\n       \nurl\n(\n/fonts/miFuente-l.woff2\n)\n \nformat\n(\nwoff2\n),\n \n       \nurl\n(\n/fonts/miFuente-l.woff\n)\n \nformat\n(\nwoff\n),\n\n       \nurl\n(\n/fonts/miFuente-l.ttf\n)\n \nformat\n(\ntruetype\n),\n\n       \nurl\n(\n/fonts/miFuente-l.eot\n)\n \nformat\n(\nembedded-opentype\n);\n\n  \nunicode-range\n:\n \nU\n+\n000-5FF\n;\n \n/* Glifos latinos */\n\n\n}\n\n\n\n@\nfont-face\n \n{\n\n  \nfont-family\n:\n \nmiFuente\n;\n\n  \nfont-style\n:\n \nitalic\n;\n\n  \nfont-weight\n:\n \n700\n;\n\n  \nsrc\n:\n \nlocal\n(\nMi Fuente\n),\n\n       \nurl\n(\n/fonts/miFuente-l-700.woff2\n)\n \nformat\n(\nwoff2\n),\n \n       \nurl\n(\n/fonts/miFuente-l-700.woff\n)\n \nformat\n(\nwoff\n),\n\n       \nurl\n(\n/fonts/miFuente-l-700.ttf\n)\n \nformat\n(\ntruetype\n),\n\n       \nurl\n(\n/fonts/miFuente-l-700.eot\n)\n \nformat\n(\nembedded-opentype\n);\n\n  \nunicode-range\n:\n \nU\n+\n3000-9FFF\n,\n \nU\n+\nff\n??;\n \n/* Glifos Japoneses */\n\n\n\n}\n\n\n\n\n\n\nTomado de: \ndevelopers.google.com\n\n\nLos ejemplos anteriores definen una familia llamada \nMi Fuente\n individual con dos estilos (normal e italic), y cada uno apunta a un conjunto diferente de recursos de fuente. Esto \u00faltimo se realiza para que la tipograf\u00eda se visualice de igual modo independientemente del navegador, ya que cada uno de ellos priorizar\u00e1 un tipo de fuente determinado. \n\n\nLa directiva \nlocal()\n permite hacer referencia a fuentes instaladas localmente (en el equipo del usuario), cargarlas y usarlas.\n\n\nLa directiva \nurl()\n permite cargar fuentes externas y pueden contener una sugerencia de format() opcional que indique el formato de la fuente a la que se hace referencia en la URL proporcionada.\n\n\n\n\nNota\n\n\nEl orden en el que se especifican las variantes de las fuentes es importante. El navegador selecciona el primer formato compatible. Por lo tanto, si deseamos que los navegadores m\u00e1s nuevos usen WOFF2, tenemos que poner la declaraci\u00f3n de WOFF2 por encima de la de WOFF, etc.\n\n\n\n\nLa regla \n@font-face\n nos permite, adem\u00e1s, definir un \nintervalo de valores Unicode\n admitidos para cada definici\u00f3n de estilo. Esto nos permite dividir una fuente Unicode grande en subconjuntos m\u00e1s peque\u00f1os (por ejemplo, los subconjuntos latino, cir\u00edlico y griego) y solo descargar los glifos requeridos para representar el texto en una p\u00e1gina determinada.\n\n\n\n\nNota\n\n\nEl uso de subconjuntos del intervalo Unicode y archivos independientes para cada variante de tipograf\u00eda nos permite definir una familia de fuentes combinada cuya descarga es m\u00e1s r\u00e1pida y m\u00e1s eficiente. El visitante solo descargar\u00e1 las variantes y los subconjuntos que necesita, y no est\u00e1 obligado a descargar subconjuntos que quiz\u00e1 nunca vea ni use en la p\u00e1gina. \n\n\nPor ejemplo, la \nfamilia de fuentes Noto de Google\n apunta a admitir todos los idiomas del mundo. No obstante, el tama\u00f1o total del archivo ZIP de Noto, con todos los idiomas incluidos, supera los 130 MB.\n\n\n\n\nElegir una tipograf\u00eda\n\n\nHay varias cuestiones a tener en cuenta a la hora de elegir un estilo tipogr\u00e1fico para nuestros dise\u00f1os. Entre los m\u00e1s importantes est\u00e1n: \n\n\n\n\nFuentes especialmente dise\u00f1adas para visualizaci\u00f3n en pantalla\n\n\nProporci\u00f3n entre la altura de los caracteres o \naltura de las x\n\n\nCaracteres \nabiertos\n antes que \ncerrados", 
             "title": "Ejercicios"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/#el-uso-de-tipografias-en-el-diseno-web", 
+            "location": "/cssFuentes/fuentesEjercicios/#el-uso-de-tipografias-en-el-diseno-web", 
             "text": "En casi todas las p\u00e1ginas webs se incluye texto, en mayor o menor medida. Y es tarea del dise\u00f1ador web estilizar las tipograf\u00edas con que se mostrar\u00e1 dicho texto.   El uso de tipograf\u00edas en el dise\u00f1o web siempre fue un problema. En los comienzos de internet, los navegadores s\u00f3lo mostraban el texto de una p\u00e1gina web con las tipograf\u00edas que el usuario ten\u00eda instaladas en su sistema operativo (Windows, Mac, Linux, etc). Aunque esto sigue siendo as\u00ed, con el tiempo se fueron encontrando soluciones a este problema, que permitieron dar mayor versatilidad a los dise\u00f1os tipogr\u00e1ficos en la web.   As\u00ed, el uso de tipograf\u00edas en el dise\u00f1o web ha ido virando del caos inicial, pasando por las  safe web fonts  hasta llegar a la actual definici\u00f3n  @font-face  de CSS.", 
             "title": "El uso de tipograf\u00edas en el dise\u00f1o web"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/#safe-web-fonts", 
+            "location": "/cssFuentes/fuentesEjercicios/#safe-web-fonts", 
             "text": "Se trata de  tipos de letra o  fuentes  que est\u00e1n presentes en la mayor\u00eda de los sistemas operativos . Incluyendo estas fuentes en el dise\u00f1o web se asegura la m\u00e1xima compatibilidad entre sistemas operativos y navegadores.   En el a\u00f1o 1996, Microsoft inici\u00f3 el proyecto  TrueType core fonts for the Web  (archivo)  mediante el cual ofrec\u00eda la distribuci\u00f3n de un grupo de fuentes (con algunos derechos reservados) para internet. El proyecto finaliz\u00f3 en el a\u00f1o 2002. Dichas fuentes son:   Andale Mono  Arial  Arial Black  Comic Sans MS  Courier New  Georgia  Impact  Times New Roman  Trebuchet MS  Verdana  Webdings   Aunque el proyecto termin\u00f3 hace unos a\u00f1os, el cat\u00e1logo de fuentes seguras qued\u00f3 establecido, con  algunas fuentes m\u00e1s  que se sumaron luego. Y muchos dise\u00f1adores las siguen usando.   Sin negar que las fuentes seguras constituyen un intento de soluci\u00f3n (en t\u00e9rminos de estandarizaci\u00f3n) al problema de la tipograf\u00eda en el dise\u00f1o web, se trata de una soluci\u00f3n limitada, puesto que obliga a todos los sitios webs a emplear las mismas fuentes.   El procedimiento habitual para definir el uso de una fuente en CSS es:   /* Utilizamos la fuente */  body   { \n     font-family :   SafeWebFont ;  }", 
             "title": "Safe web fonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/#la-regla-font-face", 
+            "location": "/cssFuentes/fuentesEjercicios/#la-regla-font-face", 
             "text": "Las aparici\u00f3n de las  hojas de estilo en cascada o CSS  permitieron el uso de cualquier tipo de fuente tipogr\u00e1fica para el dise\u00f1o web, gracias a la regla CSS  @font-face . Dicha regla constituy\u00f3 desde su lanzamiento, una propuesta superadora a las  safe web fonts .   La sintaxis de la misma es la siguiente:   /* Definimos la fuente */  @ font-face   { \n     font-family :   nombreDeMiFuente ; \n     src :   url ( fuente . woff );  }  /* Utilizamos la fuente */  body   { \n     font-family :   nombreDeMiFuente ;  }   Esta regla CSS emplea tipograf\u00edas dise\u00f1adas para la web que se conocen como  webfonts .    Tomado de:  caniuse.com", 
             "title": "La regla @font-face"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/#formatos-de-archivos-para-webfonts", 
+            "location": "/cssFuentes/fuentesEjercicios/#formatos-de-archivos-para-webfonts", 
             "text": "Existen diferentes tipos de  webfonts . Cada una con soporte variable en cada tipo de navegador, siendo la de tipo WOFF, la que se perfila como  webfont  est\u00e1ndar. Estos tipos de archivo son:    TTF (True Type Format)  OTF (Open Type Font)  SVG Font  EOT (Embedded Open Type)  WOFF (Web Open Format)  WOFF2 (Web Open Format, versi\u00f3n 2)   En el siguiente cuadro pueden verse los distintos formatos de archivo de  webfonts  y la compatibilidad que presentan con los navegadores m\u00e1s populares. Los n\u00fameros indican a partir de cu\u00e1l versi\u00f3n del navegador el formato de fuente es soportado:    Tomado de:  w3schools.com", 
             "title": "Formatos de archivos para webfonts"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/#optimizando-la-compatibilidad", 
+            "location": "/cssFuentes/fuentesEjercicios/#optimizando-la-compatibilidad", 
             "text": "Con el fin de preservar nuestras opciones tipogr\u00e1ficas de manera que se vean siempre igual, sin importar el navegador del usuario, la regla  @font-face  debe escribirse de la siguiente manera:   @ font-face   { \n   font-family :   miFuente ; \n   font-style :   normal ; \n   font-weight :   400 ; \n   src :   local ( Mi Fuente ), \n        url ( /fonts/miFuente-l.woff2 )   format ( woff2 ),  \n        url ( /fonts/miFuente-l.woff )   format ( woff ), \n        url ( /fonts/miFuente-l.ttf )   format ( truetype ), \n        url ( /fonts/miFuente-l.eot )   format ( embedded-opentype ); \n   unicode-range :   U + 000-5FF ;   /* Glifos latinos */  }  @ font-face   { \n   font-family :   miFuente ; \n   font-style :   italic ; \n   font-weight :   700 ; \n   src :   local ( Mi Fuente ), \n        url ( /fonts/miFuente-l-700.woff2 )   format ( woff2 ),  \n        url ( /fonts/miFuente-l-700.woff )   format ( woff ), \n        url ( /fonts/miFuente-l-700.ttf )   format ( truetype ), \n        url ( /fonts/miFuente-l-700.eot )   format ( embedded-opentype ); \n   unicode-range :   U + 3000-9FFF ,   U + ff ??;   /* Glifos Japoneses */  }   Tomado de:  developers.google.com  Los ejemplos anteriores definen una familia llamada  Mi Fuente  individual con dos estilos (normal e italic), y cada uno apunta a un conjunto diferente de recursos de fuente. Esto \u00faltimo se realiza para que la tipograf\u00eda se visualice de igual modo independientemente del navegador, ya que cada uno de ellos priorizar\u00e1 un tipo de fuente determinado.   La directiva  local()  permite hacer referencia a fuentes instaladas localmente (en el equipo del usuario), cargarlas y usarlas.  La directiva  url()  permite cargar fuentes externas y pueden contener una sugerencia de format() opcional que indique el formato de la fuente a la que se hace referencia en la URL proporcionada.   Nota  El orden en el que se especifican las variantes de las fuentes es importante. El navegador selecciona el primer formato compatible. Por lo tanto, si deseamos que los navegadores m\u00e1s nuevos usen WOFF2, tenemos que poner la declaraci\u00f3n de WOFF2 por encima de la de WOFF, etc.   La regla  @font-face  nos permite, adem\u00e1s, definir un  intervalo de valores Unicode  admitidos para cada definici\u00f3n de estilo. Esto nos permite dividir una fuente Unicode grande en subconjuntos m\u00e1s peque\u00f1os (por ejemplo, los subconjuntos latino, cir\u00edlico y griego) y solo descargar los glifos requeridos para representar el texto en una p\u00e1gina determinada.   Nota  El uso de subconjuntos del intervalo Unicode y archivos independientes para cada variante de tipograf\u00eda nos permite definir una familia de fuentes combinada cuya descarga es m\u00e1s r\u00e1pida y m\u00e1s eficiente. El visitante solo descargar\u00e1 las variantes y los subconjuntos que necesita, y no est\u00e1 obligado a descargar subconjuntos que quiz\u00e1 nunca vea ni use en la p\u00e1gina.   Por ejemplo, la  familia de fuentes Noto de Google  apunta a admitir todos los idiomas del mundo. No obstante, el tama\u00f1o total del archivo ZIP de Noto, con todos los idiomas incluidos, supera los 130 MB.", 
             "title": "Optimizando la compatibilidad"
         }, 
         {
-            "location": "/cssFundamentos/fuentesEjercicios/#elegir-una-tipografia", 
+            "location": "/cssFuentes/fuentesEjercicios/#elegir-una-tipografia", 
             "text": "Hay varias cuestiones a tener en cuenta a la hora de elegir un estilo tipogr\u00e1fico para nuestros dise\u00f1os. Entre los m\u00e1s importantes est\u00e1n:    Fuentes especialmente dise\u00f1adas para visualizaci\u00f3n en pantalla  Proporci\u00f3n entre la altura de los caracteres o  altura de las x  Caracteres  abiertos  antes que  cerrados", 
             "title": "Elegir una tipograf\u00eda"
         }, 

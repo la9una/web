@@ -24,7 +24,7 @@ Bootstrap porporciona dos tipos de clase CSS para los contenedores:
 
 Las clases para contenedor deben añadirse a un elemento en bloque, generalmente un  `div`, para formar un contenedor. 
 
-!!!error "Contenedores y contenido web"
+!!!warning "Contenedores y contenido web"
 		Como indicamos más arriba, los contenedores no pueden alojar contenido web directamente. 
 
 ## Filas
@@ -32,7 +32,7 @@ La clase CSS para una fila `.row*` debe añadirse a un elemento en bloque, gener
 
 ![Bootstrap Grid System](imgBootstrap/bGridRow.png)
 
-!!!error "Filas y contenido web"
+!!!warning "Filas y contenido web"
 		Al igual que los contenedores, las filas tampoco pueden alojar contenido web directamente dentro suyo. 
 
 ## Columnas
