@@ -34,6 +34,10 @@ En orden alfabético, los editores de texto recomendados para la web son:
 ## Tratamiento del color
 Existen varias herramientas para gestionar la paleta de colores de un sitio web. En orden alfabético, las opciones recomendadas son: 
 
+### Adobe color
+* Licencia: Privativa. Uso gratuito con limitaciones. 
+* Plataformas soportadas: Web
+* Web oficial: [color.adobe.com](https://color.adobe.com/es/create/color-wheel)
 
 ### Colorzilla
 * Licencia: Privativa. Versión gratuita.
@@ -41,7 +45,7 @@ Existen varias herramientas para gestionar la paleta de colores de un sitio web.
 * Web oficial: [colorzilla.com](http://www.colorzilla.com/)
 
 ### gpick
-* Licencia: Open Source
+* Licencia: Open Source.
 * Plataformas soportadas: GNU/Linux, Windows
 * Web oficial: [gpick.org](http://www.gpick.org/)
 
