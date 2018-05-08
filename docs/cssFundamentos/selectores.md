@@ -26,3 +26,6 @@ Para apuntar a una `class` de HTML, en el documento CSS se escribe el signo de p
 
 !!!done "Sobre el uso de `id` y `class`"
 		Un mismo selector de tipo `id` puede usarse por única vez en el documento HTML. En cambio un selector de tipo `class` puede usarse sin límite en la misma página. 
+
+!!!done "Comentarios en CSS"
+		En un documento CSS, el texto encerrado entre `/*` y `*/` se consideran comentarios y, por lo mismo, no son interpretados por el navegador. 
