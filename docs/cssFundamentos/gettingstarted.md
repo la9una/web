@@ -1,4 +1,4 @@
-Comenzar a trabajar con CSS es sencillo. Sólo tendremos que disponer de un [editor de texto adecuado](../disenoWeb/herramientasWeb.md) que facilite nuestra tarea y muchas ganas de aprender. 
+Comenzar a trabajar con CSS es sencillo. Sólo tendremos que disponer de un [editor de texto adecuado](../disenoWeb/herramientas.md) que facilite nuestra tarea y muchas ganas de aprender. 
 
 ## Sintaxis
 Al igual que cuando escribimos un documento HTML, existen una serie de reglas para escribir un documento HTML correctamente, que están definidas por la [W3C](https://www.w3c.es/) (_World Wide Web Consortium_) que es una comunidad internacional en la cual los estados miembros trabajan definiendo recomendaciones y estándares para el desarrollo web, buscando asegurar de esta manera las condiciones para el crecimiento de la red informática mundial (_World Wide Web_) o internet, a largo plazo.
