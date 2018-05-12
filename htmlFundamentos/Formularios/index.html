@@ -552,15 +552,27 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="../../cssFundamentos/units/" title="Unidades" class="md-nav__link">
+      Unidades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
     
-    <label class="md-nav__link" for="nav-4-4">
+    <label class="md-nav__link" for="nav-4-5">
       Modelo de caja
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-4">
+      <label class="md-nav__title" for="nav-4-5">
         Modelo de caja
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -572,7 +584,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cssFundamentos/boxmodel/" title="Definición" class="md-nav__link">
+    <a href="../../cssBoxModel/boxmodel/" title="Definición" class="md-nav__link">
       Definición
     </a>
   </li>
@@ -584,7 +596,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cssFundamentos/position/" title="Posicionamiento" class="md-nav__link">
+    <a href="../../cssBoxModel/position/" title="Posicionamiento" class="md-nav__link">
       Posicionamiento
     </a>
   </li>
@@ -602,13 +614,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
     
-    <label class="md-nav__link" for="nav-4-5">
+    <label class="md-nav__link" for="nav-4-6">
       Color
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-5">
+      <label class="md-nav__title" for="nav-4-6">
         Color
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -638,13 +650,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7">
     
-    <label class="md-nav__link" for="nav-4-6">
+    <label class="md-nav__link" for="nav-4-7">
       Tipografía
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-6">
+      <label class="md-nav__title" for="nav-4-7">
         Tipografía
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1097,28 +1109,47 @@
 <h3 id="ejercicio-9">Ejercicio 9<a class="headerlink" href="#ejercicio-9" title="Permanent link">&para;</a></h3>
 <p>Para poder interactuar con la página es necesario el empleo de <strong>formularios</strong>. Éstos, a su vez, presentan <strong>distintos tipos de campos dependiendo del tipo de información que se desea ingresar</strong>. </p>
 <p>Copiá el siguiente código y guardalo con el nombre <code>ejercicio09.html</code>:</p>
-<p><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">es</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejercicio 9<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejercicio 9<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
     <span class="c">&lt;!-- Inicio del formulario --&gt;</span>
-    <span class="p">&lt;</span><span class="nt">form</span><span class="p">&gt;</span>
-      Usuario:
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Ingresá tu usuario&quot;</span> <span class="p">/&gt;</span>
-        <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
-        Contraseña: 
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Ingresá tu contraseña&quot;</span> <span class="p">/&gt;</span>
-    <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Enviar&quot;</span> <span class="p">/&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
-    <span class="c">&lt;!-- Fin del formulario --&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="hll">    <span class="p">&lt;</span><span class="nt">form</span><span class="p">&gt;</span>
+</span><span class="hll">      Usuario:
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Ingresá tu usuario&quot;</span> <span class="p">/&gt;</span>
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+</span><span class="hll">      Contraseña: 
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Ingresá tu contraseña&quot;</span> <span class="p">/&gt;</span>
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Enviar&quot;</span> <span class="p">/&gt;</span>
+</span><span class="hll">    <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</span>    <span class="c">&lt;!-- Fin del formulario --&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </pre></div>
+</td></tr></table>
 1. ¿Cuál es la etiqueta para crear un formulario?
 2. En el formulario se emplean <strong>tres tipos de campos</strong>: <code>text</code>, <code>pasword</code> y <code>submit</code>. ¿Qué función creés que cumple cada uno de ellos?
 3. ¿Cuál es la función del <em>placeholder</em>?
@@ -1128,84 +1159,121 @@
 </blockquote>
 <h3 id="ejercicio-10">Ejercicio 10<a class="headerlink" href="#ejercicio-10" title="Permanent link">&para;</a></h3>
 <p>En este ejercicio, deberás crear un archivo con el siguiente código, guardandolo con el nombre de <code>ejercicio10.html</code>. En el código se listan los diferentes tipos de campos que emplean los formularios para recabar información por parte del usuario: </p>
-<div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">es</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
-      <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejercicio 10<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejercicio 10<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Formularios<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>Tipos de campos para el ingreso de datos<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
-
     <span class="c">&lt;!-- Inicio del formulario --&gt;</span>
-
     <span class="p">&lt;</span><span class="nt">form</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de texto<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span><span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de texto (con sugerencia)<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Un texto por acá&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de contraseña<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector numérico<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;number&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;5&quot;</span> <span class="na">min</span><span class="o">=</span><span class="s">&quot;1&quot;</span> <span class="na">max</span><span class="o">=</span><span class="s">&quot;10&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector de rango<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;range&quot;</span> <span class="na">min</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">max</span><span class="o">=</span><span class="s">&quot;100&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector de color<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;color&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector de fecha<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;date&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Área de texto<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">textarea</span> <span class="na">rows</span><span class="o">=</span><span class="s">&quot;10&quot;</span> <span class="na">cols</span><span class="o">=</span><span class="s">&quot;30&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">textarea</span><span class="p">&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botones de radio<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;equipo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;boca&quot;</span> <span class="na">checked</span> <span class="p">/&gt;</span>Boca Juniors
-        <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;equipo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;banfield&quot;</span> <span class="p">/&gt;</span>Banfield
-        <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;equipo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;otros&quot;</span> <span class="p">/&gt;</span>Otros
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botones de opción<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;bicicleta&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;bicicleta&quot;</span> <span class="p">/&gt;</span>Bicicleta
-        <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;automovil&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;automovil&quot;</span> <span class="p">/&gt;</span>Automóvil
-        <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;colectivo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;colectivo&quot;</span> <span class="na">checked</span> <span class="p">/&gt;</span>Colectivo
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">select</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>Comida Italiana<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>Comida China<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-            <span class="p">&lt;</span><span class="nt">option</span> <span class="na">selected</span><span class="o">=</span><span class="s">&quot;selected&quot;</span><span class="p">&gt;</span>Comida Japonesa<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-        <span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de email<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;email&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;email&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botón<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;button&quot;</span> <span class="na">onclick</span><span class="o">=</span><span class="s">&quot;alert(&#39;Hola mundo!&#39;)&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Hacé clic&quot;</span> <span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botón de reseteo<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;reset&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Limpiar&quot;</span><span class="p">/&gt;</span>
-
-        <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de envío (submit)<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Enviar&quot;</span> <span class="p">/&gt;</span>
-
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de texto<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span><span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de texto (con sugerencia)<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Un texto por acá&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de contraseña<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector numérico<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;number&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;5&quot;</span> <span class="na">min</span><span class="o">=</span><span class="s">&quot;1&quot;</span> <span class="na">max</span><span class="o">=</span><span class="s">&quot;10&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector de rango<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;range&quot;</span> <span class="na">min</span><span class="o">=</span><span class="s">&quot;0&quot;</span> <span class="na">max</span><span class="o">=</span><span class="s">&quot;100&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector de color<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;color&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector de fecha<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;date&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Área de texto<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">textarea</span> <span class="na">rows</span><span class="o">=</span><span class="s">&quot;10&quot;</span> <span class="na">cols</span><span class="o">=</span><span class="s">&quot;30&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">textarea</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botones de radio<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;equipo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;boca&quot;</span> <span class="na">checked</span> <span class="p">/&gt;</span>Boca Juniors
+      <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;equipo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;banfield&quot;</span> <span class="p">/&gt;</span>Banfield
+      <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;equipo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;otros&quot;</span> <span class="p">/&gt;</span>Otros
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botones de opción<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;bicicleta&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;bicicleta&quot;</span> <span class="p">/&gt;</span>Bicicleta
+      <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;automovil&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;automovil&quot;</span> <span class="p">/&gt;</span>Automóvil
+      <span class="p">&lt;</span><span class="nt">br</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;colectivo&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;colectivo&quot;</span> <span class="na">checked</span> <span class="p">/&gt;</span>Colectivo
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Selector<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">select</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>Comida Italiana<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">option</span><span class="p">&gt;</span>Comida China<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">option</span> <span class="na">selected</span><span class="o">=</span><span class="s">&quot;selected&quot;</span><span class="p">&gt;</span>Comida Japonesa<span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
+      <span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de email<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;email&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;email&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botón<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;button&quot;</span> <span class="na">onclick</span><span class="o">=</span><span class="s">&quot;alert(&#39;Hola mundo!&#39;)&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Hacé clic&quot;</span> <span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Botón de reseteo<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;reset&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Limpiar&quot;</span><span class="p">/&gt;</span>
+      <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Campo de envío (submit)<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+      <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;Enviar&quot;</span> <span class="p">/&gt;</span>
     <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
     <span class="c">&lt;!-- Fin del formulario --&gt;</span>
-
-    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </pre></div>
+</td></tr></table>
 
 <ol>
 <li>Hacé una lista de todos los tipos de campos, indicando tipo y función</li>
