@@ -566,15 +566,27 @@
           
 
 
+  <li class="md-nav__item">
+    <a href="../units/" title="Unidades" class="md-nav__link">
+      Unidades
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
     
-    <label class="md-nav__link" for="nav-4-4">
+    <label class="md-nav__link" for="nav-4-5">
       Modelo de caja
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-4">
+      <label class="md-nav__title" for="nav-4-5">
         Modelo de caja
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -586,7 +598,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../boxmodel/" title="Definición" class="md-nav__link">
+    <a href="../../cssBoxModel/boxmodel/" title="Definición" class="md-nav__link">
       Definición
     </a>
   </li>
@@ -598,7 +610,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../position/" title="Posicionamiento" class="md-nav__link">
+    <a href="../../cssBoxModel/position/" title="Posicionamiento" class="md-nav__link">
       Posicionamiento
     </a>
   </li>
@@ -616,13 +628,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
     
-    <label class="md-nav__link" for="nav-4-5">
+    <label class="md-nav__link" for="nav-4-6">
       Color
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-5">
+      <label class="md-nav__title" for="nav-4-6">
         Color
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -652,13 +664,13 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7">
     
-    <label class="md-nav__link" for="nav-4-6">
+    <label class="md-nav__link" for="nav-4-7">
       Tipografía
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-4-6">
+      <label class="md-nav__title" for="nav-4-7">
         Tipografía
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -1142,7 +1154,7 @@
 <h3 id="en-linea">En línea<a class="headerlink" href="#en-linea" title="Permanent link">&para;</a></h3>
 <p><strong>Se agrega estilos CSS directamente dentro de una etiqueta HTML</strong>. </p>
 <p>De forma general: </p>
-<div class="codehilite"><pre><span></span><span class="p">&lt;</span><span class="nt">etiqueta</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;[código css];&quot;</span><span class="p">&gt;</span>
+<div class="codehilite"><pre><span></span>&lt;etiqueta style=&quot;&lt;código css&gt;;&quot;&gt;
 </pre></div>
 
 <p>Por ejemplo: </p>
@@ -1207,11 +1219,11 @@
 
 <h3 id="hoja-de-estilos-css-externa">Hoja de estilos CSS externa<a class="headerlink" href="#hoja-de-estilos-css-externa" title="Permanent link">&para;</a></h3>
 <p><strong>Los estilos CSS se definen en un documento aparte</strong> (que lleva la extensión <code>.css</code>) el cual debe ser especificado dentro del documento HTML mediante la etiqueta <code>link</code>, que presenta la forma: </p>
-<div class="codehilite"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;[ruta hacia el documento CSS]&quot;</span><span class="p">&gt;</span>
+<div class="codehilite"><pre><span></span>&lt;link rel=&quot;stylesheet&quot; href=&quot;[ruta hacia el documento CSS]&quot;&gt;
 </pre></div>
 
 <p>De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. </p>
-<p>Por ejemplo, el documento HTML: </p>
+<p><strong>Código HTML</strong>: </p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1238,16 +1250,12 @@
 </pre></div>
 </td></tr></table>
 
-<p>Y el documento <code>estilos.css</code>:</p>
-<div class="codehilite"><pre><span></span><span class="nt">h1</span> <span class="p">{</span><span class="k">background-color</span><span class="p">:</span> <span class="n">peach</span><span class="p">;}</span>
+<p><strong>Código CSS</strong></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">h1</span> <span class="p">{</span><span class="k">background-color</span><span class="p">:</span> <span class="n">peach</span><span class="p">;}</span>
 <span class="nt">p</span> <span class="p">{</span><span class="k">font-size</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;}</span>
 </pre></div>
-
-<div class="admonition done">
-<p class="admonition-title">Validador CSS<p>La W3C dispone de un servicio en línea que posibilita verificar si un documento escrito en CSS se ajusta a los estándares internacionales: </p>
-<p><a href="https://jigsaw.w3.org/css-validator/">Validar CSS en línea</a></p>
-</p>
-</div>
+</td></tr></table>
                 
                   
                 

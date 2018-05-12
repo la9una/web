@@ -63,6 +63,8 @@ markdown_extensions:
 ### DOCUMENTACIÓN ####################################################
 ######################################################################
 pages: 
+
+# Documentación sobre HTML
 - Inicio: index.md
 #- ¿Qué es?:
 #    - El diseño web: 'disenoIntroduccion/index.md'
@@ -97,13 +99,16 @@ pages:
     - Formularios: 'htmlFundamentos/Formularios.md'
     - Tipos de elementos: 'htmlFundamentos/ElementosBloqueLinea.md'
     - Web semántica: 'htmlFundamentos/WebSemantica.md'
+
+# Documentación sobre CSS
 - Fundamentos de CSS:
     - Introducción: 'cssFundamentos/index.md'
     - Primeros pasos: 'cssFundamentos/gettingstarted.md'
     - Selectores: 'cssFundamentos/selectores.md'
+    - Unidades: 'cssFundamentos/units.md'
     - Modelo de caja: 
-        - Definición: 'cssFundamentos/boxmodel.md'
-        - Posicionamiento: 'cssFundamentos/position.md'
+        - Definición: 'cssBoxModel/boxmodel.md'
+        - Posicionamiento: 'cssBoxModel/position.md'
     - Color: 
       - Colores web: 'cssFuentes/colorHTML.md'
     - Tipografía: 
