@@ -29,8 +29,8 @@ Existen tres maneras de agregar estilos CSS a nuestro documento (que en esta gu�
 
 De forma general: 
 
-```html
-<etiqueta style="[código css];">
+```
+<etiqueta style="<código css>;">
 ```
 
 Por ejemplo: 
@@ -76,13 +76,13 @@ Por ejemplo:
 ### Hoja de estilos CSS externa 
 **Los estilos CSS se definen en un documento aparte** (que lleva la extensión `.css`) el cual debe ser especificado dentro del documento HTML mediante la etiqueta `link`, que presenta la forma: 
 
-```html
+```
 <link rel="stylesheet" href="[ruta hacia el documento CSS]">
 ```
 
 De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. 
 
-Por ejemplo, el documento HTML: 
+**Código HTML**: 
 
 ```html linenums="1" hl_lines="5"
 <!DOCTYPE html>
@@ -99,14 +99,9 @@ Por ejemplo, el documento HTML:
 </html>
 ```
 
-Y el documento `estilos.css`:
+**Código CSS**
 
-```css
+```css linenums="1"
 h1 {background-color: peach;}
 p {font-size: 14px;}
 ```
-
-!!!done "Validador CSS"
-		La W3C dispone de un servicio en línea que posibilita verificar si un documento escrito en CSS se ajusta a los estándares internacionales: 
-
-		[Validar CSS en línea](https://jigsaw.w3.org/css-validator/)

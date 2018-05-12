@@ -32,7 +32,7 @@ Como podrás observar, lo que se visualiza en la página es aquello que se encue
 ### Ejercicio 2 
 Este ejercicio consta de dos partes. En primer lugar, deberás copiar el siguiente código: 
 
-```html
+```html linenums="1"
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,7 +47,7 @@ Guarda el archivo con el nombre `ejercicio02.html` y abrilo con el navegador: ¿
 
 Ahora, volvé a abrir el archivo con el editor de texto y agregá los siguientes fragmentos de código: 
 
-```html
+```html linenums="1" hl_lines="4"
 <!DOCTYPE html>
 <html lang=es>
     <head>

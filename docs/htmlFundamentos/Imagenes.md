@@ -9,23 +9,23 @@ Descargá la siguiente imagen:
 
 Luego, abrí el editor de texto y transcribí el siguiente código: 
 
-```html
+```html linenums="1" hl_lines="9"
 <!DOCTYPE html>
 <html lang=es>
     <head>
       <meta charset="UTF-8">
-      <title>Ejercicio 7</title>
+      <title>Ejercicio 8</title>
     </head>
     <body>
-    	<h3>Este es el ejercicio 7</h3>
-		<img src="html5.png" /> 
+    	<h3>Este es el ejercicio 8</h3>
+		  <img src="html5.png" /> 
     </body>
 </html>
 ```
 
-Guarda el archivo con el nombre `ejercicio07.html`. 
+Guarda el archivo con el nombre `ejercicio08.html`. 
 
-> Importante: deberás guardar la imagen en el mismo lugar que `ejercicio07.html`
+> Importante: deberás guardar la imagen en el mismo lugar que `ejercicio08.html`
 
 * Abrí el docuemento con un navegador. ¿Qué observás?
 
@@ -35,21 +35,21 @@ Si te fijaste bien, la etiqueta se _autocierra_ es decir, no posee una etiqueta 
 
 Otra etiqueta que se _autocierra_ es `<br />` conocida como **_breaking rule_**.  Agregala en el documento anterior, según: 
 
-```html
+```html linenums="1" hl_lines="9 10 11 12 13"
 <!DOCTYPE html>
 <html lang=es>
     <head>
       <meta charset="UTF-8">
-      <title>Ejercicio 7</title>
+      <title>Ejercicio 8</title>
     </head>
     <body>
-    	<h3>Este es el ejercicio 7</h3>
+    	<h3>Este es el ejercicio 8</h3>
     	<br />
     	<br />
     	<br />
     	<br />
     	<br />
-		<img src="html5.png" /> 
+		  <img src="html5.png" /> 
     </body>
 </html>
 ```

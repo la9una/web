@@ -4,32 +4,32 @@ Los documentos de hipertexto o páginas webs no serían tales si no estuviesen v
 ### Ejercicio 7
 Abrí el editor de texto y transcribí el siguiente código: 
 
-```html
+```html linenums="1" hl_lines="9"
 <!DOCTYPE html>
 <html lang=es>
-    <head>
-      <meta charset="UTF-8">
-      <title>Ejercicio 6</title>
-    </head>
-    <body>
-		Si hacés clic <a href="ejercicio07_enlace.html">sobre este enlace</a> viajarás hacia otra dimesión. 
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+  </head>
+  <body>
+    <h3>Viajá a otra dimensión!</h3>
+    <p>Hacé clic <a href="ejercicio07_enlace.html">sobre este enlace</a></p>
+  </body>
 </html>
 ```
 Guarda el archivo con el nombre `ejercicio07.html`. Ahora, con el editor abierto, creá otro archivo con el siguiente contenido: 
 
-```html
+```html linenums="1" hl_lines="9"
 <!DOCTYPE html>
 <html lang=es>
-    <head>
-      <meta charset="UTF-8">
-      <title>Ejercicio 6</title>
-    </head>
-    <body>
-    	<h3>Bienvenido</h3>
-		Hola! Soy otra página. 
-		Mejor vuelvo a <a  href="ejercicio07.html">la página anterior</a>. 		  Chau! 
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7</title>
+  </head>
+  <body>
+    <h3>Hola! Soy otra página.</h3>
+    <p>Mejor vuelvo a <a  href="ejercicio07.html">la página anterior</a></p>.
+  </body>
 </html>
 ```
 Guardalo con el nombre `ejercicio07_enlace.html`.  Ahora abrí cualquiera de los dos documentos creados con el navegador. 

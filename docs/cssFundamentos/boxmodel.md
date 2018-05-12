@@ -20,6 +20,7 @@ El modelo de caja en CSS, yendo desde el contenido hacia afuera, está definido 
 
 _Los márgenes, tanto interno (padding) como externo (margin), son transparentes. En la figura se le aplica color con fines didácticos_. 
 
+A continuación vamos a profundizar en cada uno de las propiedades básicas de una caja CSS. 
 
 ## Márgenes
 
@@ -34,22 +35,22 @@ Como no puede ser de otra manera, analicemos un ejemplo real para conocer el mod
 
 **Código HTML**
 
-```html
+```html linenums="1" hl_lines="9"
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Caja</title>
+	<title>Modelo de caja CSS</title>
 	<link rel="stylesheet" href="caja.css">
 </head>
 <body>
-	<div>Modelo de caja</div>
+	<div>Hola! Soy una caja</div>
 </body>
 </html>
 ```
 **Código CSS**
 
-```css
+```css linenums="1"
 div {
 	/* Altura de la caja */
 	height: 200px;
@@ -65,8 +66,6 @@ div {
 	background-color: lime;
 }
 ```
-
-A continuación vamos a profundizar en cada uno de las propiedades básicas de una caja CSS. 
 
 !!!info "Comentarios en CSS"
 		CSS permite incluir comentarios entre sus reglas y estilos. Los comentarios son contenidos de texto que el diseñador incluye en el archivo CSS para su propia información y utilidad. Los navegadores ignoran por completo cualquier comentario de los archivos CSS, por lo que es común utilizarlos para estructurar de forma clara los archivos CSS complejos.

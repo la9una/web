@@ -6,7 +6,7 @@ Las etiquetas HTML pueden agruparse de manera general en elementos en **bloque**
 
 Copiá el siguiente código y guardalo con el nombre `ejercicio11.html`:
 
-```html
+```html linenums="1" hl_lines="9 10 11 13 14 15"
 <!DOCTYPE html>
 <html>
     <head> 
@@ -14,20 +14,23 @@ Copiá el siguiente código y guardalo con el nombre `ejercicio11.html`:
       <title>Ejercicio 11</title>
     </head>
     <body>
-    <span>Número 1</span>
-    <span>Número 2</span>
-    <span>Número 3</span>
-    <div>Letra A</div>
-    <div>Letra B</div>
-    <div>Letra C</div>
+        <!-- Span -->
+        <span>Número 1</span>
+        <span>Número 2</span>
+        <span>Número 3</span>
+        <!-- Div -->
+        <div>Letra A</div>
+        <div>Letra B</div>
+        <div>Letra C</div>
     </body>
 </html>
 ```
-1. En el ejemplo, hemos empleado dos tipos de etiquetas: `<span>` y `<div>` ¿Cuál es la diferencia visible entre ellas?
+
+1. En el ejemplo, hemos empleado dos tipos de etiquetas: `<span>` y `<div>` ¿Cuál es la diferencia visible entre ellas?.
 
 2. Los **elementos en bloque (block)** son aquellos que generan un nuevo renglón al ser empleados. Los elementos que pueden colocarse uno al lado del otro sin generar un nuevo renglón se conocen como **elementos en línea (inline)**. ¿A qué grupo pertenecen las etiquetas `<span>` y `<div>`?.
 
-#### Sabés más
+#### Saber más
 
 Podés consultar cuáles son los elementos que pertenecen a un grupo y a otro en: 
 
