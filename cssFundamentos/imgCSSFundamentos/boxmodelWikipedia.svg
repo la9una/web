@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="541" height="439">
+<style type="text/css">
+	.a { fill: none; stroke-width: 2.5; stroke-linejoin: round; }
+	.b { fill: #222; }
+	.w { fill: #fff; }
+	.s { text-anchor: start; }
+</style>
+<path d="M70,70h400v300H70" fill="#639cce"/>
+<path d="M97,88h354v250H97" fill="#fff7ef"/>
+<path d="M114,117h287v201H114" fill="#ff8463"/>
+<path d="M160,139h209v124H160" fill="#7b0000"/>
+<path d="M199.5,140h2.5v122h-2.5" class="w"/>
+<path d="M161,237v2.5h207v-2.5" class="w"/>
+<path d="M194.75,152l6,-12l6,12 M194.75,250l6,12l6,-12 M173,232.25l-12,6l12,6 M356,232.25l12,6l-12,6" class="a" stroke="#fff"/>
+<path d="M5,69v2.5h64v-2.5 M471,368.5v2.5h64v-2.5 M468,5h2.5v64h-2.5 M69,372h2.5v63h-2.5" class="b"/>
+<path d="M57,64.25l12,6l-12,6 M483,363.75l-12,6l12,6 M463.25,57l6,12l6,-12 M64.25,383l6,-12l6,12" class="a" stroke="#222"/>
+<g font-family="Segoe UI, sans-serif" font-size="14" text-anchor="middle">
+	<text x="65" y="435" class="b s" transform="rotate(-90 65 435)">left</text>
+	<text x="87" y="220" class="w" transform="rotate(-90 87 220)">margin-left</text>
+	<text x="110" y="213" class="b" transform="rotate(-90 110 213)">border-left</text>
+	<text x="141" y="217.5" class="b" transform="rotate(-90 141 217.5)">padding-left</text>
+	<text x="192" y="196" class="w" transform="rotate(-90 192 196)">height</text>
+	<text x="5" y="64" class="b s">top</text>
+	<text x="270" y="83" class="w">margin-top</text>
+	<text x="274" y="109" class="b">border-top</text>
+	<text x="257.5" y="133" class="b">padding-top</text>
+	<text x="264.5" y="232" class="w">width</text>
+	<text x="257.5" y="293" class="b">padding-bottom</text>
+	<text x="274" y="333" class="b">border-bottom</text>
+	<text x="270" y="359" class="w">margin-bottom</text>
+	<text x="535" y="385" class="b" text-anchor="end">bottom</text>
+	<text x="381" y="220" class="b" transform="rotate(90 381 220)">padding-right</text>
+	<text x="422" y="213" class="b" transform="rotate(90 422 213)">border-right</text>
+	<text x="457" y="217.5" class="w" transform="rotate(90 457 217.5)">margin-right</text>
+	<text x="476" y="5" class="b s" transform="rotate(90 476 5)">right</text>
+</g>
+</svg>
