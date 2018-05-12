@@ -101,6 +101,9 @@ pages:
     - Introducción: 'cssFundamentos/index.md'
     - Primeros pasos: 'cssFundamentos/gettingstarted.md'
     - Selectores: 'cssFundamentos/selectores.md'
+    - Modelo de caja: 
+        - Definición: 'cssFundamentos/boxmodel.md'
+        - Posicionamiento: 'cssFundamentos/position.md'
     - Color: 
       - Colores web: 'cssFuentes/colorHTML.md'
     - Tipografía: 

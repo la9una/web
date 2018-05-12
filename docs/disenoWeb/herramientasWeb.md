@@ -39,6 +39,11 @@ Existen varias herramientas para gestionar la paleta de colores de un sitio web.
 * Plataformas soportadas: Web
 * Web oficial: [color.adobe.com](https://color.adobe.com/es/create/color-wheel)
 
+### Coolors
+* Licencia: Privativa. Uso gratuito con limitaciones. 
+* Plataformas soportadas: Web
+* Web oficial: [coolors.co](https://coolors.co/)
+
 ### Colorzilla
 * Licencia: Privativa. Versión gratuita.
 * Plataformas soportadas: Chrome, Firefox, Web
