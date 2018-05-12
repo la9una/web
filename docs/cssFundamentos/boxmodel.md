@@ -1,5 +1,4 @@
 # El modelo de caja
-_Modificado de: [www.aprende-web.net](http://aprende-web.net)_
 
 Para comprender qué es una caja en CSS simplemente debés imaginarte un cuadrado o rectángulo. Dicha figura poseerá un determinano ancho y alto, un borde, márgenes, colores, posición, etc. 
 
@@ -21,3 +20,96 @@ El modelo de caja en CSS, yendo desde el contenido hacia afuera, está definido 
 
 _Los márgenes, tanto interno (padding) como externo (margin), son transparentes. En la figura se le aplica color con fines didácticos_. 
 
+
+## Márgenes
+
+### padding
+### margin
+
+## Borde
+
+
+## Ejemplo de caja
+Como no puede ser de otra manera, analicemos un ejemplo real para conocer el modo en que CSS trata a una caja: 
+
+**Código HTML**
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Caja</title>
+	<link rel="stylesheet" href="caja.css">
+</head>
+<body>
+	<div>Modelo de caja</div>
+</body>
+</html>
+```
+**Código CSS**
+
+```css
+div {
+	/* Altura de la caja */
+	height: 200px;
+	/* Anchura de la caja */
+	width: 200px;
+	/* Margen interno de la caja */
+	padding: 20px;
+	/* Borde de la caja */
+	border: 2px solid red; 
+	/* Margen externo a la caja */
+	margin: 20px;
+	/* Color de fondo de la caja */
+	background-color: lime;
+}
+```
+
+A continuación vamos a profundizar en cada uno de las propiedades básicas de una caja CSS. 
+
+!!!info "Comentarios en CSS"
+		CSS permite incluir comentarios entre sus reglas y estilos. Los comentarios son contenidos de texto que el diseñador incluye en el archivo CSS para su propia información y utilidad. Los navegadores ignoran por completo cualquier comentario de los archivos CSS, por lo que es común utilizarlos para estructurar de forma clara los archivos CSS complejos.
+
+		El comienzo de un comentario se indica mediante los caracteres `/*` y el final del comentario se indica mediante `*/`, tal y como se muestra en el siguiente ejemplo:
+
+		```css
+		/* Este es un comentario en CSS */
+		```
+
+		Los comentarios pueden ocupar tantas líneas como sea necesario, pero no se puede incluir un comentario dentro de otro comentario:
+
+		```css
+		/* Este es un
+		   comentario CSS de varias
+		   lineas */
+		```
+
+		Aunque los navegadores ignoran los comentarios, su contenido se envía junto con el resto de estilos, por lo que no se debe incluir en ellos ninguna información sensible o confidencial.
+
+		La sintaxis de los comentarios CSS es muy diferente a la de los comentarios HTML, por lo que no deben confundirse:
+
+		```html
+		<!-- Este es un comentario en HTML -->
+		 
+		<!-- Este es un
+		     comentario HTML de varias
+		     lineas -->
+		```
+
+
+
+
+
+
+
+
+
+
+
+
+_Fuente de conocimiento:_
+
+* _[aprende-web.net](http://aprende-web.net)_
+* _[librosweb.es](https://librosweb.es)_
+* _[developer.mozilla.org](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Modelo_Caja/Mastering_margin_collapsing)_

@@ -17,7 +17,7 @@ Abrí el editor de texto y transcribí el siguiente código:
 </html>
 ```
 
-Guardalo con el nombre de `ejercicio_01.html`. Luego, abrí el archivo con tu navegador.
+Guardalo con el nombre de `ejercicio01.html`. Luego, abrí el archivo con tu navegador.
 
 #### ¡Felicitaciones!
 En este ejercicio escribimos la estructura básica de un documento HTML.
@@ -43,7 +43,7 @@ Este ejercicio consta de dos partes. En primer lugar, deberás copiar el siguien
     </body>
 </html>
 ```
-Guarda el archivo con el nombre `ejercicio2.html` y abrilo con el navegador: ¿Observás algo particular? 
+Guarda el archivo con el nombre `ejercicio02.html` y abrilo con el navegador: ¿Observás algo particular? 
 
 Ahora, volvé a abrir el archivo con el editor de texto y agregá los siguientes fragmentos de código: 
 

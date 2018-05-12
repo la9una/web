@@ -23,9 +23,9 @@ Luego, abrí el editor de texto y transcribí el siguiente código:
 </html>
 ```
 
-Guarda el archivo con el nombre `ejercicio7.html`. 
+Guarda el archivo con el nombre `ejercicio07.html`. 
 
-> Importante: deberás guardar la imagen en el mismo lugar que `ejercicio7.html`
+> Importante: deberás guardar la imagen en el mismo lugar que `ejercicio07.html`
 
 * Abrí el docuemento con un navegador. ¿Qué observás?
 

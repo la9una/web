@@ -5,7 +5,7 @@ Los formularios permiten que el usuario interactúe con la página web mediante 
 
 Para poder interactuar con la página es necesario el empleo de **formularios**. Éstos, a su vez, presentan **distintos tipos de campos dependiendo del tipo de información que se desea ingresar**. 
 
-Copiá el siguiente código y guardalo con el nombre `ejercicio9.html`:
+Copiá el siguiente código y guardalo con el nombre `ejercicio09.html`:
 
 ```html
 <!DOCTYPE html>

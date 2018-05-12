@@ -12,11 +12,11 @@ Abrí el editor de texto y transcribí el siguiente código:
       <title>Ejercicio 6</title>
     </head>
     <body>
-		Si hacés clic <a href="enlace.html">sobre este enlace</a> viajarás hacia otra dimesión. 
+		Si hacés clic <a href="ejercicio07_enlace.html">sobre este enlace</a> viajarás hacia otra dimesión. 
     </body>
 </html>
 ```
-Guarda el archivo con el nombre `ejercicio6.html`. Ahora, con el editor abierto, creá otro archivo con el siguiente contenido: 
+Guarda el archivo con el nombre `ejercicio07.html`. Ahora, con el editor abierto, creá otro archivo con el siguiente contenido: 
 
 ```html
 <!DOCTYPE html>
@@ -28,11 +28,11 @@ Guarda el archivo con el nombre `ejercicio6.html`. Ahora, con el editor abierto,
     <body>
     	<h3>Bienvenido</h3>
 		Hola! Soy otra página. 
-		Mejor vuelvo a <a  href="ejercicio6.html">la página anterior</a>. 		  Chau! 
+		Mejor vuelvo a <a  href="ejercicio07.html">la página anterior</a>. 		  Chau! 
     </body>
 </html>
 ```
-Guardalo con el nombre `enlace.html`.  Ahora abrí cualquiera de los dos documentos creados con el navegador. 
+Guardalo con el nombre `ejercicio07_enlace.html`.  Ahora abrí cualquiera de los dos documentos creados con el navegador. 
 
 * Hacé clic sobre el texto color azul repetidas veces ¿Qué ocurre? 
 

@@ -31,6 +31,12 @@ En orden alfabético, los editores de texto recomendados para la web son:
 * Plataformas soportadas: GNU/Linux, Mac, Windows
 * Web oficial: [sublimetext.com](https://www.sublimetext.com/)
 
+## Validadores de código
+La [W3C](https://www.w3.org/) es un consorcio internacional que determina las buenas prácticas y estándares web a seguir en la creación de páginas webs. Su principal cometido es garantizar el desarrollo y expansión de la _World Wide Web_, red de redes o internet. 
+
+* [Validador HTML](https://validator.w3.org/)
+* [Validador CSS](https://jigsaw.w3.org/css-validator/)
+
 ## Tratamiento del color
 Existen varias herramientas para gestionar la paleta de colores de un sitio web. En orden alfabético, las opciones recomendadas son: 
 

@@ -21,7 +21,7 @@ Abrí el editor de texto y copiá el siguiente código:
     </body>
 </html>
 ```
-Guarda el archivo con el nombre `ejercicio3.html` y abrilo con el navegador. 
+Guarda el archivo con el nombre `ejercicio03.html` y abrilo con el navegador. 
 
 ¿Qué función cumplen las etiquetas `h1` a `h6`? 
 
@@ -42,7 +42,7 @@ Abrí el editor de texto y copiá el siguiente código:
     </body>
 </html>
 ```
-Guarda el archivo con el nombre `ejercicio_04.html` y abrilo con el navegador. 
+Guarda el archivo con el nombre `ejercicio04.html` y abrilo con el navegador. 
 
 1. ¿Cómo se visualizan ambas líneas de texto?
 2. Ahora, volvé a abrir el archivo con el editor de texto e ingresá entre ambas líneas de texto varios espacios en blanco (presionando la tecla Enter). Guardá el archivo y abrilo con el navegador ¿Ahora, como se visualizan las líneas de texto? ¿A qué conclusión llegás?

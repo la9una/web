@@ -287,7 +287,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../disenoWeb/herramientasWeb/" title="Herramientas web" class="md-nav__link">
+    <a href="../../disenoWeb/herramientas/" title="Herramientas web" class="md-nav__link">
       Herramientas web
     </a>
   </li>
@@ -522,9 +522,78 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Definición
+      </label>
+    
     <a href="./" title="Definición" class="md-nav__link md-nav__link--active">
       Definición
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#margenes" title="Márgenes" class="md-nav__link">
+    Márgenes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padding" title="padding" class="md-nav__link">
+    padding
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#margin" title="margin" class="md-nav__link">
+    margin
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#borde" title="Borde" class="md-nav__link">
+    Borde
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplo-de-caja" title="Ejemplo de caja" class="md-nav__link">
+    Ejemplo de caja
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
+            Comentarios
+          </a>
+        </li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -988,6 +1057,62 @@
     
   
   
+    <label class="md-nav__title" for="toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#margenes" title="Márgenes" class="md-nav__link">
+    Márgenes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padding" title="padding" class="md-nav__link">
+    padding
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#margin" title="margin" class="md-nav__link">
+    margin
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#borde" title="Borde" class="md-nav__link">
+    Borde
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejemplo-de-caja" title="Ejemplo de caja" class="md-nav__link">
+    Ejemplo de caja
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+        <li class="md-nav__item">
+          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
+            Comentarios
+          </a>
+        </li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1002,7 +1127,6 @@
                 
                 
                 <h1 id="el-modelo-de-caja">El modelo de caja<a class="headerlink" href="#el-modelo-de-caja" title="Permanent link">&para;</a></h1>
-<p><em>Modificado de: <a href="http://aprende-web.net">www.aprende-web.net</a></em></p>
 <p>Para comprender qué es una caja en CSS simplemente debés imaginarte un cuadrado o rectángulo. Dicha figura poseerá un determinano ancho y alto, un borde, márgenes, colores, posición, etc. </p>
 <p>El lenguaje CSS trata a todos los elementos como si estuvieran contenidos en cuadrados o rectángulos. Si normalmente al ver una página web no vemos una caja en cada párrafo o en cada imagen, es porque la mayoría de las veces estas cajas no poseen bordes  o bien, son transparentes (valores por defecto). </p>
 <p>El modelo de caja en CSS, yendo desde el contenido hacia afuera, está definido por: </p>
@@ -1017,6 +1141,72 @@
 </ul>
 <p><img alt="Box Model CSS" src="../imgCSSFundamentos/boxmodel.png" /></p>
 <p><em>Los márgenes, tanto interno (padding) como externo (margin), son transparentes. En la figura se le aplica color con fines didácticos</em>. </p>
+<h2 id="margenes">Márgenes<a class="headerlink" href="#margenes" title="Permanent link">&para;</a></h2>
+<h3 id="padding">padding<a class="headerlink" href="#padding" title="Permanent link">&para;</a></h3>
+<h3 id="margin">margin<a class="headerlink" href="#margin" title="Permanent link">&para;</a></h3>
+<h2 id="borde">Borde<a class="headerlink" href="#borde" title="Permanent link">&para;</a></h2>
+<h2 id="ejemplo-de-caja">Ejemplo de caja<a class="headerlink" href="#ejemplo-de-caja" title="Permanent link">&para;</a></h2>
+<p>Como no puede ser de otra manera, analicemos un ejemplo real para conocer el modo en que CSS trata a una caja: </p>
+<p><strong>Código HTML</strong></p>
+<p><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;es&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Caja<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;caja.css&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Modelo de caja<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+<strong>Código CSS</strong></p>
+<div class="codehilite"><pre><span></span><span class="nt">div</span> <span class="p">{</span>
+    <span class="c">/* Altura de la caja */</span>
+    <span class="k">height</span><span class="p">:</span> <span class="mi">200</span><span class="kt">px</span><span class="p">;</span>
+    <span class="c">/* Anchura de la caja */</span>
+    <span class="k">width</span><span class="p">:</span> <span class="mi">200</span><span class="kt">px</span><span class="p">;</span>
+    <span class="c">/* Margen interno de la caja */</span>
+    <span class="k">padding</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span>
+    <span class="c">/* Borde de la caja */</span>
+    <span class="k">border</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span> <span class="kc">solid</span> <span class="kc">red</span><span class="p">;</span> 
+    <span class="c">/* Margen externo a la caja */</span>
+    <span class="k">margin</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span>
+    <span class="c">/* Color de fondo de la caja */</span>
+    <span class="k">background-color</span><span class="p">:</span> <span class="kc">lime</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>A continuación vamos a profundizar en cada uno de las propiedades básicas de una caja CSS. </p>
+<div class="admonition info">
+<p class="admonition-title">Comentarios en CSS<p>CSS permite incluir comentarios entre sus reglas y estilos. Los comentarios son contenidos de texto que el diseñador incluye en el archivo CSS para su propia información y utilidad. Los navegadores ignoran por completo cualquier comentario de los archivos CSS, por lo que es común utilizarlos para estructurar de forma clara los archivos CSS complejos.</p>
+<p>El comienzo de un comentario se indica mediante los caracteres <code>/*</code> y el final del comentario se indica mediante <code>*/</code>, tal y como se muestra en el siguiente ejemplo:</p>
+<div class="codehilite"><pre><span></span><span class="c">/* Este es un comentario en CSS */</span>
+</pre></div>
+
+<p>Los comentarios pueden ocupar tantas líneas como sea necesario, pero no se puede incluir un comentario dentro de otro comentario:</p>
+<div class="codehilite"><pre><span></span><span class="c">/* Este es un</span>
+<span class="c">   comentario CSS de varias</span>
+<span class="c">   lineas */</span>
+</pre></div>
+
+<p>Aunque los navegadores ignoran los comentarios, su contenido se envía junto con el resto de estilos, por lo que no se debe incluir en ellos ninguna información sensible o confidencial.</p>
+<p>La sintaxis de los comentarios CSS es muy diferente a la de los comentarios HTML, por lo que no deben confundirse:</p>
+<div class="codehilite"><pre><span></span><span class="c">&lt;!-- Este es un comentario en HTML --&gt;</span>
+
+<span class="c">&lt;!-- Este es un</span>
+<span class="c">     comentario HTML de varias</span>
+<span class="c">     lineas --&gt;</span>
+</pre></div>
+
+</p>
+</div>
+<p><em>Fuente de conocimiento:</em></p>
+<ul>
+<li><em><a href="http://aprende-web.net">aprende-web.net</a></em></li>
+<li><em><a href="https://librosweb.es">librosweb.es</a></em></li>
+<li><em><a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_Modelo_Caja/Mastering_margin_collapsing">developer.mozilla.org</a></em></li>
+</ul>
                 
                   
                 

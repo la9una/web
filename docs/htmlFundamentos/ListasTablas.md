@@ -29,7 +29,7 @@ Abrí el editor de texto y copiá el siguiente código:
 </html>
 ```
 
-Guarda el archivo con el nombre `ejercicio5.html` y abrilo con el navegador. 
+Guarda el archivo con el nombre `ejercicio05.html` y abrilo con el navegador. 
 
 1. ¿Qué estructura se visualiza en la página?
 2. ¿Qué diferencia aparecen en ambas estructuras?
@@ -73,7 +73,7 @@ Abrí el editor de texto y transcribí el siguiente código:
 </html>
 ```
 
-Guardalo con el nombre de `ejercicio8.html`. Luego, abrí el archivo con tu navegador y respondé las siguientes preguntas: 
+Guardalo con el nombre de `ejercicio06.html`. Luego, abrí el archivo con tu navegador y respondé las siguientes preguntas: 
 
 1. ¿Qué es lo que lo que exhibe el navegador? 
 2. Observá las etiquetas y respondé: ¿qué función cumplen las etiquetas `<tr>` y `<td>`
