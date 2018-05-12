@@ -1,4 +1,4 @@
-## El modelo de caja
+# El modelo de caja
 _Modificado de: [www.aprende-web.net](http://aprende-web.net)_
 
 Para comprender qué es una caja en CSS simplemente debés imaginarte un cuadrado o rectángulo. Dicha figura poseerá un determinano ancho y alto, un borde, márgenes, colores, posición, etc. 
