@@ -105,12 +105,14 @@ pages:
     - Introducción: 'cssFundamentos/index.md'
     - Primeros pasos: 'cssFundamentos/gettingstarted.md'
     - Selectores: 'cssFundamentos/selectores.md'
-    - Unidades: 'cssFundamentos/units.md'
+    - Valores y unidades: 
+      - Introducción: 'cssFundamentos/units.md'
+      - Numéricas: 'cssFundamentos/unitsNumbers.md'
+      - Color: 'cssFundamentos/unitsColor.md'
+      - Porcentaje y funciones: 'cssFundamentos/unitsPercent.md'
     - Modelo de caja: 
         - Definición: 'cssBoxModel/boxmodel.md'
         - Posicionamiento: 'cssBoxModel/position.md'
-    - Color: 
-      - Colores web: 'cssFuentes/colorHTML.md'
     - Tipografía: 
       - Reseña histórica: 'cssFuentes/fuentesIndex.md'
       - Propiedades de fuente: 'cssFuentes/fuentesPropiedades.md'

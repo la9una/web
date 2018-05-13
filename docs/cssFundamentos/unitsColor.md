@@ -1,4 +1,266 @@
-# Nombres de colores HTML
+##Colores
+
+Hay varias formas de referenciar colores en CSS, algunas más recientes que otras. Los mismos valores de color pueden utilizarse en todos los sitios en CSS, si nos referimos a color de texto, de fondo o cualquier otro.
+
+El sistema de color estándar en los ordenadores actuales es el de 24 bits, que permite representar unos 16,7 millones de colores diferentes por canal (256 x 256 x 256 = 16.777.216).
+
+Veamos los valores de los distintos tipos de sistemas de colores.
+
+!!!tip "Conversor online de sistemas de colores"
+    Para pasar los valores de unos sistemas de colores a otros, necesitaremos un conversor de colores. Estos son algunos de los conversores disponibles online: 
+    
+    * [rapidtables.com](https://www.rapidtables.com/convert/color/index.html)
+    * [w3schools.com](https://www.w3schools.com/colors/colors_converter.asp)
+    * [serennu.com](http://serennu.com/colour/hsltorgb.php)
+
+
+###Claves
+
+El sistema de color más antiguo y sencillo en CSS son las claves de color. Son cadenas de texto que representan valores de color. Veamos el siguiente código como ejemplo:
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Longitud y tamaño</title>
+	<link rel="stylesheet" href="colorkey.css">
+</head>
+<body>
+  <p>Este párrafo tiene un fondo rojo.</p>
+</body>
+</html>
+```
+Y los estilos CSS:
+
+```css linenums="1"
+p {
+  background-color: red;
+}
+```
+
+Es fácil de entender, aunque solo nos permite referenciar unos cuantos colores primitivos. Existen alrededor de 165 claves diferentes para su uso en los distintos navegadores [(ver la lista completa de claves de color)](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords).
+
+
+###Valores hexadecimales
+
+El siguiente sistema de color universal es el sistema hexadecimal, o códigos hex. Cada valor hex está compuesto por una almohadilla (#) seguida por seis números hexadecimales, cada uno de los cuales puede estar comprendido entre el 0 y la f (que representa el 15) — 0123456789abcdef (16 símbolos). Cada par de valores representa uno de los canales primarios — rojo, verde y azul — y nos permite referenciar cualquiera de los 256 valores disponibles para cada uno (16 x 16 = 256). 
+
+Por ejemplo, el código:
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Longitud y tamaño</title>
+	<link rel="stylesheet" href="colorhex.css">
+</head>
+<body>
+  <p class="rojo">Este párrafo tiene un fondo rojo.</p>
+  <p class="azul">Este párrafo tiene un fondo azul.</p>
+  <p class="lila">Este párrafo tiene un fondo lila.</p>
+</body>
+</html>
+```
+Y los estilos CSS:
+
+```css linenums="1"
+/* equivalente a la palabra clave red */
+.rojo {
+  background-color: #ff0000;
+}
+
+/* equivalente a la palabra clave blue */
+.azul {
+  background-color: #0000ff;
+}
+
+/* no posee equivalente de palabra clave */
+.lila {
+  background-color: #e0b0ff;
+}
+```
+Estos valores son un poco más complejos y difíciles de entender, pero es mucho más versátil que las claves — podemos utilizar valores hex para representar cualquier color que queramos usar en nuestra paleta de colores.
+
+###RGB
+
+El tercer sistema al que vamos a hacer referencia es RGB. Un valor RGB es una función — rgb() — a la que pasamos tres parámetros que representas los colores primarios rojo, verde y azul, parecido al sistema hex. La diferencia radica en que, en lugar de representar cada canal por un par de números, ahora lo hacemos simplemente por un número decimal entre el 0 y el 255.
+
+Reescribamos el ejemplo anterior con el sistema RGB:
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Longitud y tamaño</title>
+	<link rel="stylesheet" href="colorrgb.css">
+</head>
+<body>
+  <p class="rojo">Este párrafo tiene un fondo rojo.</p>
+  <p class="azul">Este párrafo tiene un fondo azul.</p>
+  <p class="lila">Este párrafo tiene un fondo lila.</p>
+</body>
+</html>
+```
+Y el código CSS:
+
+```css linenums="1"
+/* equivalente a la palabra clave red */
+.rojo {
+  background-color: rgb(255,0,0);
+}
+
+/* equivalente a la palabra clave blue */
+.azul {
+  background-color: rgb(0,0,255);
+}
+
+/* no posee equivalente de palabra clave */
+.lila {
+  background-color: rgb(224,176,255);
+}
+```
+
+El sistema RGB es casi tan soportado como el hexadecimal — probablemente no nos encontremos en nuestro trabajo ningún navegador que no los reconozca ambos.
+
+###HSL
+
+Un poco menos soportado que RGB está el modelo HSL (no en viejas versiones de IE), que fueron implementadas con mucho interés de los diseñadores — en vez de valores rojo, verde y azul, la función hsl() admite los valores tono(hue), saturación y brillo (lightness), para referenciar 16,7 millones de colores, pero de forma diferente:
+
+1. **hue (tono)**: Es el color básico. Toma un valor entre 0-360, como los ángulos de una rueda de color.
+2. **saturación**: ¿Cómo está el color de saturado? Con valores entre 0 y 100%, en 0 no hay color (aparece como una sombra gris), y 100% es la saturación total del color.
+3. **lightness (brillo)**: Representa la claridad del color. Toma valores entre 0 y 100%, donde 0 es la ausencia de luz (completamente negro) y 100% es el brillo total (completamente blanco).
+
+Reescribamos ahora nuestro ejemplo de nuevo con HSL:
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Longitud y tamaño</title>
+	<link rel="stylesheet" href="colorrgb.css">
+</head>
+<body>
+  <p class="rojo">Este párrafo tiene un fondo rojo.</p>
+  <p class="azul">Este párrafo tiene un fondo azul.</p>
+  <p class="lila">Este párrafo tiene un fondo lila.</p>
+</body>
+</html>
+```
+Y el código CSS:
+
+```css linenums="1"
+/* equivalente a la palabra clave red */
+.rojo {
+  background-color: hsl(0,100%,50%);
+}
+
+/* equivalente a la palabra clave blue */
+.azul {
+  background-color: hsl(240,100%,50%);
+}
+
+/* no posee equivalente de palabra clave */
+.lila {
+  background-color: hsl(276,100%,85%);
+}
+```
+El modelo de colores HSL es intuitivo para los diseñadores acostumbrados a trabajar con estas caracteristicas de color. Es útil, por ejemplo, para representar una paleta de sombras en un sistema monocromático:
+
+```css linenums="1"
+/* Tres variaciones de sombra del color rojo */
+background-color: hsl(0,100%,50%);
+background-color: hsl(0,100%,60%);
+background-color: hsl(0,100%,70%);
+```
+
+###RGBA y HSLA
+
+RGB y HSL tienen sus correspondientes modos — RGBA and HSLA — que nos permiten representar, no solo el color, sino también la transparencia a representar. Sus funciones correspondientes toman los mismos parámetros, más un cuarto valor entre 0–1 — que establece la transparencia, o el llamado canal alfa. 0 es totalmente transparente y 1 completamente opaco.
+
+Veamos otro rápido ejemplo — primero el HTML:
+
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Longitud y tamaño</title>
+	<link rel="stylesheet" href="colortransparent.css">
+</head>
+<body>
+  <p class="rojot">Este párrafo tiene un fondo rojo transparente.</p>
+  <p class="azult">Este párrafo tiene un fondo azul transparente.</p>
+</body>
+</html>
+```
+
+Ahora el CSS — aquí, bajamos el primer párrafo con algún posicionamiento, para mostrar el efecto de superposición de los párrafos (aprenderemos más sobre posicionamiento más adelante):
+
+```css linenums="1"
+p {
+  height: 50px;
+  width: 350px;
+}
+
+/* Rojo transparente */
+.rojot {
+  background-color: rgba(255,0,0,0.5);
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+/* Azul transparente */
+.azult {
+  background-color: hsla(240,100%,50%,0.5);
+}
+
+```
+Los colores transparentes son muy útiles para proporcionar ricos efectos visuales — mezcla de fondos, elementos UI semi-transparentes, etc.
+
+###Opacidad
+
+Existe otra forma de especificar la transparencia vía CSS — la propiedad `opacity`. En lugar de fijar la transparencia de un determinado color, aquí fijamos la transparencia de todos los elementos seleccionados y sus hijos. De nuevo, veamos un ejemplo para estudiar la diferencia:
+
+
+Código HTML: 
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Longitud y tamaño</title>
+	<link rel="stylesheet" href="coloropacity.css">
+</head>
+<body>
+  <p class="rojorgba">Párrafo rojo con transparencia RGBA.</p>
+  <p class="rojoopacity">Párrafo rojo con transparencia opacity.</p>
+</body>
+</html>
+```
+CÓdigo CSS:
+
+```css linenums="1"
+/* Rojo con RGBA */
+.rojorgba {
+  background-color: rgba(255,0,0,0.5);
+}
+
+/* Rojo con opacity */
+.rojoopacity {
+  background-color: rgb(255,0,0);
+  opacity: 0.5;
+}
+```
+
+
+## Anexo: nombres de colores HTML
+
+[Valores y unidades empleadas para el color en CSS](units.md#colores)
 
 Los siguientes 140 colores son soportados por todos los navegadores actuales. Los mismos están expresados por **su nombre en inglés** así como por su **valor en formato hexadecimal**.
 

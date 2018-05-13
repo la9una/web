@@ -56,6 +56,7 @@ La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pu
 
 ### `border-style`
 
+### `border-radius`
 
 ### Forma abreviada (_shortland properties_)
 
