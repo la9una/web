@@ -59,20 +59,20 @@ La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pu
 
 ### Forma abreviada
 
-| Esquema                                           | Descripción                  |
+| Esquema                                           | Ejemplo                  |
 | ------------------------------------------------- | ---------------------------- |
-| ![CSS Shortland Properties](imgCSSFundamentos/border1.png) |**1 valor** <br />Ejemplo: `border-width: 1em` <br /> The unique value represents all edges   |
-| ![CSS Shortland Properties](imgCSSFundamentos/border2.png) | **2 valores** <br /> Ejemplo: `border-width: 1em 2em` <br /> The first value represents the vertical, that is top and bottom, edges, the second the horizontal ones, that is the left and right ones.    |
-| ![CSS Shortland Properties](imgCSSFundamentos/border3.png) | **3 valores** <br />Ejemplo: `border-width: 1em 2em 3em` <br /> The first value represents the top edge, the second, the horizontal, that is left and right, ones, and the third value the bottom edge |
-| ![CSS Shortland Properties](imgCSSFundamentos/border4.png) | **4 valores** <br /> Ejemplo: `border-width: 1em 2em 3em 4em` <br /> The four values represent the top, right, bottom and left edges respectively, always in that order, that is clock-wise starting at the top (The initial letter of Top-Right-Bottom-Left matches the order of the consonant of the word trouble: TRBL)  |
+| ![CSS Shortland Properties](imgCSSFundamentos/border1.png) |**1 valor** <br />`border-width: 1em` <br /> The unique value represents all edges   |
+| ![CSS Shortland Properties](imgCSSFundamentos/border2.png) | **2 valores** <br />`border-width: 1em 2em` <br /> The first value represents the vertical, that is top and bottom, edges, the second the horizontal ones, that is the left and right ones.    |
+| ![CSS Shortland Properties](imgCSSFundamentos/border3.png) | **3 valores** <br />`border-width: 1em 2em 3em` <br /> The first value represents the top edge, the second, the horizontal, that is left and right, ones, and the third value the bottom edge |
+| ![CSS Shortland Properties](imgCSSFundamentos/border4.png) | **4 valores** <br />`border-width: 1em 2em 3em 4em` <br /> The four values represent the top, right, bottom and left edges respectively, always in that order, that is clock-wise starting at the top (The initial letter of Top-Right-Bottom-Left matches the order of the consonant of the word trouble: TRBL)  |
 
 
-| Esquema                                           | Descripción                  |
+| Esquema                                           | Ejemplo                  |
 | ------------------------------------------------- | ---------------------------- |
-| ![CSS Border Radius](imgCSSFundamentos/corner1.png) |**1 valor** <br />Ejemplo: `border-radius: 1em` <br /> The unique value represents all corners.   |
-| ![CSS Border Radius](imgCSSFundamentos/corner2.png) | **2 valores** <br /> Ejemplo: `border-radius: 1em 2em` <br /> The first value represents the top left and bottom right corner, the second the top right and bottom left ones.    |
-| ![CSS Border Radius](imgCSSFundamentos/corner3.png) | **3 valores** <br />Ejemplo: `border-radius: 1em 2em 3em` <br /> The first value represents the top left corner, the second the top right and bottom left ones, and the third value the bottom right corner. |
-| ![CSS Border Radius](imgCSSFundamentos/corner4.png) | **4 valores** <br /> Ejemplo: `border-radius: 1em 2em 3em 4em` <br /> The four values represent the top left, top right, bottom right and bottom left corners respectively, always in that order, that is clock-wise starting at the top left.  |
+| ![CSS Border Radius](imgCSSFundamentos/corner1.png) |**1 valor** <br />`border-radius: 1em` <br /> The unique value represents all corners.   |
+| ![CSS Border Radius](imgCSSFundamentos/corner2.png) | **2 valores** <br /> `border-radius: 1em 2em` <br /> The first value represents the top left and bottom right corner, the second the top right and bottom left ones.    |
+| ![CSS Border Radius](imgCSSFundamentos/corner3.png) | **3 valores** <br />`border-radius: 1em 2em 3em` <br /> The first value represents the top left corner, the second the top right and bottom left ones, and the third value the bottom right corner. |
+| ![CSS Border Radius](imgCSSFundamentos/corner4.png) | **4 valores** <br />`border-radius: 1em 2em 3em 4em` <br /> The four values represent the top left, top right, bottom right and bottom left corners respectively, always in that order, that is clock-wise starting at the top left.  |
 
 
 _Fuente:_ 
