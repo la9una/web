@@ -1228,9 +1228,111 @@
 <h2 id="borde">Borde<a class="headerlink" href="#borde" title="Permanent link">&para;</a></h2>
 <p>El modelo de caja de CSS permite asignar diversos estilos para los bordes: <code>border-width</code> para definir el ancho del borde, <code>border-color</code> para establecer el color del borde y finalmente  <code>border-style</code> para indicar tipo de borde de la caja. </p>
 <h3 id="border-width"><code>border-width</code><a class="headerlink" href="#border-width" title="Permanent link">&para;</a></h3>
+<p>Los valores de la anchura de los bordes se pueden indicar mediante una medida o mediante las palabras clave thin (borde delgado), medium (borde normal) y thick (borde ancho):</p>
+<table>
+<thead>
+<tr>
+<th>Propiedad</th>
+<th>Descripción</th>
+<th>Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>border-top-width</code></td>
+<td>Anchura del borde superior</td>
+<td>&lt;medida> | thin | <strong>medium</strong> | thick | inherit</td>
+</tr>
+<tr>
+<td><code>border-right-width</code></td>
+<td>Anchura del borde derecho</td>
+<td>&lt;medida> | thin | <strong>medium</strong> | thick | inherit</td>
+</tr>
+<tr>
+<td><code>border-bottom-width</code></td>
+<td>Anchura del borde inferior</td>
+<td>&lt;medida> | thin | <strong>medium</strong> | thick | inherit</td>
+</tr>
+<tr>
+<td><code>border-left-width</code></td>
+<td>Anchura del borde izquierdo</td>
+<td>&lt;medida> | thin | <strong>medium</strong> | thick | inherit</td>
+</tr>
+<tr>
+<td><code>border-width</code></td>
+<td>Anchura de los cuatro bordes</td>
+<td>&lt;medida {1-4}> | thin | <strong>medium</strong> | thick | inherit</td>
+</tr>
+</tbody>
+</table>
+<p><em>Nota: el valor por defecto de la propiedad aparece resaltado en negrita.</em></p>
+<p>La propiedad <code>border-width</code> permite indicar entre uno y cuatro valores, estos pueden ser indistintamente medidas o las palabras clave <code>thin</code>, <code>medium</code> y <code>thick</code>. El número de valores indicado <code>{1-4}</code> significa lo siguiente:</p>
+<ul>
+<li>Si se indica <strong>un valor</strong>: Se aplica a los cuatro bordes.</li>
+<li>Si se indican <strong>dos valores</strong>: El primero se aplica al borde superior e inferior, y el segundo al borde izquierdo y derecho.</li>
+<li>Si se indican <strong>tres valores</strong>: El primero se aplica al borde superior, el segundo a los bordes izquierdo y derecho, y el tercero al borde inferior.</li>
+<li>Si se aplican <strong>cuatro valores</strong>: El orden de aplicación es superior, derecho, inferior, izquierdo.</li>
+</ul>
 <h3 id="border-color"><code>border-color</code><a class="headerlink" href="#border-color" title="Permanent link">&para;</a></h3>
 <h3 id="border-style"><code>border-style</code><a class="headerlink" href="#border-style" title="Permanent link">&para;</a></h3>
 <h3 id="forma-abreviada">Forma abreviada<a class="headerlink" href="#forma-abreviada" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Esquema</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="CSS Shortland Properties" src="../imgCSSFundamentos/border1.png" /></td>
+<td><strong>1 valor</strong> <br />Ejemplo: <code>border-width: 1em</code> <br /> The unique value represents all edges</td>
+</tr>
+<tr>
+<td><img alt="CSS Shortland Properties" src="../imgCSSFundamentos/border2.png" /></td>
+<td><strong>2 valores</strong> <br /> Ejemplo: <code>border-width: 1em 2em</code> <br /> The first value represents the vertical, that is top and bottom, edges, the second the horizontal ones, that is the left and right ones.</td>
+</tr>
+<tr>
+<td><img alt="CSS Shortland Properties" src="../imgCSSFundamentos/border3.png" /></td>
+<td><strong>3 valores</strong> <br />Ejemplo: <code>border-width: 1em 2em 3em</code> <br /> The first value represents the top edge, the second, the horizontal, that is left and right, ones, and the third value the bottom edge</td>
+</tr>
+<tr>
+<td><img alt="CSS Shortland Properties" src="../imgCSSFundamentos/border4.png" /></td>
+<td><strong>4 valores</strong> <br /> Ejemplo: <code>border-width: 1em 2em 3em 4em</code> <br /> The four values represent the top, right, bottom and left edges respectively, always in that order, that is clock-wise starting at the top (The initial letter of Top-Right-Bottom-Left matches the order of the consonant of the word trouble: TRBL)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Esquema</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="CSS Border Radius" src="../imgCSSFundamentos/corner1.png" /></td>
+<td><strong>1 valor</strong> <br />Ejemplo: <code>border-radius: 1em</code> <br /> The unique value represents all corners.</td>
+</tr>
+<tr>
+<td><img alt="CSS Border Radius" src="../imgCSSFundamentos/corner2.png" /></td>
+<td><strong>2 valores</strong> <br /> Ejemplo: <code>border-radius: 1em 2em</code> <br /> The first value represents the top left and bottom right corner, the second the top right and bottom left ones.</td>
+</tr>
+<tr>
+<td><img alt="CSS Border Radius" src="../imgCSSFundamentos/corner3.png" /></td>
+<td><strong>3 valores</strong> <br />Ejemplo: <code>border-radius: 1em 2em 3em</code> <br /> The first value represents the top left corner, the second the top right and bottom left ones, and the third value the bottom right corner.</td>
+</tr>
+<tr>
+<td><img alt="CSS Border Radius" src="../imgCSSFundamentos/corner4.png" /></td>
+<td><strong>4 valores</strong> <br /> Ejemplo: <code>border-radius: 1em 2em 3em 4em</code> <br /> The four values represent the top left, top right, bottom right and bottom left corners respectively, always in that order, that is clock-wise starting at the top left.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Fuente:</em> </p>
+<ul>
+<li><em><a href="https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties">Shortland properties</a></em></li>
+<li><em><a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius">Border radius</a></em></li>
+</ul>
 <h2 id="ejemplo-de-caja">Ejemplo de caja<a class="headerlink" href="#ejemplo-de-caja" title="Permanent link">&para;</a></h2>
 <p>Como no puede ser de otra manera, analicemos un ejemplo real para conocer el modo en que CSS trata a una caja: </p>
 <p><strong>Código HTML</strong></p>

@@ -32,6 +32,25 @@ El modelo de caja de CSS permite asignar diversos estilos para los bordes: `bord
 
 ### `border-width`
 
+Los valores de la anchura de los bordes se pueden indicar mediante una medida o mediante las palabras clave thin (borde delgado), medium (borde normal) y thick (borde ancho):
+
+| Propiedad           | Descripción                  | Valor                                                        |
+| ------------------- | ---------------------------- | ------------------------------------------------------------ |
+| `border-top-width`    | Anchura del borde superior   | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-right-width`  | Anchura del borde derecho    | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-bottom-width` | Anchura del borde inferior   | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-left-width`   | Anchura del borde izquierdo  | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-width`        | Anchura de los cuatro bordes | <medida {1-4}\> \| thin \| **medium** \| thick \| inherit |
+
+_Nota: el valor por defecto de la propiedad aparece resaltado en negrita._
+
+La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pueden ser indistintamente medidas o las palabras clave `thin`, `medium` y `thick`. El número de valores indicado `{1-4}` significa lo siguiente:
+
+* Si se indica **un valor**: Se aplica a los cuatro bordes.
+* Si se indican **dos valores**: El primero se aplica al borde superior e inferior, y el segundo al borde izquierdo y derecho.
+* Si se indican **tres valores**: El primero se aplica al borde superior, el segundo a los bordes izquierdo y derecho, y el tercero al borde inferior.
+* Si se aplican **cuatro valores**: El orden de aplicación es superior, derecho, inferior, izquierdo.
+
 
 ### `border-color`
 
@@ -40,6 +59,26 @@ El modelo de caja de CSS permite asignar diversos estilos para los bordes: `bord
 
 ### Forma abreviada
 
+| Esquema                                           | Descripción                  |
+| ------------------------------------------------- | ---------------------------- |
+| ![CSS Shortland Properties](imgCSSFundamentos/border1.png) |**1 valor** <br />Ejemplo: `border-width: 1em` <br /> The unique value represents all edges   |
+| ![CSS Shortland Properties](imgCSSFundamentos/border2.png) | **2 valores** <br /> Ejemplo: `border-width: 1em 2em` <br /> The first value represents the vertical, that is top and bottom, edges, the second the horizontal ones, that is the left and right ones.    |
+| ![CSS Shortland Properties](imgCSSFundamentos/border3.png) | **3 valores** <br />Ejemplo: `border-width: 1em 2em 3em` <br /> The first value represents the top edge, the second, the horizontal, that is left and right, ones, and the third value the bottom edge |
+| ![CSS Shortland Properties](imgCSSFundamentos/border4.png) | **4 valores** <br /> Ejemplo: `border-width: 1em 2em 3em 4em` <br /> The four values represent the top, right, bottom and left edges respectively, always in that order, that is clock-wise starting at the top (The initial letter of Top-Right-Bottom-Left matches the order of the consonant of the word trouble: TRBL)  |
+
+
+| Esquema                                           | Descripción                  |
+| ------------------------------------------------- | ---------------------------- |
+| ![CSS Border Radius](imgCSSFundamentos/corner1.png) |**1 valor** <br />Ejemplo: `border-radius: 1em` <br /> The unique value represents all corners.   |
+| ![CSS Border Radius](imgCSSFundamentos/corner2.png) | **2 valores** <br /> Ejemplo: `border-radius: 1em 2em` <br /> The first value represents the top left and bottom right corner, the second the top right and bottom left ones.    |
+| ![CSS Border Radius](imgCSSFundamentos/corner3.png) | **3 valores** <br />Ejemplo: `border-radius: 1em 2em 3em` <br /> The first value represents the top left corner, the second the top right and bottom left ones, and the third value the bottom right corner. |
+| ![CSS Border Radius](imgCSSFundamentos/corner4.png) | **4 valores** <br /> Ejemplo: `border-radius: 1em 2em 3em 4em` <br /> The four values represent the top left, top right, bottom right and bottom left corners respectively, always in that order, that is clock-wise starting at the top left.  |
+
+
+_Fuente:_ 
+
+* _[Shortland properties](https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties)_
+* _[Border radius](https://developer.mozilla.org/es/docs/Web/CSS/border-radius)_
 
 ## Ejemplo de caja
 Como no puede ser de otra manera, analicemos un ejemplo real para conocer el modo en que CSS trata a una caja: 

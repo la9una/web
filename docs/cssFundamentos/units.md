@@ -82,3 +82,9 @@ Algunos ejemplos específicos:
 * `1in` siempre son `96px`
 * `3pt` siempre son `4px`
 * `25.4mm` siempre son `96px`.
+
+_Fuente de conocimiento:_
+
+* [developer.mozilla.org/es](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Valores_y_unidades)
+
+* [developer.mozilla.org/es](https://developer.mozilla.org/es/docs/Web/CSS/length#Unidades)
