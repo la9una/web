@@ -57,8 +57,9 @@ La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pu
 ### `border-style`
 
 
-### Forma abreviada
+### Forma abreviada (_shortland properties_)
 
+#### Bordes
 | Esquema                                           | Ejemplo                  |
 | ------------------------------------------------- | ---------------------------- |
 | ![CSS Shortland Properties](imgCSSFundamentos/border1.png) |**1 valor** <br />`border-width: 1em` <br /> El único valor aplica a todos los bordes.   |
@@ -67,6 +68,7 @@ La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pu
 | ![CSS Shortland Properties](imgCSSFundamentos/border4.png) | **4 valores** <br />`border-width: 1em 2em 3em 4em` <br /> Los cuatro valores aplican a los bordes superior, derecho, inferior e izquierdo respectivamente, siempre en ese orden, es decir, en sentido horario comenzando por el borde superior.|
 
 
+#### Esquinas
 | Esquema                                           | Ejemplo                  |
 | ------------------------------------------------- | ---------------------------- |
 | ![CSS Border Radius](imgCSSFundamentos/corner1.png) |**1 valor** <br />`border-radius: 1em` <br /> El único valor aplica a todos las esquinas.   |
