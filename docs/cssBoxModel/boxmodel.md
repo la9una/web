@@ -61,18 +61,18 @@ La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pu
 
 | Esquema                                           | Ejemplo                  |
 | ------------------------------------------------- | ---------------------------- |
-| ![CSS Shortland Properties](imgCSSFundamentos/border1.png) |**1 valor** <br />`border-width: 1em` <br /> The unique value represents all edges   |
-| ![CSS Shortland Properties](imgCSSFundamentos/border2.png) | **2 valores** <br />`border-width: 1em 2em` <br /> The first value represents the vertical, that is top and bottom, edges, the second the horizontal ones, that is the left and right ones.    |
-| ![CSS Shortland Properties](imgCSSFundamentos/border3.png) | **3 valores** <br />`border-width: 1em 2em 3em` <br /> The first value represents the top edge, the second, the horizontal, that is left and right, ones, and the third value the bottom edge |
-| ![CSS Shortland Properties](imgCSSFundamentos/border4.png) | **4 valores** <br />`border-width: 1em 2em 3em 4em` <br /> The four values represent the top, right, bottom and left edges respectively, always in that order, that is clock-wise starting at the top (The initial letter of Top-Right-Bottom-Left matches the order of the consonant of the word trouble: TRBL)  |
+| ![CSS Shortland Properties](imgCSSFundamentos/border1.png) |**1 valor** <br />`border-width: 1em` <br /> El único valor aplica a todos los bordes.   |
+| ![CSS Shortland Properties](imgCSSFundamentos/border2.png) | **2 valores** <br />`border-width: 1em 2em` <br /> El primer valor aplica a los bordes verticales, es decir, superior e inferior. El segundo valor aplica a los bordes horizontales, es decir, izquierdo y la derecho.  |
+| ![CSS Shortland Properties](imgCSSFundamentos/border3.png) | **3 valores** <br />`border-width: 1em 2em 3em` <br /> El primer valor aplica al borde superior. El segundo valor, a los bordes horizontales, es decir, al borde izquierdo y el derecho. Finalmente, el tercer valor aplica al borde inferior. |
+| ![CSS Shortland Properties](imgCSSFundamentos/border4.png) | **4 valores** <br />`border-width: 1em 2em 3em 4em` <br /> Los cuatro valores representan los bordes superior, derecho, inferior e izquierdo respectivamente, siempre en ese orden, es decir, en sentido horario comenzando por el borde superior.|
 
 
 | Esquema                                           | Ejemplo                  |
 | ------------------------------------------------- | ---------------------------- |
-| ![CSS Border Radius](imgCSSFundamentos/corner1.png) |**1 valor** <br />`border-radius: 1em` <br /> The unique value represents all corners.   |
-| ![CSS Border Radius](imgCSSFundamentos/corner2.png) | **2 valores** <br /> `border-radius: 1em 2em` <br /> The first value represents the top left and bottom right corner, the second the top right and bottom left ones.    |
-| ![CSS Border Radius](imgCSSFundamentos/corner3.png) | **3 valores** <br />`border-radius: 1em 2em 3em` <br /> The first value represents the top left corner, the second the top right and bottom left ones, and the third value the bottom right corner. |
-| ![CSS Border Radius](imgCSSFundamentos/corner4.png) | **4 valores** <br />`border-radius: 1em 2em 3em 4em` <br /> The four values represent the top left, top right, bottom right and bottom left corners respectively, always in that order, that is clock-wise starting at the top left.  |
+| ![CSS Border Radius](imgCSSFundamentos/corner1.png) |**1 valor** <br />`border-radius: 1em` <br /> El único valor aplica a todos las esquinas.   |
+| ![CSS Border Radius](imgCSSFundamentos/corner2.png) | **2 valores** <br /> `border-radius: 1em 2em` <br /> El primer valor representa las esquinas superior izquierda e inferior derecha, el segundo valor, a las esquinas superior derecha e inferior izquierda.    |
+| ![CSS Border Radius](imgCSSFundamentos/corner3.png) | **3 valores** <br />`border-radius: 1em 2em 3em` <br /> El primer valor representa la esquina superior izquierda, el segundo, a las esquinas superior derecha e inferior izquierda, y el tercer valor a la esquina inferior derecha. |
+| ![CSS Border Radius](imgCSSFundamentos/corner4.png) | **4 valores** <br />`border-radius: 1em 2em 3em 4em` <br /> Los cuatro valores representan las esquinas superior izquierda, superior derecha, inferior derecha e inferior izquierda, respectivamente, siempre en ese orden, es decir, en el sentido de las agujas del reloj comenzando en la esquina superior izquierda.  |
 
 
 _Fuente:_ 
