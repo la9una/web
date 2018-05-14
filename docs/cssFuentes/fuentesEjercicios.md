@@ -1,3 +1,0 @@
-# Ejercicios
-
-![Working](../work.jpg)

@@ -108,7 +108,7 @@ pages:
     - Valores y unidades: 
       - Introducción: 'cssFundamentos/units.md'
       - Numéricas: 'cssFundamentos/unitsNumbers.md'
-      - Color: 'cssFundamentos/unitsColor.md'
+      - Color: 'cssFundamentos/unitsColors.md'
       - Porcentaje y funciones: 'cssFundamentos/unitsPercent.md'
     - Modelo de caja: 
         - Definición: 'cssBoxModel/boxmodel.md'
@@ -119,7 +119,7 @@ pages:
       - Formato de texto: 'cssFuentes/fuentesFormato.md'
       - Usando webfonts: 'cssFuentes/fuentesWebFonts.md'
       - Elegir tipografía: 'cssFuentes/fuentesTipografia.md'
-      - Ejercicios: 'cssFuentes/fuentesEjercicios.md'
+    - Ejercicios: 'cssFundamentos/ejercicios.md'
 #    - Fondos: 'cssFondos/index.md'
 #    - Listas: 'cssListas/index.md'
 #    - Tablas: 'cssColores/index.md'

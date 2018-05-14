@@ -258,9 +258,7 @@ CÓdigo CSS:
 ```
 
 
-## Anexo: nombres de colores HTML
-
-[Valores y unidades empleadas para el color en CSS](units.md#colores)
+## Colores: nombres y valores hexadecimales
 
 Los siguientes 140 colores son soportados por todos los navegadores actuales. Los mismos están expresados por **su nombre en inglés** así como por su **valor en formato hexadecimal**.
 
