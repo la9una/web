@@ -35,3 +35,5 @@
 		* Arriba: 10px
 		* Abajo: 10px
 		* Derecha: 6px
+
+2. [Descargá el ejercicio](../cssBoxModel/descargas/ejercicio_css_posicionamiento_1.zip) y probá las distintas opciones de posicionamiento según indicación del profesor. 
