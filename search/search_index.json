@@ -527,8 +527,33 @@
         }, 
         {
             "location": "/cssBoxModel/position/", 
-            "text": "", 
+            "text": "La propiedad \nposition\n de CSS especifica como se posicionara este en el documento. las propiedades \ntop\n, \nright\n, \nbottom\n, y \nleft\n determinan la localizacion final de los elementos posicionados.\n\n\nUn elemento posicionado es un elemento cuyo valor de \nposition\n es \nrelative\n, \nabsolute\n, \nfixed\n, o \nsticky\n. (En otras palabras, cualquiera excepto \nstatic\n.)\n\n\nstatic\n\n\nEs el valor que toma un elemento \npor defecto\n para posicionarse. Con este valor, el elemento respetar\u00e1 el flujo normal de la p\u00e1gina, es decir, se posicionar\u00e1 en el lugar que le corresponde y \nno tendr\u00e1 en cuenta\n los valores para las propiedades \ntop\n, \nleft\n, \nright\n y \nbottom\n.\n\n\nrelative\n\n\nMediante este valor podemos \nposicionar un elemento respecto al flujo normal de la p\u00e1gina\n. Se podr\u00eda decir que estamos posicionando un elemento tomando como referencia el flujo normal (la posici\u00f3n por defecto) de dicho elemento.\n\n\nPodremos usar \ntop\n, \nleft\n, \nright\n y \nbottom\n para posicionar nuestro elemento tomando como referencia la posici\u00f3n por defecto del elemento. \n\n\nabsolute\n\n\nEste valor tambi\u00e9n aceptar\u00e1 los valores \ntop\n, \nleft\n, \nright\n y \nbottom\n. El elemento con \nposition: absolute\n \nno estar\u00e1 dentro del flujo normal de la p\u00e1gina y tomar\u00e1 como referencia la ventana del navegador o el elemento posicionado m\u00e1s cercano\n si es padre del elemento que queremos posicionar (dicho elemento \"m\u00e1s cercano\" deber\u00e1 tener cualquier valor de \nposition\n excepto \nstatic\n).\n\n\nfixed\n\n\nLos elementos a los cuales se les posiciona con \nposition: fixed\n \ntambi\u00e9n est\u00e1n fuera del flujo normal de la p\u00e1gina\n. Sin embargo, \nno se debe de confundir con los elementos que est\u00e1n posicionados con \nposition: absolute\n.\n\n\nA diferencia de estos \u00faltimos, los elementos con \nposition: fixed\n \ntoman como referencia la ventana del navegador y no respetan el tener un contenedor padre que est\u00e9 posicionado\n. Adem\u00e1s, al hacer \nscroll\n en la p\u00e1gina, el elemento que est\u00e9 posicionado como \nposition: fixed\n seguir\u00e1 en la misma posici\u00f3n respecto a la ventana del navegador aunque el \nscroll\n haya desplazado la p\u00e1gina hacia abajo.\n\n\nsticky\n\n\nEste es un valor que es nuevo relativamente para esta propiedad.\n\n\nUsando este valor, el elemento act\u00faa como si estuviera posicionado con el valor \nrelative\n hasta que se alcanza un umbral de desplazamiento (en el propio elemento o en el elemento padre), con el cual el elemento pasa a posicionarse como si estuviera posicionado con el valor \nfixed\n. \n\n\nFuente:\n \n\n\n\n\n\n\nStackOverflow\n\n\n\n\n\n\nMozilla Developer Network", 
             "title": "Posicionamiento"
+        }, 
+        {
+            "location": "/cssBoxModel/position/#static", 
+            "text": "Es el valor que toma un elemento  por defecto  para posicionarse. Con este valor, el elemento respetar\u00e1 el flujo normal de la p\u00e1gina, es decir, se posicionar\u00e1 en el lugar que le corresponde y  no tendr\u00e1 en cuenta  los valores para las propiedades  top ,  left ,  right  y  bottom .", 
+            "title": "static"
+        }, 
+        {
+            "location": "/cssBoxModel/position/#relative", 
+            "text": "Mediante este valor podemos  posicionar un elemento respecto al flujo normal de la p\u00e1gina . Se podr\u00eda decir que estamos posicionando un elemento tomando como referencia el flujo normal (la posici\u00f3n por defecto) de dicho elemento.  Podremos usar  top ,  left ,  right  y  bottom  para posicionar nuestro elemento tomando como referencia la posici\u00f3n por defecto del elemento.", 
+            "title": "relative"
+        }, 
+        {
+            "location": "/cssBoxModel/position/#absolute", 
+            "text": "Este valor tambi\u00e9n aceptar\u00e1 los valores  top ,  left ,  right  y  bottom . El elemento con  position: absolute   no estar\u00e1 dentro del flujo normal de la p\u00e1gina y tomar\u00e1 como referencia la ventana del navegador o el elemento posicionado m\u00e1s cercano  si es padre del elemento que queremos posicionar (dicho elemento \"m\u00e1s cercano\" deber\u00e1 tener cualquier valor de  position  excepto  static ).", 
+            "title": "absolute"
+        }, 
+        {
+            "location": "/cssBoxModel/position/#fixed", 
+            "text": "Los elementos a los cuales se les posiciona con  position: fixed   tambi\u00e9n est\u00e1n fuera del flujo normal de la p\u00e1gina . Sin embargo,  no se debe de confundir con los elementos que est\u00e1n posicionados con  position: absolute .  A diferencia de estos \u00faltimos, los elementos con  position: fixed   toman como referencia la ventana del navegador y no respetan el tener un contenedor padre que est\u00e9 posicionado . Adem\u00e1s, al hacer  scroll  en la p\u00e1gina, el elemento que est\u00e9 posicionado como  position: fixed  seguir\u00e1 en la misma posici\u00f3n respecto a la ventana del navegador aunque el  scroll  haya desplazado la p\u00e1gina hacia abajo.", 
+            "title": "fixed"
+        }, 
+        {
+            "location": "/cssBoxModel/position/#sticky", 
+            "text": "Este es un valor que es nuevo relativamente para esta propiedad.  Usando este valor, el elemento act\u00faa como si estuviera posicionado con el valor  relative  hasta que se alcanza un umbral de desplazamiento (en el propio elemento o en el elemento padre), con el cual el elemento pasa a posicionarse como si estuviera posicionado con el valor  fixed .   Fuente:      StackOverflow    Mozilla Developer Network", 
+            "title": "sticky"
         }, 
         {
             "location": "/cssFuentes/fuentesIndex/", 
@@ -727,7 +752,7 @@
         }, 
         {
             "location": "/cssFundamentos/ejercicios/", 
-            "text": "Ejercicios\n\n\nAgregando CSS\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y asign\u00e1 estilos CSS:\n\n\n\n\nUsando el formato \"en l\u00ednea\" para los p\u00e1rrafos. \n\n\nEmpleando el formato \"Hoja de estilos CSS interna\" para los t\u00edtulos.  \n\n\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y us\u00e1 una hoja de estilos CSS externa para darle estilo a los t\u00edtulos y p\u00e1rrafos.  \n\n\n\n\n\n\nSelectores\n\n\n{En construcci\u00f3n}\n\n\nValores y unidades\n\n\n\n\nDescarg\u00e1 el ejercicio\n y modific\u00e1 el archivo CSS siguiendo las instrucciones:\n\n\nIntroduc\u00ed los valores CSS necesarios de tal manera que el tama\u00f1o de la fuente de un p\u00e1rrafo est\u00e9 expresado en una unidad relativa y el otro p\u00e1rrafo en una unidad absoluta. \n\n\nModific\u00e1 el tama\u00f1o de la ventana del navegador, llev\u00e1ndola a diferentes medidas. \u00bfC\u00f3mo se comportan las fuentes de un p\u00e1rrafo y otro? Describilo. \n\n\n\n\n\n\n\n\nModelo de caja\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y realiz\u00e1 una caja en CSS con las siguientes caracter\u00edsitcas : \n\n\n\n\nAncho: 350px\n\n\nAlto: 300px\n\n\nFondo: amarillo\n\n\nBorde: \n\n\nColor: azul\n\n\nGrosor: 5px\n\n\n\n\n\n\nMargen interno: \n\n\nIzquierda: 5px \n\n\nArriba: 10px\n\n\nAbajo: 8px\n\n\nDerecha: 5px\n\n\n\n\n\n\nMargen externo: \n\n\nIzquierda: 6px \n\n\nArriba: 10px\n\n\nAbajo: 10px\n\n\nDerecha: 6px", 
+            "text": "Ejercicios\n\n\nAgregando CSS\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y asign\u00e1 estilos CSS:\n\n\n\n\nUsando el formato \"en l\u00ednea\" para los p\u00e1rrafos. \n\n\nEmpleando el formato \"Hoja de estilos CSS interna\" para los t\u00edtulos.  \n\n\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y us\u00e1 una hoja de estilos CSS externa para darle estilo a los t\u00edtulos y p\u00e1rrafos.  \n\n\n\n\n\n\nSelectores\n\n\n{En construcci\u00f3n}\n\n\nValores y unidades\n\n\n\n\nDescarg\u00e1 el ejercicio\n y modific\u00e1 el archivo CSS siguiendo las instrucciones:\n\n\nIntroduc\u00ed los valores CSS necesarios de tal manera que el tama\u00f1o de la fuente de un p\u00e1rrafo est\u00e9 expresado en una unidad relativa y el otro p\u00e1rrafo en una unidad absoluta. \n\n\nModific\u00e1 el tama\u00f1o de la ventana del navegador, llev\u00e1ndola a diferentes medidas. \u00bfC\u00f3mo se comportan las fuentes de un p\u00e1rrafo y otro? Describilo. \n\n\n\n\n\n\n\n\nModelo de caja\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y realiz\u00e1 una caja en CSS con las siguientes caracter\u00edsitcas : \n\n\n\n\nAncho: 350px\n\n\nAlto: 300px\n\n\nFondo: amarillo\n\n\nBorde: \n\n\nColor: azul\n\n\nGrosor: 5px\n\n\n\n\n\n\nMargen interno: \n\n\nIzquierda: 5px \n\n\nArriba: 10px\n\n\nAbajo: 8px\n\n\nDerecha: 5px\n\n\n\n\n\n\nMargen externo: \n\n\nIzquierda: 6px \n\n\nArriba: 10px\n\n\nAbajo: 10px\n\n\nDerecha: 6px\n\n\n\n\n\n\n\n\n\n\n\n\nDescarg\u00e1 el ejercicio\n y prob\u00e1 las distintas opciones de posicionamiento seg\u00fan indicaci\u00f3n del profesor.", 
             "title": "Ejercicios"
         }, 
         {
@@ -752,7 +777,7 @@
         }, 
         {
             "location": "/cssFundamentos/ejercicios/#modelo-de-caja", 
-            "text": "Descarg\u00e1 el ejercicio  y realiz\u00e1 una caja en CSS con las siguientes caracter\u00edsitcas :    Ancho: 350px  Alto: 300px  Fondo: amarillo  Borde:   Color: azul  Grosor: 5px    Margen interno:   Izquierda: 5px   Arriba: 10px  Abajo: 8px  Derecha: 5px    Margen externo:   Izquierda: 6px   Arriba: 10px  Abajo: 10px  Derecha: 6px", 
+            "text": "Descarg\u00e1 el ejercicio  y realiz\u00e1 una caja en CSS con las siguientes caracter\u00edsitcas :    Ancho: 350px  Alto: 300px  Fondo: amarillo  Borde:   Color: azul  Grosor: 5px    Margen interno:   Izquierda: 5px   Arriba: 10px  Abajo: 8px  Derecha: 5px    Margen externo:   Izquierda: 6px   Arriba: 10px  Abajo: 10px  Derecha: 6px       Descarg\u00e1 el ejercicio  y prob\u00e1 las distintas opciones de posicionamiento seg\u00fan indicaci\u00f3n del profesor.", 
             "title": "Modelo de caja"
         }, 
         {
