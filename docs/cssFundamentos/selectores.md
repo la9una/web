@@ -358,5 +358,276 @@ h1 ~ div {background-color: orange;}
 _Fuente: [https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples#Combinaciones](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Selectores_simples#Combinaciones)_
 
 
-## Pseudo selectores
-https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos
+## Pseudo-selectores
+Los pseudo-selectores deben su nombre a que no seleccionan elementos HTML "completos", sino ciertas partes de estos o solo bajo determinadas circunstancias. Hay de dos tipos: 
+
+* pseudo-clases 
+* pseudo-elementos
+
+### Pseudo-clases
+Una pseudo-clase CSS consta de una clave precedida de dos puntos (:) que añadiremos al final del selector para indicar que daremos estilo a los elementos seleccionados solo cuando estos se encuentren en un estado determinado. 
+
+Ellas son: 
+
+* [`:active`](selectores.md#active)
+* `:any`
+* `:checked`
+* `:default`
+* `:dir()`
+* `:disabled`
+* `:empty`
+* `:enabled`
+* `:first`
+* `:first-child`
+* `:first-of-type`
+* `:fullscreen`
+* [`:focus`](selectores.md#focus)
+* [`:hover`](selectores.md#hover)
+* `:indeterminate`
+* `:in-range`
+* `:invalid`
+* `:lang()`
+* `:last-child`
+* `:last-of-type`
+* `:left`
+* `:link`
+* `:not()`
+* [`:nth-child()`](selectores.md#nth-child)
+* `:nth-last-child()`
+* `:nth-last-of-type()`
+* `:nth-of-type()`
+* `:only-child`
+* `:only-of-type`
+* `:optional`
+* `:out-of-range`
+* `:read-only`
+* `:read-write`
+* `:required`
+* `:right`
+* `:root`
+* `:scope`
+* `:target`
+* `:valid`
+* [`:visited`](selectores.md#visited)
+
+####:active
+La pseudo-clase :active de CSS  representa un elemento (como un botón) que el usuario está activando.  Cuando se usa un mouse, la "activación" generalmente comienza cuando el usuario presiona el botón primario del mouse y termina cuando se suelta. La pseudo-clase `:active` se usa comúnmente en los elementos `<a>` y `<button>`, pero también se puede usar en otros elementos.
+
+```css linenums="1"
+/* Selecciona cualquier <a> que esté siendo activado */
+a:active {
+  color: red;
+}
+```
+
+####:focus
+La pseudo-clase `:focus` CSS representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla <kbd>Tab</kbd> del teclado.
+
+```css linenums="1"
+/* Selecciona cualquier <input> cuando se enfoca */
+input:focus {
+  color: red;
+}
+```
+
+####:hover
+La pseudo-clase `:hover` de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).
+
+```css linenums="1"
+/* Selecciona cualquier elemento <a> cuando está "mantenido (hovered)" */
+a:hover {
+  color: orange;
+}
+```
+
+####:nth-child
+La pseudo-clase `:nth-child()` de CSS coincide con uno o más elementos en función de su posición entre un grupo de hermanos.
+
+```css linenums="1"
+/* Selecciona cada cuarto elemento entre 
+   cualquier grupo de hermanos */
+:nth-child(4n) {
+  color: lime;
+}
+```
+
+!!!done "Opciones para `:nth-child`"
+		
+		* `odd`
+    	Representa elementos cuya posición numérica en una serie de hermanos es impar: 1, 3, 5, etc.
+		
+		* `even`
+    	Representa elementos cuya posición numérica en una serie de hermanos es par: 2, 4, 6, etc. 
+
+		* `<An+B>`
+		Representa elementos cuya posición numérica en una serie de hermanos coincide con el patrón `An+B`, para cada entero positivo o valor cero de `n`. El índice del primer elemento es 1. Los valores `A` y `B` deben ser ambos números enteros.
+
+		**Ejemplos de aplicación**
+
+		* `tr:nth-child(odd)` o `tr:nth-child(2n+1)`
+			Representa las filas impares de una tabla HTML: 1, 3, 5, etc.
+		* `tr:nth-child(even) o tr:nth-child(2n)`
+			Representa las filas pares de una tabla HTML: 2, 4, 6, etc.
+		* `:nth-child(7)`
+			Representa el séptimo elemento.
+		* `:nth-child(5n)`
+			Representa los elementos 5, 10, 15, etc.
+		* `:nth-child(3n+4)`
+			Representa los elementos 4, 7, 10, 13, etc.
+		* `:nth-child(-n+3)`
+			Representa los primeros tres elementos entre un grupo de hermanos.
+		* `p:nth-child(n)`
+			Representa cada elemento `<p>` entre un grupo de hermanos. Esto es lo mismo que un simple selector `<p>`.
+		* `p:nth-child(1)` o `p:nth-child(0n+1)`
+			Representa cada `<p>` que es el primer elemento entre un grupo de hermanos. Esto es lo mismo que el selector `:first-child`. 
+
+
+####:visited
+La pseudo-clase `:visited` de CSS  representa enlaces que el usuario ya ha visitado. Por motivos de privacidad, los estilos que se pueden modificar con este selector son muy limitados.
+
+```css linenums="1"
+/* Selecciona cualquier <a> que ha sido visitado */
+a:visited {
+  color: green;
+}
+```
+
+###Pseudo-elementos
+
+Los pseudo-elementos son parecidos a las pseudo-clases, con alguna diferencia. Estos son claves, ahora precedidas por `::`, que se añaden al final del selector para elegir cierta parte de un elemento.
+
+
+* [`::after`](selectores.md#after)
+* [`::before`](selectores.md#before)
+* [`::first-letter`](selectores.md#first-letter)
+* [`::first-line`](selectores.md#first-line)
+* `::selection`
+* `::backdrop`
+
+####::after
+El pseudo-elemento CSS `::after` coincide con el último hijo virtual del elemento seleccionado. Se usa generalmente para añadir contenido estético a un elemento, usando la propiedad CSS content. Este elemento se muestra en línea con el texto de forma predeterminada.
+
+_Código HTML (ejemplo)_
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="pseudoElementosAfter.css">
+	<title>Selectores de elementos</title>
+</head>
+<body>
+	<p class="boring-text">Here is some good old boring text.</p>
+	<p>Here is some moderate text that is neither boring nor exciting.</p>
+	<p class="exciting-text">Contributing to MDN is easy and fun.
+	Just hit the edit button to add new live samples, or improve existing samples.</p>
+</body>
+</html>
+```
+
+_Código CSS (ejemplo)_
+
+```css linenums="1"
+.exciting-text::after {
+  content: "<- now this *is* exciting!"; 
+  color: green;
+}
+
+.boring-text::after {
+   content: "<- BORING!";
+   color: red;
+}
+```
+
+
+####::before
+`::before` crea un pseudo-elemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada.
+
+_Código HTML (ejemplo)_
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="pseudoElementosBefore.css">
+	<title>Selectores de elementos</title>
+</head>
+<body>
+	<q>Some quotes</q>, he said, <q>are better than none</q>.
+</body>
+</html>
+```
+
+_Código CSS (ejemplo)_
+
+```css linenums="1"
+q::before { 
+  content: "♥ ";
+  color: red;
+}
+```
+####::first-letter
+El pseudo-elemento CSS `::first-letter` aplica estilos a la primera letra de la primera línea de un elemento de nivel de bloque, pero solo cuando no está precedido por otro contenido (como imágenes o tablas en línea).
+
+_Código HTML (ejemplo)_
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="pseudoElementosFirstLetter.css">
+	<title>Selectores de elementos</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+    <p>Duis autem vel eum iriure dolor in molestie consequat.</p>
+    <p>Ut wisi enim ad minim veniam.</p>
+</body>
+</html>
+```
+
+_Código CSS (ejemplo)_
+
+```css linenums="1"
+/* Selecciona la primer letra del elemento <p> */
+p::first-letter {
+  font-size: 130%;
+}
+```
+
+####::first-line
+El pseudo-elemento CSS `::first-line` aplica estilos a la primera línea de un elemento de nivel de bloque. Tenga en cuenta que la longitud de la primera línea depende de muchos factores, incluido el ancho del elemento, el ancho del documento y el tamaño de la fuente del texto.
+
+_Código HTML (ejemplo)_
+
+```html linenums="1"
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="pseudoElementosFirstLine.css">
+	<title>Selectores de elementos</title>
+</head>
+<body>
+	<p>Los estilos se aplican a la primer línea de este párrafo.
+	En la línea siguiente, el texto se mostrará de forma normal.</p>
+
+<span>A la primer línea de este texto no se le aplica estilo alguno
+porque no está contenido dentro de un elemento en bloque.</span>
+</body>
+</html>
+```
+
+_Código CSS (ejemplo)_
+
+```css linenums="1"
+::first-line {
+  color: blue;
+  text-transform: uppercase;
+}
+```
+
+_Fuente: [https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos](https://developer.mozilla.org/es/docs/Learn/CSS/Introduction_to_CSS/Pseudo-clases_y_pseudo-elementos)_
