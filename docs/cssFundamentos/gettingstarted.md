@@ -17,9 +17,12 @@ Donde:
 
 Por ejemplo: 
 
-```css
+```css linenums="1"
 p {background-color: yellow;}
 ```
+
+!!!done "Comentarios en CSS"
+		En un documento CSS, el texto encerrado entre `/*` y `*/` se consideran comentarios y, por lo mismo, no son interpretados por el navegador.
 
 ## Agregando CSS al documento
 Existen tres maneras de agregar estilos CSS a nuestro documento (que en esta guía, siempre será un documento de tipo HTML), las cuáles, se explican a continuación. 
@@ -77,12 +80,12 @@ Por ejemplo:
 **Los estilos CSS se definen en un documento aparte** (que lleva la extensión `.css`) el cual debe ser especificado dentro del documento HTML mediante la etiqueta `link`, que presenta la forma: 
 
 ```
-<link rel="stylesheet" href="[ruta hacia el documento CSS]">
+<link rel="stylesheet" href="<ruta hacia el documento CSS>">
 ```
 
-De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. 
+De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. Por ejemplo: 
 
-**Código HTML**: 
+_Código HTML_
 
 ```html linenums="1" hl_lines="5"
 <!DOCTYPE html>
@@ -99,7 +102,7 @@ De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el
 </html>
 ```
 
-**Código CSS**
+_Código CSS_
 
 ```css linenums="1"
 h1 {background-color: peach;}

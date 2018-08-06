@@ -5,7 +5,7 @@ En los ejercicios siguientes aprenderás cuál es la estructura de un documento 
 ### Ejercicio 1
 Abrí el editor de texto y transcribí el siguiente código: 
 
-```html
+```html linenums="1"
 <!DOCTYPE html>
 <html>
     <head>
@@ -27,7 +27,7 @@ Ahora respondé las siguientes preguntas:
 1. ¿Qué es lo que ves en el cuerpo de la página? 
 2. ¿Qué pasó con la leyenda "Ejercicio 1"?
 
-Como podrás observar, lo que se visualiza en la página es aquello que se encuentra entre las etiquetas `<body></body>`. El texto que aparece en la barra de título de navegador es aquel que escribimos dentro de las etiquetas `<head></head` (particularmente de la etiqueta `<title></title>` que está ubicada dentro de la etiqueta `<head></head>`)
+Como podrás observar, lo que se visualiza en la página es aquello que se encuentra entre las etiquetas `<body></body>`. El texto que aparece en la barra de título de navegador es aquel que escribimos dentro de las etiquetas `<head></head>` (particularmente de la etiqueta `<title></title>` que está ubicada dentro de la etiqueta `<head></head>`)
 
 ### Ejercicio 2 
 Este ejercicio consta de dos partes. En primer lugar, deberás copiar el siguiente código: 
@@ -61,4 +61,4 @@ Ahora, volvé a abrir el archivo con el editor de texto y agregá los siguientes
 ```
 ¿Ocurrió algún cambio?
 
-Efectivamente, aunque no se aprecie al observar el documento en el navegador, el **atributo** **_charset_** le indica al navegador el conjunto (o mapa) de caracteres que debe emplear para mostrar la página. En el ejemplo, **UTF-8** permite, entro otros, caracteres propios del idioma español, como como las eñes (ñÑ), signos de exclamación de apertura (¡), etc. Por otro lado, el **atributo _lang_** le indica al navegador que el idioma del documento será el español. 
+Efectivamente, aunque no se aprecie al observar el documento en el navegador, el **atributo _charset_** le indica al navegador el conjunto (o mapa) de caracteres que debe emplear para mostrar la página. En el ejemplo, **UTF-8** permite, entro otros, caracteres propios del idioma español, como como las eñes (ñÑ), signos de exclamación de apertura (¡), etc. Por otro lado, el **atributo _lang_** le indica al navegador que el idioma del documento será el español. 

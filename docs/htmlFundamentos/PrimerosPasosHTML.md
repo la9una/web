@@ -7,8 +7,8 @@ Las etiquetas HTML pueden escribirse en mayúsculas o en minúsculas, sin embarg
 
 Una etiqueta, está contenida entre los signos de menor que (`<`) al comienzo y mayor que (`>`) al final. He aquí un ejemplo sencillo:
 
-```hmtl
-<p>Esto es texto dentro de un párrafo.</p>
+```html linenums="1"
+<p>Un texto cualquiera dentro de un párrafo.</p>
 ```
 En este ejemplo hay una etiqueta de comienzo y otra de cierre. Las etiquetas de cierre son las mismas que las etiquetas de comienzo sólo que contienen una barra justo después del signo menor que. 
 
