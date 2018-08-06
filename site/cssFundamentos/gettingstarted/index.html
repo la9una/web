@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.3">
+      <meta name="generator" content="mkdocs-0.17.4, mkdocs-material-2.7.3">
     
     
       
@@ -1170,9 +1170,14 @@
 <li><code>valor</code>: es la "medida" del estilo que se aplicará al objeto. </li>
 </ul>
 <p>Por ejemplo: </p>
-<div class="codehilite"><pre><span></span><span class="nt">p</span> <span class="p">{</span><span class="k">background-color</span><span class="p">:</span> <span class="kc">yellow</span><span class="p">;}</span>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">p</span> <span class="p">{</span><span class="k">background-color</span><span class="p">:</span> <span class="kc">yellow</span><span class="p">;}</span>
 </pre></div>
+</td></tr></table>
 
+<div class="admonition done">
+<p class="admonition-title">Comentarios en CSS<p>En un documento CSS, el texto encerrado entre <code>/*</code> y <code>*/</code> se consideran comentarios y, por lo mismo, no son interpretados por el navegador.</p>
+</p>
+</div>
 <h2 id="agregando-css-al-documento">Agregando CSS al documento<a class="headerlink" href="#agregando-css-al-documento" title="Permanent link">&para;</a></h2>
 <p>Existen tres maneras de agregar estilos CSS a nuestro documento (que en esta guía, siempre será un documento de tipo HTML), las cuáles, se explican a continuación. </p>
 <h3 id="en-linea">En línea<a class="headerlink" href="#en-linea" title="Permanent link">&para;</a></h3>
@@ -1243,11 +1248,11 @@
 
 <h3 id="hoja-de-estilos-css-externa">Hoja de estilos CSS externa<a class="headerlink" href="#hoja-de-estilos-css-externa" title="Permanent link">&para;</a></h3>
 <p><strong>Los estilos CSS se definen en un documento aparte</strong> (que lleva la extensión <code>.css</code>) el cual debe ser especificado dentro del documento HTML mediante la etiqueta <code>link</code>, que presenta la forma: </p>
-<div class="codehilite"><pre><span></span>&lt;link rel=&quot;stylesheet&quot; href=&quot;[ruta hacia el documento CSS]&quot;&gt;
+<div class="codehilite"><pre><span></span>&lt;link rel=&quot;stylesheet&quot; href=&quot;&lt;ruta hacia el documento CSS&gt;&quot;&gt;
 </pre></div>
 
-<p>De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. </p>
-<p><strong>Código HTML</strong>: </p>
+<p>De esta forma, disponemos de dos documentos: el documento HTML por un lado, y el documento CSS por otro. Por ejemplo: </p>
+<p><em>Código HTML</em></p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -1274,7 +1279,7 @@
 </pre></div>
 </td></tr></table>
 
-<p><strong>Código CSS</strong></p>
+<p><em>Código CSS</em></p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">h1</span> <span class="p">{</span><span class="k">background-color</span><span class="p">:</span> <span class="n">peach</span><span class="p">;}</span>
 <span class="nt">p</span> <span class="p">{</span><span class="k">font-size</span><span class="p">:</span> <span class="mi">14</span><span class="kt">px</span><span class="p">;}</span>
@@ -1403,7 +1408,7 @@
           
         
       
-      <script>app.initialize({version:"0.17.3",url:{base:"../.."}})</script>
+      <script>app.initialize({version:"0.17.4",url:{base:"../.."}})</script>
       
     
     
