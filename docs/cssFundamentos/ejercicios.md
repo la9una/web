@@ -23,7 +23,7 @@
 	* Estilizar los links dentro de las ul, solo cuando les pase el ratón.
 	* Estilizar solo el párrafo que va directamente después de primer título.
 
-3. [Descargá el ejercicio](descargas/ejercicio_css_selectores_03.zip) y realizá las consignas indicadas.
+3. [Descargá el ejercicio](descargas/ejercicio_css_selectores_03.zip) y realizá las consignas indicadas [(Solución](descargas/ejercicio_css_selectores_03_solucion.zip).
 
 
 ## Valores y unidades
