@@ -70,7 +70,7 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="indigo">
   
     <svg class="md-svg">
       <defs>
@@ -1694,6 +1694,37 @@
 <li>Selector hermano <code>+</code></li>
 <li>Selector hermano en general <code>~</code></li>
 </ul>
+<table>
+<thead>
+<tr>
+<th>Caracter</th>
+<th>Ejemplo CSS</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[espacio]</code></td>
+<td><code>div a {color: red;}</code></td>
+<td>El estilo aplica a todos los elemenos <code>&lt;a&gt;</code> que estén contenidos dentro de un elemento <code>&lt;div&gt;</code>, sin importar si el primero es hijo, nieto, bisnieto, etc., del segundo.</td>
+</tr>
+<tr>
+<td><code>&gt;</code></td>
+<td><code>div &gt; p {font-size: 110%;}</code></td>
+<td>El estilo aplica a el elemento <code>&lt;p&gt;</code> que esté contenido dentro de un elemento <code>div</code> siendo el primero, hijo directo del segundo.</td>
+</tr>
+<tr>
+<td><code>+</code></td>
+<td><code>h1 + p {color: blue;}</code></td>
+<td>El estilo aplica a el elemento <code>&lt;p&gt;</code> que esté en el mismo nivel que <code>&lt;h1&gt;</code> e inmediatamente después de éste.</td>
+</tr>
+<tr>
+<td><code>~</code></td>
+<td><code>h1 ~ h2 {background: peach;}</code></td>
+<td>El estilo aplica a el elemento <code>&lt;h2&gt;</code> que esté en el mismo nivel que <code>&lt;h1&gt;</code> aunque no inmediatamente después de éste.</td>
+</tr>
+</tbody>
+</table>
 <h3 id="selector-descendiente">Selector descendiente<a class="headerlink" href="#selector-descendiente" title="Permanent link">&para;</a></h3>
 <p>Empleado para seleccionar a todos los elementos descendientes de un elemento específico. Nno tiene por qué ser un hijo; puede ser un nieto, por ejemplo.</p>
 <p><strong>Sintaxis CSS</strong></p>
