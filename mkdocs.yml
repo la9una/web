@@ -17,8 +17,8 @@ theme:
   custom_dir: 'material'
   language: 'es'
   palette:
-    primary: 'teal'
-    accent: 'teal'
+    primary: 'blue grey'
+    accent: 'indigo'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'

@@ -205,6 +205,13 @@ Disponemos de cuatro tipos:
 * Selector hermano `+`
 * Selector hermano en general `~`
 
+| Caracter    | Ejemplo CSS                    | Descripción                                                  |
+| ----------- | ------------------------------ | ------------------------------------------------------------ |
+| `[espacio]` | `div a {color: red;}`          | El estilo aplica a todos los elemenos `<a>` que estén contenidos dentro de un elemento `<div>`, sin importar si el primero es hijo, nieto, bisnieto, etc., del segundo. |
+| `>`         | `div > p {font-size: 110%;}`   | El estilo aplica a el elemento `<p>` que esté contenido dentro de un elemento `div` siendo el primero, hijo directo del segundo. |
+| `+`         | `h1 + p {color: blue;}`        | El estilo aplica a el elemento `<p>` que esté en el mismo nivel que `<h1>` e inmediatamente después de éste. |
+| `~`         | `h1 ~ h2 {background: peach;}` | El estilo aplica a el elemento `<h2>` que esté en el mismo nivel que `<h1>` aunque no inmediatamente después de éste. |
+
 ### Selector descendiente
 Empleado para seleccionar a todos los elementos descendientes de un elemento específico. Nno tiene por qué ser un hijo; puede ser un nieto, por ejemplo.
 
