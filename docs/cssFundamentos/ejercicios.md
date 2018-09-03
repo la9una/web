@@ -25,7 +25,7 @@
 
 3. [Descargá el ejercicio](descargas/ejercicio_css_selectores_03.zip) y realizá las consignas indicadas [(Solución)](descargas/ejercicio_css_selectores_03_solucion.zip).
 
-4. [Descargá el ejercicio](descargas/ejercicio_css_selectores_04.zip) y realizá las consignas indicadas 
+4. [Descargá el ejercicio](descargas/ejercicio_css_selectores_04.zip) y realizá las consignas indicadas [(Solución)](descargas/ejercicio_css_selectores_04_solucion.zip).
 
 ## Valores y unidades
 1. [Descargá el ejercicio](descargas/ejercicio_css_valores_unidades_1.zip) y modificá el archivo CSS siguiendo las instrucciones:
