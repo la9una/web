@@ -146,17 +146,4 @@ pages:
         - Diseño adaptable: 'bootstrap/gridResponsive.md'  
     - Ejercicios: 'bootstrap/ejercicios.md'
 
-- Control de versiones: 
-    - ¿Qué es Git?: 'git/index.md'
-    - Entornos distribuidos: 'git/flujoEntornosDistribuidos.md'
-    - Instalación de Git: 'git/instalacion.md'
-    - Configuración inicial: 'git/configuracionInicial.md'
-    - Los tres estados: 'git/losTresEstados.md'
-    - Inicializando repositorio local: 'git/repositorioLocal.md'
-    - Git en el servidor: 'git/servidorGit.md'
-    - Trabajando con remotos: 'git/trabajandoConRemotos.md'
-    - Ramas: 'git/ramas.md'
-    - Deshaciendo cambios: 'git/deshaciendoCambios.md'
-    - Otros comandos: 'git/otrosComandosGit.md'
-    - Ejemplo de uso de git: 'git/ejemploGit.md'
 

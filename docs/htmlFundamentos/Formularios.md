@@ -29,6 +29,7 @@ Copiá el siguiente código y guardalo con el nombre `ejercicio09.html`:
   </body>
 </html>
 ```
+
 1. ¿Cuál es la etiqueta para crear un formulario?
 2. En el formulario se emplean **tres tipos de campos**: `text`, `pasword` y `submit`. ¿Qué función creés que cumple cada uno de ellos?
 3. ¿Cuál es la función del _placeholder_?

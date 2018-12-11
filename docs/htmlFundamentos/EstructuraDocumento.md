@@ -8,12 +8,12 @@ Abrí el editor de texto y transcribí el siguiente código:
 ```html linenums="1"
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Ejercicio 1</title>
-    </head>
-    <body>
-      ¡Hola mundo!
-    </body>
+  <head>
+    <title>Ejercicio 1</title>
+  </head>
+  <body>
+    ¡Hola mundo!
+  </body>
 </html>
 ```
 
@@ -35,12 +35,12 @@ Este ejercicio consta de dos partes. En primer lugar, deberás copiar el siguien
 ```html linenums="1"
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Ejercicio 2</title>
-    </head>
-    <body>
-      ¡Hola mundo! ¡Esta es mi segunda página!
-    </body>
+  <head>
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    ¡Hola mundo! ¡Esta es mi segunda página!
+  </body>
 </html>
 ```
 Guarda el archivo con el nombre `ejercicio02.html` y abrilo con el navegador: ¿Observás algo particular? 
@@ -50,15 +50,16 @@ Ahora, volvé a abrir el archivo con el editor de texto y agregá los siguientes
 ```html linenums="1" hl_lines="4"
 <!DOCTYPE html>
 <html lang=es>
-    <head>
-      <meta charset="UTF-8">
-      <title>Ejercicio 2</title>
-    </head>
-    <body>
-      ¡Hola mundo! ¡Esta es mi segunda página!
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    ¡Hola mundo! ¡Esta es mi segunda página!
+  </body>
 </html>
 ```
+
 ¿Ocurrió algún cambio?
 
 Efectivamente, aunque no se aprecie al observar el documento en el navegador, el **atributo _charset_** le indica al navegador el conjunto (o mapa) de caracteres que debe emplear para mostrar la página. En el ejemplo, **UTF-8** permite, entro otros, caracteres propios del idioma español, como como las eñes (ñÑ), signos de exclamación de apertura (¡), etc. Por otro lado, el **atributo _lang_** le indica al navegador que el idioma del documento será el español. 

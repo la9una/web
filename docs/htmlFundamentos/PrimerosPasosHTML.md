@@ -10,11 +10,12 @@ Una etiqueta, está contenida entre los signos de menor que (`<`) al comienzo y 
 ```html linenums="1"
 <p>Un texto cualquiera dentro de un párrafo.</p>
 ```
+
 En este ejemplo hay una etiqueta de comienzo y otra de cierre. Las etiquetas de cierre son las mismas que las etiquetas de comienzo sólo que contienen una barra justo después del signo menor que. 
 
 ### Apertura y cierre de etiquetas
 Muchos elementos de HTML se escriben poseen una etiqueta de apertura, al comienzo, y otra de cierre, al final. Sin embargo, ciertos elementos sólo poseen etiquetas de apertura.
-    
+
 Nos introduciremos en el **estudio de los fundamentos de HTML a través de ejercicios**. 
 La propuesta consiste en transcribir los **fragmentos de código** que se ofrecen en cada ejercicio, evitando copiar y pegar el código. 
 

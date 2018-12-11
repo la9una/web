@@ -24,16 +24,16 @@ Bootstrap porporciona dos tipos de clase CSS para los contenedores:
 
 Las clases para contenedor deben añadirse a un elemento en bloque, generalmente un  `div`, para formar un contenedor. 
 
-!!!warning "Contenedores y contenido web"
-		Como indicamos más arriba, los contenedores no pueden alojar contenido web directamente. 
+!!!warning "Contenedores y Contenido"
+		Como indicamos más arriba, los contenedores no pueden alojar Contenido directamente. 
 
 ## Filas
 La clase CSS para una fila `.row*` debe añadirse a un elemento en bloque, generalmente un  `div`, para formar una fila. Las filas debe estar dentro de un elemento en bloque con la clase `.container*`
 
 ![Bootstrap Grid System](imgBootstrap/bGridRow.png)
 
-!!!warning "Filas y contenido web"
-		Al igual que los contenedores, las filas tampoco pueden alojar contenido web directamente dentro suyo. 
+!!!warning "Filas y Contenido"
+		Al igual que los contenedores, las filas tampoco pueden alojar Contenido directamente dentro suyo. 
 
 ## Columnas
 La clase CSS para una columna `.col*` debe añadirse a un elemento en bloque, generalmente un  `div`, para formar una columna. Las columnas deben ubicarse siempre dentro de una fila. 
@@ -45,24 +45,22 @@ En el ejemplo anterior, el ancho de cada columna se establece de manera automát
 ```html
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-
-<div class="container">
+	<div class="container">
 	<div class="row">
-		<div class="col"><!--Contenido web--></div>
-		<div class="col"><!--Contenido web--></div>
+	<div class="col"><!--Contenido--></div>
+	<div class="col"><!--Contenido--></div>
 	</div>
-</div>
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-	
+	</div>
+	<!--Scripts-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
 </body>
 </html>
 ```
@@ -70,8 +68,8 @@ En el ejemplo anterior, el ancho de cada columna se establece de manera automát
 [[ Descargá el ejemplo ]](descargas/bootstrap_grid_1.zip)
 
 
-!!!done "Columas y contenido web"
-		Las columnas son los únicos elementos que pueden alojar directamente contenido web. 
+!!!done "Columas y Contenido"
+		Las columnas son los únicos elementos que pueden alojar directamente Contenido. 
 
 Adicionalmente puede determinarse el ancho de cada columna, indicando la cantidad de columnas de la _grid_ para cada una de ellas, como puede visualizase en el siguiente ejemplo: 
 
@@ -91,8 +89,8 @@ Y el código del ejemplo:
 
 <div class="container">
 	<div class="row">
-		<div class="col-4"><!--Contenido web--></div>
-		<div class="col-8"><!--Contenido web--></div>
+		<div class="col-4"><!--Contenido--></div>
+		<div class="col-8"><!--Contenido--></div>
 	</div>
 </div>
 
@@ -125,14 +123,14 @@ A continuación se presentan algunos ejemplos de combinación de contenedores, f
 
 <div class="container">
 	<div class="row">
-		<div class="col-4"><!--Contenido web--></div>
-		<div class="col-8"><!--Contenido web--></div>
+		<div class="col-4"><!--Contenido--></div>
+		<div class="col-8"><!--Contenido--></div>
 	</div>
 	<div class="row">
-		<div class="col-3"><!--Contenido web--></div>
-		<div class="col-3"><!--Contenido web--></div>
-		<div class="col-3"><!--Contenido web--></div>
-		<div class="col-3"><!--Contenido web--></div>
+		<div class="col-3"><!--Contenido--></div>
+		<div class="col-3"><!--Contenido--></div>
+		<div class="col-3"><!--Contenido--></div>
+		<div class="col-3"><!--Contenido--></div>
 	</div>
 </div>
 
@@ -161,19 +159,19 @@ A continuación se presentan algunos ejemplos de combinación de contenedores, f
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-12"><!--Contenido web--></div>
+		<div class="col-12"><!--Contenido--></div>
 	</div>
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-4"><!--Contenido web--></div>
-		<div class="col-8"><!--Contenido web--></div>
+		<div class="col-4"><!--Contenido--></div>
+		<div class="col-8"><!--Contenido--></div>
 	</div>
 	<div class="row">
-		<div class="col-3"><!--Contenido web--></div>
-		<div class="col-3"><!--Contenido web--></div>
-		<div class="col-3"><!--Contenido web--></div>
-		<div class="col-3"><!--Contenido web--></div>
+		<div class="col-3"><!--Contenido--></div>
+		<div class="col-3"><!--Contenido--></div>
+		<div class="col-3"><!--Contenido--></div>
+		<div class="col-3"><!--Contenido--></div>
 	</div>
 </div>
 

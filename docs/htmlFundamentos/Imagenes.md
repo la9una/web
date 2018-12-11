@@ -12,14 +12,14 @@ Luego, abrí el editor de texto y transcribí el siguiente código:
 ```html linenums="1" hl_lines="9"
 <!DOCTYPE html>
 <html lang=es>
-    <head>
-      <meta charset="UTF-8">
-      <title>Ejercicio 8</title>
-    </head>
-    <body>
-    	<h3>Este es el ejercicio 8</h3>
-		  <img src="html5.png" /> 
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <h3>Este es el ejercicio 8</h3>
+    <img src="html5.png" /> 
+  </body>
 </html>
 ```
 
@@ -38,19 +38,19 @@ Otra etiqueta que se _autocierra_ es `<br />` conocida como **_breaking rule_**.
 ```html linenums="1" hl_lines="9 10 11 12 13"
 <!DOCTYPE html>
 <html lang=es>
-    <head>
-      <meta charset="UTF-8">
-      <title>Ejercicio 8</title>
-    </head>
-    <body>
-    	<h3>Este es el ejercicio 8</h3>
-    	<br />
-    	<br />
-    	<br />
-    	<br />
-    	<br />
-		  <img src="html5.png" /> 
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <h3>Este es el ejercicio 8</h3>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img src="html5.png" /> 
+  </body>
 </html>
 ```
 

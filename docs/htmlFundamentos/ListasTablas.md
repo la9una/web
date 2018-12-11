@@ -7,24 +7,24 @@ Abrí el editor de texto y copiá el siguiente código:
 
 ```html linenums="1" hl_lines="7 8 9 10 11 12 13 14 15 16 17 18"
 <html lang=es>
-    <head>
-      <meta charset="UTF-8">
-      <title>Ejercicio 5</title>
-    </head>
-    <body>
-  		<ul>
-        <li>Cuaderno</li>
-        <li>Lapicera</li>
-        <li>Goma</li>
-        <li>Pendrive</li>
-      </ul>
-      <ol>
-      	<li>Bebe</li>
-        <li>Niño</li>
-        <li>Adolescente</li>
-        <li>Joven</li>
-      </ol>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+    <ul>
+      <li>Cuaderno</li>
+      <li>Lapicera</li>
+      <li>Goma</li>
+      <li>Pendrive</li>
+    </ul>
+    <ol>
+      <li>Bebe</li>
+      <li>Niño</li>
+      <li>Adolescente</li>
+      <li>Joven</li>
+    </ol>
+  </body>
 </html>
 ```
 
@@ -49,23 +49,23 @@ Abrí el editor de texto y transcribí el siguiente código:
 ```html linenums="1" hl_lines="7 8 9 10 11 12 13 14 15 16 17 18"
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Ejercicio 8</title>
-    </head>
-    <body>
-      <table>
-        <tr>
-          <td>Celda 1</td>
-          <td>Celda 2</td>
-          <td>Celda 3</td>
-        </tr>
-        <tr>
-          <td>Celda 4</td>
-          <td>Celda 5</td>
-          <td>Celda 6</td>
-        </tr>
-      </table>
-    </body>
+  <head>
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+      </tr>
+      <tr>
+        <td>Celda 4</td>
+        <td>Celda 5</td>
+        <td>Celda 6</td>
+      </tr>
+    </table>
+  </body>
 </html>
 ```
 
@@ -81,22 +81,22 @@ Efectivamente, acabás de crear una tabla, donde las etiquetas **`<tr>` represen
 ```html linenums="1" hl_lines="7"
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Ejercicio 8</title>
-    </head>
-    <body>
-      <table border="1">
-        <tr>
-          <td>Celda 1</td>
-          <td>Celda 2</td>
-          <td>Celda 3</td>
-        </tr>
-        <tr>
-          <td>Celda 4</td>
-          <td>Celda 5</td>
-          <td>Celda 6</td>
-        </tr>
-      </table>
-    </body>
+  <head>
+    <title>Ejercicio 8</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+      </tr>
+      <tr>
+        <td>Celda 4</td>
+        <td>Celda 5</td>
+        <td>Celda 6</td>
+      </tr>
+    </table>
+  </body>
 </html>
 ```

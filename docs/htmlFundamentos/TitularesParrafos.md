@@ -21,12 +21,14 @@ Abrí el editor de texto y copiá el siguiente código:
   </body>
 </html>
 ```
-Guarda el archivo con el nombre `ejercicio03.html` y abrilo con el navegador. 
+
+Guarda el archivo con el nombre `ejercicio03.html` y abrilo con el navegador.
 
 ¿Qué función cumplen las etiquetas `h1` a `h6`? 
 
 ### Ejercicio 4 
-Abrí el editor de texto y copiá el siguiente código: 
+
+Abrí el editor de texto y copiá el siguiente código:
 
 ```html linenums="1" hl_lines="8 9"
 <!DOCTYPE html>
@@ -41,7 +43,8 @@ Abrí el editor de texto y copiá el siguiente código:
   </body>
 </html>
 ```
-Guarda el archivo con el nombre `ejercicio04.html` y abrilo con el navegador. 
+
+Guarda el archivo con el nombre `ejercicio04.html` y abrilo con el navegador.
 
 1. ¿Cómo se visualizan ambas líneas de texto?
 2. Ahora, volvé a abrir el archivo con el editor de texto e ingresá entre ambas líneas de texto varios espacios en blanco (presionando la tecla Enter). Guardá el archivo y abrilo con el navegador ¿Ahora, como se visualizan las líneas de texto? ¿A qué conclusión llegás?
@@ -60,6 +63,5 @@ Guarda el archivo con el nombre `ejercicio04.html` y abrilo con el navegador.
 	</body>
 </html>
 ```
-4. ¿Observás algún cambio?
 
-Como habrás podido observar, las línea inferior se muetra ahora en un "nuevo renglón". Esto fue posible gracias a la **etiqueta párrafo** (`<p></p>`) que encierra el texto de un párrafo determinado. 
+Ahora abrí el archivo en un navegador. ¿Observás algún cambio? Como habrás podido observar, la línea inferior se muetra ahora en un "nuevo renglón". Esto fue posible gracias a la **etiqueta párrafo** (`<p></p>`) que encierra el texto de un párrafo determinado.

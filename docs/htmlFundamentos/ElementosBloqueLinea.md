@@ -9,9 +9,9 @@ Copiá el siguiente código y guardalo con el nombre `ejercicio11.html`:
 ```html linenums="1" hl_lines="9 10 11 13 14 15"
 <!DOCTYPE html>
 <html>
-    <head> 
-      <meta charset="UTF-8">
-      <title>Ejercicio 11</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 11</title>
     </head>
     <body>
         <!-- Span -->
