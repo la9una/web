@@ -48,7 +48,7 @@ extra_css:
 markdown_extensions:
   - admonition
 #  - codehilite(guess_lang=false,linenums=true)
-  - codehilite(guess_lang=false)
+  - codehilite
   - toc:
       permalink: true
   - footnotes
@@ -99,6 +99,7 @@ pages:
     - Formularios: 'htmlFundamentos/Formularios.md'
     - Tipos de elementos: 'htmlFundamentos/ElementosBloqueLinea.md'
     - Web semántica: 'htmlFundamentos/WebSemantica.md'
+    - Anexo: 'htmlFundamentos/anexo.md'
 
 # Documentación sobre CSS
 - Fundamentos de CSS:
