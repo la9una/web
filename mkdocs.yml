@@ -14,7 +14,6 @@ copyright: '2018 &nbsp; Raul Jesus Lopez'
 # Tema
 theme:
   name: 'material'
-  custom_dir: 'material'
   language: 'es'
   palette:
     primary: 'blue grey'
@@ -62,7 +61,7 @@ markdown_extensions:
 ######################################################################
 ### DOCUMENTACIÓN ####################################################
 ######################################################################
-pages: 
+nav: 
 
 # Documentación sobre HTML
 - Inicio: index.md
