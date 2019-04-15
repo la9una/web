@@ -15,6 +15,27 @@ Tomando la "regla del regloj" abordada en la sección anterior, es posible escri
 | ![CSS Shortland Properties](imgCSSBoxModel/border3.png) | **3 valores** <br />`border-width: 1em 2em 3em` <br /> El primer valor aplica al borde superior. El segundo valor, a los bordes izquierdo y el derecho. Finalmente, el tercer valor aplica al borde inferior. |
 | ![CSS Shortland Properties](imgCSSBoxModel/border4.png) | **4 valores** <br />`border-width: 1em 2em 3em 4em` <br /> Los cuatro valores aplican a los bordes superior, derecho, inferior e izquierdo respectivamente, siempre en ese orden, es decir, en sentido horario comenzando por el borde superior.|
 
+
+
+
+| Propiedad           | Descripción                  | Valor                                                        |
+| ------------------- | ---------------------------- | ------------------------------------------------------------ |
+| `border-top-width`    | Anchura del borde superior   | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-right-width`  | Anchura del borde derecho    | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-bottom-width` | Anchura del borde inferior   | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-left-width`   | Anchura del borde izquierdo  | <medida\> \| thin \| **medium** \| thick \| inherit       |
+| `border-width`        | Anchura de los cuatro bordes | <medida {1-4}\> \| thin \| **medium** \| thick \| inherit |
+
+_Nota: el valor por defecto de la propiedad aparece resaltado en negrita._
+
+La propiedad `border-width` permite indicar entre uno y cuatro valores, estos pueden ser indistintamente medidas o las palabras clave `thin`, `medium` y `thick`. El número de valores indicado `{1-4}` significa lo siguiente:
+
+* Si se indica **un valor**: Se aplica a los cuatro bordes.
+* Si se indican **dos valores**: El primero se aplica al borde superior e inferior, y el segundo al borde izquierdo y derecho.
+* Si se indican **tres valores**: El primero se aplica al borde superior, el segundo a los bordes izquierdo y derecho, y el tercero al borde inferior.
+* Si se aplican **cuatro valores**: El orden de aplicación es superior, derecho, inferior, izquierdo.
+
+
 #### border-radius (forma abreviada)
 
 | Esquema                                           | Ejemplo                  |

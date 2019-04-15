@@ -21,42 +21,7 @@ El modelo de caja en CSS, yendo desde el contenido hacia afuera, está definido 
 
 _Los márgenes, tanto interno (padding) como externo (margin), son transparentes. En la figura se le aplica color con fines didácticos_. 
 
-## Ejemplo de caja
-Como no puede ser de otra manera, analicemos un ejemplo real para conocer el modo en que CSS trata a una caja: 
 
-**Código HTML**
-
-```html linenums="1" hl_lines="9"
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Modelo de caja CSS</title>
-	<link rel="stylesheet" href="caja.css">
-</head>
-<body>
-	<div>Hola! Soy una caja</div>
-</body>
-</html>
-```
-**Código CSS**
-
-```css linenums="1"
-div {
-	/* Altura de la caja */
-	height: 200px;
-	/* Anchura de la caja */
-	width: 200px;
-	/* Margen interno de la caja */
-	padding: 20px;
-	/* Borde de la caja */
-	border: 2px solid red; 
-	/* Margen externo a la caja */
-	margin: 20px;
-	/* Color de fondo de la caja */
-	background-color: lime;
-}
-```
 _Fuente de conocimiento:_
 
 * _[aprende-web.net](http://aprende-web.net)_
