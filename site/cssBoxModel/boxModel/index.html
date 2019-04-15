@@ -607,44 +607,9 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Definición
-      </label>
-    
     <a href="./" title="Definición" class="md-nav__link md-nav__link--active">
       Definición
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Tabla de contenidos</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ejemplo-de-caja" title="Ejemplo de caja" class="md-nav__link">
-    Ejemplo de caja
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
-            Comentarios
-          </a>
-        </li>
-      
-    </ul>
-  
-</nav>
     
   </li>
 
@@ -952,28 +917,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">Tabla de contenidos</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ejemplo-de-caja" title="Ejemplo de caja" class="md-nav__link">
-    Ejemplo de caja
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
-            Comentarios
-          </a>
-        </li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1002,63 +945,7 @@
 <li>La <strong>posición de la caja</strong> (su ubicación respecto a la página o elementos de la misma) también puede determinarse también mediante las palabras <em>top</em> (arriba), <em>bottom</em> (abajo), <em>left</em> (izquierda), y <em>right</em> (derecha). Sin embargo, el posicionamiento de una caja es un tema relativamente complejo que <a href="../boxModelPosition/">será abordado en otra sección</a>. </li>
 </ul>
 <p><em>Los márgenes, tanto interno (padding) como externo (margin), son transparentes. En la figura se le aplica color con fines didácticos</em>. </p>
-<h2 id="ejemplo-de-caja">Ejemplo de caja<a class="headerlink" href="#ejemplo-de-caja" title="Permanent link">&para;</a></h2>
-<p>Como no puede ser de otra manera, analicemos un ejemplo real para conocer el modo en que CSS trata a una caja: </p>
-<p><strong>Código HTML</strong></p>
-<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;es&quot;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Modelo de caja CSS<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;caja.css&quot;</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="hll">    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Hola! Soy una caja<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</pre></div>
-</td></tr></table>
-<strong>Código CSS</strong></p>
-<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">div</span> <span class="p">{</span>
-    <span class="c">/* Altura de la caja */</span>
-    <span class="k">height</span><span class="p">:</span> <span class="mi">200</span><span class="kt">px</span><span class="p">;</span>
-    <span class="c">/* Anchura de la caja */</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">200</span><span class="kt">px</span><span class="p">;</span>
-    <span class="c">/* Margen interno de la caja */</span>
-    <span class="k">padding</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span>
-    <span class="c">/* Borde de la caja */</span>
-    <span class="k">border</span><span class="p">:</span> <span class="mi">2</span><span class="kt">px</span> <span class="kc">solid</span> <span class="kc">red</span><span class="p">;</span> 
-    <span class="c">/* Margen externo a la caja */</span>
-    <span class="k">margin</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span>
-    <span class="c">/* Color de fondo de la caja */</span>
-    <span class="k">background-color</span><span class="p">:</span> <span class="kc">lime</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
-</td></tr></table>
-<em>Fuente de conocimiento:</em></p>
+<p><em>Fuente de conocimiento:</em></p>
 <ul>
 <li><em><a href="http://aprende-web.net">aprende-web.net</a></em></li>
 <li><em><a href="https://librosweb.es">librosweb.es</a></em></li>
