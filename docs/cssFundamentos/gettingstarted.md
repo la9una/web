@@ -21,8 +21,36 @@ Por ejemplo:
 p {background-color: yellow;}
 ```
 
-!!!done "Comentarios en CSS"
-		En un documento CSS, el texto encerrado entre `/*` y `*/` se consideran comentarios y, por lo mismo, no son interpretados por el navegador.
+
+!!!info "Comentarios en CSS"
+		CSS permite incluir comentarios entre sus reglas y estilos. Los comentarios son contenidos de texto que el diseñador incluye en el archivo CSS para su propia información y utilidad. Los navegadores ignoran por completo cualquier comentario de los archivos CSS, por lo que es común utilizarlos para estructurar de forma clara los archivos CSS complejos.
+
+		El comienzo de un comentario se indica mediante los caracteres `/*` y el final del comentario se indica mediante `*/`, tal y como se muestra en el siguiente ejemplo:
+
+		```css
+		/* Este es un comentario en CSS */
+		```
+
+		Los comentarios pueden ocupar tantas líneas como sea necesario, pero no se puede incluir un comentario dentro de otro comentario:
+
+		```css
+		/* Este es un
+		   comentario CSS de varias
+		   lineas */
+		```
+
+		Aunque los navegadores ignoran los comentarios, su contenido se envía junto con el resto de estilos, por lo que no se debe incluir en ellos ninguna información sensible o confidencial.
+
+		La sintaxis de los comentarios CSS es muy diferente a la de los comentarios HTML, por lo que no deben confundirse:
+
+		```html
+		<!-- Este es un comentario en HTML -->
+		 
+		<!-- Este es un
+		     comentario HTML de varias
+		     lineas -->
+		```
+
 
 ## Agregando CSS al documento
 Existen tres maneras de agregar estilos CSS a nuestro documento (que en esta guía, siempre será un documento de tipo HTML), las cuáles, se explican a continuación. 

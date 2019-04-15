@@ -671,7 +671,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cssBoxModel/boxmodel/" title="Definición" class="md-nav__link">
+    <a href="../../cssBoxModel/boxModel/" title="Definición" class="md-nav__link">
       Definición
     </a>
   </li>
@@ -683,8 +683,56 @@
 
 
   <li class="md-nav__item">
-    <a href="../../cssBoxModel/position/" title="Posicionamiento" class="md-nav__link">
+    <a href="../../cssBoxModel/boxModelBorder/" title="Bordes" class="md-nav__link">
+      Bordes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cssBoxModel/boxModelMargins/" title="Márgenes" class="md-nav__link">
+      Márgenes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cssBoxModel/boxModelPosition/" title="Posicionamiento" class="md-nav__link">
       Posicionamiento
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cssBoxModel/boxModelShortland/" title="Forma abreviada" class="md-nav__link">
+      Forma abreviada
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../cssBoxModel/boxModelExercises/" title="Ejercicios" class="md-nav__link">
+      Ejercicios
     </a>
   </li>
 
@@ -1019,8 +1067,27 @@
 </pre></div>
 </td></tr></table>
 
-<div class="admonition done">
-<p class="admonition-title">Comentarios en CSS<p>En un documento CSS, el texto encerrado entre <code class="codehilite"><span class="cm">/*</span></code> y <code class="codehilite">*/</code> se consideran comentarios y, por lo mismo, no son interpretados por el navegador.</p>
+<div class="admonition info">
+<p class="admonition-title">Comentarios en CSS<p>CSS permite incluir comentarios entre sus reglas y estilos. Los comentarios son contenidos de texto que el diseñador incluye en el archivo CSS para su propia información y utilidad. Los navegadores ignoran por completo cualquier comentario de los archivos CSS, por lo que es común utilizarlos para estructurar de forma clara los archivos CSS complejos.</p>
+<p>El comienzo de un comentario se indica mediante los caracteres <code class="codehilite"><span class="cm">/*</span></code> y el final del comentario se indica mediante <code class="codehilite">*/</code>, tal y como se muestra en el siguiente ejemplo:</p>
+<div class="codehilite"><pre><span></span><span class="c">/* Este es un comentario en CSS */</span>
+</pre></div>
+
+<p>Los comentarios pueden ocupar tantas líneas como sea necesario, pero no se puede incluir un comentario dentro de otro comentario:</p>
+<div class="codehilite"><pre><span></span><span class="c">/* Este es un</span>
+<span class="c">   comentario CSS de varias</span>
+<span class="c">   lineas */</span>
+</pre></div>
+
+<p>Aunque los navegadores ignoran los comentarios, su contenido se envía junto con el resto de estilos, por lo que no se debe incluir en ellos ninguna información sensible o confidencial.</p>
+<p>La sintaxis de los comentarios CSS es muy diferente a la de los comentarios HTML, por lo que no deben confundirse:</p>
+<div class="codehilite"><pre><span></span><span class="c">&lt;!-- Este es un comentario en HTML --&gt;</span>
+
+<span class="c">&lt;!-- Este es un</span>
+<span class="c">     comentario HTML de varias</span>
+<span class="c">     lineas --&gt;</span>
+</pre></div>
+
 </p>
 </div>
 <h2 id="agregando-css-al-documento">Agregando CSS al documento<a class="headerlink" href="#agregando-css-al-documento" title="Permanent link">&para;</a></h2>

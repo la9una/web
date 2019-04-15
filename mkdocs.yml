@@ -111,8 +111,12 @@ nav:
       - Color: 'cssFundamentos/unitsColors.md'
       - Porcentaje y funciones: 'cssFundamentos/unitsPercent.md'
     - Modelo de caja: 
-        - Definición: 'cssBoxModel/boxmodel.md'
-        - Posicionamiento: 'cssBoxModel/position.md'
+        - Definición: 'cssBoxModel/boxModel.md'
+        - Bordes: 'cssBoxModel/boxModelBorder.md'
+        - Márgenes: 'cssBoxModel/boxModelMargins.md'
+        - Posicionamiento: 'cssBoxModel/boxModelPosition.md'
+        - Forma abreviada: 'cssBoxModel/boxModelShortland.md'
+        - Ejercicios: 'cssBoxModel/boxModelExercises.md'
     - Tipografía: 
       - Reseña histórica: 'cssFuentes/fuentesIndex.md'
       - Propiedades de fuente: 'cssFuentes/fuentesPropiedades.md'
