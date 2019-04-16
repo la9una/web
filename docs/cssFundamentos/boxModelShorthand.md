@@ -1,4 +1,4 @@
-# Forma abreviada (_shortland properties_)
+# Forma abreviada (_shorthand properties_)
 Es posible ahorrar código a la hora de escribir CSS siguiendo la "regla del reloj" que consiste en referenciar las ubicaciones _top_, _rigth_, _bottom_ y _left_, como las 12, 3, 6 y 9 horas, respectivamente y siguiendo el **sentido de giro de las agujas del reloj**, comenzando siempre por la posición _top_. 
 
 ![Tecnica del reloj CSS](imgCSSFundamentos/clock.png)
@@ -7,7 +7,7 @@ Es posible ahorrar código a la hora de escribir CSS siguiendo la "regla del rel
 ### Ejemplos
 Tomando la "regla del reloj", es posible escribir menos cantidad de código CSS. A continuación, algunos ejemplos de aplicación:  
 
-#### border-width (forma abreviada)
+#### Forma abreviada general
 A continuación se exhibe el modo de emplear la notación abreviada _shortland_ para la propiedad `border-width` del modelo de caja. No obstante es igualmente válida  para otras propiedades del borde de una caja, como `border-style`y `border-color`, así como para otras propiedades CSS como `background`, `font`, `padding` y `margin`.
 
 | Esquema                                           | Ejemplo                  |
@@ -19,7 +19,7 @@ A continuación se exhibe el modo de emplear la notación abreviada _shortland_ 
 
 
 
-#### border-radius (forma abreviada)
+#### Forma abreviada para border-radius
 El siguiente ejemplo es un caso particular de forma abreviada, que contempla las esquinas del modelo de caja. 
 
 | Esquema                                           | Ejemplo                  |
