@@ -7,7 +7,7 @@ El lenguaje CSS trata a todos los elementos como si estuvieran contenidos en cua
 
 El modelo de caja en CSS, yendo desde el contenido hacia afuera, está definido por: 
 
-![Box Model CSS](imgCSSBoxModel/boxmodel.png)
+![Box Model CSS](imgCSSFundamentos/boxmodel.png)
 
 * El **tamaño de la caja** puede establecerse mediante las propiedades _width_ (ancho) y height (alto).
 * **Contenido**: es el texto, la imagen, o _lo que sea_ qué está dentro de la caja. 

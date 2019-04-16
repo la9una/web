@@ -386,7 +386,7 @@ Una pseudo-clase CSS consta de una clave precedida de dos puntos (:) que añadir
 
 Ellas son: 
 
-* [`:active`](selectores.md#active)
+* [`:active`](introSintax.md#active)
 * `:any`
 * `:checked`
 * `:default`
@@ -398,8 +398,8 @@ Ellas son:
 * `:first-child`
 * `:first-of-type`
 * `:fullscreen`
-* [`:focus`](selectores.md#focus)
-* [`:hover`](selectores.md#hover)
+* [`:focus`](introSintax.md#focus)
+* [`:hover`](introSintax.md#hover)
 * `:indeterminate`
 * `:in-range`
 * `:invalid`
@@ -409,7 +409,7 @@ Ellas son:
 * `:left`
 * `:link`
 * `:not()`
-* [`:nth-child()`](selectores.md#nth-child)
+* [`:nth-child()`](introSintax.md#nth-child)
 * `:nth-last-child()`
 * `:nth-last-of-type()`
 * `:nth-of-type()`
@@ -425,7 +425,7 @@ Ellas son:
 * `:scope`
 * `:target`
 * `:valid`
-* [`:visited`](selectores.md#visited)
+* [`:visited`](introSintax.md#visited)
 
 ####:active
 La pseudo-clase :active de CSS  representa un elemento (como un botón) que el usuario está activando.  Cuando se usa un mouse, la "activación" generalmente comienza cuando el usuario presiona el botón primario del mouse y termina cuando se suelta. La pseudo-clase `:active` se usa comúnmente en los elementos `<a>` y `<button>`, pero también se puede usar en otros elementos.
@@ -514,10 +514,10 @@ a:visited {
 Los pseudo-elementos son parecidos a las pseudo-clases, con alguna diferencia. Estos son claves, ahora precedidas por `::`, que se añaden al final del selector para elegir cierta parte de un elemento.
 
 
-* [`::after`](selectores.md#after)
-* [`::before`](selectores.md#before)
-* [`::first-letter`](selectores.md#first-letter)
-* [`::first-line`](selectores.md#first-line)
+* [`::after`](introSintax.md#after)
+* [`::before`](introSintax.md#before)
+* [`::first-letter`](introSintax.md#first-letter)
+* [`::first-line`](introSintax.md#first-line)
 * `::selection`
 * `::backdrop`
 
