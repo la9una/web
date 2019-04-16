@@ -24,7 +24,6 @@ _Código CSS_
 
 ```css linenums="1"
 div {
-
 	border-style: dotted;
 }
 ```

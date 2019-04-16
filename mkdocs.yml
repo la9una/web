@@ -102,28 +102,31 @@ nav:
 
 # Documentación sobre CSS
 - Fundamentos de CSS:
-    - Introducción: 'cssFundamentos/index.md'
-    - Primeros pasos: 'cssFundamentos/gettingstarted.md'
-    - Selectores: 'cssFundamentos/selectores.md'
+    - Introducción: 
+      - ¿Qué es CSS?: 'cssFundamentos/introCSS.md'
+      - Primeros pasos: 'cssFundamentos/introGettingStarted.md'
+      - Sintaxis: 'cssFundamentos/introSintax.md'
+      - Ejercicios: 'cssFundamentos/introlExercises.md'
     - Valores y unidades: 
       - Introducción: 'cssFundamentos/units.md'
       - Numéricas: 'cssFundamentos/unitsNumbers.md'
       - Color: 'cssFundamentos/unitsColors.md'
       - Porcentaje y funciones: 'cssFundamentos/unitsPercent.md'
+      - Ejercicios: 'cssFundamentos/unitsExercises.md'
     - Modelo de caja: 
-        - Definición: 'cssBoxModel/boxModel.md'
-        - Bordes: 'cssBoxModel/boxModelBorder.md'
-        - Márgenes: 'cssBoxModel/boxModelMargins.md'
-        - Posicionamiento: 'cssBoxModel/boxModelPosition.md'
-        - Forma abreviada: 'cssBoxModel/boxModelShortland.md'
-        - Ejercicios: 'cssBoxModel/boxModelExercises.md'
+      - Definición: 'cssFundamentos/boxModel.md'
+      - Bordes: 'cssFundamentos/boxModelBorder.md'
+      - Márgenes: 'cssFundamentos/boxModelMargins.md'
+      - Forma abreviada: 'cssFundamentos/boxModelShortland.md'
+      - Posicionamiento: 'cssFundamentos/boxModelPosition.md'
+      - Ejercicios: 'cssFundamentos/boxModelExercises.md'
     - Tipografía: 
       - Reseña histórica: 'cssFuentes/fuentesIndex.md'
       - Propiedades de fuente: 'cssFuentes/fuentesPropiedades.md'
       - Formato de texto: 'cssFuentes/fuentesFormato.md'
       - Usando webfonts: 'cssFuentes/fuentesWebFonts.md'
       - Elegir tipografía: 'cssFuentes/fuentesTipografia.md'
-    - Ejercicios: 'cssFundamentos/ejercicios.md'
+      - Ejercicios: 'cssFuentes/fuentesEjercicios.md'
 #    - Fondos: 'cssFondos/index.md'
 #    - Listas: 'cssListas/index.md'
 #    - Tablas: 'cssColores/index.md'
@@ -132,7 +135,7 @@ nav:
 #    - Videos: 'cssVideos/index.md'
 #- Maquetado CSS: 
 #    - Prototipado: 'disenoPrototipado/index.md'
-#    - Modelo de caja: 'cssBoxmodel/index.md'
+#    - Modelo de caja: 'cssFundamentos/index.md'
 #    - Posicionamiento: 'cssColores/index.md'
 #    - Media Queries: 'cssColores/index.md'
 #    - Viewport: 'cssColores/index.md'

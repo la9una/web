@@ -1,8 +1,18 @@
-## Sintaxis general de un documento CSS
-Un documento CSS 
+Un documento CSS contiene definiciones para cada estilo que se desee aplicar. Los mismos, presentan la forma general: 
 
 ```css
 selector {propiedad: valor;}
+```
+Donde: 
+
+* `selector`: es el objeto de la página web a la cual se le aplicará un estilo determinado. Existen varios tipos, como veremos a continuación. [[Índice de selectores]](https://developer.mozilla.org/es/docs/Web/CSS/Referencia_CSS#Selectores)
+* `propiedad`: es el tipo de estilo que se le aplicará a un objeto de la página web. Puede tratarse de una o varias, como el ancho, el alto, color de fondo, bordes, etc. [[Índice de propiedades]](https://developer.mozilla.org/es/docs/Web/CSS/Referencia_CSS#%C3%8Dndice_de_palabras_clave)
+* `valor`: es la "medida" del estilo que se aplicará al objeto. 
+
+Por ejemplo: 
+
+```css linenums="1"
+p {background-color: yellow;}
 ```
 
 !!!tip "Agrupando selectores"
@@ -22,7 +32,7 @@ elemento {propiedad: valor;}
 ```
 
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -34,14 +44,14 @@ _Código HTML (ejemplo)_
 </head>
 <body>
 	<h1>Sapiente incidunt</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolores ducimus ratione voluptatibus.</p>
-		<p>At libero et, voluptas deserunt debitis facilis unde, commodi adipisci illum amet esse repellat soluta quidem voluptates. Fuga voluptatem, laboriosam voluptate mollitia dolores assumenda blanditiis excepturi, sint, quisquam fugiat id tenetur.</p>
-		<div>Sint maxime iure officiis atque modi corporis ad soluta, fugit, ex, a repellat incidunt quis itaque.</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	<p>At libero et, voluptas deserunt.</p>
+	<div>Sint maxime iure officiis atque.</div>
 </body>
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 h1 {color: teal;}
@@ -66,7 +76,7 @@ Los selectores `id` y `class` apuntan a los valores de los atributos homónimos.
 #identificador {propiedad: valor;}
 ```
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -79,20 +89,20 @@ _Código HTML (ejemplo)_
 <body>
 	<div id="noticias">
 		<h1 class="rojo">Sapiente incidunt</h1>
-		<p class="rojo destacado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolores ducimus ratione voluptatibus.</p>
-		<p class="cursiva">At libero et, voluptas deserunt debitis facilis unde, commodi adipisci illum amet esse repellat soluta quidem voluptates.</p>
-		<p>Fuga voluptatem, laboriosam voluptate mollitia dolores assumenda blanditiis excepturi, sint, quisquam fugiat id tenetur.</p>
-		<div class="resaltado">Sint maxime iure officiis atque modi corporis ad soluta, fugit, ex, a repellat incidunt quis itaque.</div>
+		<p class="rojo destacado">Lorem ipsum dolor.</p>
+		<p class="cursiva">At libero et, voluptas deserunt debitis.</p>
+		<p>Fuga voluptatem, laboriosam voluptate.</p>
+		<div class="resaltado">Sint maxime iure officiis atque modi.</div>
 	</div>
 	<div id="pie">
 		<h2 class="rojo">Laboriosam voluptate</h2>
-		<p>At libero et, voluptas deserunt debitis facilis unde, commodi adipisci illum amet esse repellat soluta quidem voluptates. Fuga voluptatem, laboriosam voluptate mollitia dolores assumenda blanditiis excepturi, sint, quisquam fugiat id tenetur.</p>
+		<p>At libero et, voluptas deserunt debitis facilis unde.</p>
 	</div>
 </body>
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 #noticias {magin: 5px; padding: 8px 0;}
@@ -114,45 +124,44 @@ Apuntan a los **atributos** de los elementos HTML
 ```
 
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="selectoresAtributos.css">
-    <title>Selectores de atributos</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="selectoresAtributos.css">
+  <title>Selectores de atributos</title>
 </head>
 <body>
-    <ul>
-        <li><a href="page2.html" title="Siguiente">Siguiente</a></li>
-        <li><a href="#interno">Enlace interno</a></li>
-        <li><a href="http://ejemplo.com">Enlace de ejemplo</a></li>
-        <li><a href="http://itel.edu.ar" title="Bienvenidos a ITEL">itel.edu.ar</a></li>
-        <li><a href="#OtroEnlace">Enlace interno otroenlace Otroenlace</a></li>
-        <li><a href="http://ejemplo.org">Ejemplo de enlace .org</a></li>
-    </ul>
+  <ul>
+    <li><a href="page2.html" title="Siguiente">Siguiente</a></li>
+    <li><a href="#interno">Enlace interno</a></li>
+    <li><a href="http://itel.edu.ar" title="ITEL">itel.edu.ar</a></li>
+    <li><a href="#OtroEnlace">Otro enlace interno</a></li>
+    <li><a href="https://coarg.org.ar/">Un enlace externo</a></li>
+  </ul>
 </body>
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 /* Elementos <a> con un atributo de título */
 a[title] {
   color: orange;
-}s
+}
 
 /* Enlaces internos, comenzando con "#" */
 a[href^="#"] {
-  background-color: gold;
+  color: gold;
 }
 
-/* Enlaces que contienen la palabra "ejemplo" en cualquier parte de la URL */
-a[href*="ejemplo"] {
-  background-color: silver;
+/* Enlaces que contienen la palabra "interno" en cualquier parte de la URL */
+a[href*="interno"] {
+  background-color: black;
 }
 
 /* Enlaces que contienen la palabra "ITEL" en el valor del atributo */
@@ -161,17 +170,18 @@ a[title~="ITEL"] {
   color: yellow;
 }
 
-
 /* Enlaces que contienen la palabra "otroenlace" en cualquier parte de la URL, 
    independientemente de las mayúsculas */
 a[href*="otroenlace" i] {
   color: cyan;
+	background-color: fuchsia;
 }
 
-/* Enlaces que terminan en ".org" */
-a[href$=".org"] {
+/* Enlaces que terminan en ".org.ar" */
+a[href$=".org.ar"] {
   color: red;
 }
+
 ```
 
 !!!done "Sintetizando y más"
@@ -221,7 +231,7 @@ Empleado para seleccionar a todos los elementos descendientes de un elemento esp
 selectorPadre selectorHijo {propiedad: valor;}
 ```
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -243,7 +253,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 div a {
@@ -260,7 +270,7 @@ elementoPadre > ElementoHijo {propiedad: valor;}
 ```
 
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -282,7 +292,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 body > p {
@@ -301,7 +311,7 @@ elementoHermano1 + elementoHermano2 {propiedad: valor;}
 ```
 
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -320,7 +330,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 h1 + p {background-color: yellow;}
@@ -337,7 +347,7 @@ elementoHermano1 ~ elementoHermano2 {propiedad: valor;}
 ```
 
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -356,7 +366,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 h1 ~ div {background-color: orange;}
@@ -514,7 +524,7 @@ Los pseudo-elementos son parecidos a las pseudo-clases, con alguna diferencia. E
 ####::after
 El pseudo-elemento CSS `::after` coincide con el último hijo virtual del elemento seleccionado. Se usa generalmente para añadir contenido estético a un elemento, usando la propiedad CSS content. Este elemento se muestra en línea con el texto de forma predeterminada.
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -533,7 +543,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 .exciting-text::after {
@@ -551,7 +561,7 @@ _Código CSS (ejemplo)_
 ####::before
 `::before` crea un pseudo-elemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada.
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -567,7 +577,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 q::before { 
@@ -578,7 +588,7 @@ q::before {
 ####::first-letter
 El pseudo-elemento CSS `::first-letter` aplica estilos a la primera letra de la primera línea de un elemento de nivel de bloque, pero solo cuando no está precedido por otro contenido (como imágenes o tablas en línea).
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -596,7 +606,7 @@ _Código HTML (ejemplo)_
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 /* Selecciona la primer letra del elemento <p> */
@@ -608,7 +618,7 @@ p::first-letter {
 ####::first-line
 El pseudo-elemento CSS `::first-line` aplica estilos a la primera línea de un elemento de nivel de bloque. Tenga en cuenta que la longitud de la primera línea depende de muchos factores, incluido el ancho del elemento, el ancho del documento y el tamaño de la fuente del texto.
 
-_Código HTML (ejemplo)_
+_Código HTML_
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -628,7 +638,7 @@ porque no está contenido dentro de un elemento en bloque.</span>
 </html>
 ```
 
-_Código CSS (ejemplo)_
+_Código CSS_
 
 ```css linenums="1"
 ::first-line {
