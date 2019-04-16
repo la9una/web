@@ -686,19 +686,6 @@
     border-style
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ejemplo" title="Ejemplo" class="md-nav__link">
-    Ejemplo
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -757,7 +744,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../boxModelShortland/" title="Forma abreviada" class="md-nav__link">
+    <a href="../boxModelShorthand/" title="Forma abreviada" class="md-nav__link">
       Forma abreviada
     </a>
   </li>
@@ -1036,19 +1023,6 @@
     border-style
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#ejemplo" title="Ejemplo" class="md-nav__link">
-    Ejemplo
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -1099,10 +1073,9 @@
                 
                   <h1>Bordes</h1>
                 
-                <p>El modelo de caja de CSS permite asignar diversos estilos para los bordes: <code class="codehilite">border-width</code> para definir el ancho del borde, <code class="codehilite">border-color</code> para establecer el color del borde y finalmente  <code class="codehilite">border-style</code> para indicar tipo de borde de la caja. </p>
+                <p>El modelo de caja de CSS permite asignar diversos estilos para los bordes: <code class="codehilite">border-width</code> para definir el ancho del borde, <code class="codehilite">border-color</code> para establecer el color del borde, <code class="codehilite">border-style</code> para indicar tipo de borde de la caja y finalmente <code class="codehilite">border-radius</code> para determinar la redondez de las esquinas de la caja. </p>
 <h3 id="border-style">border-style<a class="headerlink" href="#border-style" title="Permanent link">&para;</a></h3>
-<p>Hace referencia al tipo de línea que llevará la caja. Puede tomar valores como: <code class="codehilite">none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset</code>. </p>
-<h4 id="ejemplo">Ejemplo<a class="headerlink" href="#ejemplo" title="Permanent link">&para;</a></h4>
+<p>Hace referencia al tipo de línea que llevará la caja. Puede tomar valores como: <code class="codehilite">none</code>, <code class="codehilite">hidden</code>, <code class="codehilite">dotted</code>, <code class="codehilite">dashed</code>, <code class="codehilite">solid</code>, <code class="codehilite">double</code>, <code class="codehilite">groove</code>, <code class="codehilite">ridge</code>, <code class="codehilite">inset</code> ó <code class="codehilite">outset</code>. </p>
 <p><em>Código HTML</em></p>
 <p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
  2
@@ -1131,17 +1104,147 @@
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
 2
 3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">div</span> <span class="p">{</span>
-    <span class="k">border-style</span><span class="p">:</span> <span class="kc">dotted</span><span class="p">;</span>
-<span class="p">}</span>
+<span class="hll">    <span class="k">border-style</span><span class="p">:</span> <span class="kc">dotted</span><span class="p">;</span>
+</span><span class="p">}</span>
 </pre></div>
 </td></tr></table>
 
+<div class="admonition info">
+<p class="admonition-title">Definiendo la propiedad <code class="codehilite">border-style</code><p>Podemos definir la propiedad para cada lado de la caja empleando <code class="codehilite">border-bottom-style</code>, <code class="codehilite">border-left-style</code>, <code class="codehilite">border-right-style</code> y <code class="codehilite">border-top-style</code>, o bien, empleando la <a href="../boxModelShorthand/#forma-abreviada-general">forma abreviada general</a></p>
+</p>
+</div>
 <h3 id="border-width">border-width<a class="headerlink" href="#border-width" title="Permanent link">&para;</a></h3>
-<p>Los valores de la anchura de los bordes se pueden indicar mediante una medida o mediante las palabras clave thin (borde delgado), medium (borde normal) y thick (borde ancho). </p>
+<p>Los valores de la anchura de los bordes se pueden indicar <a href="../unitsNumbers/">mediante una medida</a> o mediante las palabras clave <code class="codehilite">thin</code> (borde delgado), <code class="codehilite">medium</code> (borde normal) y <code class="codehilite">thick</code> (borde ancho). </p>
+<p><em>Código HTML</em></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;es&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Modelo de caja CSS<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;caja.css&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="hll">    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Hola! Soy una caja<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table>
+
+<p><em>Código CSS</em></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">div</span> <span class="p">{</span>
+    <span class="k">border-style</span><span class="p">:</span> <span class="kc">dotted</span><span class="p">;</span>
+<span class="hll">    <span class="k">border-width</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span><span class="p">}</span>
+</pre></div>
+</td></tr></table>
+
+<div class="admonition info">
+<p class="admonition-title">Definiendo la propiedad <code class="codehilite">border-width</code><p>Podemos definir la propiedad para cada lado de la caja empleando <code class="codehilite">border-bottom-width</code>, <code class="codehilite">border-left-width</code>, <code class="codehilite">border-right-width</code> y <code class="codehilite">border-top-width</code>, o bien, empleando la <a href="../boxModelShorthand/#forma-abreviada-general">forma abreviada general</a></p>
+</p>
+</div>
 <h3 id="border-color">border-color<a class="headerlink" href="#border-color" title="Permanent link">&para;</a></h3>
 <p>Porpiedad para determinar el color del borde de la caja. </p>
+<p><em>Código HTML</em></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;es&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Modelo de caja CSS<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;caja.css&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="hll">    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Hola! Soy una caja<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table>
+
+<p><em>Código CSS</em></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">div</span> <span class="p">{</span>
+    <span class="k">border-style</span><span class="p">:</span> <span class="kc">dotted</span><span class="p">;</span>
+    <span class="k">border-width</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+<span class="hll">    <span class="k">border-color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+</span><span class="p">}</span>
+</pre></div>
+</td></tr></table>
+
+<div class="admonition info">
+<p class="admonition-title">Definiendo la propiedad <code class="codehilite">border-color</code><p>Podemos definir la propiedad para cada lado de la caja empleando <code class="codehilite">border-bottom-color</code>, <code class="codehilite">border-left-color</code>, <code class="codehilite">border-right-color</code> y <code class="codehilite">border-top-color</code>, o bien, empleando la <a href="../boxModelShorthand/#forma-abreviada-general">forma abreviada general</a></p>
+</p>
+</div>
 <h3 id="border-radius">border-radius<a class="headerlink" href="#border-radius" title="Permanent link">&para;</a></h3>
 <p>Propiedad que establece la "redondez" de las esquinas de una caja. </p>
+<p><em>Código HTML</em></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;es&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Modelo de caja CSS<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;caja.css&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="hll">    <span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>Hola! Soy una caja<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table>
+
+<p><em>Código CSS</em></p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="nt">div</span> <span class="p">{</span>
+    <span class="k">border-style</span><span class="p">:</span> <span class="kc">dotted</span><span class="p">;</span>
+    <span class="k">border-width</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+    <span class="k">border-color</span><span class="p">:</span> <span class="kc">red</span><span class="p">;</span>
+<span class="hll">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span><span class="p">}</span>
+</pre></div>
+</td></tr></table>
+
+<div class="admonition info">
+<p class="admonition-title">Definiendo la propiedad <code class="codehilite">border-radius</code><p>Podemos definir la propiedad para cada esquina de la caja empleando <code class="codehilite">border-top-left-radius</code>, <code class="codehilite">border-top-right-radius</code>, <code class="codehilite">border-bottom-right-radius</code> y <code class="codehilite">border-bottom-left-radius</code>, o bien, empleando la <a href="../boxModelShorthand/#forma-abreviada-para-border-radius">forma abreviada para el radio de las esquinas</a></p>
+</p>
+</div>
                 
                   
                 
