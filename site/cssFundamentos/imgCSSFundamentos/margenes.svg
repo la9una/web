@@ -15,7 +15,10 @@
    version="1.1"
    id="svg23871"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="margenes.svg">
+   sodipodi:docname="margenes.svg"
+   inkscape:export-filename="/home/raul/web/docs/cssFundamentos/imgCSSFundamentos/margenes.svg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs23865">
     <marker
@@ -275,8 +278,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-255.81985"
-     inkscape:cy="81.850579"
+     inkscape:cx="-877.24842"
+     inkscape:cy="70.422008"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -297,7 +300,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
