@@ -1,0 +1,21 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#uno {
+}
+
+#dos {
+  background-color: blue;
+  top: 500px;
+  position: relative;
+}
+
+#tres {
+}
+
+#cuatro {
+}
