@@ -6,8 +6,6 @@ La mayoría de los ejercicios comienza con un código disponible para la descarg
 
 [Ejercicio evaluativo Bootstrap 4](https://ajgallego.gitbooks.io/bootstrap-4/content/ejercicios-1.html)
 
-
-
 ## Elementos
 
 {En construcción}
