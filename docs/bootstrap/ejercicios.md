@@ -3,6 +3,11 @@ Se listan a continuación una serie de ejercios que abarcan los fundamentos teó
 
 La mayoría de los ejercicios comienza con un código disponible para la descarga el cuál deberás modificar para obtener lo pedido en cada consigna. 
 
+
+[Ejercicio evaluativo Bootstrap 4](https://ajgallego.gitbooks.io/bootstrap-4/content/ejercicios-1.html)
+
+
+
 ## Elementos
 
 {En construcción}
