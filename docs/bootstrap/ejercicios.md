@@ -4,17 +4,6 @@ Se listan a continuación una serie de ejercios que abarcan los fundamentos teó
 La mayoría de los ejercicios comienza con un código disponible para la descarga el cuál deberás modificar para obtener lo pedido en cada consigna. 
 
 
-[Ejercicio evaluativo Bootstrap 4](https://ajgallego.gitbooks.io/bootstrap-4/content/ejercicios-1.html)
-
-## Elementos
-
-{En construcción}
-
-
-## Grid
-
-{En construcción}
-
 ## Diseño adaptable
 
 **[1]** Dadas tres columnas de contenido, modificá el código HTML incluyendo las clases CSS necesarias para llegar a: 
@@ -37,3 +26,19 @@ La mayoría de los ejercicios comienza con un código disponible para la descarg
 | Columna 4 |      12       |    6    |   12    |   4   |      3      | 
 
 [[ Descargá el ejercicio ]](descargas/bootstrap_web_adaptable_ej_2.zip) [[ Solución ]](descargas/bootstrap_web_adaptable_sc_2.zip)
+
+
+
+**[3]** Realizá los ejemplos de diseño responsivo que encontrarás en las imágenes (tomado de https://ajgallego.gitbooks.io). 
+
+[[ Descargá el ejercicio ]](descargas/bootstrap_web_adaptable_ej_3.zip)
+
+
+## Elementos
+
+{En construcción}
+
+
+## Grid
+
+{En construcción}
