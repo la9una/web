@@ -33,6 +33,10 @@ La mayoría de los ejercicios comienza con un código disponible para la descarg
 
 [[ Descargá el ejercicio ]](descargas/bootstrap_web_adaptable_ej_3.zip)
 
+**[4]** Realizá los ejemplos de diseño responsivo que encontrarás en las imágenes.
+
+[[ Descargá el ejercicio ]](descargas/bootstrap_web_adaptable_ej_4.jpg)
+
 
 ## Elementos
 
