@@ -16,46 +16,45 @@ Y ahora, en un ejemplo real:
 ```html
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <title>Flexbox</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        .contenedor-flexbox {
-            width: 400px;
-            margin: 10px auto;
-            border: 1px solid black;
-            /* Uso de Flexbox */
-            display: flex;
-        }
+	/* Estilos CSS para visualizar mejor el ejemplo */
+		.caja1, .caja2, .caja3, .caja4 {
+	    	margin: 20px 0 0 0;
+	    	padding: 15px;	
+		}
         .caja1 {
             background-color: yellow;
-            padding: 5px;
         }
         .caja2 {
             background-color: aquamarine;
-            padding: 5px;
         }
         .caja3 {
             background: pink;
-            padding: 5px;
         }
         .caja4 {
             background: skyblue;
-            padding: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="contenedor-flexbox">
-        <div class="caja1">Caja 1</div>
-        <div class="caja2">Caja 2</div>
-        <div class="caja3">Caja 3</div>
-        <div class="caja4">Caja 4</div>
-    </div>
+	<div class="container">
+	    <div class="row">
+	        <div class="col">
+            	<div class="d-flex">
+                	<div class="caja1">Caja 1</div>
+                	<div class="caja2">Caja 2</div>
+                	<div class="caja3">Caja 3</div>
+            	</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
 </body>
 </html>
 ```
@@ -73,95 +72,63 @@ Sin embargo, tanto el eje principal (main) como el secundario (cross) pueden inv
 ```html
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <title>Flexbox</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        .contenedor1 {
-            width: 400px;
-            margin: 10px auto;
-            border: 1px solid black;
-            /* Uso de Flexbox */
-            display: flex;
-            flex-direction: row;
-        }
-        .contenedor2 {
-            width: 400px;
-            margin: 10px auto;
-            border: 1px solid black;
-            /* Uso de Flexbox */
-            display: flex;
-            flex-direction: row-reverse;
-        }
-        .contenedor3 {
-            width: 400px;
-            margin: 10px auto;
-            border: 1px solid black;
-            /* Uso de Flexbox */
-            display: flex;
-            flex-direction: column;
-        }
-        .contenedor4 {
-            width: 400px;
-            margin: 10px auto;
-            border: 1px solid black;
-            /* Uso de Flexbox */
-            display: flex;
-            flex-direction: column-reverse;
-        }
+	/* Estilos CSS para visualizar mejor el ejemplo */
+		.caja1, .caja2, .caja3, .caja4 {
+	    	margin: 20px 0 0 0;
+	    	padding: 15px;	
+		}
         .caja1 {
             background-color: yellow;
-            padding: 5px;
         }
         .caja2 {
             background-color: aquamarine;
-            padding: 5px;
         }
         .caja3 {
             background: pink;
-            padding: 5px;
         }
         .caja4 {
             background: skyblue;
-            padding: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="contenedor1">
-	    <div class="caja1">Caja 1</div>
-        <div class="caja2">Caja 2</div>
-        <div class="caja3">Caja 3</div>
-        <div class="caja4">Caja 4</div>
-    </div>
-    <div class="contenedor2">
-	    <div class="caja1">Caja 1</div>
-        <div class="caja2">Caja 2</div>
-        <div class="caja3">Caja 3</div>
-        <div class="caja4">Caja 4</div>
-    </div>
-    <div class="contenedor3">
-	    <div class="caja1">Caja 1</div>
-        <div class="caja2">Caja 2</div>
-        <div class="caja3">Caja 3</div>
-        <div class="caja4">Caja 4</div>
-    </div>
-    <div class="contenedor4">
-	    <div class="caja1">Caja 1</div>
-        <div class="caja2">Caja 2</div>
-        <div class="caja3">Caja 3</div>
-        <div class="caja4">Caja 4</div>
-    </div>
+	<div class="container">
+	    <div class="row">
+	        <div class="col">
+            	<div class="d-flex flex-row">
+                	<div class="caja1">Caja 1</div>
+                	<div class="caja2">Caja 2</div>
+                	<div class="caja3">Caja 3</div>
+				</div>
+				<div class="d-flex flex-column">
+                	<div class="caja1">Caja 1</div>
+                	<div class="caja2">Caja 2</div>
+                	<div class="caja3">Caja 3</div>
+				</div>
+				<div class="d-flex flex-row-reverse">
+                	<div class="caja1">Caja 1</div>
+                	<div class="caja2">Caja 2</div>
+                	<div class="caja3">Caja 3</div>
+				</div>
+				<div class="d-flex flex-column-reverse">
+                	<div class="caja1">Caja 1</div>
+                	<div class="caja2">Caja 2</div>
+                	<div class="caja3">Caja 3</div>
+            	</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
 </body>
 </html>
 ```
 
 [[¡Intentalo!]](descargas/bootstrap_flexbox_axis_ej_1.zip) &nbsp;&nbsp; [[Solución]](descargas/bootstrap_flexbox_axis_sc_1.zip) 
-
-!!! info "Bootstrap y Flexbox"
-        En este curso sólo describiremos algunas propiedades de Flexbox (colo el ordenamiento de las cajas). Estas propiedades fueron incorporadas en Bootstrap 4. Sin embargo, existen muchas otras propiedades que no serán incluidas en esta guía. 
 
