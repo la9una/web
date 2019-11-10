@@ -35,9 +35,9 @@ En todo los ejemplos se han utilizado etiqueteas semánticas HTML como `header`,
 ## ¡Manos a la obra!
 Seguimos profundiazando en el concepto de diseño adaptable, ahora, mediante el estudio de algunos ejemplos donde se emplean las clases _responsivas_ proporcionadas por Bootstrap. 
 
-**NOTA: En los ejemplos se han agregado estilos para visualizar mejor los elementos de la página**
-
 Veamos un ejemplo donde tenemos 4 columnas de contenido que se adaptarán al tamaño de la pantalla: 
+
+**NOTA: En los ejemplos se han agregado estilos para visualizar mejor los elementos de la página**
 
 ```html
 <!DOCTYPE html>

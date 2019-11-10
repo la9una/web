@@ -38,6 +38,8 @@ La clase CSS para una fila `.row*` debe añadirse a un elemento en bloque, gener
 ## Columnas
 La clase CSS para una columna `.col*` debe añadirse a un elemento en bloque, generalmente un  `div`, para formar una columna. Las columnas deben ubicarse siempre dentro de una fila. 
 
+### Tamaño de columna automático
+
 ![Bootstrap Grid System](imgBootstrap/bGridContainerRules.png)
 
 En el ejemplo anterior, el ancho de cada columna se establece de manera automática: 
@@ -68,8 +70,13 @@ En el ejemplo anterior, el ancho de cada columna se establece de manera automát
 [[ Descargá el ejemplo ]](descargas/bootstrap_grid_1.zip)
 
 
-!!!done "Columas y Contenido"
-		Las columnas son los únicos elementos que pueden alojar directamente Contenido. 
+!!!warning "Columas y Contenido"
+		Las columnas son los únicos elementos que pueden alojar directamente ontenido. 
+
+!!! info "Columnas automáticas"
+		En rigor, existe una clase en Bootstrap que permite que las columnas adopten un ancho automático, es decir, que el ancho de la columna se ajuste automáticamente al contenido de la misma. Dicha clase es `col-auto`.
+
+### Tamaño de columna fijo
 
 Adicionalmente puede determinarse el ancho de cada columna, indicando la cantidad de columnas de la _grid_ para cada una de ellas, como puede visualizase en el siguiente ejemplo: 
 
@@ -104,7 +111,6 @@ Y el código del ejemplo:
 
 [[ Descargá el ejemplo ]](descargas/bootstrap_grid_2.zip)
 
-
 ## Más ejemplos del uso de la _grid_
 A continuación se presentan algunos ejemplos de combinación de contenedores, filas y columnas en la _grid_ de Bootstrap.
 
@@ -120,7 +126,6 @@ A continuación se presentan algunos ejemplos de combinación de contenedores, f
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-
 <div class="container">
 	<div class="row">
 		<div class="col-4"><!--Contenido--></div>
@@ -133,11 +138,9 @@ A continuación se presentan algunos ejemplos de combinación de contenedores, f
 		<div class="col-3"><!--Contenido--></div>
 	</div>
 </div>
-
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>
-	
 </body>
 </html>
 ```

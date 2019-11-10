@@ -28,7 +28,7 @@ theme:
 extra:
   search:
     language: 'es, en'
-  disqus: 'rauljesus-xyz'
+#  disqus: 'rauljesus-xyz'
   social:
     - type: 'twitter'
       link: 'https://twitter.com/la9una'
@@ -127,30 +127,17 @@ nav:
       - Usando webfonts: 'cssFuentes/fuentesWebFonts.md'
       - Elegir tipografía: 'cssFuentes/fuentesTipografia.md'
       - Ejercicios: 'cssFuentes/fuentesEjercicios.md'
-#    - Fondos: 'cssFondos/index.md'
-#    - Listas: 'cssListas/index.md'
-#    - Tablas: 'cssColores/index.md'
-#    - Formularios: 'cssFormularios/index.md'
-#    - Imágenes: 'cssImagenes/index.md'
-#    - Videos: 'cssVideos/index.md'
-#- Maquetado CSS: 
-#    - Prototipado: 'disenoPrototipado/index.md'
-#    - Modelo de caja: 'cssFundamentos/index.md'
-#    - Posicionamiento: 'cssColores/index.md'
-#    - Media Queries: 'cssColores/index.md'
-#    - Viewport: 'cssColores/index.md'
-#    - Flexbox: 'cssFlexbox/index.md'
-#- Efectos CSSS: 
-#    - Transciciones: 'cssEfectos/index.md'
-#- Frameworks CSS: 
-#    - Función: 'cssFrameworks/index.md'
 - Bootstrap:
     - Introducción: 'bootstrap/index.md'
     - Primeros pasos: 'bootstrap/primerosPasos.md'
     - Sistema de rejilla: 
         - Introducción: 'bootstrap/gridIntroduccion.md'
         - Reglas: 'bootstrap/gridReglas.md'   
-        - Diseño adaptable: 'bootstrap/gridResponsive.md'  
+        - Diseño adaptable: 'bootstrap/gridResponsive.md'
+    - Alineación de columnas: 
+        - Flexbox: 'bootstrap/alignci.md'
+        - Vertical: 'bootstrap/aligncv.md'
+        - Horizontal: 'bootstrap/alignch.md'
     - Ejercicios: 'bootstrap/ejercicios.md'
 
 

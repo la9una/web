@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="211.02126mm"
+   height="142.39731mm"
+   viewBox="0 0 747.71311 504.5574"
+   id="svg7682"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="flexbox_axis.svg"
+   inkscape:export-filename="/home/raul/web/docs/bootstrap/imgBootstrap/flexbox_axis.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs7684">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4995"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4993"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#a40000;fill-opacity:1;fill-rule:evenodd;stroke:#f90000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4654"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke:#0fa229;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4935"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4933"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke:#0fa229;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4648"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke:#0fa229;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         d="M 0,980 H 1400 V 0 H 0 Z"
+         id="path20"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath52">
+      <path
+         d="M 0,980 H 1400 V 0 H 0 Z"
+         id="path54"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18-3">
+      <path
+         d="M 0,980 H 1400 V 0 H 0 Z"
+         id="path20-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.78802287"
+     inkscape:cx="270.92181"
+     inkscape:cy="306.44014"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="684"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     fit-margin-left="5" />
+  <metadata
+     id="metadata7687">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-97.529735,-255.19316)">
+    <g
+       transform="matrix(1.0181918,0,0,-1.0181918,723.72924,652.91272)"
+       id="g8662"
+       style="stroke:#000000;stroke-opacity:0.23152711">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8664"
+         style="fill:#d1d3d4;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-opacity:0.23152711"
+         d="m 0,0 -4.01,-4.008 0.463,-0.462 4.008,4.009 z m -0.406,1.995 -5.596,-5.596 0.459,-0.461 5.597,5.595 z m 0.812,-3.987 -2.421,-2.423 0.46,-0.461 2.421,2.421 z" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="324.75961"
+       y="526.34949"
+       id="text921"><tspan
+         sodipodi:role="line"
+         id="tspan919"
+         x="324.75961"
+         y="559.5282"
+         style="stroke-width:0.9375" /></text>
+    <rect
+       y="406.97925"
+       x="233.07918"
+       height="201.32726"
+       width="476.61423"
+       id="rect8738"
+       style="opacity:0.4;fill:#ffce81;fill-opacity:1;stroke:#000000;stroke-width:3.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text8740"
+       y="448.90942"
+       x="386.94781"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono'"
+         y="448.90942"
+         x="386.94781"
+         id="tspan8742"
+         sodipodi:role="line">FLEX CONTAINER</tspan></text>
+    <g
+       id="g1026"
+       transform="translate(-6.2230911,-5.0936165)">
+      <g
+         transform="translate(3.75)"
+         id="g989">
+        <rect
+           style="opacity:0.4;fill:#ff6565;fill-opacity:1;stroke:#000000;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:11.25000001, 3.75;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect945"
+           width="109.79469"
+           height="95.28054"
+           x="567.08704"
+           y="465.09622" />
+        <text
+           id="text975"
+           y="507.34589"
+           x="621.13477"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';text-align:center;text-anchor:middle;stroke-width:0.9375;stroke-miterlimit:4;stroke-dasharray:none"
+             y="507.34589"
+             x="627.13086"
+             id="tspan971"
+             sodipodi:role="line">FLEX </tspan><tspan
+             id="tspan973"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';text-align:center;text-anchor:middle;stroke-width:0.9375;stroke-miterlimit:4;stroke-dasharray:none"
+             y="532.34589"
+             x="621.13477"
+             sodipodi:role="line">ITEM</tspan></text>
+      </g>
+      <g
+         id="g999"
+         transform="translate(-292.5)">
+        <rect
+           y="465.09622"
+           x="567.08704"
+           height="95.28054"
+           width="109.79469"
+           id="rect991"
+           style="opacity:0.4;fill:#ff6565;fill-opacity:1;stroke:#000000;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:11.25000001, 3.75;stroke-dashoffset:0;stroke-opacity:1" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="621.13477"
+           y="507.34589"
+           id="text997"><tspan
+             sodipodi:role="line"
+             id="tspan993"
+             x="627.13086"
+             y="507.34589"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';text-align:center;text-anchor:middle;stroke-width:0.9375;stroke-miterlimit:4;stroke-dasharray:none">FLEX </tspan><tspan
+             sodipodi:role="line"
+             x="621.13477"
+             y="532.34589"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';text-align:center;text-anchor:middle;stroke-width:0.9375;stroke-miterlimit:4;stroke-dasharray:none"
+             id="tspan995">ITEM</tspan></text>
+      </g>
+      <g
+         transform="translate(-144.375)"
+         id="g1009">
+        <rect
+           style="opacity:0.4;fill:#ff6565;fill-opacity:1;stroke:#000000;stroke-width:1.875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:11.25000001, 3.75;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1001"
+           width="109.79469"
+           height="95.28054"
+           x="567.08704"
+           y="465.09622" />
+        <text
+           id="text1007"
+           y="507.34589"
+           x="621.13477"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';text-align:center;text-anchor:middle;stroke-width:0.9375;stroke-miterlimit:4;stroke-dasharray:none"
+             y="507.34589"
+             x="627.13086"
+             id="tspan1003"
+             sodipodi:role="line">FLEX </tspan><tspan
+             id="tspan1005"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono';text-align:center;text-anchor:middle;stroke-width:0.9375;stroke-miterlimit:4;stroke-dasharray:none"
+             y="532.34589"
+             x="621.13477"
+             sodipodi:role="line">ITEM</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:#a40000;fill-opacity:1;stroke:#f90000;stroke-width:2.79601836;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4995)"
+       d="M 471.38629,273.25173 V 736.52396"
+       id="path4593"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4595"
+       d="M 115.24627,507.64288 H 822.24316"
+       style="fill:#4e9a06;fill-opacity:1;stroke:#0fa229;stroke-width:2.6808753;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#3b9c10;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="119.12482"
+       y="498.98666"
+       id="text4643"><tspan
+         sodipodi:role="line"
+         id="tspan4641"
+         x="119.12482"
+         y="498.98666"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.5px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono Bold';fill:#3b9c10;fill-opacity:1;stroke-width:0.9375">main axis</tspan></text>
+    <text
+       id="text5059"
+       y="461.59872"
+       x="-376.82449"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#a40000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       xml:space="preserve"
+       transform="rotate(-90)"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.5px;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono Bold';fill:#a40000;fill-opacity:1;stroke-width:0.9375"
+         y="461.59872"
+         x="-376.82449"
+         id="tspan5057"
+         sodipodi:role="line">cross axis</tspan></text>
+  </g>
+</svg>
