@@ -944,6 +944,26 @@
     Columnas
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tamano-de-columna-automatico" title="Tamaño de columna automático" class="md-nav__link">
+    Tamaño de columna automático
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tamano-de-columna-fijo" title="Tamaño de columna fijo" class="md-nav__link">
+    Tamaño de columna fijo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -977,12 +997,6 @@
       
       
       
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
-            Comentarios
-          </a>
-        </li>
-      
     </ul>
   
 </nav>
@@ -998,6 +1012,66 @@
   <li class="md-nav__item">
     <a href="../gridResponsive/" title="Diseño adaptable" class="md-nav__link">
       Diseño adaptable
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5-4" type="checkbox" id="nav-5-4">
+    
+    <label class="md-nav__link" for="nav-5-4">
+      Alineación de columnas
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-4">
+        Alineación de columnas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../alignci/" title="Flexbox" class="md-nav__link">
+      Flexbox
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aligncv/" title="Vertical" class="md-nav__link">
+      Vertical
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../alignch/" title="Horizontal" class="md-nav__link">
+      Horizontal
     </a>
   </li>
 
@@ -1063,6 +1137,26 @@
     Columnas
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tamano-de-columna-automatico" title="Tamaño de columna automático" class="md-nav__link">
+    Tamaño de columna automático
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tamano-de-columna-fijo" title="Tamaño de columna fijo" class="md-nav__link">
+    Tamaño de columna fijo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1095,12 +1189,6 @@
       
       
       
-      
-        <li class="md-nav__item">
-          <a href="#__comments" title="Comentarios" class="md-nav__link md-nav__link--active">
-            Comentarios
-          </a>
-        </li>
       
     </ul>
   
@@ -1149,6 +1237,7 @@
 </div>
 <h2 id="columnas">Columnas<a class="headerlink" href="#columnas" title="Permanent link">&para;</a></h2>
 <p>La clase CSS para una columna <code class="codehilite"><span class="na">.col</span><span class="p">*</span></code> debe añadirse a un elemento en bloque, generalmente un  <code class="codehilite">div</code>, para formar una columna. Las columnas deben ubicarse siempre dentro de una fila. </p>
+<h3 id="tamano-de-columna-automatico">Tamaño de columna automático<a class="headerlink" href="#tamano-de-columna-automatico" title="Permanent link">&para;</a></h3>
 <p><img alt="Bootstrap Grid System" src="../imgBootstrap/bGridContainerRules.png" /></p>
 <p>En el ejemplo anterior, el ancho de cada columna se establece de manera automática: </p>
 <div class="codehilite"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
@@ -1174,10 +1263,15 @@
 </pre></div>
 
 <p><a href="../descargas/bootstrap_grid_1.zip">[ Descargá el ejemplo ]</a></p>
-<div class="admonition done">
-<p class="admonition-title">Columas y Contenido<p>Las columnas son los únicos elementos que pueden alojar directamente Contenido. </p>
+<div class="admonition warning">
+<p class="admonition-title">Columas y Contenido<p>Las columnas son los únicos elementos que pueden alojar directamente ontenido. </p>
 </p>
 </div>
+<div class="admonition info">
+<p class="admonition-title">Columnas automáticas<p>En rigor, existe una clase en Bootstrap que permite que las columnas adopten un ancho automático, es decir, que el ancho de la columna se ajuste automáticamente al contenido de la misma. Dicha clase es <code class="codehilite">col-auto</code>.</p>
+</p>
+</div>
+<h3 id="tamano-de-columna-fijo">Tamaño de columna fijo<a class="headerlink" href="#tamano-de-columna-fijo" title="Permanent link">&para;</a></h3>
 <p>Adicionalmente puede determinarse el ancho de cada columna, indicando la cantidad de columnas de la <em>grid</em> para cada una de ellas, como puede visualizase en el siguiente ejemplo: </p>
 <p><img alt="Bootstrap Grid System" src="../imgBootstrap/bGridColumns.png" /></p>
 <p>Y el código del ejemplo: </p>
@@ -1218,7 +1312,6 @@
     <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;css/bootstrap.min.css&quot;</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-
 <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;container&quot;</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;row&quot;</span><span class="p">&gt;</span>
         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;col-4&quot;</span><span class="p">&gt;</span><span class="c">&lt;!--Contenido--&gt;</span><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
@@ -1231,11 +1324,9 @@
         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;col-3&quot;</span><span class="p">&gt;</span><span class="c">&lt;!--Contenido--&gt;</span><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
     <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-
 <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;js/bootstrap.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;js/jquery-3.3.1.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;js/popper.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
-
 <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </pre></div>
@@ -1286,22 +1377,6 @@
               
                 
 
-
-  <h2 id="__comments">Comentarios</h2>
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = "http://rauljesus.xyz/web/bootstrap/gridReglas/";
-      this.page.identifier =
-        "/bootstrap/gridReglas/";
-    };
-    (function() {
-      var d = document, s = d.createElement("script");
-      s.src = "//rauljesus-xyz.disqus.com/embed.js";
-      s.setAttribute("data-timestamp", +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
 
               
             </article>
