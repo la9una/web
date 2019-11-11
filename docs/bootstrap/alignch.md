@@ -1,5 +1,5 @@
-# Alineación horizontal de columnas
-De manera análoga a la alineación vertical de columnas, podemos alinearlas horizontalmente. 
+# Alineación de columnas en el eje horizontal
+Es posible alinear las cajas en el eje principal mediante sencillas clases provistas por Bootstrap. 
 
 !!! warning "Uso de la clase `d-flex`"
 		No es necesario crear un contenedor con la clase `d-flex` para poder aplicar las siguientes propiedades de Flexbox en Bootstrap. 

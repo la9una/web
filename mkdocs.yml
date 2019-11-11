@@ -136,8 +136,8 @@ nav:
         - Diseño adaptable: 'bootstrap/gridResponsive.md'
     - Alineación de columnas: 
         - Flexbox: 'bootstrap/alignci.md'
-        - Vertical: 'bootstrap/aligncv.md'
-        - Horizontal: 'bootstrap/alignch.md'
+        - Eje principal: 'bootstrap/alignch.md'
+        - Eje secundario: 'bootstrap/aligncv.md'
     - Ejercicios: 'bootstrap/ejercicios.md'
 
 

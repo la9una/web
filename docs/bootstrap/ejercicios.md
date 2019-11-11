@@ -42,6 +42,12 @@ La mayoría de los ejercicios comienza con un código disponible para la descarg
 
 [[ Descargá el ejercicio ]](descargas/bootstrap_web_adaptable_ej_4.png)
 
+**[5]** Realizá el diseño de la imagen, a fin de peacticar alineación de columnas.
+
+[[ Descargá el ejercicio ]](descargas/bootstrap_alineacion_ej_1.png)
+
+
+
 
 ## Elementos
 

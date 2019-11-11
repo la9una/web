@@ -1,5 +1,5 @@
-# Alineación vertical de columnas
-Por _Default_ las columnas ocupan todo el alto de su contenedor padre. Es posible modificar esto utilizando las reglas de alineación vertical que veremos en este apartado. 
+# Alineación de columnas en el eje secundario
+Por _Default_ las columnas ocupan todo el alto de su contenedor padre. Es posible modificar esto utilizando las reglas de alineación que veremos en este apartado. 
 
 !!! warning "Uso de la clase `d-flex`"
 		No es necesario crear un contenedor con la clase `d-flex` para poder aplicar las siguientes propiedades de Flexbox en Bootstrap. 
