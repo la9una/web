@@ -1,7 +1,7 @@
-## Listas y tablas
-En los ejercicios anteriores aprendimos como jerarquizar y organizar el texto. En ocasiones nos encontraremos ante la necesidad de presentar información de una manera ordenada y de rápida lectura. Para ello existen las listas y tablas. 
+# Listas y tablas
+En los ejemplos anteriores aprendimos como jerarquizar y organizar el texto. En ocasiones nos encontraremos ante la necesidad de presentar información de una manera ordenada y de rápida lectura. Para ello existen las listas y tablas. 
 
-### Ejercicio 5
+### Ejemplo 5
 
 Abrí el editor de texto y copiá el siguiente código: 
 
@@ -9,7 +9,7 @@ Abrí el editor de texto y copiá el siguiente código:
 <html lang=es>
   <head>
     <meta charset="UTF-8">
-    <title>Ejercicio 5</title>
+    <title>Ejemplo 5</title>
   </head>
   <body>
     <ul>
@@ -28,29 +28,26 @@ Abrí el editor de texto y copiá el siguiente código:
 </html>
 ```
 
-Guarda el archivo con el nombre `ejercicio05.html` y abrilo con el navegador. 
+Guarda el archivo con el nombre `ejemplo_05.html` y abrilo con el navegador. 
 
-1. ¿Qué estructura se visualiza en la página?
-2. ¿Qué diferencia aparecen en ambas estructuras?
+!!! info "¿Qué hemos hecho?"
+    Hemos creado un documento HTML que incluye listas ordenadas y listas desordenadas. 
 
-Acabá de crear listas. Éstas pueden ser de dos tipos: 
+??? question "¿Cuál es la función de las etiquetas `ol`, `ul` y `li`?"
+    Son las etiquetas que definen listas en un documento HTML: 
 
-* Listas desordenadas `ul`(**U**nordered **L**ist ) 
+      * `ol` --> _Ordered List_ ó listas ordenadas, organiza los _ítems_ con una sucesión numérica (1, 2, 3, etc.).  
+      * `ul` --> _Unordered List_ ó listas desordenadas, muestra los _ítems_ con viñetas.
+      * `li` --> _List_ ó ítems, que indica los elementos que conforman la lista, tanto en listas ordenadas como desordenadas. 
 
-* Listas ordenadas `ol` (**O**rdered **L**ist)
-
-3. Intentá identificar cuáles son las listas ordenadas y cuáles las desordenadas. 
-
-En ambos casos, la etiqueta `li` (**Li**st) indica los elemtos que conforman la lista. 
-
-### Ejercicio 6
+### Ejemplo 6
 Abrí el editor de texto y transcribí el siguiente código: 
 
 ```html linenums="1" hl_lines="7 8 9 10 11 12 13 14 15 16 17 18"
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ejercicio 8</title>
+    <title>Ejemplo 8</title>
   </head>
   <body>
     <table>
@@ -69,34 +66,40 @@ Abrí el editor de texto y transcribí el siguiente código:
 </html>
 ```
 
-Guardalo con el nombre de `ejercicio06.html`. Luego, abrí el archivo con tu navegador y respondé las siguientes preguntas: 
+Guardalo con el nombre de `ejemplo_06.html`. Luego, abrí el archivo con tu navegador.
 
-1. ¿Qué es lo que lo que exhibe el navegador? 
-2. Observá las etiquetas y respondé: ¿qué función cumplen las etiquetas `<tr>` y `<td>`
+!!! info "¿Qué hemos hecho?"
+    Hemos creado un documento HTML con una tabla que contiene dos filas y dos columnas. Las tablas son útiles para organizar información dentro de un documento.  
+    
+??? question "¿Cuál es la función de las etiquetas `table`, `tr` y `td`?"
+    Son las etiquetas que definen a una tabla en un documento HTML: 
 
-Efectivamente, acabás de crear una tabla, donde las etiquetas **`<tr>` representan a las columnas** y la etiquetas **`<td>` forman las filas** de la tabla. 
+      * La etiqueta`table` determina el comienzo y final de una tabla.  
+      * La etiqueta `tr` representa a las columnas de una tabla
+      * La etiqueta `td` representa a las filas de una tabla. 
 
-¿Que no se aprecia bien la tabla? Probá agregándole un borde, incluyendo el siguiente código dentro de la etiqueta `<table>`, según: 
+!!! tip "Bordes de una tabla"
+    Para poder visualizar los bordes de una tablar, debemos incliur el atributo `border` dentro de la etiqueta de apertura `table`, según se muestra en el siguiente ejemplo:  
 
-```html linenums="1" hl_lines="7"
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ejercicio 8</title>
-  </head>
-  <body>
-    <table border="1">
-      <tr>
-        <td>Celda 1</td>
-        <td>Celda 2</td>
-        <td>Celda 3</td>
-      </tr>
-      <tr>
-        <td>Celda 4</td>
-        <td>Celda 5</td>
-        <td>Celda 6</td>
-      </tr>
-    </table>
-  </body>
-</html>
-```
+    ```html linenums="1" hl_lines="7"
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Ejemplo 8</title>
+      </head>
+      <body>
+        <table border="1">
+          <tr>
+            <td>Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>Celda 4</td>
+            <td>Celda 5</td>
+            <td>Celda 6</td>
+          </tr>
+        </table>
+      </body>
+    </html>
+    ```

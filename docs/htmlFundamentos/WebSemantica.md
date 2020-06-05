@@ -1,13 +1,13 @@
-## Web semántica
+# Web semántica
 Existen algunas **etiquetas HTML que no poseen relación directa con la apariencia de una página** sino que **indican el tipo de contenido de una página, su significado. Se trata de las _etiquetas semánticas_**, incluidas en la [última definición de HTML (HTML 5)](https://developer.mozilla.org/es/docs/HTML/HTML5/HTML5_lista_elementos#Secciones). 
 
 A grandes rasgos podríamos destacar las principales etiquetas semánticas: 
 
 ![HTML Semantico](imgHTMLFundamentos/html5semantico.png)
 
-### Ejercicio 12
+### Ejemplo 12
 
-A continuación vamos a crear un nuevo archivo llamado `ejercicio12.html` para exhibir un ejemplo del modo de uso de dichas etiquetas: 
+A continuación vamos a crear un nuevo archivo llamado `ejemplo_12.html`:
 
 ```html linenums="1"
 <!DOCTYPE html>
@@ -71,18 +71,15 @@ A continuación vamos a crear un nuevo archivo llamado `ejercicio12.html` para e
 </html>
 ```
 
-Donde:
-
-
-
-| Etiqueta                               | Descripción                                                  |
-| -------------------------------------- | ------------------------------------------------------------ |
-| `<section>`                            | Define una sección en un documento.                          |
-| `<nav>`                                | Define una sección que solamente contiene enlaces de navegación. |
-| `<article>`                            | Define contenido autónomo que podría existir independientemente del resto del contenido. |
-| `<aside>`                              | Define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido. |
-| `<header>`                             | Define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos. |
-| ` <h1>, <h2>, <h3>, <h4>, <h5> y <h6>` | Los elemento de cabecera  implementan seis niveles de cabeceras de documentos; `<h1>` es la de mayor y `<h6>` es la de menor impotancia. Un elemento de cabecera describe brevemente el tema de la sección que introduce. |
-| `<footer>`                             | Define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación. |
-| `<address>`                            | Define una sección que contiene información de contacto.     |
-| `<main>`                               | Define el contenido principal o importante en el documento. Solamente existe un elemento `<main>` en el documento. |
+!!! info "¿Qué hemos hecho?
+    Hemos creado un documento HTML empleando las nuevas etiquetas semántivas, disponibles a partir de HTML 5. 
+    
+??? question "¿En qué consisten cada una de las etiquets semánticas?"
+    * `<section>` define una sección en un documento
+    * `<nav>` define una sección que solamente contiene enlaces de navegación.
+    * `<article>` define contenido autónomo que podría existir independientemente del resto del contenido.
+    * `<aside>` define algunos contenidos vagamente relacionados con el resto del contenido de la página. Si es removido, el contenido restante seguirá teniendo sentido.
+    * `<header>` define la cabecera de una página o sección. Usualmente contiene un logotipo, el título del sitio Web y una tabla de navegación de contenidos.
+    * `<footer>` define el pie de una página o sección. Usualmente contiene un mensaje de derechos de autoría, algunos enlaces a información legal o direcciones para dar información de retroalimentación.
+    * `<address>` define una sección que contiene información de contacto. 
+    * `<main>` define el contenido principal o importante en el documento. Solamente existe un elemento `<main>` en el documento.

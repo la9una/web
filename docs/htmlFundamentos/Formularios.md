@@ -1,18 +1,18 @@
-## Formularios
+# Formularios
 Los formularios permiten que el usuario interactúe con la página web mediante la introducción de información que luego será procesada por el servidor web y elaborará una respuesta.  
 
-### Ejercicio 9
+### Ejemplo 9
 
-Para poder interactuar con la página es necesario el empleo de **formularios**. Éstos, a su vez, presentan **distintos tipos de campos dependiendo del tipo de información que se desea ingresar**. 
+Para poder interactuar con la página es necesario el empleo de **formularios**. Éstos, a su vez, presentan distintos tipos de campos dependiendo del tipo de información que se desea ingresar. 
 
-Copiá el siguiente código y guardalo con el nombre `ejercicio09.html`:
+Copiá el siguiente código y guardalo con el nombre `ejemplo_09.html`:
 
 ```html linenums="1" hl_lines="9 10 11 12 13 14 15 16 17"
 <!DOCTYPE html>
 <html lang=es>
   <head>
     <meta charset="UTF-8">
-    <title>Ejercicio 9</title>
+    <title>Ejemplo 9</title>
   </head>
   <body>
     <!-- Inicio del formulario -->
@@ -30,24 +30,33 @@ Copiá el siguiente código y guardalo con el nombre `ejercicio09.html`:
 </html>
 ```
 
-1. ¿Cuál es la etiqueta para crear un formulario?
-2. En el formulario se emplean **tres tipos de campos**: `text`, `pasword` y `submit`. ¿Qué función creés que cumple cada uno de ellos?
-3. ¿Cuál es la función del _placeholder_?
-4. Si bien no forma parte del formulario, en el código se visualiza la siguiente estructura `<!-- Texto -->` Según tu parecer, ¿cuál es la función que cumple?
+!!! info "¿Qué hemos hecho?"
+    Hemos creado un documento HTML que contiene un formulario simple. Los formularios son útiles para enviar información. 
 
-> Importante: para que un sitio web **procese la información** que recibe mediante un formulario es necesario emplear lenguajes de programación que actúan _del lado del servidor_ como PHP, Ruby, NodeJs, Angular, etc. 
+??? question "¿Cuál es la función de las etiquetas `form` e `input`?"
+    * La etiqueta `form` determina donde comienza y finaliza un formulario. 
+    * La etiqueta `input` representa a los distintos elementos o _ítems_ que componen al formulario, de manera similar a la etiqueta [`li` de las listas](ListasTablas.md#ejemplo-5)
 
-### Ejercicio 10
+??? question "¿Cuál es la función de los atributos `type`, `placeholder` y `value`?"
+    * El atributo más importante es sin duda `type`, puesto que determina el formato que tendrá un determinado campo del formulario con el fin de recabar la información que suministren los usuarios. Algunos tipos son: campo de texto, casillas de verificación, botones de radio, menú desplegable, calendario, etc. Para saber más, [podés consultar la documentación al respecto](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/input).
+    * `placeholder` se emplea para exhibir un texto adicional o de "ayuda para el usuario" en determinados campos de un formulario. 
+    * `value` representa un valor a mostrar en pantalla. Generalmente está asociado al texto que llevan los botones. 
 
-En este ejercicio, deberás crear un archivo con el siguiente código, guardandolo con el nombre de `ejercicio10.html`. En el código se listan los diferentes tipos de campos que emplean los formularios para recabar información por parte del usuario: 
 
+!!! warning "Importante"
+    Para que sea posible procesar la información enviada a través de un formulario, es necesario emplear algún [lenguaje de programación](https://es.wikipedia.org/wiki/Lenguaje_de_programaci%C3%B3n). 
+
+
+### Ejemplo 10
+
+En este ejemplo, deberás crear un archivo con el siguiente código, guardandolo con el nombre de `ejemplo_10.html`. 
 
 ```html linenums="1"
 <!DOCTYPE html>
 <html lang=es>
   <head>
     <meta charset="UTF-8">
-    <title>Ejercicio 10</title>
+    <title>Ejemplo 10</title>
   </head>
   <body>
     <h1>Formularios</h1>
@@ -102,5 +111,5 @@ En este ejercicio, deberás crear un archivo con el siguiente código, guardando
 </html>
 ```
 
-1. Hacé una lista de todos los tipos de campos, indicando tipo y función
-2. Algunos campos poseen opciones adicionales. Identificá cuáles son y su función. 
+!!! info "¿Qué hemos hecho?"
+    Hemos creado un documento HTML que exhibe distintos campos de formulario o `input`, utilizados para obtener información proporcionada por los usuarios. 

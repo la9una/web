@@ -9,54 +9,71 @@ repo_name: 'Ver en GitHub'
 repo_url: 'https://github.com/la9una/web'
 
 # Copyright
-copyright: '2018 &nbsp; Raul Jesus Lopez'
+copyright: 'Raul Jesus Lopez'
 
 # Tema
 theme:
   name: 'material'
   language: 'es'
+  icon:
+ #   logo: material/library
+    logo: fontawesome/solid/graduation-cap
+    repo: fontawesome/brands/git-alt
   palette:
-    primary: 'blue grey'
-    accent: 'indigo'
+    primary: 'teal'
+    accent: 'teal'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
-#  feature:
-#    tabs: true
+  feature:
+    tabs: true
 
 # Extra
 extra:
-  search:
-    language: 'es, en'
-#  disqus: 'rauljesus-xyz'
+  disqus: 'rauljesus-xyz'
+  manifest: manifest.webmanifest
   social:
-    - type: 'twitter'
+    - icon: fontawesome/brands/twitter
       link: 'https://twitter.com/la9una'
-    - type: 'facebook'
+    - icon: fontawesome/brands/facebook-f
       link: 'https://www.facebook.com/rauljesuslopez'
-    - type: 'github'
+    - icon: fontawesome/brands/github
       link: 'https://github.com/la9una'
-#    - type: 'linkedin'
-#      link: 'https://de.linkedin.com/in/john-doe'
-
-## CSS Adicional
-extra_css:
-  - 'stylesheets/extra.css'
 
 # Extensiones
 markdown_extensions:
   - admonition
-#  - codehilite(guess_lang=false,linenums=true)
   - codehilite
   - toc:
       permalink: true
   - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.critic
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.tilde
+  - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+
+
+plugins:
+  - search # necessary for search to work
+  - git-revision-date-localized:
+      type: date
 
 ######################################################################
 ### DOCUMENTACIÓN ####################################################
@@ -89,7 +106,7 @@ nav:
 #    - Colores: 'cssColores/index.md'
 #    - Texto: 'cssTexto/index.md'
 - Fundamentos HTML:
-    - Primeros pasos: 'htmlFundamentos/PrimerosPasosHTML.md'
+    - ¿Qué aprenderemos?: 'htmlFundamentos/Propuesta.md'
     - Estructura HTML: 'htmlFundamentos/EstructuraDocumento.md'
     - Títulos y párrafos: 'htmlFundamentos/TitularesParrafos.md'
     - Listas y tablas: 'htmlFundamentos/ListasTablas.md'
@@ -98,7 +115,7 @@ nav:
     - Formularios: 'htmlFundamentos/Formularios.md'
     - Tipos de elementos: 'htmlFundamentos/ElementosBloqueLinea.md'
     - Web semántica: 'htmlFundamentos/WebSemantica.md'
-    - Anexo: 'htmlFundamentos/anexo.md'
+#    - Anexo: 'htmlFundamentos/anexo.md'
 
 # Documentación sobre CSS
 - Fundamentos de CSS:
