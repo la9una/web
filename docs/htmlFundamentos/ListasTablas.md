@@ -52,14 +52,12 @@ Abrí el editor de texto y transcribí el siguiente código:
   <body>
     <table>
       <tr>
-        <td>Celda 1</td>
-        <td>Celda 2</td>
-        <td>Celda 3</td>
+        <th>Fila 1 Columna 1</th>
+        <th>Fila 1 Columna 2</th>
       </tr>
       <tr>
-        <td>Celda 4</td>
-        <td>Celda 5</td>
-        <td>Celda 6</td>
+        <td>Fila 2 Columna 1</td>
+        <td>Fila 2 Columna 2</td>
       </tr>
     </table>
   </body>
@@ -71,15 +69,16 @@ Guardalo con el nombre de `ejemplo_06.html`. Luego, abrí el archivo con tu nave
 !!! info "¿Qué hemos hecho?"
     Hemos creado un documento HTML con una tabla que contiene dos filas y dos columnas. Las tablas son útiles para organizar información dentro de un documento.  
     
-??? question "¿Cuál es la función de las etiquetas `table`, `tr` y `td`?"
+??? question "¿Cuál es la función de las etiquetas `table`, `tr`, `td` y `th`?"
     Son las etiquetas que definen a una tabla en un documento HTML: 
 
       * La etiqueta`table` determina el comienzo y final de una tabla.  
-      * La etiqueta `tr` representa a las columnas de una tabla
+      * La etiqueta `tr` representa a las columnas de una tabla.
       * La etiqueta `td` representa a las filas de una tabla. 
+      * La etiqueta `th` representa a las filas de una tabla, pero a diferencia de `td`, representa un encabezado de tabla . 
 
-!!! tip "Bordes de una tabla"
-    Para poder visualizar los bordes de una tablar, debemos incliur el atributo `border` dentro de la etiqueta de apertura `table`, según se muestra en el siguiente ejemplo:  
+!!! tip "Atributos de tabla"
+    Podemos agregar algunos atributos a una tabla para visualizarla mejor. Por ejemplo, incliur el atributo `border` para visualizar los bordes de tabla o `cellpadding`, para agregar espaciado interno en las celdas:   
 
     ```html linenums="1" hl_lines="7"
     <!DOCTYPE html>
@@ -88,18 +87,23 @@ Guardalo con el nombre de `ejemplo_06.html`. Luego, abrí el archivo con tu nave
         <title>Ejemplo 8</title>
       </head>
       <body>
-        <table border="1">
+        <table border="1" cellpadding="7">
           <tr>
-            <td>Celda 1</td>
-            <td>Celda 2</td>
-            <td>Celda 3</td>
+            <th>Fila 1 Columna 1</th>
+            <th>Fila 1 Columna 2</th>
+            <th>Fila 1 Columna 3</th>
           </tr>
           <tr>
-            <td>Celda 4</td>
-            <td>Celda 5</td>
-            <td>Celda 6</td>
+            <td>Fila 2 Columna 1</td>
+            <td>Fila 2 Columna 2</td>
+            <td>Fila 2 Columna 3</td>
           </tr>
         </table>
       </body>
     </html>
     ```
+    Existen más características para explorar sobre la etiqueta `table`. Si deseás saber más, podés hacer clic [sobre este enlace](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/table).
+
+
+    !!! warning "Aspecto visual de la tabla"
+        En ejemplos anteriores, mostramos algunos atributos de tabla que nos ayudaron a mejorar su "presentación visual". Aunque este procedimiento es totalmente válido -para éste y otros elementos- se acostumbra a "estilizar" los elementos HTML empleando pura y exclusivamente [CSS](https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada), reservando el lenguaje de marcado HTML sólo para estructurar el documento.  

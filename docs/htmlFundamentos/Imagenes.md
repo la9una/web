@@ -34,6 +34,31 @@ Guarda el archivo con el nombre `ejemplo_08.html`. Abrí el docuemento con un na
 ??? question "¿Cuál es la función del atributo `src`?"
     El atributo `src` ó _source_, se emplea para indicar el nombre y la ubicación de un recurso determinado.  
 
+!!! tip "Atributos de imagen"
+    Podemos redimensionar el tamaño de una imagen con los atributos `width` (anchura) y `height` (altura). 
+
+    Otras opciones interesante, disponibles a partir de la versión HTML5, la constituyen `figure` y `figcaption` -entre otras- que nos permitirán modificar diferentes opciones sobre la imagen, como ponerle un epígrafe: 
+
+    ```html linenums="1" hl_lines="9 10 11 12 13 14"
+    <!DOCTYPE html>
+    <html lang=es>
+      <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo 8</title>
+      </head>
+      <body>
+        <h3>Este es el ejemplo 8</h3>
+        <figure>  
+          <img src="html5.png" width="120" height="120"/>
+          <figcaption>  
+           <p>Imagen redimensionada a 120px de ancho y 120px de alto</p>  
+          </figcaption>  
+        </figure>
+      </body>
+    </html>
+    ```
+
+
 
 !!! tip "¿Una etiqueta impar?"
     Si observaste bien, habrás notado que la etiqueta `<img src="html5.png" />` se _autocierra_. Ess decir, no posee una etiqueta para la apertura y otra para el cierre (`<img></img>` no existe). 
