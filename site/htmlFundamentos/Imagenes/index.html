@@ -1129,6 +1129,45 @@
 <details class="question"><summary>¿Cuál es la función del atributo <code>src</code>?</summary><p>El atributo <code>src</code> ó <em>source</em>, se emplea para indicar el nombre y la ubicación de un recurso determinado.  </p>
 </details>
 <div class="admonition tip">
+<p class="admonition-title">Atributos de imagen</p>
+<p>Podemos redimensionar el tamaño de una imagen con los atributos <code>width</code> (anchura) y <code>height</code> (altura). </p>
+<p>Otras opciones interesante, disponibles a partir de la versión HTML5, la constituyen <code>figure</code> y <code>figcaption</code> -entre otras- que nos permitirán modificar diferentes opciones sobre la imagen, como ponerle un epígrafe: </p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">es</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejemplo 8<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h3</span><span class="p">&gt;</span>Este es el ejemplo 8<span class="p">&lt;/</span><span class="nt">h3</span><span class="p">&gt;</span>
+<span class="hll">    <span class="p">&lt;</span><span class="nt">figure</span><span class="p">&gt;</span>  
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;html5.png&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;120&quot;</span> <span class="na">height</span><span class="o">=</span><span class="s">&quot;120&quot;</span><span class="p">/&gt;</span>
+</span><span class="hll">      <span class="p">&lt;</span><span class="nt">figcaption</span><span class="p">&gt;</span>  
+</span><span class="hll">       <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Imagen redimensionada a 120px de ancho y 120px de alto<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>  
+</span><span class="hll">      <span class="p">&lt;/</span><span class="nt">figcaption</span><span class="p">&gt;</span>  
+</span><span class="hll">    <span class="p">&lt;/</span><span class="nt">figure</span><span class="p">&gt;</span>
+</span>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+</td></tr></table>
+
+</div>
+<div class="admonition tip">
 <p class="admonition-title">¿Una etiqueta impar?</p>
 <p>Si observaste bien, habrás notado que la etiqueta <code>&lt;img src="html5.png" /&gt;</code> se <em>autocierra</em>. Ess decir, no posee una etiqueta para la apertura y otra para el cierre (<code>&lt;img&gt;&lt;/img&gt;</code> no existe). </p>
 <p>Otra etiqueta que se <em>autocierra</em> es <code>&lt;br /&gt;</code> ó <em>breaking rule</em>. Genera saltos de línea. ¡Comprobalo!  Agregala en el documento anterior, según: </p>

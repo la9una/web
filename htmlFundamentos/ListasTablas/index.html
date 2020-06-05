@@ -1178,9 +1178,7 @@
 15
 16
 17
-18
-19
-20</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+18</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejemplo 8<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
@@ -1188,19 +1186,17 @@
   <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="hll">    <span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
 </span><span class="hll">      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 3<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span><span class="hll">        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Fila 1 Columna 1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span><span class="hll">        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Fila 1 Columna 2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
 </span><span class="hll">      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span><span class="hll">      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 4<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 5<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 6<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Fila 2 Columna 1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span><span class="hll">        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Fila 2 Columna 2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
 </span><span class="hll">      <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
 </span><span class="hll">    <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-</span>  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</code></pre></div>
+</span><span class="hll">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span class="hll"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></code></pre></div>
 </td></tr></table>
 
 <p>Guardalo con el nombre de <code>ejemplo_06.html</code>. Luego, abrí el archivo con tu navegador.</p>
@@ -1208,17 +1204,18 @@
 <p class="admonition-title">¿Qué hemos hecho?</p>
 <p>Hemos creado un documento HTML con una tabla que contiene dos filas y dos columnas. Las tablas son útiles para organizar información dentro de un documento.  </p>
 </div>
-<details class="question"><summary>¿Cuál es la función de las etiquetas <code>table</code>, <code>tr</code> y <code>td</code>?</summary><p>Son las etiquetas que definen a una tabla en un documento HTML: </p>
+<details class="question"><summary>¿Cuál es la función de las etiquetas <code>table</code>, <code>tr</code>, <code>td</code> y <code>th</code>?</summary><p>Son las etiquetas que definen a una tabla en un documento HTML: </p>
 <ul>
 <li>La etiqueta<code>table</code> determina el comienzo y final de una tabla.  </li>
-<li>La etiqueta <code>tr</code> representa a las columnas de una tabla</li>
+<li>La etiqueta <code>tr</code> representa a las columnas de una tabla.</li>
 <li>La etiqueta <code>td</code> representa a las filas de una tabla. </li>
+<li>La etiqueta <code>th</code> representa a las filas de una tabla, pero a diferencia de <code>td</code>, representa un encabezado de tabla . </li>
 </ul>
 </details>
 <div class="admonition tip">
-<p class="admonition-title">Bordes de una tabla</p>
-<p>Para poder visualizar los bordes de una tablar, debemos incliur el atributo <code>border</code> dentro de la etiqueta de apertura <code>table</code>, según se muestra en el siguiente ejemplo:  </p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+<p class="admonition-title">Atributos de tabla</p>
+<p>Podemos agregar algunos atributos a una tabla para visualizarla mejor. Por ejemplo, incliur el atributo <code>border</code> para visualizar los bordes de tabla o <code>cellpadding</code>, para agregar espaciado interno en las celdas:   </p>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
  2
  3
  4
@@ -1243,23 +1240,27 @@
     <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Ejemplo 8<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
   <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
   <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="hll">    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;1&quot;</span><span class="p">&gt;</span>
+<span class="hll">    <span class="p">&lt;</span><span class="nt">table</span> <span class="na">border</span><span class="o">=</span><span class="s">&quot;1&quot;</span> <span class="na">cellpadding</span><span class="o">=</span><span class="s">&quot;7&quot;</span><span class="p">&gt;</span>
 </span>      <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 3<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Fila 1 Columna 1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Fila 1 Columna 2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Fila 1 Columna 3<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
       <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
       <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 4<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 5<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Celda 6<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Fila 2 Columna 1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Fila 2 Columna 2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Fila 2 Columna 3<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
       <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
     <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
   <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </code></pre></div>
 </td></tr></table>
-
+Existen más características para explorar sobre la etiqueta <code>table</code>. Si deseás saber más, podés hacer clic <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/table">sobre este enlace</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Aspecto visual de la tabla</p>
+<p>En ejemplos anteriores, mostramos algunos atributos de tabla que nos ayudaron a mejorar su "presentación visual". Aunque este procedimiento es totalmente válido -para éste y otros elementos- se acostumbra a "estilizar" los elementos HTML empleando pura y exclusivamente <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">CSS</a>, reservando el lenguaje de marcado HTML sólo para estructurar el documento.  </p>
+</div>
 </div>
                 
                   
