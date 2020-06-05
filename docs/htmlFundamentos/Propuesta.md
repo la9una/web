@@ -1,6 +1,6 @@
-Nos introduciremos en el estudio de los fundamentos del lenguaje de marcado HTML a través de ejemplos y ejericios. 
+Nos introduciremos en el estudio de los **fundamentos del lenguaje de marcado HTML** a través de ejemplos y ejercicios. 
         
-![www](../imgHTMLFundamentos/www.jpg)
+![www](imgHTMLFundamentos/www.jpg)
 
 
 Para seguir el curso, sólo necesitarás un [navegador moderno](../disenoWeb/herramientas.md#navegadores) y un [editor de texto](../disenoWeb/herramientas.md#editores-de-codigo). 

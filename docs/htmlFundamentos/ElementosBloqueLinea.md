@@ -37,10 +37,9 @@ Copiá el siguiente código y guardalo con el nombre `ejemplo_11.html`:
     * La estiqueta `<span>` es un ejemplo de elemento __en línea__
     * La etiqueta `<div>` es un ejemplo de elemento __en bloque__
 
-### Saber más
+!!! tip "Para saber más"
+        Podés consultar cuáles son los elementos que pertenecen a un grupo y a otro en: 
 
-Podés consultar cuáles son los elementos que pertenecen a un grupo y a otro en: 
-
-* [Elementos en bloque](https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements)
-* [Elementos en línea](https://developer.mozilla.org/es/docs/Web/HTML/Elementos_en_l%C3%ADnea)
+        * [Elementos en bloque](https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements)
+        * [Elementos en línea](https://developer.mozilla.org/es/docs/Web/HTML/Elementos_en_l%C3%ADnea)
 

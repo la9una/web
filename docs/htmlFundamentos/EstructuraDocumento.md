@@ -29,16 +29,16 @@ Casi todas las etiquetas soportan el uso de **atributos** que no son más que op
 ```
 Si ahora aplicamos todas estas nociones aprendidas a un ejemplo de etiqueta HTML: 
 
-![Ejempo de sintaxis de una etiqueta HTML](../imgHTMLFundamentos/anatomia_ejemplo.png)
+![Ejempo de sintaxis de una etiqueta HTML](imgHTMLFundamentos/anatomia_ejemplo.png)
 
 ## Estructura del documento
 Las páginas HTML se dividen en dos partes: la **cabecera** y el **cuerpo**. La cabecera incluye información sobre la propia página, como por ejemplo su título y su idioma. El cuerpo de la página incluye todos sus contenidos, como párrafos de texto e imágenes.
 
-![Esquema de documento HTML](../imgHTMLFundamentos/etiquetas_documento_html_01.gif)
+![Esquema de documento HTML](imgHTMLFundamentos/etiquetas_documento_html_01.gif)
 
 Si ahora incluimos las etiquetas que definen la estructura de un documento HTML, tenemos que: 
 
-![Esquema de documento HTML](../imgHTMLFundamentos/etiquetas_documento_html_02.gif)
+![Esquema de documento HTML](imgHTMLFundamentos/etiquetas_documento_html_02.gif)
 
 * El documento queda delimitado entre las etiquetas `html`. 
 * La cabecera queda definida entre las etiquetas`head` y contiene todo lo que el usuario no ve en su pantalla.
